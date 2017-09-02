@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="1" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="2" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -726,9 +726,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5974-18f1-a275-90a6" name="Luke&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5974-18f1-a275-90a6" name=" Luke&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="0522-573a-cacf-0ff2" name="Luke&apos;s DL-44 Blaster Pistol" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="0522-573a-cacf-0ff2" name=" Luke&apos;s DL-44 Blaster Pistol" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -763,9 +763,9 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9057-6e2b-ab60-29c7" name="Anakin&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9057-6e2b-ab60-29c7" name=" Anakin&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="d960-a917-4a51-9f10" name="Anakin&apos;s Lightsaber" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="d960-a917-4a51-9f10" name=" Anakin&apos;s Lightsaber" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -836,9 +836,9 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13fd-48be-e1e4-2462" name="Unarmed" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="13fd-48be-e1e4-2462" name=" Unarmed" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="e938-cedb-0666-ffc1" name="Unarmed" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+        <profile id="e938-cedb-0666-ffc1" name=" Unarmed" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -943,9 +943,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2a93-82ec-1447-cc40" name="A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2a93-82ec-1447-cc40" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="76d6-2ac4-e424-7769" name="A-280 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="76d6-2ac4-e424-7769" name=" A-280 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1088,9 +1088,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="91e1-56df-7228-03ee" name="Grappling Claws" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="91e1-56df-7228-03ee" name=" Grappling Claws" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="2522-14cc-41a6-53c0" name="Grappling Claws" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="2522-14cc-41a6-53c0" name=" Grappling Claws" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1125,9 +1125,9 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f2bb-4328-4fa2-e010" name="A-300 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f2bb-4328-4fa2-e010" name=" A-300 Blaster Rifle" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="c65f-8c19-9220-750f" name="A-300 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="c65f-8c19-9220-750f" name=" A-300 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1240,9 +1240,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4b14-5cf7-e5c0-7789" name="EC-17 Holdout Blaster" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4b14-5cf7-e5c0-7789" name=" EC-17 Holdout Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="d6e3-b9b3-546d-f7a6" name="EC-17 Holdout Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="d6e3-b9b3-546d-f7a6" name=" EC-17 Holdout Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1270,9 +1270,9 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0176-837a-9cc3-b722" name="Ax-20 Blaster Cannon" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0176-837a-9cc3-b722" name=" Ax-20 Blaster Cannon" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5544-314b-a6c5-1a2f" name="Ax-20 Blaster Cannon" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="5544-314b-a6c5-1a2f" name=" Ax-20 Blaster Cannon" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1412,9 +1412,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="37b5-78c8-7c26-80ea" name="Vader&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="37b5-78c8-7c26-80ea" name=" Vader&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="2068-54f9-432a-4964" name="Vader&apos;s Lightsaber" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="2068-54f9-432a-4964" name=" Vader&apos;s Lightsaber" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1554,9 +1554,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7f2b-d305-cfc7-c5b8" name="E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7f2b-d305-cfc7-c5b8" name=" E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="6f57-073d-5fce-3c7f" name="E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="6f57-073d-5fce-3c7f" name=" E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
