@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="2" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="3" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2239,15 +2239,15 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="ea33-a1cc-c388-bfed" name="Long Range Comms" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ea33-a1cc-c388-bfed" name="Long Range Comlink" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="2bf5-ce80-6152-57f0" name="Long Range Comms" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
+            <profile id="2bf5-ce80-6152-57f0" name="Long Range Comlink" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command phase, you may be issued orders as though you are in range of the nominated commander."/>
+                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command Phase, you may be issued orders as though you are in range of the nominated commander."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
               </characteristics>
             </profile>
