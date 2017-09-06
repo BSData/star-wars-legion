@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="3" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="4" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2374,7 +2374,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="238e-286f-0335-bcc4" name="AT-RT Flamethrower" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="238e-286f-0335-bcc4" name="AT-RT Flamethrower" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="a88b-d5f2-fe41-79b5" name="AT-RT Flamethrower" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -2427,7 +2427,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2567,13 +2567,14 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>You cannot use this attack and move during the same activation.</description>
+      <description>You cannot use this weapon and move during the same activation.</description>
     </rule>
     <rule id="b6ff-1771-873f-2296" name="Spray" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Add this weapon&apos;s dice to the attack pool one time for each mini in the defending unit to which line of sight is not blocked.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
