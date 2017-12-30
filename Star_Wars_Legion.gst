@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="5" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="6" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -24,7 +24,7 @@
       <characteristicTypes>
         <characteristicType id="621a-0141-7be7-8335" name="Models"/>
         <characteristicType id="eee7-55c8-4a95-6177" name="Wounds"/>
-        <characteristicType id="8f53-abe0-8322-e7d2" name="Mechanics"/>
+        <characteristicType id="8f53-abe0-8322-e7d2" name="Resilience"/>
         <characteristicType id="a098-86b4-db8f-c431" name="Defense"/>
         <characteristicType id="8bb0-caac-b4b4-82cd" name="Offensive Surge"/>
         <characteristicType id="1ca6-e726-090a-340d" name="Defensive Surge"/>
@@ -47,13 +47,13 @@
         <characteristicType id="52e6-1f3c-eac8-636f" name="Icons"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="7b29-30f9-05bf-a8e1" name="3.1 Equipment">
+    <profileType id="7b29-30f9-05bf-a8e1" name="3.1 Upgrade">
       <characteristicTypes>
-        <characteristicType id="cecf-8e4a-c196-58bc" name="Equipment Ability"/>
+        <characteristicType id="cecf-8e4a-c196-58bc" name="Upgrade Ability"/>
         <characteristicType id="7559-cfee-de60-8256" name="Icons"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="76e4-5331-b635-524f" name="8.1 Command Cards">
+    <profileType id="76e4-5331-b635-524f" name="1.0 Command Cards">
       <characteristicTypes>
         <characteristicType id="c37c-423d-ec0a-fdf9" name="Activation"/>
         <characteristicType id="0645-af6e-93d9-92c1" name="Command Card Text"/>
@@ -355,6 +355,64 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="f6a5-8b42-dfdb-ed67" name="•Maximum Firepower" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="933d-d470-eeed-e584" name="•Maximum Firepower" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="8.1 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="At the end of General Veers&apos; activation, he may perform an attack using the following weapon:"/>
+                  </characteristics>
+                </profile>
+                <profile id="01ff-8260-a52a-014a" name="•Maximum Firepower" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="4+"/>
+                    <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x4"/>
+                    <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 2, Immune: Deflect"/>
+                    <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2dde-0d6b-e04b-e0e4" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ec29-8d80-9285-c84b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c3d-b1db-07e7-cb3c" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea2d-0749-6171-dbb9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -646,6 +704,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1038,7 +1103,7 @@
           <characteristics>
             <characteristic name="Models" characteristicTypeId="621a-0141-7be7-8335" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="6"/>
-            <characteristic name="Mechanics" characteristicTypeId="8f53-abe0-8322-e7d2" value="4"/>
+            <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="4"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
             <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Critical"/>
             <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="--"/>
@@ -1196,7 +1261,7 @@
           <characteristics>
             <characteristic name="Models" characteristicTypeId="621a-0141-7be7-8335" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="3"/>
-            <characteristic name="Mechanics" characteristicTypeId="8f53-abe0-8322-e7d2" value="--"/>
+            <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="--"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
             <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Hit"/>
             <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
@@ -1567,41 +1632,10 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7f2b-d305-cfc7-c5b8" name=" E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="6f57-073d-5fce-3c7f" name=" E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
-                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="White"/>
-                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
-                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3351-3f7b-5ff6-e808" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="434e-34d0-a9c2-95ee" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="589d-8e2f-3eac-2b76" name="Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
+        <entryLink id="589d-8e2f-3eac-2b76" name=" Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1641,6 +1675,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3d16-126a-fedc-410c" name="E-11 Blaster Rifle" hidden="false" targetId="c659-96ac-053c-1980" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="44.0"/>
@@ -1656,7 +1698,7 @@
           <characteristics>
             <characteristic name="Models" characteristicTypeId="621a-0141-7be7-8335" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="7"/>
-            <characteristic name="Mechanics" characteristicTypeId="8f53-abe0-8322-e7d2" value="5"/>
+            <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="5"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
             <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
             <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
@@ -1770,7 +1812,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1814,7 +1858,7 @@
           <characteristics>
             <characteristic name="Models" characteristicTypeId="621a-0141-7be7-8335" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="11"/>
-            <characteristic name="Mechanics" characteristicTypeId="8f53-abe0-8322-e7d2" value="8"/>
+            <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="8"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
             <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
             <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
@@ -1897,7 +1941,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3a6b-3c54-c1ca-e239" name="MS-4 Twin Blaster Cannon" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1938,7 +1984,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1976,6 +2024,357 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c659-96ac-053c-1980" name="E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d036-c9dd-af23-c040" name="E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
+            <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="White"/>
+            <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+            <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f7d-db5a-8dc3-29f1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="402b-f367-7c36-e1a9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
+            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="1"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Steady"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Specialist Trooper, Extra Trooper, Gear, Grenades"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6c6c-7537-84c3-3626" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="849b-17ed-0c43-8012" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e4d-5d1b-440f-4b3f" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="84b6-d0fa-a2e8-8b39" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="46ac-02cb-74ff-cdae" name=" Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1f01-07e7-a772-4c65" name="E-11 Blaster Rifle" hidden="false" targetId="c659-96ac-053c-1980" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c292-6cf0-9d31-0ed2" name="Extra Trooper" hidden="false" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3d1b-e283-0f4b-225a" name="Gear" hidden="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="959b-5edc-6a15-d39e" name="Grenades" hidden="false" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c6a3-0326-5317-cd5e" name="Specialist Trooper" hidden="false" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="55eb-69b8-b357-70bb" name="•General Veers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 2, Sharpshooter 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
+            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 1, Sharpshooter 1"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Leadership x2, Gear"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8c8b-2d2a-ae34-29d6" name="Precise X" hidden="false" targetId="abcc-5c44-68ef-82d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fd0d-98e7-31b1-dbe6" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9147-c39c-772b-81af" name="Spotter X" hidden="false" targetId="a053-6a51-2d8d-a717" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5208-cefa-9095-d11e" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b094-5cd2-dfe0-54df" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="306a-4b25-c916-9c79" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ed2-e06e-1667-c88a" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3410-bb1f-9a97-f306" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e734-0481-59d3-7bdf" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7c8a-9138-a4d9-76fc" name="Veers&apos; E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="567e-96fc-639c-04c3" name="Veers&apos; E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="White x3"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Pierce 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7232-3318-002b-bada" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fd1-d688-c19a-c4d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f00a-5da7-1cbf-a78d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9c8b-7bbf-9afd-0f17" name="Combat Expertise" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="419e-e5b8-ab09-26f7" name="Combat Expertise" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f56-1522-57b9-7a0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97cc-9c15-7573-9b80" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bf69-d0b0-b7f7-df41" name="Leadership" hidden="false" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="f723-b61d-0d43-f5e6" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="736a-14ab-041c-8eda" name="Gear" hidden="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2238,7 +2637,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Precise 1."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Precise 1."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
               </characteristics>
             </profile>
@@ -2272,7 +2671,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Expert Climber."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Expert Climber."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
               </characteristics>
             </profile>
@@ -2408,6 +2807,30 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db2-7ceb-9a34-24c7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d05-f128-460f-4193" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2605,6 +3028,56 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="8d58-9266-4c76-9e92" name="T-7 Ion Snowtrooper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-2"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black, White x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1, Ion 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value="Exhaust"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5707-fc19-0cbe-9c89" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="eef1-50f9-605c-52b1" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db2-7ceb-9a34-24c7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea45-8493-f18a-2c4a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -2627,7 +3100,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command Phase, you may be issued orders as though you are in range of the nominated commander."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command Phase, you may be issued orders as though you are in range of the nominated commander."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
               </characteristics>
             </profile>
@@ -2654,7 +3127,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Equipment Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="Enemy units at range 1 cannot be issued orders, unless they are issuing an order to themselves."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="Enemy units at range 1 cannot be issued orders, unless they are issuing an order to themselves."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
               </characteristics>
             </profile>
@@ -2854,6 +3327,81 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
+    <selectionEntryGroup id="1f7e-c9c9-fb71-62b2" name="Leadership" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f723-b61d-0d43-f5e6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="fe99-1fc8-676a-cb8a" name="Commanding Presence" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="When issuing orders, you can issue orders at range 4."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b2b-27c9-61bc-72f2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="eb23-a335-81e4-b24f" name="Esteemed Leader" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="While you are defending, each friendly corps trooper unit at range 1 gains Guardian 1."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="472b-8b68-7fc8-d0d4" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff60-c938-45f9-1eac" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3565-7985-bb05-c0a5" name="Nimble" hidden="false">
@@ -3023,6 +3571,48 @@
       <infoLinks/>
       <modifiers/>
       <description>While defending, if the attacker&apos;s unit leader is insider your rear arc, the attack pool gains Impact X.</description>
+    </rule>
+    <rule id="e233-23ff-d4f9-d065" name="Steady" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After you perform a move action, you may perform a free ranged attack action.</description>
+    </rule>
+    <rule id="2d99-7e82-617e-053b" name="Guardian X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a friendly unit at range 1 is defending against a ranged attack, you may choose up to X hit results. For each result chosen, roll a defense die as though you were the defender.</description>
+    </rule>
+    <rule id="b5ed-8da2-132d-54b2" name="Immune: Deflect" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Deflect cannot be used against you.</description>
+    </rule>
+    <rule id="a053-6a51-2d8d-a717" name="Spotter X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>→ Choose up to X friendly units at range 1. Each chosen unit gains one aim token.</description>
+    </rule>
+    <rule id="a4c9-42f5-6ea5-f3a3" name="Inspire X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After your Rally step, remove up to X supression tokens from another friendly unit at range 1-2.</description>
+    </rule>
+    <rule id="18d2-5e0e-d04e-f771" name="Sharpshooter X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While performing a ranged attack, reduce the defender&apos;s cover by 1.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
