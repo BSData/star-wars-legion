@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="7" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="8" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3456,6 +3456,106 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e56f-f281-847c-674c" name="Mo/Dk Power Harpoon" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d797-8f37-3ba3-79bc" name="Mo/Dk Power Harpoon" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-2"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1, Fixed: Rear, Tow Cable"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5407-a507-eda6-105d" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7438-4403-7a29-d964" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="25b5-832f-b120-3aaf" name="Tow Cable" hidden="false" targetId="7e70-8d77-50ad-f8c6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="796d-372c-6024-0213" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f91-7183-712f-ef4a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="00a0-8ac8-60fd-d5a4" name="Ax-108 &quot;Ground Buzzer&quot;" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="38a2-487a-b351-ba95" name="Ax-108 &quot;Ground Buzzer&quot;" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-2"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black x4"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Fixed: Rear"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ec04-2eb5-97a5-4333" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="796d-372c-6024-0213" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17c4-68cf-69f7-09b4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -3510,7 +3610,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53db-6123-d416-a99b" type="max"/>
-            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d19-b23e-15d5-c8f3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d19-b23e-15d5-c8f3" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -3518,6 +3618,56 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6b6-ae34-8774-1377" name="•Wedge Antilles" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b03c-96c7-753f-8fab" name="•Wedge Antilles" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="&gt;&gt; Until the end of your activation, you gain Full Pivot."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256" value="Exhaust"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9ca8-cdaf-e0da-b0ea" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1231-e5e0-ce18-e2be" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d91-e11e-a87b-4790" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4110-6a55-1f37-dc4e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abc4-dbd2-cd66-ac4b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3817,6 +3967,27 @@
       <infoLinks/>
       <modifiers/>
       <description>After you perform an attack, the defender that this weapon was used against gains 1 suppression token.</description>
+    </rule>
+    <rule id="f2fe-8c57-7a66-0761" name="Full Pivot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When you pivot, you can pivot up to 360°.</description>
+    </rule>
+    <rule id="24b7-5b7a-f976-3e75" name="Fixed: Rear" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The defender must be inside your rear arc.</description>
+    </rule>
+    <rule id="7e70-8d77-50ad-f8c6" name="Tow Cable" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After a vehicle is wounded by an attack that includes this weapon, perform a pivot with that vehicle.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
