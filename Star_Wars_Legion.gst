@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="8" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="9" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -972,7 +972,7 @@
             <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Nimble"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Specialist Trooper, Extra Trooper, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1590,7 +1590,7 @@
             <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Precise 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Specialist Trooper, Extra Trooper, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2091,7 +2091,7 @@
             <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="1"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Steady"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Specialist Trooper, Extra Trooper, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2743,11 +2743,47 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d6a7-c313-3dbe-1c45" name="Impact Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5643-6198-6cd9-103f" name="Impact Grenades" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4674-97cb-26da-0c44" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fca5-e984-e597-b8bf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5758-b6ce-3d80-b87c" name="Extra Trooper" hidden="false" collective="false">
+    <selectionEntryGroup id="5758-b6ce-3d80-b87c" name="Personnel" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2833,7 +2869,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e8aa-f460-6961-1e6e" name="Specialist Trooper" hidden="false" collective="false">
+    <selectionEntryGroup id="e8aa-f460-6961-1e6e" name="Heavy Weapon" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
