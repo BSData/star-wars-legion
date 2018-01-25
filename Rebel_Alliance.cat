@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="2" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="3" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -34,6 +34,22 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="c9a0-268e-4f80-4577" name="T-47 Airspeeder" hidden="false" targetId="796d-372c-6024-0213" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a35e-62b9-7b5f-8580" name="Fleet Troopers" hidden="false" targetId="3d12-2c85-4a5f-ff69" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5783-3cac-cd4d-a203" name="•Leia Organa" hidden="false" targetId="ce2d-0391-be63-e507" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
