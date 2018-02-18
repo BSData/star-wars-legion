@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="10" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="11" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -247,13 +247,13 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f485-5e67-3e4f-35ec" name="1 Pip Command Cards" hidden="false" collective="false" defaultSelectionEntryId="e769-f9a5-1870-62b3">
+        <selectionEntryGroup id="f485-5e67-3e4f-35ec" name="1 Pip Command Cards" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9280-0315-7cab-08c1" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9280-0315-7cab-08c1" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64f5-b8ec-4981-57fd" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -355,7 +355,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6a5-8b42-dfdb-ed67" name="•Maximum Firepower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f6a5-8b42-dfdb-ed67" name="•Maximum Firepower†" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="933d-d470-eeed-e584" name="•Maximum Firepower" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="8.1 Command Cards">
                   <profiles/>
@@ -415,7 +415,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f364-b4c4-04de-b9b3" name="•Coordinated Bombardment" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f364-b4c4-04de-b9b3" name="•Coordinated Bombardment†" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="a3e8-5067-1e5f-4e42" name="•Coordinated Bombardment" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -465,19 +465,21 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false" defaultSelectionEntryId="3088-96d9-6c4d-e8c2">
+        <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a12f-28a9-3444-f93d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a12f-28a9-3444-f93d" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="693b-bec5-eac6-7664" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -583,13 +585,13 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false" defaultSelectionEntryId="2583-c0b2-f79b-dc70">
+        <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5b8-e4a9-4f1e-f963" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5b8-e4a9-4f1e-f963" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fca6-0be5-3989-8287" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -1061,6 +1063,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1efc-e338-95f6-6d92" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2a93-82ec-1447-cc40" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -1200,6 +1209,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="f74a-d0eb-a7e0-814e" name="New CategoryLink" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc34-a874-58e3-70ed" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1352,6 +1368,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3fa5-95fb-2534-1d53" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="be58-0d33-846c-6fc6" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1679,6 +1702,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5bbb-eac2-14d5-41fe" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1813,6 +1843,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="477b-0253-b756-cb90" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c816-a9a2-8ab9-c64a" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1961,6 +1998,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0932-4662-f4f5-46d6" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e948-2103-26f2-6e0c" name=" Fence-cutting Blades" hidden="false" collective="false" type="upgrade">
@@ -2098,7 +2142,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers†" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2180,6 +2224,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="893e-7965-ba19-8266" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2237,7 +2288,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers†" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="55eb-69b8-b357-70bb" name="General Veers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2268,7 +2319,7 @@
             <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 1, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Leadership x2, Gear"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command x2, Gear"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2320,6 +2371,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e734-0481-59d3-7bdf" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6992-d2e8-8102-5dbf" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2425,7 +2483,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d12-2c85-4a5f-ff69" name="Fleet Troopers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3d12-2c85-4a5f-ff69" name="Fleet Troopers†" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="83c8-fc0c-bca8-a7b9" name="Fleet Troopers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2507,6 +2565,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f4c8-f5c3-8879-c6bc" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7885-66a5-2d03-1594" name=" DH-17 Blaster Pistol" hidden="false" collective="false" type="upgrade">
@@ -2535,7 +2600,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2585,7 +2652,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="44.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce2d-0391-be63-e507" name="•Leia Organa" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ce2d-0391-be63-e507" name="•Leia Organa†" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="19d4-ddc1-311c-722c" name="Leia Organa" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2616,7 +2683,7 @@
             <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Take Cover 2, Inspire 2, Nimble, Sharpshooter 2"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Leadership x2, Gear"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command x2, Gear"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2674,6 +2741,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="35e9-6a29-de2b-a9a2" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2c06-8311-cc60-6d72" name=" Martial Arts" hidden="false" collective="false" type="upgrade">
@@ -2702,7 +2776,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a103-74dc-38a2-31f5" name=" Leia&apos;s Defender Sporting Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2737,7 +2813,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3237,7 +3315,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper" hidden="false" collective="false" type="model">
+        <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper†" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3261,7 +3339,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="57e7-b29c-ace0-c94b" name="Fleet Trooper" hidden="false" collective="false" type="model">
+        <selectionEntry id="57e7-b29c-ace0-c94b" name="Fleet Trooper†" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3480,7 +3558,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" type="model">
+        <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper†" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="8d58-9266-4c76-9e92" name="T-7 Ion Snowtrooper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -3530,7 +3608,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="54a3-22ee-c92b-b6d6" name="Scatter Gun Trooper" hidden="false" collective="false" type="model">
+        <selectionEntry id="54a3-22ee-c92b-b6d6" name="Scatter Gun Trooper†" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="7107-1cb6-7486-047b" name="Scatter Gun Trooper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -4174,7 +4252,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1f7e-c9c9-fb71-62b2" name="Leadership" hidden="false" collective="false">
+    <selectionEntryGroup id="1f7e-c9c9-fb71-62b2" name="Command" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4184,7 +4262,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="fe99-1fc8-676a-cb8a" name="Commanding Presence" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="fe99-1fc8-676a-cb8a" name="Commanding Presence†" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
@@ -4211,7 +4289,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader†" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="eb23-a335-81e4-b24f" name="Esteemed Leader" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
