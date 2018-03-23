@@ -65,6 +65,22 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="6a18-06f5-9788-5d25" name="Rebel Commandos†" hidden="false" targetId="0f83-7e06-cecd-48c9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8cca-fee2-4627-9a4d" name="Rebel Commandos - Strike Team†" hidden="false" targetId="f7a4-bec8-396e-5bd7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>

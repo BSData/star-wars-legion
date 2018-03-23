@@ -1301,22 +1301,16 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2a93-82ec-1447-cc40" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="76d6-2ac4-e424-7769" name=" A-280 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8106-8c2a-3886-e492" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
-                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black"/>
-                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
-                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fc9-8e66-e236-2dd9" type="min"/>
@@ -3208,9 +3202,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5380-3d81-dc3e-4ff2" name="Brawl" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5380-3d81-dc3e-4ff2" name=" Brawl" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="4093-e69c-5b7e-7577" name="Brawl" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="4093-e69c-5b7e-7577" name=" Brawl" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3236,9 +3230,9 @@
           <entryLinks/>
           <costs/>
         </selectionEntry>
-        <selectionEntry id="7a9c-352c-05a8-0a8b" name="Han&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7a9c-352c-05a8-0a8b" name=" Han&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="fb83-2ba7-c621-5a3d" name="Han&apos;s DL-44 Blaster Pistol" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="fb83-2ba7-c621-5a3d" name=" Han&apos;s DL-44 Blaster Pistol" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3301,6 +3295,380 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f83-7e06-cecd-48c9" name="Rebel Commandos†" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e053-d14d-0b01-a8fe" name="Rebel Commandos" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Scout 2, Sharpshooter 1"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics, Comms, Gear, Grenades"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f9a7-9079-ea01-2d4a" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="82d8-5085-e0a6-1d1e" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb37-08f0-e886-b36b" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="92cc-08d3-1e6d-637d" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b094-ca14-64e2-ab04" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d22a-3634-0bea-67d4" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="457b-c12c-1ea6-1a39" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1845-2f15-0f7f-dabd" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d9af-013b-410b-a67c" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cd6f-9131-109e-01da" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a8ff-8792-00b5-97a9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="08e9-701b-3659-3c68" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="85df-9788-1c77-305b" name="Grenades" hidden="false" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="03ab-fd20-6d3d-92fe" name="Tactics" hidden="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c521-c032-1fd8-c1be" name="Comms" hidden="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0ea2-dc32-00c2-9c51" name="Gear" hidden="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="69ca-714b-a87c-e527" name="Heavy Weapon" hidden="false" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="13c5-4924-434c-e583" name=" Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos - Strike Team†" hidden="true" collective="false" type="unit">
+      <profiles>
+        <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos - Strike Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 2, Sharpshooter 1"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics, Comms, Gear, Grenades"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5017-7fd3-d6e5-ee6f" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="239b-677d-e788-faba" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f014-0ca3-3de5-80be" name="Heavy Weapon Team" hidden="false" targetId="0795-6e12-9110-ea7d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4b61-3590-43bd-2234" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="09fb-a5d8-ae84-d6fd" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="08d9-7b4a-d6d7-adc4" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="299a-ff09-7cfd-f825" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97e7-45f5-6717-e6a5" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0dd9-a54d-df59-9587" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6a15-d8ac-51cc-c080" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="79fb-72db-f855-200f" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37a3-844b-446d-2538" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2988-f067-333a-3f14" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b709-ea82-b064-f116" name=" Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b812-9705-2194-53af" name="Heavy Weapon" hidden="false" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="870f-dd9a-76e2-c8d7" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d37f-bc4d-ea02-83f3" name="Comms" hidden="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2cf8-4770-9bc4-2ca1" name="Gear" hidden="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="517e-a3a5-d3e8-3fee" name="Tactics" hidden="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9670-fcb2-9d89-8259" name="Grenades" hidden="false" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3798,6 +4166,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2505-fca4-a091-9364" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="870f-dd9a-76e2-c8d7" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -4090,6 +4459,49 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ef0c-30fb-e2ac-5090" name="DH-447 Sniper†" hidden="true" collective="false" type="model">
+          <profiles>
+            <profile id="76be-e37b-f342-5cd8" name="DH-447 Sniper†" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="4+"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f83-7e06-cecd-48c9" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f7a4-bec8-396e-5bd7" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2414-8e71-55ce-8a9c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5126,9 +5538,30 @@
       <modifiers/>
       <description>While defending, you may reroll up to X defense dice.</description>
     </rule>
+    <rule id="7410-450a-1190-5b7e" name="Scout X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After you deploy, you may perform a speed X move.</description>
+    </rule>
+    <rule id="a1b4-49d7-bca5-385f" name="Stationary" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You cannot perform moves, except pivots.</description>
+    </rule>
+    <rule id="0795-6e12-9110-ea7d" name="Heavy Weapon Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You must equip a Heavy Weapon upgrade card. The mini added by that card is your unit leader.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="4248-c8e1-a092-6929" name="E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+    <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5140,13 +5573,25 @@
         <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
       </characteristics>
     </profile>
-    <profile id="2577-2af4-7ca4-3912" name="Unarmed" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+    <profile id="2577-2af4-7ca4-3912" name=" Unarmed" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee"/>
+        <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black"/>
+        <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+        <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+      </characteristics>
+    </profile>
+    <profile id="8c6b-8e25-f299-6ade" name=" A-280 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
         <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black"/>
         <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
         <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
