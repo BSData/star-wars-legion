@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="12" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="13" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13,8 +13,8 @@
         <characteristicType id="a23d-0e2d-dd4d-f538" name="Wounds"/>
         <characteristicType id="2023-ab5b-e8e1-42c9" name="Courage"/>
         <characteristicType id="d709-b540-6ad3-b884" name="Defense"/>
-        <characteristicType id="62c7-6e08-5a25-baca" name="Offensive Surge"/>
-        <characteristicType id="8aca-49b2-7bf4-fdec" name="Defensive Surge"/>
+        <characteristicType id="62c7-6e08-5a25-baca" name="Attack Surge"/>
+        <characteristicType id="8aca-49b2-7bf4-fdec" name="Defense Surge"/>
         <characteristicType id="0c97-ed56-7e7b-1e9f" name="Speed"/>
         <characteristicType id="9940-b5a3-802f-9825" name="Keywords"/>
         <characteristicType id="4381-84d3-c939-9df5" name="Upgrade Bar"/>
@@ -26,8 +26,8 @@
         <characteristicType id="eee7-55c8-4a95-6177" name="Wounds"/>
         <characteristicType id="8f53-abe0-8322-e7d2" name="Resilience"/>
         <characteristicType id="a098-86b4-db8f-c431" name="Defense"/>
-        <characteristicType id="8bb0-caac-b4b4-82cd" name="Offensive Surge"/>
-        <characteristicType id="1ca6-e726-090a-340d" name="Defensive Surge"/>
+        <characteristicType id="8bb0-caac-b4b4-82cd" name="Attack Surge"/>
+        <characteristicType id="1ca6-e726-090a-340d" name="Defense Surge"/>
         <characteristicType id="4f1a-9937-f30d-051a" name="Speed"/>
         <characteristicType id="b524-8c1f-51b8-94fa" name="Keywords"/>
         <characteristicType id="7374-8d85-f1fe-aee4" name="Upgrade Bar"/>
@@ -559,6 +559,47 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="d67b-03a6-563a-b70d" name="Sorry About the Mess†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="574f-9af2-984f-9f18" name="Sorry About the Mess" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="While building a command hand, treat this card as though it has 1 pip. When Han Solo is issued an order, he gains 1 aim token and 1 dodge token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="701d-d692-a791-d034" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c47-706e-8db8-219c" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2153-fbe8-5f0b-d331" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -694,6 +735,47 @@
               <costs>
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="36d4-3e47-9416-43f6" name="••Diversion†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="cf36-7398-fcac-aa41" name="••Diversion" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Trooper Units"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When an enemy unit performs an attack, it must attack a trooper unit with a faceup order token, if able."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="701d-d692-a791-d034" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aae0-ea33-107c-d976" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="8972-c3a9-9861-54ce" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -922,8 +1004,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="6"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="3"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Jump 1, Charge, Deflect, Immune: Pierce"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Force x2, Gear"/>
@@ -1168,8 +1250,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="1"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="--"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Nimble"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
@@ -1308,8 +1390,8 @@
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="6"/>
             <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="4"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Critical"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="--"/>
             <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value="Armor, Climbing Vehicle, Expert Climber"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Hardpoint, Comms"/>
@@ -1473,8 +1555,8 @@
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="3"/>
             <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="--"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Hit"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="3"/>
             <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value="Cover 1, Speeder 1"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Comms"/>
@@ -1630,8 +1712,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="8"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="--"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="--"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="1"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Deflect, Immune: Pierce, Master of the Force 1, Relentless"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Force x3"/>
@@ -1807,8 +1889,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="1"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Precise 1"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
@@ -1924,8 +2006,8 @@
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="7"/>
             <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="5"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="3"/>
             <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Cover 1, Immune: Blast, Immune: Melee, Speeder 2"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Pilot, Hardpoint, Comms"/>
@@ -2091,8 +2173,8 @@
             <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="11"/>
             <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="8"/>
             <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Weak Point 1: Rear"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Pilot, Hardpoint x3, Comms"/>
@@ -2329,8 +2411,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="1"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="1"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Steady"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
@@ -2468,8 +2550,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="5"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 1, Sharpshooter 1"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command x2, Gear"/>
@@ -2684,8 +2766,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="1"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="1"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Hit"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Ready 1"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear, Grenades"/>
@@ -2846,8 +2928,8 @@
             <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="6"/>
             <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
             <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
-            <characteristic name="Offensive Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
-            <characteristic name="Defensive Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Take Cover 2, Inspire 2, Nimble, Sharpshooter 2"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command x2, Gear"/>
@@ -3019,6 +3101,206 @@
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="701d-d692-a791-d034" name="•Han Solo†" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d09a-3e50-8849-493b" name="Han Solo" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="2"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="White"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Gunslinger, Sharpshooter 1, Uncanny Luck 2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Tactics, Gear"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="68d2-7d1d-3fb1-a45b" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="83ee-3035-7394-2608" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3ed9-7c29-ef14-d855" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2d1d-7403-69ec-c9c1" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8afd-9aa7-d1f5-83c4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23e8-6267-b4ac-ea69" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ad74-56f2-6928-e3a4" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aed0-b271-d2da-1ae4" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5e7e-53e5-7fac-5473" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b2e-9864-294e-ef72" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="da31-5829-2b2e-c80e" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5380-3d81-dc3e-4ff2" name="Brawl" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4093-e69c-5b7e-7577" name="Brawl" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="White x3"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50be-a0d5-7e5e-ce0d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd6a-2041-e0b1-c161" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="7a9c-352c-05a8-0a8b" name="Han&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fb83-2ba7-c621-5a3d" name="Han&apos;s DL-44 Blaster Pistol" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-2"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Pierce 2"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="90ab-c7f0-fe8d-ba8e" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a25d-b59f-a81a-a082" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3914-39da-ebc1-8d13" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6a66-f4e3-cbf1-5035" name="Command" hidden="false" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c6f-24fe-6107-a39a" name="Gear" hidden="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="259e-4d84-56f8-5bb0" name="Tactics" hidden="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4497,6 +4779,74 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1f85-cb33-897c-7def" name="Improvised Orders†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5fc9-5140-8652-a756" name="Improvised Orders" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="After an order token is drawn from your order pool, you may draw a second order token, choose 1 to use and shuffle the other back into your order pool. During the End Phase, ready this card, if able."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256" value="Exhaust"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a309-399f-c229-24f7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fc8c-6e59-70b2-c76d" name="Tactics" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d61f-e553-69e6-5ac1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e6d1-adf2-72e1-8d4a" name="Duck and Cover†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8a1a-0daf-a5cf-b0ee" name="Duck and Cover" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="While defending against a ranged attack, during the Apply Dodge and Cover step, you may gain 1 suppression token."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e3d-0096-e822-bdff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4754,6 +5104,27 @@
       <infoLinks/>
       <modifiers/>
       <description>→ Choose up to X friendly trooper units at range 1. Each chosen unit gains a dodge token.</description>
+    </rule>
+    <rule id="a7bd-0b72-3096-1729" name="Low Profile" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While you are defending, if you have light cover, improve your cover by 1.</description>
+    </rule>
+    <rule id="1668-29f8-4fe1-651a" name="Gunslinger" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After you perform a ranged attack action, you may perform an additional ranged attack action against a different unit.</description>
+    </rule>
+    <rule id="f0f1-1fc6-505b-877b" name="Uncanny Luck X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While defending, you may reroll up to X defense dice.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
