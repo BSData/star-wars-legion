@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="13" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="14" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -594,11 +594,20 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
+                <categoryLink id="83a4-3c12-c165-e0dd" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -765,6 +774,63 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="8972-c3a9-9861-54ce" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="e435-aafa-2876-460c" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0043-23b5-22f2-c448" name="••No Time for Sorrows†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b70a-c53e-9604-159e" name="••No Time for Sorrows" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Troopers"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly trooper unit is issued an order, it may perform a speed-1 move."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ce2d-0391-be63-e507" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4061-7973-119c-26ea" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5bff-f6d1-457e-eee7" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="0f1a-1d87-09a1-4558" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2716,7 +2782,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d12-2c85-4a5f-ff69" name="Fleet Troopers†" hidden="false" collective="false" type="unit">
@@ -3228,7 +3294,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7a9c-352c-05a8-0a8b" name=" Han&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -3263,7 +3331,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3420,7 +3490,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3607,7 +3679,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -4496,7 +4570,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2414-8e71-55ce-8a9c" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="1eb3-3adc-79d6-4449" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5210,7 +5292,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a309-399f-c229-24f7" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="8001-3646-0833-3a3a" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5251,7 +5341,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e3d-0096-e822-bdff" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="f026-d98d-d62c-856c" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
