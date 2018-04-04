@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="14" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="15" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -841,6 +841,56 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9d47-26ce-7bc5-49ce" name="••Evasive Maneuvers†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6188-87eb-832e-6920" name="••Evasive Maneuvers" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Vehicles"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly vehicle unit is issued an order, it gains 1 dodge token. Friendly vehicle units can spend dodge tokens to cancel Critical results."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1c3d-b1db-07e7-cb3c" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc6f-aa35-2315-de40" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="3ddc-7a04-1822-0a74" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="07d5-4665-eb20-f5b9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
               <costs/>
             </selectionEntry>
           </selectionEntries>
@@ -978,6 +1028,54 @@
               <costs>
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="e629-0110-bf79-f931" name="•••Imperial Discipline†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="fc8e-ca7f-15e2-0d6f" name="•••Imperial Discipline" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers &amp; 2 Units"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly unit is issued an order, it may recover."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1c3d-b1db-07e7-cb3c" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cec5-463a-e2a7-422c" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="a936-91b8-b901-d40c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="595c-21aa-d3fd-fa44" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -5431,7 +5529,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While attacking a unit that has armor, change up to X hit results to critical results.</description>
+      <description>While attacking a unit that has armor, change up to X Hit results to Critical results.</description>
     </rule>
     <rule id="abcc-5c44-68ef-82d1" name="Precise X" hidden="false">
       <profiles/>
@@ -5543,7 +5641,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a friendly unit at range 1 is defending against a ranged attack, you may choose up to X hit results. For each result chosen, roll a defense die as though you were the defender.</description>
+      <description>While a friendly unit at range 1 is defending against a ranged attack, you may cancel up to X Hit results. For each result canceled, roll 1 of your defense dice. Convert surges, then suffer 1 wound for each blank result.</description>
     </rule>
     <rule id="b5ed-8da2-132d-54b2" name="Immune: Deflect" hidden="false">
       <profiles/>
