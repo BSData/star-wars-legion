@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="15" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="17" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -175,7 +175,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="c9b1-e0bb-61ac-ce52" name="Standard" hidden="false">
+    <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -258,6 +258,150 @@
           <constraints>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4107-c7ec-e707-2af9" type="max"/>
           </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="7aaa-8697-cf40-8b2b" name="Grand Army" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="fc38-52ae-0182-2b80" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d6bb-3329-ed13-2c62" type="min"/>
+            <constraint field="selections" scope="roster" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5449-ffd8-6545-df34" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3114-af46-fb6b-1639" name="Command Hand" hidden="false" targetId="6405-820e-ddee-20d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d3b0-3a86-cc37-8f7c" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="7945-c0c0-3dd8-05ba" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c7df-1c64-6ef2-59a7" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1082-f209-9761-236e" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="fca7-d0f3-4366-2c97" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ed1-b282-45d4-126e" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="869a-2829-7d4f-c229" type="min"/>
+            <constraint field="selections" scope="force" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="faa9-577c-1b1b-d557" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5ee5-ccc3-6496-fe9d" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d4a4-33ba-115c-ef5c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4f1d-68d2-9070-1dbb" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="8db8-1b48-a5a3-a565" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4728-5189-3e03-9080" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3efb-d1f0-62bd-96f6" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="ea6d-d9e6-84ab-5b07" name="Unlimited" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="9832-bc0d-1bf9-b54e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="974a-89ee-a709-63a0" type="min"/>
+            <constraint field="selections" scope="roster" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="e693-ec24-a68c-5b7b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d577-fddb-72fa-467e" name="Command Hand" hidden="false" targetId="6405-820e-ddee-20d3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="37f8-2173-62f1-77a9" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="c04f-2ce0-defa-de07" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="63ca-668f-6b67-e5bf" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="09a3-5182-ab8b-8031" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="21cf-f515-fb7d-240f" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0311-6944-4d6a-392e" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="73a8-7747-77ae-1d63" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aa93-fe77-6f37-6267" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -415,7 +559,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6a5-8b42-dfdb-ed67" name="•Maximum Firepower†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f6a5-8b42-dfdb-ed67" name="•Maximum Firepower" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="933d-d470-eeed-e584" name="•Maximum Firepower" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="8.1 Command Cards">
                   <profiles/>
@@ -469,13 +613,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="59f7-c7e1-2a17-693d" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="4c26-5a5c-9edf-17d6" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -845,7 +982,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d47-26ce-7bc5-49ce" name="••Evasive Maneuvers†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="9d47-26ce-7bc5-49ce" name="••Evasive Maneuvers" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="6188-87eb-832e-6920" name="••Evasive Maneuvers" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -880,18 +1017,13 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="07d5-4665-eb20-f5b9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1029,7 +1161,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e629-0110-bf79-f931" name="•••Imperial Discipline†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e629-0110-bf79-f931" name="•••Imperial Discipline" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="fc8e-ca7f-15e2-0d6f" name="•••Imperial Discipline" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1064,18 +1196,13 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="595c-21aa-d3fd-fa44" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2681,7 +2808,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="55eb-69b8-b357-70bb" name="General Veers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2771,13 +2898,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a757-b259-0c4f-fe15" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0384-d12c-f042-7658" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4115,6 +4235,40 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0410-76a2-1c5f-fc56" name="Environmental Gear" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e035-12b5-19e2-3101" name="Environmental Gear" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Unhindered."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="28ed-1f3e-0b60-9a61" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45c1-1038-a982-7b4f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5294,7 +5448,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="fe99-1fc8-676a-cb8a" name="Commanding Presence†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="fe99-1fc8-676a-cb8a" name="Commanding Presence" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
@@ -5313,15 +5467,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b2b-27c9-61bc-72f2" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="5a1c-8847-1c2a-1b58" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5329,7 +5475,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="eb23-a335-81e4-b24f" name="Esteemed Leader" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
@@ -5355,15 +5501,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff60-c938-45f9-1eac" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="2828-9f0b-7860-f4bd" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5655,7 +5793,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>→ Choose up to X friendly units at range 1. Each chosen unit gains one aim token.</description>
+      <description>→ Choose up to X friendly units at range 1. Each chosen unit gains an aim token.</description>
     </rule>
     <rule id="a4c9-42f5-6ea5-f3a3" name="Inspire X" hidden="false">
       <profiles/>
@@ -5754,6 +5892,19 @@
       <infoLinks/>
       <modifiers/>
       <description>You must equip a Heavy Weapon upgrade card. The mini added by that card is your unit leader.</description>
+    </rule>
+    <rule id="80bd-fa9b-e4c3-ffdb" name="New Rule" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="cac7-4e9c-5f18-1773" name="Unhindered" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You ignore the effects of difficult terrain.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
