@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="18" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="19" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2655,7 +2655,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -2738,13 +2738,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="79c0-0ed9-874a-c2d4" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="959c-dfb3-6c86-f818" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3768,7 +3761,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos - Strike Team†" hidden="true" collective="false" type="unit">
+    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos† - Strike Team" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos - Strike Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -4417,7 +4410,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4433,15 +4426,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d05-f128-460f-4193" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="0bd5-f20c-c6ba-5ef5" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4677,7 +4662,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="8d58-9266-4c76-9e92" name="T-7 Ion Snowtrooper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -4719,15 +4704,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea45-8493-f18a-2c4a" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="2d1a-ad98-18f3-4078" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4838,7 +4815,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c146-a063-2a15-9e46" name="Flametrooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="c146-a063-2a15-9e46" name="Flametrooper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="0b8d-5086-2dbd-5e45" name="Flametrooper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -4880,15 +4857,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="58ac-2068-b353-fb88" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="c240-cc11-423e-fedc" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
