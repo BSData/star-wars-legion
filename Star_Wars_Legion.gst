@@ -5771,7 +5771,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While attacking, each model in this unit can use up to 2 of its weapons.</description>
+      <description>While attacking, each model in this unit can use up to X of its weapons.</description>
     </rule>
     <rule id="d310-f6f2-d3dd-2fa1" name="Immune: Blast" hidden="false">
       <profiles/>
@@ -5792,7 +5792,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While defending, if the attacker&apos;s unit leader is insider your rear arc, the attack pool gains Impact X.</description>
+      <description>While defending, if the attacker&apos;s unit leader is inside your rear arc, the attack pool gains Impact X.</description>
     </rule>
     <rule id="e233-23ff-d4f9-d065" name="Steady" hidden="false">
       <profiles/>
