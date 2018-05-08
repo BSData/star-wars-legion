@@ -1204,6 +1204,54 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="c513-06d9-c5ee-da67" name="•••Somebody Has to Save Our Skins†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="bdf9-281f-f7b3-fd35" name="•••Somebody Has to Save Our Skins" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa &amp; 2 Units"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="After Leia Organa&apos;s activation, you may choose a friendly unit at range 1-2 with a faceup order token and activate it."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ce2d-0391-be63-e507" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b119-de9e-922d-a0ba" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ec9d-fbde-0887-b7ca" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="b80d-ec57-5756-5030" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
