@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="23" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="24" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -964,15 +964,15 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="36d4-3e47-9416-43f6" name="••Diversion†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="36d4-3e47-9416-43f6" name="••Reckless Diversion†" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="cf36-7398-fcac-aa41" name="••Diversion" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                <profile id="cf36-7398-fcac-aa41" name="••Reckless Diversion" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Trooper Units"/>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo &amp; 1 Trooper"/>
                     <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When an enemy unit performs an attack, it must attack a trooper unit with a faceup order token, if able."/>
                   </characteristics>
                 </profile>
@@ -1396,6 +1396,54 @@
               <costs>
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="e650-21e6-5d1b-2fe6" name="•••Change of Plans†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="309c-738f-d17c-0b5e" name="•••Change of Plans" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo &amp; 2 Units"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When this card is revealed, you may discard it to return an opponent&apos;s command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="701d-d692-a791-d034" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0844-95e3-df67-1c46" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="7fc0-c746-37ae-d05f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="ba54-d6ab-b77b-ced9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3639,7 +3687,7 @@
             <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
-            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Gunslinger, Sharpshooter 1, Uncanny Luck 2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Gunslinger, Sharpshooter 1, Uncanny Luck 3"/>
             <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Tactics, Gear"/>
           </characteristics>
         </profile>
@@ -4829,7 +4877,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0782-53a4-3b2c-6a28" name=" Unarmed" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -4857,7 +4907,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5c5b-bf7a-fdbe-e10f" name=" DH-17 Blaster Pistols" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -4885,7 +4937,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -5024,7 +5078,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1193-c060-8351-0f97" name=" E-11 Blaster Rifles" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -5052,7 +5108,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8d44-6439-588f-3f83" name=" E-Web Heavy Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -5093,7 +5151,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -5423,6 +5483,41 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac74-fe61-2334-12bb" name="Emergency Stims†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b302-83a3-4a8b-64c5" name="Emergency Stims" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During an attack, when you would suffer wounds, prevent up to 2 wounds and place an equal number of wound tokens on this card instead. If you do, at the end of your next activation, discard each token on this card and suffer wounds equal to the number of tokens discarded."/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e056-2fdd-a194-d3ef" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="de5f-256b-82b5-36dc" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6776,7 +6871,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="After an order token is drawn from your order pool, you may draw a second order token, choose 1 to use and shuffle the other back into your order pool. During the End Phase, ready this card, if able."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="After an order token is drawn from a friendly order pool, you may draw a second order token, choose 1 to use and shuffle the other back into its order pool. If you do, during the End Phase, ready this card."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256" value="Exhaust"/>
               </characteristics>
             </profile>
@@ -7248,7 +7343,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While you are defending, if you have light cover, improve your cover by 1.</description>
+      <description>While defending, if you have light cover, improve your cover by 1.</description>
     </rule>
     <rule id="1668-29f8-4fe1-651a" name="Gunslinger" hidden="false">
       <profiles/>
