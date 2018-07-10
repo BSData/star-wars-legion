@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="24" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="25" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -828,6 +828,54 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1f83-2a06-3a05-85aa" name="•And Now... You Will Die†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="36f7-978a-09b0-3575" name="•And Now... You Will Die" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Emperor Palpatine"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="During Emperor Palpatine&apos;s activation, he may suffer 1 wound and gain 1 suppression token to perform an attack. He may do this any number of times. After Emperor Palpatine performs an attack, the defender gains 1 immobilized token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e0c2-b41f-4814-9b56" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fcf-6eca-6e50-c43b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="0a92-7937-b84f-90f3" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="200e-1ab9-d340-e5b1" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1433,6 +1481,56 @@
                   <constraints/>
                 </categoryLink>
                 <categoryLink id="ba54-d6ab-b77b-ced9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c956-c603-b09d-b3c1" name="•••An Entire Legion†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="189f-7a6a-f0b3-7136" name="•••An Entire Legion" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Each Eligible Unit"/>
+                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e0c2-b41f-4814-9b56" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ee1-48c8-1806-ebc0" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4a97-f73d-d323-4e3e" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="5d18-bf1c-1872-be02" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4255,7 +4353,7 @@
     </selectionEntry>
     <selectionEntry id="af1d-d285-2921-02e6" name="•Boba Fett†" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="3003-c8c0-01d2-c4d3" name="•Boba Fett†" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+        <profile id="3003-c8c0-01d2-c4d3" name="Boba Fett" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5179,6 +5277,167 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e0c2-b41f-4814-9b56" name="•Emperor Palpatine†" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0997-6253-37ac-6f8c" name="Emperor Palpatine" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="Critical"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="1"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Pulling the Strings, Entourage: Imperial Royal Guards, Immune Pierce, Master of the Force 2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Force x3, Command"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7600-6aa4-d437-fc4f" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6618-b74b-609b-b82b" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3881-ce44-4a22-0b2b" name="Entourage: Imperial Royal Guard" hidden="false" targetId="339f-758b-8d7e-9b82" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="88cd-80ed-fb91-1f3d" name="Pulling the Strings" hidden="false" targetId="c49c-fb1f-d74d-bdfe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d03-215c-5125-8788" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b3f-0f94-9fbd-4384" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c332-76c3-d089-ceea" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a182-98f4-5bf2-3426" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="60cb-3123-62b4-b0cd" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a5b0-4026-2995-6496" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6ab2-4174-40b8-7806" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3e2c-bcaa-423b-dadc" name=" Force Lightning" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c17e-11a7-9498-efdd" name=" Force Lightning" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee/1-2"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x2, Black x2, White x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Pierce 2, Suppressive"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0f00-68de-6ff2-3267" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f180-cada-bfe0-cb6c" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="596c-523d-ea4a-5ca0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af38-084a-48b3-1b8d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7b5f-1f32-78de-bc08" name="Command" hidden="false" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c17d-2515-e109-6c84" name="Force" hidden="false" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="210.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9510-6572-6230-10dc" name="Force" hidden="false" collective="false">
@@ -5362,6 +5621,49 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a2c-be61-7bb9-8569" type="max"/>
           </constraints>
           <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="21c4-e298-a95a-e987" name="Anger†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4066-beb2-eedd-64ff" name="Anger" hidden="false" profileTypeId="def8-2ae7-1d1c-8ff8" profileTypeName="4.1 Force">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Force Ability" characteristicTypeId="e83a-065b-588e-9de7" value="After you suffer 1 or more wounds, gain 1 aim token."/>
+                <characteristic name="Icons" characteristicTypeId="52e6-1f3c-eac8-636f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5131-9cfb-0e26-b28b" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a30-4949-daa5-9794" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="128a-203d-9598-ea61" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -7421,6 +7723,20 @@
       <infoLinks/>
       <modifiers/>
       <description>Either before or after you perform a standard move, you may perform a free pivot action.</description>
+    </rule>
+    <rule id="c49c-fb1f-d74d-bdfe" name="Pulling the Strings" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>→ Choose a friendly trooper unit at range 1-2. That unit may perform a free attack action or a free move action.</description>
+    </rule>
+    <rule id="339f-758b-8d7e-9b82" name="Entourage: Imperial Royal Guard" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While building an army, ignore the rank of 1 Imperial Royal Guard unit. During the Command Phase, you may issue an order to a friendly Imperial Royal Guard unit at range 1-2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
