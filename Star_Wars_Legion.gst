@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="25" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="26" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3812,7 +3812,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Gunslinger, Sharpshooter 1, Uncanny Luck 3"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Tactics, Gear"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Training, Gear"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4030,7 +4030,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Scout 2, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics, Comms, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4175,7 +4175,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos† - Strike Team" hidden="true" collective="false" type="unit">
+    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos† - Strike Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos - Strike Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -4220,7 +4220,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 2, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics, Comms, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4415,7 +4415,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="3"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Jump 2, Arsenal 2, Bounty, Impervious, Sharpshooter 2"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Tactics x2, Gear x2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Training x2, Gear x2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4680,7 +4680,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Low Profile, Scout 1, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics, Comms, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5505,7 +5505,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Charge, Disciplined 2, Guardian 2"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Tactics x2, Gear, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training x2, Gear, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6540,23 +6540,36 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef0c-30fb-e2ac-5090" name="DH-447 Sniper†" hidden="true" collective="false" type="model">
+        <selectionEntry id="ef0c-30fb-e2ac-5090" name="DH-447 Sniper†" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="76be-e37b-f342-5cd8" name="DH-447 Sniper†" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="76be-e37b-f342-5cd8" name="DH-447 Sniper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="4+"/>
-                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red"/>
-                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4+"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black, White"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="High Velocity, Pierce 1"/>
                 <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="3772-8586-2f52-7409" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4ab6-bf0f-5716-2b2e" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
@@ -6588,7 +6601,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c146-a063-2a15-9e46" name="Flametrooper" hidden="false" collective="false" type="model">
@@ -6759,6 +6772,86 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7106-dd01-d9fd-781e" name="Proton Charge Saboteur†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="c112-fff1-1244-f90d" name="Detonate 1: Proton Charge" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1 (Area Weapon)"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red, White x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Blast, Impact 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value="Attack Surge: Critical"/>
+              </characteristics>
+            </profile>
+            <profile id="6833-6173-a5d1-1e05" name="Proton Charge Saboteur" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="→Arm 1: Proton Charge"/>
+                <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="42f1-106c-07f4-3335" name="Arm X: Charge Type" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d7ec-4f4b-ef28-1ea9" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c228-4a1b-1fff-91f3" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f83-7e06-cecd-48c9" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f7a4-bec8-396e-5bd7" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1b0-8d91-0bcd-050e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="b0bb-9cb6-06db-bddc" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6835,7 +6928,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Issue Orders Step of the Command Phase, issue an order to yourself."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Issue Orders step of the Command Phase, issue an order to yourself."/>
                 <characteristic name="Icons" characteristicTypeId="7559-cfee-de60-8256" value="Exhaust"/>
               </characteristics>
             </profile>
@@ -7504,7 +7597,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="fc8c-6e59-70b2-c76d" name="Tactics" hidden="false" collective="false">
+    <selectionEntryGroup id="fc8c-6e59-70b2-c76d" name="Training" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7551,7 +7644,7 @@
         </selectionEntry>
         <selectionEntry id="42a9-d4d3-3078-eb70" name="Hunter†" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="3972-d0b1-e4f3-2fbe" name="Hunter†" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+            <profile id="3972-d0b1-e4f3-2fbe" name="Hunter" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8051,6 +8144,20 @@
       <infoLinks/>
       <modifiers/>
       <description>While performing a melee attack, this mini can only use the weapon on this card.</description>
+    </rule>
+    <rule id="88db-849b-6a12-5846" name="High Velocity" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While attacking, if each weapon in your attack pool has High Velocity, the defender cannot spend dodge tokens.</description>
+    </rule>
+    <rule id="be08-2939-cc00-c2b9" name="Arm X: Charge Type" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>→ Place X charge tokens within range 1 and in line of sight of your unit leader.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
