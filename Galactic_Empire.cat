@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="6" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="7" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -98,6 +98,14 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="a8fa-85cd-a3ca-4c1c" name="Imperial Royal Guards†" hidden="false" targetId="aec2-d449-8d4a-9a84" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e4c3-bec8-eed5-812c" name="Imperial Officer†" hidden="false" targetId="b1ab-39cb-f761-ed4a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
