@@ -188,6 +188,34 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="6db2-4a46-fe95-7db6" name="Small Base" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="81b7-a43d-9e75-399a" name="Medium Base" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0911-359e-5d79-0933" name="Large Base" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b6f3-3718-c6bd-d25a" name="Huge Base" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -1891,6 +1919,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="63c3-d567-b8f4-9801" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5974-18f1-a275-90a6" name=" Luke&apos;s DL-44 Blaster Pistol" hidden="false" collective="false" type="upgrade">
@@ -2137,6 +2172,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d92c-5231-d6d2-9928" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2a93-82ec-1447-cc40" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -2277,6 +2319,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8789-0c71-7599-3759" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c47d-5074-3351-bb2a" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2436,6 +2485,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8ffd-ec78-0823-ced5" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c75e-f05d-97e3-7894" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2602,6 +2658,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1c8e-7df7-2b49-c249" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a926-dd56-9e04-c3f4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2785,6 +2848,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="56f6-c2b9-5a94-7449" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2926,6 +2996,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="f4e3-ec35-378a-8269" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f4b-ff4b-5298-fb1e" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3075,6 +3152,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c640-edf3-2cca-7a8f" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6736-f5f5-1a43-9346" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3328,6 +3412,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8902-6ea1-90fc-a1bf" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3482,6 +3573,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a757-b259-0c4f-fe15" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8098-f0b2-aecc-fee6" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3697,6 +3795,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2960-3c6f-8132-bfd2" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7885-66a5-2d03-1594" name=" DH-17 Blaster Pistol" hidden="false" collective="false" type="upgrade">
@@ -3874,6 +3979,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7770-ad71-d4f9-2913" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f9b6-d2db-7419-1b87" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4089,6 +4201,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="61bc-8218-53cd-e136" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5380-3d81-dc3e-4ff2" name=" Brawl" hidden="false" collective="false" type="upgrade">
@@ -4298,6 +4417,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="eb2f-7870-e57d-fd59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d9af-013b-410b-a67c" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -4488,6 +4614,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0dd9-a54d-df59-9587" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86ff-8ff6-a40f-d487" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4692,6 +4825,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e941-d016-0767-b24b" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e7c-b91f-a0e0-db59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4948,6 +5088,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a95d-a429-28c9-9ae8" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8967-6ac6-b013-4d9f" name=" EC-17 Holdout Blaster" hidden="false" collective="false" type="upgrade">
@@ -5072,6 +5219,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e73c-9e9d-2034-8208" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -5153,6 +5307,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b8a3-4295-0576-42d9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="212c-fe0b-4468-1fa7" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5367,6 +5528,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a786-7554-41c1-d70d" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3186-1ad3-d804-4a2c" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5590,6 +5758,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d94a-eae0-12be-5192" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3e2c-bcaa-423b-dadc" name=" Force Lightning" hidden="false" collective="false" type="upgrade">
@@ -5767,6 +5942,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="2e99-25e4-20f0-2891" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c9c6-5b93-1e02-e68b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5983,6 +6165,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5141-5af3-0776-720a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2d8-ea94-36b1-808d" name=" Overpower" hidden="false" collective="false" type="upgrade">
@@ -6182,6 +6371,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="aee3-43a5-4920-8e39" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7780-4796-4f45-8e66" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6397,6 +6593,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="b041-d9be-49bc-98cc" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e608-030e-5286-a770" name=" Officer&apos;s A-100 Blaster Pistol" hidden="false" collective="false" type="upgrade">
@@ -6556,6 +6759,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="838f-a90c-f202-c818" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1ab0-e4fb-35e0-2ea1" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
