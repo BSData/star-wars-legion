@@ -56,8 +56,9 @@
     </profileType>
     <profileType id="76e4-5331-b635-524f" name="1.0 Command Cards">
       <characteristicTypes>
-        <characteristicType id="c37c-423d-ec0a-fdf9" name="Activation"/>
-        <characteristicType id="0645-af6e-93d9-92c1" name="Command Card Text"/>
+        <characteristicType id="c37c-423d-ec0a-fdf9" name="Commander"/>
+        <characteristicType id="0645-af6e-93d9-92c1" name="Orders"/>
+        <characteristicType id="957b-dc58-3195-2a96" name="Effect"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -542,8 +543,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Luke Skywalker"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="After Luke Skywalker performs his first attack, he may perform 1 additional attack."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Luke Skywalker"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Luke Skywalker"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="After Luke Skywalker performs his first attack, he may perform 1 additional attack."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -585,8 +587,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="1 Unit"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="1 Unit"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -620,8 +623,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Darth Vader"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="At the end of Darth Vader&apos;s activation, he may suffer 1 wound to shuffle his order token into the order pool. During Darth Vader&apos;s second activation, he performs 1 fewer action."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Darth Vader"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Darth Vader"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="At the end of Darth Vader&apos;s activation, he may suffer 1 wound to shuffle his order token into the order pool. During Darth Vader&apos;s second activation, he performs 1 fewer action."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -663,8 +667,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="At the end of General Veers&apos; activation, he may perform an attack using the following weapon:"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="General Veers"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="At the end of General Veers&apos; activation, he may perform an attack using the following weapon:"/>
                   </characteristics>
                 </profile>
                 <profile id="01ff-8260-a52a-014a" name="•Maximum Firepower" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
@@ -731,8 +736,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="At the end of Leia Organa&apos;s activation, she may perform up to 3 attacks against different enemy units using the following weapon:"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Leia Organa"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="At the end of Leia Organa&apos;s activation, she may perform up to 3 attacks against different enemy units using the following weapon:"/>
                   </characteristics>
                 </profile>
                 <profile id="b288-6b9a-22e7-a8ac" name="•Coordinated Bombardment" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
@@ -793,8 +799,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="While building a command hand, treat this card as though it has 1 pip. When Han Solo is issued an order, he gains 1 aim token and 1 dodge token."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Han Solo"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="While building a command hand, treat this card as though it has 1 pip. When Han Solo is issued an order, he gains 1 aim token and 1 dodge token."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -843,8 +850,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Boba Fett"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="Boba Fett can perform moves while engaged with a unit that has 1 or more immobilized tokens. During Boba Fett&apos;s activation, he gains: &gt;&gt; Chose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilized tokens and 2 suppression tokens."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Boba Fett"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Boba Fett"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Boba Fett can perform moves while engaged with a unit that has 1 or more immobilized tokens. During Boba Fett&apos;s activation, he gains: &gt;&gt; Chose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilized tokens and 2 suppression tokens."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -893,8 +901,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Emperor Palpatine"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="During Emperor Palpatine&apos;s activation, he may suffer 1 wound and gain 1 suppression token to perform an attack. He may do this any number of times. After Emperor Palpatine performs an attack, the defender gains 1 immobilized token."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Emperor Palpatine"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Emperor Palpatine"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="During Emperor Palpatine&apos;s activation, he may suffer 1 wound and gain 1 suppression token to perform an attack. He may do this any number of times. After Emperor Palpatine performs an attack, the defender gains 1 immobilized token."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -943,8 +952,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="1 Special Forces or Operative Unit"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="Your opponent must issue orders to 1 fewer units than is indicated on their command card, to a minimum of 1."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Rebel"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="1 Special Forces or Operative Unit"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Your opponent must issue orders to 1 fewer units than is indicated on their command card, to a minimum of 1."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -993,8 +1003,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="1 Special Forces or Operative Unit"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="Look at up to 2 random command cards from an opponent&apos;s hand."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Imperial"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="1 Special Forces or Operative Unit"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Look at up to 2 random command cards from an opponent&apos;s hand."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1056,8 +1067,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value=""/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1091,8 +1103,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Troopers"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly trooper unit is issued an order, it gains 1 dodge token."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Luke Skywalker"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Troopers"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When a friendly trooper unit is issued an order, it gains 1 dodge token."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1134,8 +1147,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Troopers"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly non-Darth Vader trooper unit with a faceup order token activates, it may suffer 1 wound to perform 1 free action."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Darth Vader"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Troopers"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When a friendly non-Darth Vader trooper unit with a faceup order token activates, it may suffer 1 wound to perform 1 free action."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1177,8 +1191,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo &amp; 1 Trooper"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When an enemy unit performs an attack, it must attack a trooper unit with a faceup order token, if able."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Han Solo &amp; 1 Trooper"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When an enemy unit performs an attack, it must attack a trooper unit with a faceup order token, if able."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1227,8 +1242,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Troopers"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly trooper unit is issued an order, it may perform a speed-1 move."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Troopers"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When a friendly trooper unit is issued an order, it may perform a speed-1 move."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1270,8 +1286,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="2 Vehicles"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly vehicle unit is issued an order, it gains 1 dodge token. Friendly vehicle units can spend dodge tokens to cancel Critical results."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Vehicles"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When a friendly vehicle unit is issued an order, it gains 1 dodge token. Friendly vehicle units can spend dodge tokens to cancel Critical results."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1313,8 +1330,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Boba Fett"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="During Boba Fett&apos;s activation he gains the following weapon:"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Boba Fett"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Boba Fett"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="During Boba Fett&apos;s activation he gains the following weapon:"/>
                   </characteristics>
                 </profile>
                 <profile id="0995-ee3d-8156-9e70" name="••ZX Flame Projector" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
@@ -1403,8 +1421,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="3 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="3 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1438,8 +1457,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Luke Skywalker &amp; 2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When Luke Skywalker is issued an order, he gains 1 dodge token. When Luke Skywalker activates, each friendly trooper unit at range 1-3 of him may remove 1 suppression token."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Luke Skywalker"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Luke Skywalker &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When Luke Skywalker is issued an order, he gains 1 dodge token. When Luke Skywalker activates, each friendly trooper unit at range 1-3 of him may remove 1 suppression token."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1481,8 +1501,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Darth Vader &amp; 2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When Darth Vader is issued an order, he gains 1 dodge token. When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppression tokens."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Darth Vader"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Darth Vader &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When Darth Vader is issued an order, he gains 1 dodge token. When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppression tokens."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1524,8 +1545,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers &amp; 2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When a friendly unit is issued an order, it may recover."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="General Veers"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="General Veers &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When a friendly unit is issued an order, it may recover."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1567,8 +1589,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa &amp; 2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="After Leia Organa&apos;s activation, you may choose a friendly unit at range 1-2 with a faceup order token and activate it."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Leia Organa"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Leia Organa &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="After Leia Organa&apos;s activation, you may choose a friendly unit at range 1-2 with a faceup order token and activate it."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1610,8 +1633,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo &amp; 2 Units"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="When this card is revealed, you may discard it to return an opponent&apos;s command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Han Solo"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Han Solo &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="When this card is revealed, you may discard it to return an opponent&apos;s command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1660,8 +1684,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Each Eligible Unit"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1"/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Emperor Palpatine"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Each Eligible Unit"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1710,8 +1735,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Chewbacca &amp; Han Solo"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="Choose one of Han Solo&apos;s command cards in your discard pile. Return that card to your hand."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Chewbacca"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Chewbacca &amp; Han Solo"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Choose one of Han Solo&apos;s command cards in your discard pile. Return that card to your hand."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1775,8 +1801,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Activation" characteristicTypeId="c37c-423d-ec0a-fdf9" value="1 Unit"/>
-                    <characteristic name="Command Card Text" characteristicTypeId="0645-af6e-93d9-92c1" value="At the end of the turn, return this card to your hand."/>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="1 Unit"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="At the end of the turn, return this card to your hand."/>
                   </characteristics>
                 </profile>
               </profiles>
