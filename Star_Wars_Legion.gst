@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="28" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="29" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -791,7 +791,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d67b-03a6-563a-b70d" name="Sorry About the Mess†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d67b-03a6-563a-b70d" name="Sorry About the Mess" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="574f-9af2-984f-9f18" name="Sorry About the Mess" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -821,13 +821,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="2153-fbe8-5f0b-d331" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="83a4-3c12-c165-e0dd" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1042,7 +1035,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1183,7 +1178,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="36d4-3e47-9416-43f6" name="••Reckless Diversion†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="36d4-3e47-9416-43f6" name="••Reckless Diversion" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="cf36-7398-fcac-aa41" name="••Reckless Diversion" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1213,13 +1208,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="8972-c3a9-9861-54ce" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="e435-aafa-2876-460c" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1625,7 +1613,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e650-21e6-5d1b-2fe6" name="•••Change of Plans†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e650-21e6-5d1b-2fe6" name="•••Change of Plans" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="309c-738f-d17c-0b5e" name="•••Change of Plans" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1655,13 +1643,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="7fc0-c746-37ae-d05f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="ba54-d6ab-b77b-ced9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4118,7 +4099,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="701d-d692-a791-d034" name="•Han Solo†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="701d-d692-a791-d034" name="•Han Solo" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="d09a-3e50-8849-493b" name="Han Solo" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -4215,13 +4196,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1b2e-9864-294e-ef72" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="da31-5829-2b2e-c80e" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4336,7 +4310,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f83-7e06-cecd-48c9" name="Rebel Commandos†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0f83-7e06-cecd-48c9" name="Rebel Commandos" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="e053-d14d-0b01-a8fe" name="Rebel Commandos" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -4437,13 +4411,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1845-2f15-0f7f-dabd" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="eb2f-7870-e57d-fd59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
@@ -4533,7 +4500,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos† - Strike Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos - Strike Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos - Strike Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -4634,13 +4601,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="97e7-45f5-6717-e6a5" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0dd9-a54d-df59-9587" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6827,7 +6787,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -7213,7 +7175,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ac74-fe61-2334-12bb" name="Emergency Stims†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ac74-fe61-2334-12bb" name="Emergency Stims" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b302-83a3-4a8b-64c5" name="Emergency Stims" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -7233,15 +7195,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e056-2fdd-a194-d3ef" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="de5f-256b-82b5-36dc" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -7849,7 +7803,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef0c-30fb-e2ac-5090" name="DH-447 Sniper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="ef0c-30fb-e2ac-5090" name="DH-447 Sniper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="76be-e37b-f342-5cd8" name="DH-447 Sniper" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -7897,15 +7851,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2414-8e71-55ce-8a9c" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="1eb3-3adc-79d6-4449" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -8082,7 +8028,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7106-dd01-d9fd-781e" name="Proton Charge Saboteur†" hidden="false" collective="false" type="model">
+        <selectionEntry id="7106-dd01-d9fd-781e" name="Proton Charge Saboteur" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="c112-fff1-1244-f90d" name="Detonate 1: Proton Charge" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -8147,15 +8093,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1b0-8d91-0bcd-050e" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="b0bb-9cb6-06db-bddc" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -8291,7 +8229,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9c85-9611-8a49-265a" name="HQ Uplink†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9c85-9611-8a49-265a" name="HQ Uplink" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="69fe-6b54-8080-769c" name="HQ Uplink" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -8311,15 +8249,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce6-0d53-9df5-06c1" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="dbbf-153e-0b89-5ba1" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -8934,7 +8864,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1f85-cb33-897c-7def" name="Improvised Orders†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1f85-cb33-897c-7def" name="Improvised Orders" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="5fc9-5140-8652-a756" name="Improvised Orders" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -8954,15 +8884,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a309-399f-c229-24f7" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="8001-3646-0833-3a3a" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -8984,7 +8906,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="e6d1-adf2-72e1-8d4a" name="Duck and Cover†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e6d1-adf2-72e1-8d4a" name="Duck and Cover" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="8a1a-0daf-a5cf-b0ee" name="Duck and Cover" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9004,15 +8926,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e3d-0096-e822-bdff" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f026-d98d-d62c-856c" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
