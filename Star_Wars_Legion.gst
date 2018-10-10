@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="32" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="33" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2181,6 +2181,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -2271,7 +2278,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8bef-586b-a017-7fa8" name="Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
+        <entryLink id="8bef-586b-a017-7fa8" name=" Unarmed" hidden="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2308,6 +2315,29 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="21b6-6271-7464-1e19" name="Comms" hidden="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3804,6 +3834,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -3937,6 +3974,29 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9178-5772-ec66-9a14" name="Comms" hidden="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -7699,6 +7759,48 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d59f-f02a-d940-3b90" name="Rebel Comms Technician†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="2e9d-6a8e-51fa-cd53" name="Rebel Comms Technician" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain a Comms upgrade icon. You must equip a Comms upgrade card."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d91-e11e-a87b-4790" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="028a-ca1e-21a2-a734" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -8485,6 +8587,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5d06-41e9-1396-1046" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c263-b01c-befb-e341" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
