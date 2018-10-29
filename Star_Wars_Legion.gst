@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="33" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="34" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5467,7 +5467,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a33c-c773-f780-e4ce" name="1.4 FD Laser Cannon Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -5533,13 +5533,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c36a-1144-846a-0302" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="b8a3-4295-0576-42d9" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5682,7 +5675,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="dc90-d56f-870f-d096" name="E-Web Heavy Blaster Team" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -5754,13 +5747,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="cfda-a3e7-8ef9-22fc" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a786-7554-41c1-d70d" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9430,7 +9416,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="5b4c-4b62-d2b2-5230" name="Overcharged Generator†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5b4c-4b62-d2b2-5230" name="Overcharged Generator" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="9a8c-4bdd-cf0c-1a9a" name="Overcharged Generator" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9457,15 +9443,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d0e-9a97-da96-8daa" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="03ad-31a4-9e2b-4463" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9473,7 +9451,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eb5f-17bb-c97e-d8f4" name="Barrage Generator†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="eb5f-17bb-c97e-d8f4" name="Barrage Generator" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="d15e-12a9-5ecf-a5b8" name="Barrage Generator" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9500,15 +9478,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3ec-65ea-4728-8b76" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f465-ba07-ee4d-fbfa" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
