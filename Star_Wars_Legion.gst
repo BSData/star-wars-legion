@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="35" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="36" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1956,6 +1956,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
@@ -2234,6 +2241,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2936,6 +2950,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -3500,6 +3521,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -3643,6 +3671,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3890,6 +3925,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -4079,6 +4121,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4288,6 +4337,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4509,6 +4565,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Low Profile, Scout 3, Sharpshooter 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -4696,6 +4759,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 3, Sharpshooter 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4891,6 +4961,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5159,6 +5236,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Low Profile, Scout 2, Sharpshooter 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -5346,6 +5430,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 2, Sharpshooter 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6143,6 +6234,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="3"/>
@@ -6337,6 +6435,11 @@
               <conditions>
                 <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
               </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -6566,6 +6669,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="3"/>
@@ -6788,6 +6898,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
@@ -6957,6 +7074,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7484,6 +7608,49 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a1c9-3e8c-d277-6e55" name="Recon Intel†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="211f-9a29-a6a2-7caf" name="Recon Intel" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Scout 1."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e2f1-7b88-b657-edb8" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="103f-e701-78aa-a5e9" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="5ee9-6ce1-86c6-179b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -7563,6 +7730,54 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fca5-e984-e597-b8bf" type="max"/>
           </constraints>
           <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c650-034b-bcea-8da3" name="Fragmentation Grenades†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ebe9-171b-8173-bc25" name="Fragmentation Grenades" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value=""/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="5264-5cab-b900-63c6" name="Fragmentation Grenades" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="While this weapon is in your attack pool, you gain &quot;Attack Surge: Critical&quot;."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="23fb-c9fe-e376-f8ca" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="741a-2cdf-1631-401b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
