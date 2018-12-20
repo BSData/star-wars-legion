@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="37" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="38" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1051,7 +1051,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b740-be58-f474-a084" name="•Common Cause†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="b740-be58-f474-a084" name="•Common Cause" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="3bbc-3214-569a-0797" name="•Common Cause" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1081,13 +1081,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="00ea-4f57-74c0-3943" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="aed1-6b38-fcd7-1133" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1595,7 +1588,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1567-2894-48aa-938c" name="••Brains and Brawn†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1567-2894-48aa-938c" name="••Brains and Brawn" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="2ce0-7733-f578-77f1" name="••Brains and Brawn" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1625,13 +1618,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="745a-81d5-b740-3e7a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="2d42-88bb-6c24-e45b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1961,7 +1947,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="126b-10ea-ef4b-866f" name="•••Notorious Scoundrels†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="126b-10ea-ef4b-866f" name="•••Notorious Scoundrels" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="7cff-f5a0-10e9-ae2b" name="•••Notorious Scoundrels" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1991,13 +1977,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="f710-2450-3930-c1fa" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="c72c-98ce-0b8c-4eaa" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6627,7 +6606,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3dd-044d-5d7c-d7a6" name="•Chewbacca†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b3dd-044d-5d7c-d7a6" name="•Chewbacca" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="0c86-5718-6c08-8577" name="Chewbacca" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -6727,13 +6706,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3fbb-fd79-4ecd-5085" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="3ec1-edaa-deec-8ce5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6852,7 +6824,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c365-178d-8de5-291b" name="Wookiee Warriors†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="c365-178d-8de5-291b" name="Wookiee Warriors" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="f7bc-9774-a6c7-3fc5" name="Wookiee Warriors" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -6946,13 +6918,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7553-ab5d-ec23-8bf8" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="aee3-43a5-4920-8e39" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7506,7 +7471,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7c06-cdf6-d011-d902" name="•Director Orson Krennic†" hidden="false" collective="false" type="unit">
       <profiles>
@@ -7667,7 +7634,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -7872,7 +7841,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -8064,7 +8035,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -8280,7 +8253,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="67c9-cdb8-e19a-069f" name=" E-110 Blaster Rifle" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -8308,7 +8283,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6b13-0ba4-114d-8063" name=" SE-14r Light Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -8336,7 +8313,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -9789,7 +9768,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c6e6-ce10-57d7-567e" name="Bowcaster Wookiee†" hidden="false" collective="false" type="model">
+        <selectionEntry id="c6e6-ce10-57d7-567e" name="Bowcaster Wookiee" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="aa30-e8d8-00fd-9b4a" name="Bowcaster Wookiee" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -9831,15 +9810,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c178-2306-84c4-b869" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="ba8e-8ca7-80ba-24e9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -10996,7 +10967,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3bdc-94e1-f107-ce08" name="A-300†" hidden="false" collective="false" type="upgrade">
           <profiles>
