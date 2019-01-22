@@ -1690,6 +1690,57 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="a4bc-f749-005e-e44b" name="••Pinned Down†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="912c-b4ad-746e-cb36" name="••Pinned Down" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Imperial"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Support or Heavy Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="After a friendly support or heavy unit performs an attack against a unit with a faceup order token, shuffle that token back into its order pool."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef40-1f1b-5578-a7c3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c371-eaba-37c4-71ba" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4bd1-5242-6200-81ef" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="5548-80c5-0235-1a39" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2155,6 +2206,57 @@
                   <constraints/>
                 </categoryLink>
                 <categoryLink id="d990-326f-fd16-e5ff" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78c9-7a44-95a0-1403" name="•••Coordinated Fire†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4734-3751-99f9-b071" name="•••Coordinated Fire" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Imperial"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="3 Corps Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef40-1f1b-5578-a7c3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c31e-2789-2d1a-e71d" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="89ea-6908-178f-d86e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="bd02-a691-df7a-f3ee" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -3263,6 +3365,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -3373,6 +3482,29 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7bf3-2145-7b70-73fa" name="Comms" hidden="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3834,6 +3966,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -3944,6 +4083,29 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ca46-8669-6c0c-bdc6" name="Comms" hidden="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -9411,6 +9573,162 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cfe7-752d-6405-295e" name="Imperial Comms Technician†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="5f00-30b7-3525-f3c4" name="Imperial Comms Technician" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain a Comms upgrade icon. You must equip a Comms upgrade card."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="cce8-1a36-735c-d779" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f84b-57f8-eef1-9789" name="FX-9 Medical Droid†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="4382-ba6c-1bd5-7585" name="FX-9 Medical Droid†" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="&gt;&gt;Treat 1: Capacity 2"/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256" value="Noncombatant"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b7f3-bd29-534f-1517" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1fc3-52ae-45cb-41ff" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae2d-521a-3805-450b" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9c74-e2c6-60ba-87ef" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f3b1-ef5b-6b72-58b8" name="R4 Astromech Droid†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="6910-f68b-9007-68d4" name="R4 Astromech Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="&gt;&gt;Repair 1: Capacity 2"/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256" value="Noncombatant"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="31de-e2ce-a69d-9004" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6da8-4249-61d4-af62" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d38-eacf-ae1b-fbdb" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="811e-95ad-ba66-ee7c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -11750,7 +12068,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Treat this mini as the unit&apos;s unit leader.</description>
+      <description>This mini is your unit leader.</description>
     </rule>
     <rule id="2dd6-d418-4321-f5bf" name="Compel" hidden="false">
       <profiles/>
@@ -11820,7 +12138,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This mini cannot use any weapons and wounds must be assigned to other non-unit leader minis first.</description>
+      <description>This mini cannot use any weapons and other non-unit leader minis must suffer wounds first.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
