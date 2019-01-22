@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="8" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="9" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -122,6 +122,14 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="0051-8a73-0c24-4a97" name="•Jyn Erso†" hidden="false" targetId="1618-567c-e0b2-c65e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="42ad-6672-9b67-233e" name="X-34 Landspeeder†" hidden="false" targetId="976e-3faa-c0b8-56ba" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
