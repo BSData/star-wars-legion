@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="38" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="39" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1632,6 +1632,64 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="49ef-a67e-f2c7-f376" name="••Turning the Tide†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="66cd-4bea-8957-2701" name="••Turning the Tide" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Rebel"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Support or Heavy Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Each friendly support and heavy unit gains Inspire 2."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="929e-47e3-f6aa-a960" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1d91-e11e-a87b-4790" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53c6-edd6-8236-bfb1" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="dc21-f962-4e80-2d64" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="a384-0e66-9ac7-f935" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2046,6 +2104,57 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="15de-25eb-0786-fd36" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa37-4960-ae22-a799" name="•••Covering Fire†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="781b-6291-4b0b-0493" name="•••Covering Fire" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Any Rebel"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="3 Corps Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="After a friendly corps unit performs a ranged attack, another friendly unit at range 1-2 may gain 1 dodge token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1d91-e11e-a87b-4790" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e59-9e48-4e1b-287b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2ebf-6c89-226a-e72f" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="d990-326f-fd16-e5ff" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -9188,6 +9297,120 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="19e1-82f8-fa55-6c7c" name="R5 Astromech Droid†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="33d6-4f34-433a-e15e" name="R5 Astromech Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="&gt;&gt;Repair 1: Capacity 2"/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256" value="Noncombatant"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ad42-c131-8f03-76b4" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d95a-ed98-9a65-16e5" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d91-e11e-a87b-4790" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5144-a01c-8070-b112" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8f97-819a-3cbf-c6a5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c00-afc2-d87b-6895" name="2-1B Medical Droid†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="d301-c041-16d6-55b8" name="2-1B Medical Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="&gt;&gt;Treat 1: Capacity 2"/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256" value="Noncombatant"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a2d8-adcc-1a38-ae97" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="258d-485f-0018-0d9e" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d91-e11e-a87b-4790" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="336b-f5a2-cc58-afcf" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="78b4-40d4-36d7-2b40" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -10044,6 +10267,42 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9bf9-570d-6aa7-f395" name="Comms Relay†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="42bf-4218-3926-7490" name="Comms Relay" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="When you would be issued an order, you may choose a friendly unit at range 1-2. Issue an order to the chosen unit instead."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60c1-a627-64f1-423e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7eeb-49b3-2f99-cac3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11491,7 +11750,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This mini is your unit leader.</description>
+      <description>Treat this mini as the unit&apos;s unit leader.</description>
     </rule>
     <rule id="2dd6-d418-4321-f5bf" name="Compel" hidden="false">
       <profiles/>
@@ -11541,6 +11800,27 @@
       <infoLinks/>
       <modifiers/>
       <description>After you rally, if you are suppressed but not panicked, you may gain 1 suppression token to perform a free move action.</description>
+    </rule>
+    <rule id="c06c-ef48-f54b-e8dc" name="Treat X: Capacity Y" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>&gt;&gt;Place a wound token on this card to remove X wound tokens from or restore X minis to a friendly non-emplacement trooper unit at range 1 and in line of sight. Limit Y tokens.</description>
+    </rule>
+    <rule id="1fd5-75ef-29c1-b14b" name="Repair X: Capacity Y" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>&gt;&gt;Place a wound token on this card to remove X wound, ion, or vehicle damage tokens from a friendly ground vehicle at range 1 and in line of sight. Limit Y tokens.</description>
+    </rule>
+    <rule id="b618-1cf4-8edc-3797" name="Noncombatant" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This mini cannot use any weapons and wounds must be assigned to other non-unit leader minis first.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
