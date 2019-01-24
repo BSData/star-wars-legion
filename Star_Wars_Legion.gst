@@ -949,7 +949,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ede7-f3e2-750d-2283" name="•Sabotaged Communications†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ede7-f3e2-750d-2283" name="•Sabotaged Communications" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="218d-a4a6-0de0-471f" name="•Sabotaged Communications" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -985,13 +985,6 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="c2f0-4ed5-701b-7c0d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1000,7 +993,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6f38-d58d-2aa5-0517" name="•Covert Observation†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="6f38-d58d-2aa5-0517" name="•Covert Observation" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="b463-7a99-83f2-043b" name="•Covert Observation" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1030,13 +1023,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="82e7-cd3e-9949-1a4c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="8c25-5239-3a86-88b4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1632,7 +1618,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="49ef-a67e-f2c7-f376" name="••Turning the Tide†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="49ef-a67e-f2c7-f376" name="••Turning the Tide" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="66cd-4bea-8957-2701" name="••Turning the Tide" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1675,13 +1661,6 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="a384-0e66-9ac7-f935" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1690,7 +1669,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a4bc-f749-005e-e44b" name="••Pinned Down†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a4bc-f749-005e-e44b" name="••Pinned Down" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="912c-b4ad-746e-cb36" name="••Pinned Down" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1720,13 +1699,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="4bd1-5242-6200-81ef" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="5548-80c5-0235-1a39" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2169,7 +2141,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fa37-4960-ae22-a799" name="•••Covering Fire†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fa37-4960-ae22-a799" name="•••Covering Fire" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="781b-6291-4b0b-0493" name="•••Covering Fire" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -2205,13 +2177,6 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="d990-326f-fd16-e5ff" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2220,7 +2185,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="78c9-7a44-95a0-1403" name="•••Coordinated Fire†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="78c9-7a44-95a0-1403" name="•••Coordinated Fire" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="4734-3751-99f9-b071" name="•••Coordinated Fire" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -2250,13 +2215,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="89ea-6908-178f-d86e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="bd02-a691-df7a-f3ee" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7318,7 +7276,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a95-8257-96f5-984e" name="Rebel Officer†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6a95-8257-96f5-984e" name="Rebel Officer" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="956e-24de-3328-1a95" name="Rebel Officer" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -7419,13 +7377,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e048-adb4-926d-8cf6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="b041-d9be-49bc-98cc" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
           <profiles/>
           <rules/>
@@ -7497,7 +7448,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b1ab-39cb-f761-ed4a" name="Imperial Officer†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b1ab-39cb-f761-ed4a" name="Imperial Officer" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="577c-c1ce-b746-ba19" name="Imperial Officer" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -7592,13 +7543,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1ba3-e9a9-7020-e7ef" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="838f-a90c-f202-c818" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9699,7 +9643,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f27e-ea67-0cc1-c555" name="Rebel Officer†" hidden="false" collective="false" type="model">
+        <selectionEntry id="f27e-ea67-0cc1-c555" name="Rebel Officer" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="9b4d-ff9e-468c-d53e" name="Rebel Officer" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9740,15 +9684,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87c8-387b-27ed-28eb" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f4d5-7b8f-dd46-9dca" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9756,7 +9692,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="19.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c060-98e5-50f8-878f" name="Imperial Officer†" hidden="false" collective="false" type="model">
+        <selectionEntry id="c060-98e5-50f8-878f" name="Imperial Officer" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="4c04-47f4-cbe3-8608" name="Imperial Officer" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9797,15 +9733,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="943f-1577-504b-8f23" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="d058-68ae-e78f-5bf4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9813,7 +9741,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d59f-f02a-d940-3b90" name="Rebel Comms Technician†" hidden="false" collective="false" type="model">
+        <selectionEntry id="d59f-f02a-d940-3b90" name="Rebel Comms Technician" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="2e9d-6a8e-51fa-cd53" name="Rebel Comms Technician" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9839,15 +9767,7 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks>
-            <categoryLink id="028a-ca1e-21a2-a734" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9855,7 +9775,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="19e1-82f8-fa55-6c7c" name="R5 Astromech Droid†" hidden="false" collective="false" type="model">
+        <selectionEntry id="19e1-82f8-fa55-6c7c" name="R5 Astromech Droid" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="33d6-4f34-433a-e15e" name="R5 Astromech Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9896,15 +9816,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5144-a01c-8070-b112" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="8f97-819a-3cbf-c6a5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9912,7 +9824,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7c00-afc2-d87b-6895" name="2-1B Medical Droid†" hidden="false" collective="false" type="model">
+        <selectionEntry id="7c00-afc2-d87b-6895" name="2-1B Medical Droid" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="d301-c041-16d6-55b8" name="2-1B Medical Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9953,15 +9865,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="336b-f5a2-cc58-afcf" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="78b4-40d4-36d7-2b40" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9969,7 +9873,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cfe7-752d-6405-295e" name="Imperial Comms Technician†" hidden="false" collective="false" type="model">
+        <selectionEntry id="cfe7-752d-6405-295e" name="Imperial Comms Technician" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="5f00-30b7-3525-f3c4" name="Imperial Comms Technician" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -9995,15 +9899,7 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks>
-            <categoryLink id="cce8-1a36-735c-d779" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -10011,7 +9907,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f84b-57f8-eef1-9789" name="FX-9 Medical Droid†" hidden="false" collective="false" type="model">
+        <selectionEntry id="f84b-57f8-eef1-9789" name="FX-9 Medical Droid" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="4382-ba6c-1bd5-7585" name="FX-9 Medical Droid†" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -10052,15 +9948,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae2d-521a-3805-450b" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="9c74-e2c6-60ba-87ef" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -10068,7 +9956,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="19.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f3b1-ef5b-6b72-58b8" name="R4 Astromech Droid†" hidden="false" collective="false" type="model">
+        <selectionEntry id="f3b1-ef5b-6b72-58b8" name="R4 Astromech Droid" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="6910-f68b-9007-68d4" name="R4 Astromech Droid" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -10109,15 +9997,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d38-eacf-ae1b-fbdb" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="811e-95ad-ba66-ee7c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -10983,7 +10863,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9bf9-570d-6aa7-f395" name="Comms Relay†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9bf9-570d-6aa7-f395" name="Comms Relay" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="42bf-4218-3926-7490" name="Comms Relay" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Equipment">
               <profiles/>
@@ -11003,15 +10883,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60c1-a627-64f1-423e" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="7eeb-49b3-2f99-cac3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
