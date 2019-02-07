@@ -1749,6 +1749,70 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="af63-e1a9-c8e9-9d8c" name="••Trust Goes Both Ways†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3fc3-93ce-9bd3-4af9" name="••Trust Goes Both Ways" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Jyn Erso"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Jyn Erso &amp; 1 Trooper"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Jyn Erso gains Inspire 2. When Jyn Erso issues an order to another friendly trooper unit, that unit gains Teamwork: Jyn Erso."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d8bc-a5b6-c01b-3aa5" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e993-981b-9b09-0f0f" name="Teamwork: *Unit Name*" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1618-567c-e0b2-c65e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35df-da36-9f34-ea5c" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="cdee-f8e5-ccc4-4a31" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="7093-b567-98e4-d8c5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2251,6 +2315,64 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="89ea-6908-178f-d86e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6af-c3a6-62e9-9eda" name="•••Complete the Mission†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="beb0-e2c8-5397-5cd6" name="•••Complete the Mission" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Jyn Erso"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Jyn Erso"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Jyn Erso gains Low Profile. When a friendly trooper unit is issued an order, it may gain 1 suppression token. When a friendly trooper unit with a faceup order token activates, during its activation, it cannot become panicked or suppressed. At the end of that unit&apos;s activation, it may remove 1 suppression token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b353-4fdb-15ed-28d0" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1618-567c-e0b2-c65e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ead2-719e-74f3-b28b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1bc5-b463-29d7-ea5b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="dda7-0830-8bf4-8a88" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7980,7 +8102,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Quick Thinking, Danger Sense 4, Infiltrate, Nimble, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Training, Gear, Configurable Weapon"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Training, Gear, Weapon"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8196,7 +8318,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Danger Sense 3, Dauntless, Infiltrate"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Configurable Weapon, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Weapon, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8414,7 +8536,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Disciplined 1, Precise 2, Ready 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Configurable Weapon, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Weapon, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -12287,7 +12409,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4a24-39a8-4f98-d844" name="Configurable Weapon" hidden="false" collective="false">
+    <selectionEntryGroup id="4a24-39a8-4f98-d844" name="Weapon" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12297,9 +12419,9 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="2c72-2b52-38a3-35e5" name="A-100†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2c72-2b52-38a3-35e5" name="A-180†" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="a335-90ff-b64c-9341" name="A-100 Pistol Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="a335-90ff-b64c-9341" name="A-180 Pistol Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12309,6 +12431,18 @@
                 <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x2, White"/>
                 <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Pierce 1, Reconfigure"/>
                 <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value=""/>
+              </characteristics>
+            </profile>
+            <profile id="5e6b-03c8-e45a-1aed" name="A-180 Rifle Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black x2, White"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Pierce 1, Reconfigure"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12856,12 +12990,12 @@
       <modifiers/>
       <description>While you have X or more wound tokens, treat your courage value as &quot;--&quot; and gain Charge.</description>
     </rule>
-    <rule id="afb7-f258-6b46-a4b9" name="Teamwork: Han Solo" hidden="false">
+    <rule id="afb7-f258-6b46-a4b9" name="Teamwork: *Unit Name*" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While you are at range 1-2 of Han Solo, when you or Han Solo gains an aim or dodge token, the other unit gains a token of the same type.</description>
+      <description>While you are at range 1-2 of *Unit Name*, when you or *Unit Name* gains an aim or dodge token, the other unit gains a token of the same type.</description>
     </rule>
     <rule id="15b8-8088-8097-6a12" name="Indomitable" hidden="false">
       <profiles/>
