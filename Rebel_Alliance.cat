@@ -253,6 +253,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="01fa-1023-76dd-4f0a" name="•Sabine Wren†" hidden="false" targetId="e639-78c7-1647-af49" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
