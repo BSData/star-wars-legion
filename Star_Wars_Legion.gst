@@ -10312,7 +10312,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Force Ability" characteristicTypeId="e83a-065b-588e-9de7" value="When you issue orders, one of those orders can be issued to any friendly unit on the battlefield."/>
+                <characteristic name="Force Ability" characteristicTypeId="e83a-065b-588e-9de7" value="When you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefield, instead of a unit indicated on the command card."/>
                 <characteristic name="Icons" characteristicTypeId="52e6-1f3c-eac8-636f"/>
               </characteristics>
             </profile>
@@ -12108,7 +12108,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command Phase, you may be issued orders as though you are in range of the nominated commander."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="During the Command Phase, you can be issued orders by a friendly commander or operative regardless of range."/>
                 <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
               </characteristics>
