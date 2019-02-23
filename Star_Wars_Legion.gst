@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="40" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="41" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1168,7 +1168,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c9fb-a488-d661-a85c" name="•Rebellious†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c9fb-a488-d661-a85c" name="•Rebellious" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="9be6-96d9-c648-a510" name="•Rebellious" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1205,13 +1205,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="66b8-d777-5aeb-97ec" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="6d48-a5a2-7994-0e64" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1749,7 +1742,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="af63-e1a9-c8e9-9d8c" name="••Trust Goes Both Ways†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="af63-e1a9-c8e9-9d8c" name="••Trust Goes Both Ways" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="3fc3-93ce-9bd3-4af9" name="••Trust Goes Both Ways" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -1792,13 +1785,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="cdee-f8e5-ccc4-4a31" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="7093-b567-98e4-d8c5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2329,7 +2315,7 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6af-c3a6-62e9-9eda" name="•••Complete the Mission†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f6af-c3a6-62e9-9eda" name="•••Complete the Mission" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="beb0-e2c8-5397-5cd6" name="•••Complete the Mission" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
                   <profiles/>
@@ -2366,13 +2352,6 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="1bc5-b463-29d7-ea5b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="dda7-0830-8bf4-8a88" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -3139,7 +3118,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee"/>
-                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black x3"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x3"/>
                 <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1"/>
                 <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
               </characteristics>
@@ -5049,6 +5028,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
@@ -5274,6 +5260,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -5468,6 +5461,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5670,6 +5670,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5945,6 +5952,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -6139,6 +6153,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6936,6 +6957,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="3"/>
@@ -7127,7 +7155,16 @@
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -7354,6 +7391,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -8167,7 +8211,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1618-567c-e0b2-c65e" name="•Jyn Erso†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1618-567c-e0b2-c65e" name="•Jyn Erso" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="fd27-0c3a-a262-7323" name="Jyn Erso" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -8202,6 +8246,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
@@ -8212,7 +8263,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Quick Thinking, Danger Sense 4, Infiltrate, Nimble, Sharpshooter 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Training, Gear, Weapon"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Command, Training, Gear, Armament"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8284,13 +8335,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8368-65ea-7844-9828" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="cc36-29ed-bbfa-7a1b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8376,7 +8420,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="4878-11a3-c90c-ef2a" name="Rebel Pathfinders" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
           <profiles/>
@@ -8418,6 +8462,20 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedd-d971-eec8-a40a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -8428,7 +8486,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Danger Sense 3, Dauntless, Infiltrate"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Weapon, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Armament, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8485,13 +8543,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9bc5-f14b-868d-d66b" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="71d0-8a63-5f71-efc6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8591,7 +8642,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="68.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe82-164e-5d9b-3724" name="Imperial Death Troopers†" hidden="false" collective="false" type="unit">
@@ -8636,6 +8687,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="4"/>
@@ -8646,7 +8704,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Disciplined 1, Precise 2, Ready 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Weapon, Grenades"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Heavy Weapon, Training, Comms, Gear, Armament, Grenades"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8880,7 +8938,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="2"/>
             <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value="Armor 2, Arsenal 3, Cover 1, Light Transport 1: Open, Speeder 1"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Pilot, Passenger x2, Hardpoint, Comms"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4" value="Pilot, Crew x2, Hardpoint, Comms"/>
           </characteristics>
         </profile>
       </profiles>
@@ -9686,6 +9744,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
@@ -9696,7 +9761,7 @@
             <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="Block"/>
             <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="3"/>
             <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Jump 2, Gunslinger, Impervious, Nimble"/>
-            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Training, Gear x2, Weapon"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Training, Gear x2, Armament"/>
           </characteristics>
         </profile>
       </profiles>
@@ -9894,6 +9959,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10101,7 +10173,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="85.0"/>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="115.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -11884,6 +11956,135 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="eedd-d971-eec8-a40a" name="•Pao†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="d64c-8a4c-47eb-0909" name="Pao" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red, White"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Leader"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value=""/>
+              </characteristics>
+            </profile>
+            <profile id="8eed-8572-26e8-4a47" name="Pao" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Inspire 1."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="36df-ad7c-9da8-803b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="81e3-6f9a-897a-0d29" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="366c-1d23-178b-9949" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79c3-fe6b-c4f9-38d9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="688f-5a68-7e23-a032" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9e23-0d2f-7c9e-5421" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="595c-edab-603b-4af3" name="•Bistan†" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="304d-2b53-a400-0722" name="Bistan" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black, White x4"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1, Ion 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value="Exhaust"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="03c1-ab4f-97bf-1484" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0435-76dd-087a-754e" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="366c-1d23-178b-9949" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f33-ce3d-ea17-854d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32e9-4d12-fdf0-929a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="dae9-2ec1-c3d2-62df" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -12757,7 +12958,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6997-b023-cb85-ddda" name="Strict Orders†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6997-b023-cb85-ddda" name="Strict Orders" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b6ff-553d-d6b9-b3bb" name="Strict Orders" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -12777,15 +12978,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13f8-ec02-2767-d0f6" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="ecff-98ba-3781-70db" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -12927,6 +13120,41 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f0bc-6c79-097c-2202" name="Overwatch" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0367-844c-7d67-8d1e" name="Overwatch" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Sentinel."/>
+                <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="05c4-5da2-5ae2-3208" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0ff-3673-f2c3-1693" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -13015,7 +13243,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4a24-39a8-4f98-d844" name="Weapon" hidden="false" collective="false">
+    <selectionEntryGroup id="4a24-39a8-4f98-d844" name="Armament" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -13025,7 +13253,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="2c72-2b52-38a3-35e5" name="A-180†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2c72-2b52-38a3-35e5" name="A-180" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="a335-90ff-b64c-9341" name="A-180 Pistol Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -13079,15 +13307,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="510c-cd3f-083b-f399" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="1c2f-f790-020e-4f24" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -13095,9 +13315,21 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3bdc-94e1-f107-ce08" name="A-300†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3bdc-94e1-f107-ce08" name="A-300" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="b3da-8a53-278d-63fd" name="A-300 Short Range Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="b3da-8a53-278d-63fd" name="A-300 Long Range Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="White"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Reconfigure"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value=""/>
+              </characteristics>
+            </profile>
+            <profile id="038d-cb2e-71a6-b1bf" name="A-300 Short Range Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13131,15 +13363,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6959-a94e-573f-d491" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="8921-773a-4354-8c6a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
