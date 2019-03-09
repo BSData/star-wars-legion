@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="10" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="11" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -254,6 +254,22 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="01fa-1023-76dd-4f0a" name="•Sabine Wren†" hidden="false" targetId="e639-78c7-1647-af49" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6ca0-d278-8f4f-bc48" name="Tauntaun Riders†" hidden="false" targetId="958f-e019-e7bb-89fb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="98ec-ec54-3e27-f13a" name="Rebel Veterans†" hidden="false" targetId="9046-98aa-f2f3-9867" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
