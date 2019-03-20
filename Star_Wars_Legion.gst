@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="43" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="44" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2048,6 +2048,57 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="a2ff-d6ea-c5a9-489e" name="••Deploy the Garrison†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="559c-bc87-fdb8-70db" name="••Deploy the Garrison" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Director Orson Krennic"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="2 Troopers"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="At the start of the Activation Phase, choose up to 2 friendly trooper units that have faceup order tokens. Each chosen unit may perform a free standby action."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7c06-cdf6-d011-d902" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="419a-0018-f595-2ec8" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5bd5-7b18-cb23-84ef" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="925b-ce1e-84c7-150f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2717,6 +2768,57 @@
                   <constraints/>
                 </categoryLink>
                 <categoryLink id="b787-c1f1-9685-fc26" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="409f-2aa3-18bf-5453" name="•••Annihilation Looms†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7900-8144-d315-e46b" name="•••Annihilation Looms" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Director Orson Krennic"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value="Director Orson Krennic &amp; 2 Units"/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value="Each trooper unit gains 1 suppression token. If it is round 5 or 6, each trooper unit gains 1 additional suppression token."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7c06-cdf6-d011-d902" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="577a-1881-5a0c-8d6e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="386c-e39a-7205-5c83" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="0235-22af-3bf1-0414" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
