@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="45" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="46" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -13639,6 +13639,219 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="01cf-075b-42c8-3b1b" name="DLT-19 Rifle Pintle†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1686-9349-7bdb-e959" name="DLT-19 Rifle Pintle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Impact 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cc77-2107-5de7-6b5f" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e95b-9d47-5248-9b39" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7be5-b518-880b-f434" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e397-223f-0295-cd58" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9ff6-2fcc-36a1-ad8f" name="RT-97C Rifle Pintle†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad65-eb0f-5951-6302" name="RT-97C Rifle Pintle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red, White x3"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value=""/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e95b-9d47-5248-9b39" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c53e-2edf-6390-03e7" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="03b9-2a06-897c-7bc0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="de6b-0504-85b2-8b5f" name="M-45 Ion Blaster†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c878-761e-996f-5ed4" name="M-45 Ion Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-4"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black, White x4"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Fixed: Front, Impact 1, Ion 1"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value="Exhaust"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="13ab-d437-125b-c478" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b118-9cff-12b2-c8e2" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6ae9-99ef-78d4-1595" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="976e-3faa-c0b8-56ba" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d70b-28d4-fc14-42e9" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0cbb-8241-997d-4212" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8d90-dfab-6232-ed21" name="Mark II Medium Blaster†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fbbf-e159-d38d-29aa" name="Mark II Medium Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="1-3"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Black x4"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Fixed: Front"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3a25-4ae2-61f4-9081" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="976e-3faa-c0b8-56ba" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="979b-6371-fd6d-a79d" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8c99-7ba7-8d88-4ead" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
