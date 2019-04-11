@@ -1387,6 +1387,57 @@
                 <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="793c-37c8-4c67-53ca" name="•Hello There!†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d73b-54f2-f92c-b450" name="•Hello There!" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Obi-Wan Kenobi"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value=""/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value=""/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="595e-1631-d059-2372" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f93-d504-3d4b-d7e9" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="8ead-f560-ba9a-7470" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="6f9e-adf9-6647-ff64" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2099,6 +2150,57 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="5bd5-7b18-cb23-84ef" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="97e4-6079-c249-fc46" name="••[Obi-Wan Placeholder]†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="58f9-707f-ff2f-c1ad" name="••[Obi-Wan Placeholder]" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Obi-Wan Kenobi"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value=""/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value=""/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="595e-1631-d059-2372" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b47-eda0-c846-074e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2265-8d94-ee29-7267" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="9c8b-9085-a09e-ccb9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2826,6 +2928,57 @@
               </constraints>
               <categoryLinks>
                 <categoryLink id="386c-e39a-7205-5c83" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9f37-cccc-a4b5-a620" name="•••General Kenobi†" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3705-6080-8e2f-ebc4" name="•••General Kenobi" hidden="false" profileTypeId="76e4-5331-b635-524f" profileTypeName="1.0 Command Cards">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Commander" characteristicTypeId="c37c-423d-ec0a-fdf9" value="Obi-Wan Kenobi"/>
+                    <characteristic name="Orders" characteristicTypeId="0645-af6e-93d9-92c1" value=""/>
+                    <characteristic name="Effect" characteristicTypeId="957b-dc58-3195-2a96" value=""/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="595e-1631-d059-2372" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24f0-0d09-30d0-9ac3" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2832-e742-1a44-8c66" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="4d50-1c2e-2d84-70da" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -12119,6 +12272,250 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="595e-1631-d059-2372" name="•Obi-Wan Kenobi†" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6192-1779-3cf7-8846" name="•Obi-Wan Kenobi" hidden="false" profileTypeId="add8-9503-b851-9d2d" profileTypeName="1.1 Troopers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="a5b5-9e18-969c-7e34" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="a23d-0e2d-dd4d-f538" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="2023-ab5b-e8e1-42c9" value="3"/>
+            <characteristic name="Defense" characteristicTypeId="d709-b540-6ad3-b884" value="Red"/>
+            <characteristic name="Attack Surge" characteristicTypeId="62c7-6e08-5a25-baca" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="8aca-49b2-7bf4-fdec" value="--"/>
+            <characteristic name="Speed" characteristicTypeId="0c97-ed56-7e7b-1e9f" value="2"/>
+            <characteristic name="Keywords" characteristicTypeId="9940-b5a3-802f-9825" value="Jump 1, Charge, Guardian 3, Immune: Pierce, Master of the Force 1, Soresu Mastery"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="4381-84d3-c939-9df5" value="Force x2, Command, Training"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0d23-dc9b-3334-cf99" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7f2-b5be-1401-dd51" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2912-947a-38af-1de1" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="019d-c476-4152-b603" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e33b-1bfd-81e8-34e7" name="Soresu Mastery" hidden="false" targetId="44a2-37c3-fabc-610a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="439e-c3f0-90fc-89d7" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1f2-4c3c-1185-73f0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="790e-2732-4eb3-164a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f102-7764-34b1-dc21" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3614-9f17-005e-8ac6" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="13ca-2f32-0006-5a70" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b43d-adf5-4273-623e" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1865-da27-d3c4-917b" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ada7-5ed8-5389-f3a0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8039-c5e1-40fe-e991" name=" Obi-Wan&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5fe9-e6f8-16ab-6614" name=" Obi-Wan&apos;s Lightsaber" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="3ab1-6127-1998-0e2d" value="Melee"/>
+                <characteristic name="Attack Dice" characteristicTypeId="2dc1-4c70-fc3b-24dc" value="Red x2, Black x2, White x2"/>
+                <characteristic name="Keywords" characteristicTypeId="c0ef-04da-1be6-73ae" value="Critical 2, Impact 2, Pierce 2"/>
+                <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="59ba-b294-7bfb-a5bb" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="074d-0133-805e-66af" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a2ed-d922-a87c-4553" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a86-bfa4-1a62-0447" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e8c-362b-641e-aba2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3f25-6c1f-d491-9a00" name="Force" hidden="false" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="35a9-6146-a3e0-44d0" name="Command" hidden="false" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="90cf-3204-13c5-e662" name="Training" hidden="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder†" hidden="true" collective="false" type="unit">
+      <profiles>
+        <profile id="c742-36a0-b2f1-7a8c" name="BARC Speeder" hidden="false" profileTypeId="5f75-fcdc-0366-0628" profileTypeName="1.2 Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Models" characteristicTypeId="621a-0141-7be7-8335" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="eee7-55c8-4a95-6177" value="1"/>
+            <characteristic name="Resilience" characteristicTypeId="8f53-abe0-8322-e7d2" value="1"/>
+            <characteristic name="Defense" characteristicTypeId="a098-86b4-db8f-c431" value="Red"/>
+            <characteristic name="Attack Surge" characteristicTypeId="8bb0-caac-b4b4-82cd" value="--"/>
+            <characteristic name="Defense Surge" characteristicTypeId="1ca6-e726-090a-340d" value="--"/>
+            <characteristic name="Speed" characteristicTypeId="4f1a-9937-f30d-051a" value="3"/>
+            <characteristic name="Keywords" characteristicTypeId="b524-8c1f-51b8-94fa" value=""/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="7374-8d85-f1fe-aee4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b571-e563-e970-eda6" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9510-6572-6230-10dc" name="Force" hidden="false" collective="false">
@@ -16867,6 +17264,13 @@
       <infoLinks/>
       <modifiers/>
       <description>While converting offensive surges, change up to X Surge results to Critical results.</description>
+    </rule>
+    <rule id="44a2-37c3-fabc-610a" name="Soresu Mastery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While defending or using Guardian, if you spend a dodge token, you gain &quot;Defense Surge: Block&quot; and the attacker suffers 1 wound for each Surge rolled.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
