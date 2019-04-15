@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="48" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="49" battleScribeVersion="2.01" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -15801,7 +15801,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Attack Surge: Critical."/>
+                <characteristic name="Upgrade Ability" characteristicTypeId="cecf-8e4a-c196-58bc" value="You gain Attack Surge: Hit."/>
                 <characteristic name="Keywords" characteristicTypeId="7559-cfee-de60-8256" value=""/>
                 <characteristic name="Icons" characteristicTypeId="e197-655b-7f5d-1f42" value=""/>
               </characteristics>
