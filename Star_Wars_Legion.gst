@@ -9670,9 +9670,9 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="67c9-cdb8-e19a-069f" name=" E-110 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="67c9-cdb8-e19a-069f" name=" E-11D Blaster Rifle" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5a57-48c5-f2c7-e73c" name=" E-110 Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="5a57-48c5-f2c7-e73c" name=" E-11D Blaster Rifle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -16369,9 +16369,9 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aaf8-3be9-6511-2a1b" name="E-110" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="aaf8-3be9-6511-2a1b" name="E-11D" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="c1bc-d4fd-4497-0d52" name="E-110 Grenade Launcher Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="c1bc-d4fd-4497-0d52" name="E-11D Grenade Launcher Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -16383,7 +16383,7 @@
                 <characteristic name="Icons" characteristicTypeId="7c32-f1fd-0053-e544" value="Exhaust"/>
               </characteristics>
             </profile>
-            <profile id="e593-ecf3-a039-3147" name="E-110 Focused Fire Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
+            <profile id="e593-ecf3-a039-3147" name="E-11D Focused Fire Config" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
               <rules/>
               <infoLinks/>
