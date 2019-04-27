@@ -9786,7 +9786,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="76.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="976e-3faa-c0b8-56ba" name="X-34 Landspeeder†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="976e-3faa-c0b8-56ba" name="X-34 Landspeeder" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="8297-7529-7836-87ab" name="X-34 Landspeeder" hidden="false" profileTypeId="5f75-fcdc-0366-0628" profileTypeName="1.2 Vehicles">
           <profiles/>
@@ -9885,13 +9885,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1fcf-3ed1-74db-1b2d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9637-8852-82b4-832d" name=" Driver&apos;s DH-17 Blaster Pistol" hidden="false" collective="false" type="upgrade">
@@ -9970,7 +9963,7 @@
         <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e95b-9d47-5248-9b39" name="TX-225 GAVw Occupier Combat Assault Tank†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="e95b-9d47-5248-9b39" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="f451-3666-e73e-f1e0" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" profileTypeId="5f75-fcdc-0366-0628" profileTypeName="1.2 Vehicles">
           <profiles/>
@@ -10070,13 +10063,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="08b6-26c6-3de7-90d5" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="006d-8483-90b1-32c5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12706,7 +12692,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="21c4-e298-a95a-e987" name="Anger†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="21c4-e298-a95a-e987" name="Anger" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="4066-beb2-eedd-64ff" name="Anger" hidden="false" profileTypeId="def8-2ae7-1d1c-8ff8" profileTypeName="4.1 Force">
               <profiles/>
@@ -12733,15 +12719,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a30-4949-daa5-9794" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="128a-203d-9598-ea61" name="New CategoryLink" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15295,7 +15273,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="01cf-075b-42c8-3b1b" name="DLT-19 Rifle Pintle†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="01cf-075b-42c8-3b1b" name="DLT-19 Rifle Pintle" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="1686-9349-7bdb-e959" name="DLT-19 Rifle Pintle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -15331,15 +15309,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7be5-b518-880b-f434" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="e397-223f-0295-cd58" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15347,7 +15317,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9ff6-2fcc-36a1-ad8f" name="RT-97C Rifle Pintle†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9ff6-2fcc-36a1-ad8f" name="RT-97C Rifle Pintle" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="ad65-eb0f-5951-6302" name="RT-97C Rifle Pintle" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -15376,15 +15346,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c53e-2edf-6390-03e7" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="03b9-2a06-897c-7bc0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15392,7 +15354,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="de6b-0504-85b2-8b5f" name="M-45 Ion Blaster†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="de6b-0504-85b2-8b5f" name="M-45 Ion Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="c878-761e-996f-5ed4" name="M-45 Ion Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -15440,15 +15402,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d70b-28d4-fc14-42e9" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="0cbb-8241-997d-4212" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15456,7 +15410,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8d90-dfab-6232-ed21" name="Mark II Medium Blaster†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8d90-dfab-6232-ed21" name="Mark II Medium Blaster" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="fbbf-e159-d38d-29aa" name="Mark II Medium Blaster" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -15492,15 +15446,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="979b-6371-fd6d-a79d" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="8c99-7ba7-8d88-4ead" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15624,7 +15570,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b31f-0858-4928-9ea7" name="•Ryder Azadi†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b31f-0858-4928-9ea7" name="•Ryder Azadi" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="138f-f488-6f72-7fd8" name="Ryder Azadi" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -15660,15 +15606,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="140d-ca5c-b471-9a8f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d1e0-2040-ec13-52f8" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="e8c5-899d-6b4b-3701" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15676,7 +15614,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="955b-b889-d0c6-67fe" name="•First Sergeant Arbmab†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="955b-b889-d0c6-67fe" name="•First Sergeant Arbmab" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="aeea-dd83-e28e-7392" name="First Sergeant Arbmab" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -15719,15 +15657,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4f4-39ce-1451-6f19" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6116-6edf-bd39-08dd" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="026c-6599-7cda-9cba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15735,7 +15665,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7d10-fcf9-3b39-6aff" name="Outer Rim Speeder Jockey†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7d10-fcf9-3b39-6aff" name="Outer Rim Speeder Jockey" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="d878-8ef7-416a-35f0" name="Outer Rim Speeder Jockey" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -15777,15 +15707,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62df-dd3a-6b92-eb03" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="8e4b-c987-ddf6-c910" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -15793,7 +15715,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d66d-d77d-7e0d-2ca5" name="Imperial Hammers Elite Armor Pilot†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d66d-d77d-7e0d-2ca5" name="Imperial Hammers Elite Armor Pilot" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="6209-b524-0728-fac7" name="Imperial Hammers Elite Armor Pilot" hidden="false" profileTypeId="7b29-30f9-05bf-a8e1" profileTypeName="3.1 Upgrade">
               <profiles/>
@@ -15835,15 +15757,7 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="697a-b7fc-223c-8130" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="97a4-5ca7-f69d-1a36" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -16584,7 +16498,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="159f-8553-9be9-ed35" name="A-300 Rifle Gunner†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="159f-8553-9be9-ed35" name="A-300 Rifle Gunner" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="fb6e-22bc-0d41-405b" name="A-300 Rifle Gunner" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -16605,15 +16519,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8de0-5e22-3d7c-13ef" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="34b6-14c9-bb2a-e7e9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -16621,7 +16527,7 @@
             <cost name=" Points" costTypeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="608f-264a-6ead-faf3" name="RPS-6 Rocket Gunner†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="608f-264a-6ead-faf3" name="RPS-6 Rocket Gunner" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="f9a5-795d-689e-cfac" name="RPS-6 Rocket Gunner" hidden="false" profileTypeId="815e-1bb1-5ddf-34f7" profileTypeName="2.1 Attacks">
               <profiles/>
@@ -16649,15 +16555,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a7c-5bc9-aad9-ecfb" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="7534-188a-4fb9-0964" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
