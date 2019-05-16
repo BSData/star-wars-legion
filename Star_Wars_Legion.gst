@@ -6465,7 +6465,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f5a-ae88-7a4a-fe36" type="max"/>
           </constraints>
           <profiles>
-            <profile id="48cb-ebaa-21ca-8d70" name="Personal Combat Shield†" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+            <profile id="48cb-ebaa-21ca-8d70" name="Personal Combat Shield" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Shielded 1 and Recharge 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -6482,6 +6482,33 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a8de-ecdf-b12b-822c" name="Electro Grappling Line†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e639-78c7-1647-af49" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4e7-7f6b-2e23-c4c3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8fca-b02a-8e80-e968" name="Electro Grappling Line" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Shielded 1 and Recharge 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">→ Choose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilize tokens and 2 suppression tokens.</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="5cc0-b53a-7bd9-d6de" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
