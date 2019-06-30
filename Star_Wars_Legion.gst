@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="52" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="53" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -88,6 +88,7 @@
     <categoryEntry id="509e-5ffe-1bbb-5ff7" name="Separatist" hidden="false"/>
     <categoryEntry id="ce68-baa2-9223-05d7" name="Clone Trooper" hidden="false"/>
     <categoryEntry id="40ed-3197-cf01-9a62" name="Droid Trooper" hidden="false"/>
+    <categoryEntry id="a824-a683-e978-d045" name="Detachment" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -6206,6 +6207,125 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper†" hidden="true" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="b4fd-2961-5409-7437" value="1">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9046-98aa-f2f3-9867" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9046-98aa-f2f3-9867" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4fd-2961-5409-7437" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b791-d83b-ee7d-2e4e" name="Mark II Medium Blaster Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <characteristics>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Sentinel, Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df7e-2cc2-fde2-e486" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
+        <infoLink id="193d-4591-1480-d551" name="Detachment: *Unit Name*" hidden="false" targetId="8870-40bf-20d5-ee78" type="rule"/>
+        <infoLink id="2d50-536a-9b71-3480" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
+        <infoLink id="e279-05fc-f31f-9225" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule"/>
+        <infoLink id="0ee5-72ac-1130-318b" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2dba-71d0-0d32-584f" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="25fc-5848-6a75-23ce" name="Detachment" hidden="false" targetId="a824-a683-e978-d045" primary="false"/>
+        <categoryLink id="55f9-cfda-ccb8-0432" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
+        <categoryLink id="7486-2757-62bd-cffa" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="fa1a-5658-22fa-4007" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
+        <categoryLink id="67d2-bfed-7f6e-a136" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="6eeb-7f77-a200-8a89" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="15d9-cc0a-4c3b-674e" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03a8-545d-fcfd-47f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0154-19d2-ad81-2590" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bec3-61bd-b8e8-dea7" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fbbb-8179-44d7-9b88" name="Mark II Medium Blaster" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="905b-1795-ddd5-ec16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f060-85e1-491a-417d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e7cb-74fd-63d3-0cd8" name="Mark II Medium Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x4</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Cumbersome, Fixed: Front, Critical 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e674-bc1b-21a9-bc04" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
+            <infoLink id="77ea-97db-c69a-179a" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+            <infoLink id="bf8a-a09d-73cc-b1a9" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2b53-cf48-e459-f7f2" name="Comms" hidden="false" collective="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="5deb-c239-a2bc-026e" name=" Unarmed" hidden="false" collective="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c715-90a3-8247-a80e" name="DF-90 Mortar Trooper†" hidden="true" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93ae-7e4e-fdfb-a409" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <characteristics>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884"/>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca"/>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec"/>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f"/>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825"/>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6f5b-1065-bec9-85ad" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9510-6572-6230-10dc" name="Force" hidden="false" collective="false">
@@ -7546,6 +7666,37 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f67f-0fa0-88ed-dc20" name="CM-O/93 Trooper†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9046-98aa-f2f3-9867" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e158-8c04-ac82-343b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="90cf-54d4-aee0-6e16" name="CM-O/93 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x4</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d83e-0d9e-13cc-df69" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="c7e5-81fa-0414-29a2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8893,6 +9044,7 @@
     <rule id="44a2-37c3-fabc-610a" name="Soresu Mastery" hidden="false">
       <description>While defending or using Guardian, if you spend a dodge token, you gain &quot;Defense Surge: Block&quot; and the attacker suffers 1 wound for each Surge rolled.</description>
     </rule>
+    <rule id="8870-40bf-20d5-ee78" name="Detachment: *Unit Name*" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
