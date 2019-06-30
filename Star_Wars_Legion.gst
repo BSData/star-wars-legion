@@ -666,7 +666,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aadf-2fdd-e725-1d16" name="•Explosions†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="aadf-2fdd-e725-1d16" name="•Explosions" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -699,13 +699,12 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="96d3-0421-1840-4aa3" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="c012-d224-f892-12b7" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fc61-9df6-7672-1434" name="•Merciless Munitions†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fc61-9df6-7672-1434" name="•Merciless Munitions" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -738,7 +737,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="5024-896b-a59f-d658" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="e893-c17a-d1fc-6b49" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1116,7 +1114,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bda6-aea1-6f89-9306" name="••Symbol of Rebellion†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="bda6-aea1-6f89-9306" name="••Symbol of Rebellion" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1138,13 +1136,12 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="5fc9-f876-449e-2b53" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="f0a4-d08c-3444-9160" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e105-b078-9284-2054" name="••Reptilian Rampage†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e105-b078-9284-2054" name="••Reptilian Rampage" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1166,7 +1163,6 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="86e2-1c06-766e-e2ea" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="10b8-75a3-ce1d-4846" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1567,7 +1563,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a43c-5262-1a54-9cc4" name="•••Legacy of Mandalore†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a43c-5262-1a54-9cc4" name="•••Legacy of Mandalore" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1592,13 +1588,12 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="4b53-947f-9d7f-168c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="fc82-3a72-3700-3952" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7d5a-c0ce-e02e-42ce" name="•••Lying in Wait†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="7d5a-c0ce-e02e-42ce" name="•••Lying in Wait" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1623,7 +1618,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="6f31-cee0-26e5-34bc" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="b787-c1f1-9685-fc26" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -5302,7 +5296,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e639-78c7-1647-af49" name="•Sabine Wren†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="e639-78c7-1647-af49" name="•Sabine Wren" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4218-8450-9b01-ff46" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fcc1-8966-d9a5-e272" type="max"/>
@@ -5376,7 +5370,6 @@
         <categoryLink id="e50f-096d-ed52-c398" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="04d6-9dbd-a432-5653" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="ded0-d84a-eb87-f4e7" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="c855-5dc7-696d-a78c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e44b-9727-6c16-caaa" name=" Combat Expertise" hidden="false" collective="false" type="upgrade">
@@ -5427,7 +5420,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6343-17f7-33c3-08f2" name="•Bossk†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6343-17f7-33c3-08f2" name="•Bossk" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff51-cc58-ffa3-682c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a7f-6ec8-d357-5527" type="max"/>
@@ -5482,7 +5475,6 @@
         <categoryLink id="bb23-0c7f-9f77-bc67" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="88e9-bb09-e41a-e00f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="0fed-dfa3-24e6-08e9" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="476a-b2cb-5616-5bb4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fd08-3e8f-50d1-33ed" name=" Frenzy" hidden="false" collective="false" type="upgrade">
@@ -6573,7 +6565,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c232-0699-d542-69d2" name="Personal Combat Shield†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c232-0699-d542-69d2" name="Personal Combat Shield" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6597,14 +6589,11 @@
             <infoLink id="909d-e3e1-5469-87b4" name="Shielded X" hidden="false" targetId="0515-3f69-586d-60d0" type="rule"/>
             <infoLink id="f042-5ffd-c693-59c2" name="Recharge X" hidden="false" targetId="e453-4644-25ec-b759" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="3351-f1b3-0af3-caf8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8de-ecdf-b12b-822c" name="Electro Grappling Line†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a8de-ecdf-b12b-822c" name="Electro Grappling Line" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6624,9 +6613,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="5cc0-b53a-7bd9-d6de" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
@@ -7500,7 +7486,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5680-5659-b89a-0a90" name="Arm X: Charge Type" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
+            <infoLink id="5680-5659-b89a-0a90" name="Arm X: *Charge Type*" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
             <infoLink id="830e-227f-79df-ea2e" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
             <infoLink id="314a-57fb-21f2-f325" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
@@ -8461,7 +8447,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4f8a-347e-f5cc-d8aa" name="Endurance†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4f8a-347e-f5cc-d8aa" name="Endurance" hidden="false" collective="false" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f7d-1c7c-a5c5-1ebe" type="max"/>
           </constraints>
@@ -8474,9 +8460,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="22dc-4eb5-ccf9-1bbc" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
@@ -8666,7 +8649,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cbaa-0096-0a5d-9675" name="•The Darksaber†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cbaa-0096-0a5d-9675" name="•The Darksaber" hidden="false" collective="false" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8700,9 +8683,6 @@
             <infoLink id="78dc-7a99-5ec5-a234" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
             <infoLink id="2458-61eb-481e-1cfc" name="Dauntless" hidden="false" targetId="e30f-0dd3-f201-316a" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="b5cc-d2ac-5929-7d12" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
