@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="53" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="54" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -89,6 +89,7 @@
     <categoryEntry id="ce68-baa2-9223-05d7" name="Clone Trooper" hidden="false"/>
     <categoryEntry id="40ed-3197-cf01-9a62" name="Droid Trooper" hidden="false"/>
     <categoryEntry id="a824-a683-e978-d045" name="Detachment" hidden="false"/>
+    <categoryEntry id="8f23-7df3-e89c-3a4f" name="Sidecar" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -308,7 +309,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c0b-ab78-5449-b1c2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a955-89ae-fc32-ea9c" name="•Son of Skywalker" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="a955-89ae-fc32-ea9c" name="•Son of Skywalker" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Luke Skywalker</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Luke Skywalker</characteristic>
@@ -328,7 +329,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbb8-4de4-f285-1c8c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="84ea-ce9c-a6c3-ceda" name="•Ambush" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="84ea-ce9c-a6c3-ceda" name="•Ambush" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Unit</characteristic>
@@ -355,7 +356,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40ab-752a-9599-e8b1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fb76-b1bb-3029-11c4" name="•Implacable" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="fb76-b1bb-3029-11c4" name="•Implacable" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
@@ -382,7 +383,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea2d-0749-6171-dbb9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="933d-d470-eeed-e584" name="•Maximum Firepower" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="933d-d470-eeed-e584" name="•Maximum Firepower" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">General Veers</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">General Veers</characteristic>
@@ -783,7 +784,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb69-9cc1-d198-d776" type="max"/>
               </constraints>
               <profiles>
-                <profile id="37f0-1422-39e4-6324" name="••Push" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="37f0-1422-39e4-6324" name="••Push" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Units</characteristic>
@@ -810,7 +811,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c384-01c4-5ca9-0d4b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3529-1e0d-7c17-12bd" name="••My Ally Is the Force" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="3529-1e0d-7c17-12bd" name="••My Ally Is the Force" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Luke Skywalker</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
@@ -837,7 +838,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b37a-04b1-d8d2-17c6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8c04-0680-3356-54a3" name="••New Ways to Motivate Them" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="8c04-0680-3356-54a3" name="••New Ways to Motivate Them" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
@@ -1236,7 +1237,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="880c-59df-630c-690a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="04c7-0018-7b8f-26da" name="•••Assault" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="04c7-0018-7b8f-26da" name="•••Assault" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">3 Units</characteristic>
@@ -1263,7 +1264,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d59e-5f1b-b113-f250" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4d5a-6b7c-e318-f8d5" name="•••Return of the Jedi" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="4d5a-6b7c-e318-f8d5" name="•••Return of the Jedi" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Luke Skywalker</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Luke Skywalker &amp; 2 Units</characteristic>
@@ -1290,7 +1291,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b147-7717-abd3-4cee" type="max"/>
               </constraints>
               <profiles>
-                <profile id="16a9-8b1e-1066-b10f" name="•••Master of Evil" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="16a9-8b1e-1066-b10f" name="•••Master of Evil" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader &amp; 2 Units</characteristic>
@@ -1692,7 +1693,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="12a2-a8c0-9caf-c00e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f14c-6bc6-fbe2-4f2f" name="••••Standing Orders" hidden="false" typeId="76e4-5331-b635-524f" typeName="8.1 Command Cards">
+                <profile id="f14c-6bc6-fbe2-4f2f" name="••••Standing Orders" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Unit</characteristic>
@@ -6176,27 +6177,84 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder†" hidden="true" collective="false" type="unit">
+    <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder†" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="c742-36a0-b2f1-7a8c" name="BARC Speeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.2 Vehicles">
+          <modifiers>
+            <modifier type="decrement" field="4f1a-9937-f30d-051a" value="1">
+              <conditions>
+                <condition field="selections" scope="3340-5506-fd20-70b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f23-7df3-e89c-3a4f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
-            <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">1</characteristic>
-            <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">1</characteristic>
+            <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">5</characteristic>
+            <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">3</characteristic>
             <characteristic name="Defense" typeId="a098-86b4-db8f-c431">Red</characteristic>
-            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">Hit</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">--</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">3</characteristic>
-            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa"/>
-            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4"/>
+            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Arsenal 2, Cover 1, Speeder 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Crew, Comms</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="08f7-03d3-548d-6d61" name="Arsenal X" hidden="false" targetId="1397-0314-a3ee-acc2" type="rule"/>
+        <infoLink id="c30f-3814-cf42-135a" name="Cover X" hidden="false" targetId="99c4-94e0-7110-4e99" type="rule"/>
+        <infoLink id="3aac-de44-1d15-5083" name="Speeder X" hidden="false" targetId="f4bf-508a-a537-1ce7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b571-e563-e970-eda6" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="8132-a63b-e169-5d08" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
+        <categoryLink id="b03f-df09-3833-2c85" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="e668-fd45-f691-3d4f" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+        <categoryLink id="48d5-0638-ab75-6108" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="984a-d7f2-29c1-9eba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a3a9-2ac8-9989-eabf" name=" Twin Light Blaster Cannon" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c16-bc1e-1a1e-0574" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54a4-17f3-a6fc-8ec8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1267-47ab-1086-fb51" name=" Twin Light Blaster Cannon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Fixed: Front</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9611-0351-6761-60bb" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1bc4-d2ff-5494-f8e8" name=" DC-15A Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="843f-df5d-08be-235d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b45-162f-5ac1-0eed" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c341-26aa-e45a-641f" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7edb-ef39-3f48-f64a" name="Comms" hidden="false" collective="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="820f-a168-26db-9ad8" name="Crew" hidden="false" collective="false" targetId="d746-6c9e-b4ca-bd90" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper†" hidden="true" collective="false" type="unit">
@@ -6225,7 +6283,7 @@
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Sentinel, Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition, Sentinel</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms</characteristic>
           </characteristics>
         </profile>
@@ -6259,17 +6317,17 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fbbb-8179-44d7-9b88" name="Mark II Medium Blaster" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="fbbb-8179-44d7-9b88" name=" Mark II Medium Blaster" hidden="false" collective="false" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="905b-1795-ddd5-ec16" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f060-85e1-491a-417d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e7cb-74fd-63d3-0cd8" name="Mark II Medium Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="e7cb-74fd-63d3-0cd8" name=" Mark II Medium Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x4</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Cumbersome, Fixed: Front, Critical 2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 2, Cumbersome, Fixed: Front</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -6337,7 +6395,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ade3-e67c-e59e-ef69" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dd69-eba7-7a78-0d2f" name="Force Choke" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="dd69-eba7-7a78-0d2f" name="Force Choke" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose a non-commander, non-operative enemy trooper mini at range 1. It suffers 1 wound.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
@@ -6353,7 +6411,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99b6-caac-ba42-ba8c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e11b-4f01-7ec9-24f7" name="Force Push" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="e11b-4f01-7ec9-24f7" name="Force Push" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose an enemy trooper unit at range 1. Perform a speed 1 move with that unit, even if it is engaged.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
@@ -6369,7 +6427,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8af-c50d-89f6-c149" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f74c-025f-e437-ccf0" name="Force Reflexes" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="f74c-025f-e437-ccf0" name="Force Reflexes" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Gain 1 dodge token.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
@@ -6385,7 +6443,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db38-8039-fd40-2ae6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac9d-0698-3b9c-b67c" name="Saber Throw" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="ac9d-0698-3b9c-b67c" name="Saber Throw" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">→ Choose 1 of your melee weapons. Perform a ranged attack with that weapon against an enemy at range 1-2, using half of that weapon&apos;s dice, rounded up. This is treated as an attack action.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
@@ -6401,7 +6459,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f27-1ff8-c033-e178" type="max"/>
           </constraints>
           <profiles>
-            <profile id="22b8-8a3e-5e5e-0cb0" name="Battle Meditation" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="22b8-8a3e-5e5e-0cb0" name="Battle Meditation" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">When you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefield, instead of a unit indicated on the command card.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
@@ -6424,7 +6482,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a2c-be61-7bb9-8569" type="max"/>
           </constraints>
           <profiles>
-            <profile id="786c-3b93-0387-8a9d" name="Jedi Mind Trick" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force Powers">
+            <profile id="786c-3b93-0387-8a9d" name="Jedi Mind Trick" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose an enemy trooper unit at range 1-2. It gains 2 suppression tokens.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
@@ -6470,7 +6528,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4831-b1b6-2a45-3fd0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9726-2801-bfad-e943" name="Targeting Scopes" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Gear">
+            <profile id="9726-2801-bfad-e943" name="Targeting Scopes" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Precise 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -6490,7 +6548,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81dd-39af-4982-abdc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="05a7-f57e-54d2-03a4" name="Grappling Hooks" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="05a7-f57e-54d2-03a4" name="Grappling Hooks" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Expert Climber.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -7671,7 +7729,7 @@
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x4</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 2</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7698,7 +7756,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2d4-b95f-6278-294c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2bf5-ce80-6152-57f0" name="Long Range Comlink" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="2bf5-ce80-6152-57f0" name="Long Range Comlink" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Command Phase, you can be issued orders by a friendly commander or operative regardless of range.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -7715,7 +7773,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4353-404a-c95b-ff11" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7dec-7770-2f96-99b9" name="Comms Jammer" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="7dec-7770-2f96-99b9" name="Comms Jammer" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Enemy units at range 1 cannot be issued orders, unless they are issuing an order to themselves.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -7749,7 +7807,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60c1-a627-64f1-423e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="42bf-4218-3926-7490" name="Comms Relay" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="42bf-4218-3926-7490" name="Comms Relay" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When you would be issued an order, you may choose a friendly unit at range 1-2. Issue an order to the chosen unit instead.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -8323,7 +8381,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b2b-27c9-61bc-72f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When issuing orders, you can issue orders at range 4.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -8340,7 +8398,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff60-c938-45f9-1eac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="eb23-a335-81e4-b24f" name="Esteemed Leader" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Equipment">
+            <profile id="eb23-a335-81e4-b24f" name="Esteemed Leader" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While you are defending, each friendly corps trooper unit at range 1 gains Guardian 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -8726,6 +8784,13 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="159f-8553-9be9-ed35" name="A-300 Rifle Gunner" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="976e-3faa-c0b8-56ba" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8de0-5e22-3d7c-13ef" type="max"/>
           </constraints>
@@ -8744,6 +8809,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="608f-264a-6ead-faf3" name="RPS-6 Rocket Gunner" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="976e-3faa-c0b8-56ba" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a7c-5bc9-aad9-ecfb" type="max"/>
           </constraints>
@@ -8762,6 +8834,35 @@
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a19c-60b9-d0fb-9739" name="BARC Twin Laser Gunner†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3340-5506-fd20-70b5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3036-2313-9005-24a4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2029-547e-f5c2-ca85" name="BARC Twin Laser Gunner" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Fixed: Front, Rear</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="d967-4a0e-f012-18b4" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
+            <categoryLink id="e273-eb5c-60e9-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9025,6 +9126,9 @@
       <description>While defending or using Guardian, if you spend a dodge token, you gain &quot;Defense Surge: Block&quot; and the attacker suffers 1 wound for each Surge rolled.</description>
     </rule>
     <rule id="8870-40bf-20d5-ee78" name="Detachment: *Unit Name*" hidden="false"/>
+    <rule id="592a-de9e-fd7c-10fb" name="Fixed: Front, Rear" hidden="false">
+      <description>The defender must be inside your front or rear arc.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
