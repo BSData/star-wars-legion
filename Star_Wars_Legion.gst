@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="54" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="55" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -1523,7 +1523,7 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Imperial</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">3 Corps Units</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After a friendly corps unit performs a ranged attack, if it spent 1 or more aim tokens, another friendly unit at range 1-2 may gain 1 aim token.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1968,6 +1968,13 @@
     <selectionEntry id="7244-8b48-51ef-c76f" name="AT-RT" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="f07c-56d5-3ca8-63bf" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.2 Vehicles">
+          <modifiers>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="7244-8b48-51ef-c76f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
@@ -2047,6 +2054,13 @@
     <selectionEntry id="5204-6387-80e3-863d" name="74-Z Speeder Bikes" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="0097-8eff-2bb3-01b2" name="74-Z Speeder Bikes" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.2 Vehicles">
+          <modifiers>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="5204-6387-80e3-863d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">2</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">3</characteristic>
@@ -2297,6 +2311,11 @@
                 <condition field="selections" scope="796d-372c-6024-0213" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d10-fcf9-3b39-6aff" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="796d-372c-6024-0213" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
@@ -2372,6 +2391,11 @@
             <modifier type="set" field="8bb0-caac-b4b4-82cd" value="Hit">
               <conditions>
                 <condition field="selections" scope="f8a3-880e-852b-a519" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d66d-d77d-7e0d-2ca5" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="f8a3-880e-852b-a519" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3561,6 +3585,13 @@
     <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a33c-c773-f780-e4ce" name="1.4 FD Laser Cannon Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="0f63-4823-0b22-7775" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
@@ -3660,6 +3691,13 @@
     <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="dc90-d56f-870f-d096" name="E-Web Heavy Blaster Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="f4df-37ce-e988-1e54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
@@ -4915,6 +4953,11 @@
                 <condition field="selections" scope="976e-3faa-c0b8-56ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d10-fcf9-3b39-6aff" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="976e-3faa-c0b8-56ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
@@ -4990,6 +5033,11 @@
             <modifier type="set" field="8bb0-caac-b4b4-82cd" value="Hit">
               <conditions>
                 <condition field="selections" scope="e95b-9d47-5248-9b39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d66d-d77d-7e0d-2ca5" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="e95b-9d47-5248-9b39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6186,6 +6234,11 @@
                 <condition field="selections" scope="3340-5506-fd20-70b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f23-7df3-e89c-3a4f" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="3340-5506-fd20-70b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
@@ -6275,6 +6328,13 @@
       </constraints>
       <profiles>
         <profile id="b791-d83b-ee7d-2e4e" name="Mark II Medium Blaster Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="b3bf-83ff-42d7-4a42" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
@@ -6356,6 +6416,13 @@
       </constraints>
       <profiles>
         <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
+              <conditions>
+                <condition field="selections" scope="c715-90a3-8247-a80e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
@@ -7815,6 +7882,42 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4286-4b76-8c7a-fc97" name="Linked Targeting Array†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="800f-3742-0fdf-e2da" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee3b-cb96-3862-edb2" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1231-e5e0-ce18-e2be" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ff8-eaf9-3b24-0afd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="88e8-a630-2dc3-67f7" name="Linked Targeting Array" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Target 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a3d7-e3aa-9668-90a0" name="Target X" hidden="false" targetId="9daa-4ccf-63bd-7524" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="590c-793d-3f61-3e61" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
