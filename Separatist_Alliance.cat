@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="1" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="158b-7bcd-09d7-ff88" name="Objective Cards" hidden="false" collective="false" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="25aa-7c97-5a4e-f175" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea6d-d9e6-84ab-5b07" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25aa-7c97-5a4e-f175" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e756-6121-c62e-6286" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d2cb-dbea-ec97-1324" name="New CategoryLink" hidden="false" targetId="b249-fbc6-5d4f-8f82" primary="true"/>
+        <categoryLink id="764b-52a9-cd08-3abc" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbb2-a94d-6289-d29e" name="Deployment Cards" hidden="false" collective="false" targetId="1029-5e4f-678b-a9a9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="011a-bf21-c015-a170" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7aaa-8697-cf40-8b2b" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="011a-bf21-c015-a170" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea6d-d9e6-84ab-5b07" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7aaa-8697-cf40-8b2b" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39d0-5db5-2e5d-ed7b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="011a-bf21-c015-a170" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2c58-11ce-aad1-a889" name="New CategoryLink" hidden="false" targetId="b249-fbc6-5d4f-8f82" primary="true"/>
+        <categoryLink id="4889-cb52-cd05-9256" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0d4-eee7-984a-bd8d" name="Condition Cards" hidden="false" collective="false" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="bc3e-76a0-61d5-2d7d" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea6d-d9e6-84ab-5b07" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc3e-76a0-61d5-2d7d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3d5-014e-e20a-eda7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d867-f54c-3d75-165d" name="New CategoryLink" hidden="false" targetId="b249-fbc6-5d4f-8f82" primary="true"/>
+        <categoryLink id="4717-8d23-dfe2-bb07" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6a2e-68c8-c257-cec7" name="B1 Battle Droids†" hidden="false" collective="false" targetId="dbff-85dd-ece7-afbb" type="selectionEntry"/>
+    <entryLink id="b771-4265-8611-314d" name="Droidekas†" hidden="false" collective="false" targetId="5623-5a88-7914-1441" type="selectionEntry"/>
+    <entryLink id="26ff-e900-5cae-faab" name="•General Grievous†" hidden="false" collective="false" targetId="78ba-e4fe-8cb3-7c8e" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
