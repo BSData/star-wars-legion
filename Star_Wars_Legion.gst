@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="55" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="56" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -9581,7 +9581,9 @@
     <rule id="e453-4644-25ec-b759" name="Recharge X" hidden="false">
       <description>When you recover, flip X inactive shield tokens.</description>
     </rule>
-    <rule id="ec20-8113-bafe-4a95" name="Ram X" hidden="false"/>
+    <rule id="ec20-8113-bafe-4a95" name="Ram X" hidden="false">
+      <description>While attacking, if you performed a full standard move at your maximum speed before this attack, you may turn X attack dice to Critical results.</description>
+    </rule>
     <rule id="3a2a-fc8b-8c65-9670" name="Agile X" hidden="false">
       <description>After you perform a standard move, gain X dodge tokens.</description>
     </rule>
