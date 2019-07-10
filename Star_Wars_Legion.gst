@@ -758,11 +758,14 @@
                 <profile id="d73b-54f2-f92c-b450" name="•Hello There!" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Obi-Wan Kenobi</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Obi-Wan Kenobi</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Obi-Wan Kenobi gains Nimble. At the start of the Activation Phase, Obi-Wan Kenobi gains 1 aim, 1 dodge, 1 standby, or 1 surge token for each enemy at range 1-2.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="523e-9d8a-794c-ad61" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="8ead-f560-ba9a-7470" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="6f9e-adf9-6647-ff64" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
@@ -771,7 +774,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a470-6175-2cbc-3fa1" name="•[Grievous Placeholder]†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a470-6175-2cbc-3fa1" name="•Trained in Your Jedi Arts†" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -783,14 +786,27 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4817-4625-c8ca-2f37" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5868-002f-474c-94b2" name="•[Grievous Placeholder]" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                <profile id="5868-002f-474c-94b2" name="•Trained in Your Jedi Arts" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">General Grievous</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">General Grievous</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">General Grievous gains Disengage and 1 dodge token. At the end of his activation, he may perform an attack against each enemy unit at range 1 using the following weapon:</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="64e2-4bce-f0ec-78aa" name="•Trained in Your Jedi Arts" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x2, White</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive, Versatile</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="3bed-4e25-c255-0c44" name="Disengage" hidden="false" targetId="1f57-513a-d262-486b" type="rule"/>
+                <infoLink id="091d-6615-7fd3-63c1" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+                <infoLink id="e0c5-46a1-618e-64de" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="8e5f-e8a0-6ea7-4ec2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="0945-780a-733c-9ffd" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
@@ -1224,7 +1240,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="97e4-6079-c249-fc46" name="••[Obi-Wan Placeholder]†" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="97e4-6079-c249-fc46" name="••Knowledge and Defense†" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1236,11 +1252,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b47-eda0-c846-074e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="58f9-707f-ff2f-c1ad" name="••[Obi-Wan Placeholder]" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                <profile id="58f9-707f-ff2f-c1ad" name="••Knowledge and Defense" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Obi-Wan Kenobi</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Obi-Wan Kenobi gains 1 dodge token for each other friendly trooper unit at range 1. Obi-Wan Kenobi can use Guardian during a melee attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1267,11 +1283,14 @@
                 <profile id="e5b0-46f3-d85e-8ea8" name="••Supreme Commander" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">General Grievous</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">General Grievous gains 1 surge token for each other friendly trooper unit at range 1. While another friendly trooper unit has a faceup order token, it gains Guardian 2 and can use Guardian during a melee attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="beb8-4477-beca-f90f" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="d912-ff67-6d7a-9c6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="e244-4508-9d1c-03c8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
@@ -1722,8 +1741,8 @@
                 <profile id="3705-6080-8e2f-ebc4" name="•••General Kenobi" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Obi-Wan Kenobi</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Obi-Wan Kenobi &amp; 2 Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Obi-Wan Kenobi issues an order to a unit, that unit gains 1 surge token for each other friendly unit at range 1 of it.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1750,8 +1769,8 @@
                 <profile id="309a-2592-2f5f-9bfa" name="•••Crush Them!" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">General Grievous</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">General Grievous &amp; 2 Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When General Grievous issues an order to a unit, that unit gains 1 surge token for each defeated enemy unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1832,6 +1851,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
               <conditions>
                 <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
+              <conditions>
+                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ac-9938-26cd-a3e7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6320,6 +6344,11 @@
                 <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
+              <conditions>
+                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ac-9938-26cd-a3e7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6939,6 +6968,35 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="69ac-9938-26cd-a3e7" name="Hope†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5639-96ef-9aa3-961d" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="19db-6b0d-a0b8-f154" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b92a-7795-4721-86d2" name="Hope" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
+              <characteristics>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">You gain Inspire 1.</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fa4-2a4f-036d-1343" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="d117-06ca-2a3f-b40e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8191,6 +8249,96 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5502-27e3-e9a4-e274" name="DC-15 Phase I Trooper†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="69e1-9f14-aa6b-a027" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e61c-fb74-7b47-5608" name="DC-15 Phase I Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4cba-4d38-393d-2de7" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e644-e9e5-7275-5505" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ae6-e501-8bab-020b" name="E-5C B1 Trooper†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbff-85dd-ece7-afbb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39b3-f075-ff90-6223" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ac7d-4606-768e-3f57" name="E-5C B1 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="381e-be3e-77da-5e15" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a3fd-f140-5b56-1bfb" name="E-60R B1 Trooper†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbff-85dd-ece7-afbb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6b-12f7-7bac-3d40" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5539-e61a-cfbd-4899" name="E-60R B1 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">2-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2790-0425-008f-b5cb" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a0be-028a-47da-cc9c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="bbf8-c77e-246a-d5c6" name="Comms" hidden="false" collective="false">
@@ -8931,6 +9079,26 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a9e3-cccc-28ed-4d49" name="Aggressive Tactics†" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee01-0d2a-7a54-114e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5364-1dad-da32-c611" name="Aggressive Tactics" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While you are the nominated commander, after issuing orders, choose up to 4 friendly units with faceup order tokens. Each chosen unit gains 1 surge token.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="c16e-1207-b5d7-1f4c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="fc8c-6e59-70b2-c76d" name="Training" hidden="false" collective="false">
@@ -9260,6 +9428,39 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="89f9-76d9-c9e1-0bd5" name="•DT-57 &quot;Annihilator&quot;†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78ba-e4fe-8cb3-7c8e" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f403-b66f-9dbc-78df" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a5c9-f6e0-2e15-b770" name="•DT-57 &quot;Annihilator&quot;" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Pierce 1, Versatile</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5a33-0386-57b8-cd52" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+            <infoLink id="61b5-1da2-fd34-36f9" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
+            <infoLink id="b08e-8a01-1302-1a12" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e725-4fe7-0a60-b175" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d746-6c9e-b4ca-bd90" name="Crew" hidden="false" collective="false">
@@ -9346,7 +9547,7 @@
             <categoryLink id="e273-eb5c-60e9-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9636,6 +9837,10 @@
     <rule id="bd82-f4e9-9b2e-c37b" name="Smoke X" hidden="false">
       <description>→ Place X smoke tokens within range 1 and in line of sight of your unit leader.</description>
     </rule>
+    <rule id="1883-2f15-80aa-b25d" name="Versatile" hidden="false">
+      <description>You can perform ranged attacks using this weapon while engaged.</description>
+    </rule>
+    <rule id="1f57-513a-d262-486b" name="Disengage" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
