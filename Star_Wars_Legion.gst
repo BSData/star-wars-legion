@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="56" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="57" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="add8-9503-b851-9d2d" name="1.1 Troopers">
       <characteristicTypes>
+        <characteristicType id="1037-daec-b00d-38d0" name="Subtitle"/>
         <characteristicType id="a5b5-9e18-969c-7e34" name="Models"/>
         <characteristicType id="a23d-0e2d-dd4d-f538" name="Wounds"/>
         <characteristicType id="2023-ab5b-e8e1-42c9" name="Courage"/>
@@ -90,6 +91,7 @@
     <categoryEntry id="40ed-3197-cf01-9a62" name="Droid Trooper" hidden="false"/>
     <categoryEntry id="a824-a683-e978-d045" name="Detachment" hidden="false"/>
     <categoryEntry id="8f23-7df3-e89c-3a4f" name="Sidecar" hidden="false"/>
+    <categoryEntry id="5938-b46b-abe2-3c4f" name="Strike Team" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -300,9 +302,14 @@
             <selectionEntry id="c5a9-2690-9728-f576" name="•Son of Skywalker" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1d4-74ca-26fb-9a72" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -347,9 +354,14 @@
             <selectionEntry id="4450-a5fd-9f3c-8eb7" name="•Implacable" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c88-0bd6-8c12-56d2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -846,9 +858,14 @@
             <selectionEntry id="6e19-d9c7-d8b5-d312" name="••My Ally Is the Force" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1d4-74ca-26fb-9a72" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -873,9 +890,14 @@
             <selectionEntry id="0b94-b96b-859c-7192" name="••New Ways to Motivate Them" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c88-0bd6-8c12-56d2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -1330,9 +1352,14 @@
             <selectionEntry id="f83a-de77-5f49-eb30" name="•••Return of the Jedi" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1d4-74ca-26fb-9a72" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -1357,9 +1384,14 @@
             <selectionEntry id="40bc-4c79-4e53-7218" name="•••Master of Evil" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c88-0bd6-8c12-56d2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -1782,6 +1814,76 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="6a61-3a80-22a1-a6a3" name="•••I am a Jedi†" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1d4-74ca-26fb-9a72" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b303-d1ab-6b3b-b72b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ff92-1e9d-8004-64b7" name="•••I am a Jedi" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Luke Skywalker</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Luke Skywalker</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Luke Skywalker gains &quot;Defense Surge: Block&quot; and cannot perform attacks. When he is issued an order, he may choose up to 2 enemy trooper units at range 1. Those units cannot perform attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="77c8-f50d-f243-6f6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="7e36-58b3-21c8-33f2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3016-bfef-20b2-4120" name="•••Darkness Descends†" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c88-0bd6-8c12-56d2" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1cc-2267-679a-1328" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b466-d523-a5ca-8b81" name="•••Darkness Descends" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Darth Vader is issued an order, he gains 2 surge tokens. This card may be revealed at the start of the Deploy Units step. If it is, it must be selected during round 1. Darth Vader gains Infiltrate and Scout 1, and he must be deployed at the end of setup.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="481e-d41f-8108-741b" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
+                <infoLink id="ec0d-892a-691c-1f77" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d15e-ebea-c646-1acb" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c854-c0ec-efd9-5973" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f4d0-4753-630b-44e9" name="4 Pip Command Cards" hidden="false" collective="false" defaultSelectionEntryId="bbe0-babb-480f-b9a9">
@@ -1821,6 +1923,13 @@
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="7deb-60e8-a3e8-8259" name="•Luke Skywalker" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1d4-74ca-26fb-9a72" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a4e-923d-d02a-7a60" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4855-80c7-366c-138a" type="max"/>
@@ -1860,6 +1969,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hero of the Rebellion</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -2017,6 +2127,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -2243,13 +2354,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e372-3fa8-09ef-a6ac" name="•Darth Vader" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8c88-0bd6-8c12-56d2" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0dbc-9559-c1e8-efab" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfc0-6bb9-e319-dfc2" type="max"/>
       </constraints>
       <profiles>
         <profile id="2a92-8395-2bea-65e4" name="Darth Vader" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
+              <conditions>
+                <condition field="selections" scope="e372-3fa8-09ef-a6ac" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Dark Lord of the Sith</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">8</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">--</characteristic>
@@ -2372,6 +2498,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -2672,6 +2799,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -2755,6 +2883,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Master Tactician</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">5</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -2889,6 +3018,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -2918,7 +3048,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6088-946a-7a3d-e75f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f947-791f-bf0c-a996" name="DH-17 Blaster Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="f947-791f-bf0c-a996" name=" DH-17 Blaster Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
@@ -2992,6 +3122,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Fearless and Inventive</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3112,6 +3243,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Unorthodox General</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3235,6 +3367,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3285,9 +3418,9 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos - Strike Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos " hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos - Strike Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
@@ -3331,6 +3464,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3355,6 +3489,7 @@
         <categoryLink id="299a-ff09-7cfd-f825" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="97e7-45f5-6717-e6a5" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="86ff-8ff6-a40f-d487" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="119e-5b3b-4615-2dd3" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6a15-d8ac-51cc-c080" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -3426,6 +3561,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Infamous Bounty Hunter</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">5</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -3579,6 +3715,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3629,9 +3766,9 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13e5-b1cc-af4b-b33c" name="Scout Troopers - Strike Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="13e5-b1cc-af4b-b33c" name="Scout Troopers " hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6db9-a222-7e62-6be4" name="Scout Troopers - Strike Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="6db9-a222-7e62-6be4" name="Scout Troopers " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -3675,6 +3812,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3699,6 +3837,7 @@
         <categoryLink id="c0b8-32fa-ca11-1d19" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="7ce5-cf84-fcdf-7883" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="e73c-9e9d-2034-8208" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="120b-ca5b-ad81-c0bb" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="183c-d9fb-4993-c939" name=" EC-17 Holdout Blaster" hidden="false" collective="false" type="upgrade">
@@ -3741,6 +3880,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3847,6 +3987,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -3950,7 +4091,15 @@
       </constraints>
       <profiles>
         <profile id="0997-6253-37ac-6f8c" name="Emperor Palpatine" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
+              <conditions>
+                <condition field="selections" scope="e0c2-b41f-4814-9b56" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Ruler of the Galactic Empire</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">5</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">4</characteristic>
@@ -4059,6 +4208,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">2</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4160,6 +4310,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Walking Carpet</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">9</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4279,6 +4430,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4389,6 +4541,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Resolute Commander</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4474,6 +4627,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Ruthless Commander</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4552,11 +4706,6 @@
                 <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
               <conditions>
                 <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
@@ -4592,8 +4741,14 @@
                 <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -4700,6 +4855,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Architect of Terror</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -4802,6 +4958,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Stardust</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -4913,6 +5070,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -5022,6 +5180,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -5568,6 +5727,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Explosive Artist</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">5</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -5672,6 +5832,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Trandoshan Terror</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">7</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -5768,6 +5929,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">2</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -5848,7 +6010,7 @@
     </selectionEntry>
     <selectionEntry id="9046-98aa-f2f3-9867" name="Rebel Veterans†" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="11d3-2af0-6a46-12c8" name="Rebel Veterans†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="11d3-2af0-6a46-12c8" name="Rebel Veterans" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -5912,6 +6074,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -6022,6 +6185,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">4</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -6114,6 +6278,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">6</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -6243,6 +6408,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
@@ -6270,6 +6436,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -6351,6 +6518,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Civilized Warrior</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -6529,6 +6697,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -6604,41 +6773,116 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c715-90a3-8247-a80e" name="DF-90 Mortar Trooper†" hidden="true" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d425-63e3-9405-6b4f" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="93ae-7e4e-fdfb-a409" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d425-63e3-9405-6b4f" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93ae-7e4e-fdfb-a409" type="max"/>
       </constraints>
       <profiles>
         <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
+            <modifier type="set" field="9940-b5a3-802f-9825" value="Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition, Target 2">
               <conditions>
                 <condition field="selections" scope="c715-90a3-8247-a80e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
-            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
-            <characteristic name="Defense" typeId="d709-b540-6ad3-b884"/>
-            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca"/>
-            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec"/>
-            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f"/>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825"/>
-            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5"/>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition, Target 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="70d8-472f-bd09-0191" name="Detachment: *Unit Name*" hidden="false" targetId="8870-40bf-20d5-ee78" type="rule"/>
+        <infoLink id="b033-8b1e-1734-f841" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
+        <infoLink id="9ebd-1378-fcd1-253e" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule"/>
+        <infoLink id="988c-f4f7-73f4-86a7" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
+        <infoLink id="79bf-c874-1443-f0c4" name="Target X" hidden="false" targetId="9daa-4ccf-63bd-7524" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6f5b-1065-bec9-85ad" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="ac60-fb62-4165-e509" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="808b-01f5-8377-b78e" name="Detachment" hidden="false" targetId="a824-a683-e978-d045" primary="false"/>
+        <categoryLink id="605c-6859-faf5-3fab" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
+        <categoryLink id="82e7-3c58-7378-634c" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="f64d-7804-55a9-1a2f" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
+        <categoryLink id="fabe-9534-2206-0ec8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3f7e-c405-532a-b417" name=" E-22 Blaster Rifle" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8239-72e6-8c0f-54be" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c366-30a6-2279-199d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="60be-7573-cf57-df4c" name=" E-22 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d1c2-04c1-da6c-ff56" name="DF-90 Mortar" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc97-2b90-e22a-d394" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c7d-5f26-4851-ef98" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1802-869b-ef23-4be9" name="DF-90 Mortar" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">4+</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive, Cumbersome, Fixed: Front</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c3a6-09e7-da3a-0099" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
+            <infoLink id="4c2f-fdf9-2980-aaaf" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+            <infoLink id="44ba-5d16-5e55-b67b" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="724d-6501-13f5-b274" name="Comms" hidden="false" collective="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="8ae9-0ce4-6969-af9e" name=" Unarmed" hidden="false" collective="false" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5623-5a88-7914-1441" name="Droidekas†" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="f027-5b87-85af-b4e9" name="Droidekas†" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.2 Vehicles">
+        <profile id="f027-5b87-85af-b4e9" name="Droidekas" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.2 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -6722,6 +6966,7 @@
             </modifier>
           </modifiers>
           <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Sinister Cyborg</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">8</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -6809,6 +7054,210 @@
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1d4-74ca-26fb-9a72" name="•Luke Skywalker†" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7deb-60e8-a3e8-8259" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="438b-9f0a-fb11-40db" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36b8-6cb6-b217-016e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cd32-d734-b5ad-87fe" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="d1d4-74ca-26fb-9a72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Jedi Knight</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">7</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">4</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Critical</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Jump 1, Charge, Deflect, Disengage, Immune: Pierce, Master of the Force 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Force x3, Training</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25a7-c070-72ad-1fe9" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
+        <infoLink id="c9ec-c6f7-89ba-8607" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
+        <infoLink id="2467-74ba-5ebd-fb1c" name="Disengage" hidden="false" targetId="1f57-513a-d262-486b" type="rule"/>
+        <infoLink id="0927-f3bf-74c2-ceb4" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
+        <infoLink id="d82f-236e-4f34-9c52" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
+        <infoLink id="832d-d943-a9a6-3a35" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b128-a6fe-db2e-6fa2" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="c932-0d31-dc72-a573" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="236a-22b6-d4c1-f685" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="2d57-1ca3-da3e-c2e0" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="ad6c-9223-c5c8-7bb6" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="4738-5903-c931-fd71" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7415-0fd9-4487-e86e" name=" Luke&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c88b-09e0-ec6f-4767" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf1e-c9d8-4d5c-bc41" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d410-3cbf-275a-6e4f" name=" Luke&apos;s Lightsaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x7</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 2, Pierce 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0f09-2f93-52b8-8ba0" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="7cfa-e9b9-f789-5173" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3cfd-f7be-89a7-88e2" name="Force" hidden="false" collective="false" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="3350-3fa1-ca89-39f0" name="Training" hidden="false" collective="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c88-0bd6-8c12-56d2" name="•Darth Vader†" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e372-3fa8-09ef-a6ac" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b00f-1501-e72b-7a06" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab8-2e49-8300-ba8b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d2a3-db0e-5fa7-68c2" name="Darth Vader " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
+              <conditions>
+                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">The Emperor&apos;s Apprentice</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Deflect, Immune: Pierce, Jedi Hunter, Master of the Force 1, Relentless, Spur</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Force x2, Training</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5381-8c91-b4f8-b411" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
+        <infoLink id="e402-1150-074b-21f6" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
+        <infoLink id="adf5-5a53-2a00-0052" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
+        <infoLink id="d669-35dd-5a04-3975" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
+        <infoLink id="6f20-3d34-ec75-3bba" name="Jedi Hunter" hidden="false" targetId="f68b-2c74-aef3-17f4" type="rule"/>
+        <infoLink id="c117-7cff-8223-9fb9" name="Spur" hidden="false" targetId="cc37-290e-3d87-264b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1a0f-0ef9-e70c-f598" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="be10-8466-a537-d428" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="ebd5-ac8b-2031-6773" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="d2c0-f577-7db0-9576" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="dfdb-6707-98d6-e036" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="d2d1-c044-f27d-938a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ef75-dbbf-3f41-0a07" name=" Vader&apos;s Lightsaber" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ecf-4221-dd99-a7b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae08-2a8b-b9cf-9064" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ebff-91e6-0f48-a904" name=" Vader&apos;s Lightsaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x5</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 3, Pierce 3</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="340a-aeda-ad66-23c7" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="a108-ac12-071c-ebe4" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6423-96eb-e7fc-e2e4" name=" Force Throw" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c29f-c7df-46cf-e748" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d10b-61c5-918b-c14b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ef71-43a7-3c13-8ab9" name=" Force Throw" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Scatter</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="965d-da30-d7e7-29bc" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+            <infoLink id="43fb-ad19-7633-0812" name="Scatter" hidden="false" targetId="6067-c530-5719-30af" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a908-ba5e-4530-0134" name="Training" hidden="false" collective="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="7bbc-6366-b757-e645" name="Force" hidden="false" collective="false" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="2.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6985,7 +7434,7 @@
             <profile id="b92a-7795-4721-86d2" name="Hope" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">You gain Inspire 1.</characteristic>
-                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"></characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6994,6 +7443,35 @@
           </infoLinks>
           <categoryLinks>
             <categoryLink id="d117-06ca-2a3f-b40e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0a89-f0c2-a0df-ca22" name="Fear†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5131-9cfb-0e26-b28b" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d7d-8833-d037-dd08" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="daa4-8996-af5e-f9d0" name="Fear" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
+              <characteristics>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">You gain Demoralize 1.</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6741-f0c1-3356-3042" name="Demoralize X" hidden="false" targetId="a52a-4687-32b7-2633" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="871b-3bf4-764f-995a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
@@ -9841,6 +10319,10 @@
       <description>You can perform ranged attacks using this weapon while engaged.</description>
     </rule>
     <rule id="1f57-513a-d262-486b" name="Disengage" hidden="false"/>
+    <rule id="a52a-4687-32b7-2633" name="Demoralize X" hidden="false">
+      <description>After your rally step, an enemy unit at range 1-2 gains up to X suppression tokens.</description>
+    </rule>
+    <rule id="6067-c530-5719-30af" name="Scatter" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">

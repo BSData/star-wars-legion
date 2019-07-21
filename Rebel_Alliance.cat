@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="12" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="13" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2a10-5c0d-f801-7b5b" name="•Luke Skywalker" hidden="false" collective="false" targetId="7deb-60e8-a3e8-8259" type="selectionEntry"/>
     <entryLink id="358e-96e3-17c2-5d9f" name="Rebel Troopers" hidden="false" collective="false" targetId="af85-fff4-b341-2331" type="selectionEntry"/>
@@ -82,5 +82,6 @@
     <entryLink id="6ca0-d278-8f4f-bc48" name="Tauntaun Riders†" hidden="false" collective="false" targetId="958f-e019-e7bb-89fb" type="selectionEntry"/>
     <entryLink id="98ec-ec54-3e27-f13a" name="Rebel Veterans†" hidden="false" collective="false" targetId="9046-98aa-f2f3-9867" type="selectionEntry"/>
     <entryLink id="919f-4b17-32fe-d57a" name="Mark II Medium Blaster Trooper" hidden="false" collective="false" targetId="b3bf-83ff-42d7-4a42" type="selectionEntry"/>
+    <entryLink id="c0dd-8999-013d-b483" name="•Luke Skywalker†" hidden="false" collective="false" targetId="d1d4-74ca-26fb-9a72" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
