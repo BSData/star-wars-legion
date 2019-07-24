@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="57" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="58" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -10020,12 +10020,81 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="1690-df3d-ba3b-131e" name="Fixed: Front, Rear" hidden="false" targetId="592a-de9e-fd7c-10fb" type="rule"/>
+          </infoLinks>
           <categoryLinks>
             <categoryLink id="d967-4a0e-f012-18b4" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
             <categoryLink id="e273-eb5c-60e9-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="baa6-b355-a3dc-a8f8" name="BARC Ion Gunner†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3340-5506-fd20-70b5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7c5-05b3-8b4a-32b8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e101-09d1-3534-bacb" name="BARC Ion Gunner" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x3, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Fixed: Front, Rear, Impact 1, Ion 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="59ba-869a-0a70-bdfb" name="Fixed: Front, Rear" hidden="false" targetId="592a-de9e-fd7c-10fb" type="rule"/>
+            <infoLink id="4a19-90fb-2360-7950" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="1943-04c4-ed49-41f6" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="6058-f8a2-d2c3-4280" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
+            <categoryLink id="ddeb-8b9e-add8-7979" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05df-d153-db3e-4f34" name="BARC RPS-6 Gunner†" hidden="false" collective="false" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3340-5506-fd20-70b5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="19db-6538-5b12-c37d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="31b1-1856-f10b-c377" name="BARC RPS-6 Gunner" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">2-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3fa7-c83b-743c-25f4" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="928d-b1a5-1d37-e550" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
+            <categoryLink id="802a-29e9-7f29-dcae" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
