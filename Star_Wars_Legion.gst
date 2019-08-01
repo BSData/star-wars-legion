@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="58" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="59" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -6791,7 +6791,7 @@
       <profiles>
         <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition, Target 2">
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
               <conditions>
                 <condition field="selections" scope="c715-90a3-8247-a80e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
               </conditions>
@@ -6806,7 +6806,7 @@
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Detachment: Rebel Veterans, Fire Support, Full Pivot, Reposition, Target 1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Detachment: Shoretroopers, Fire Support, Full Pivot, Reposition, Sentinel</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms</characteristic>
           </characteristics>
         </profile>
@@ -6816,7 +6816,7 @@
         <infoLink id="b033-8b1e-1734-f841" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
         <infoLink id="9ebd-1378-fcd1-253e" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule"/>
         <infoLink id="988c-f4f7-73f4-86a7" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
-        <infoLink id="79bf-c874-1443-f0c4" name="Target X" hidden="false" targetId="9daa-4ccf-63bd-7524" type="rule"/>
+        <infoLink id="79bf-c874-1443-f0c4" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6f5b-1065-bec9-85ad" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
@@ -6855,9 +6855,9 @@
           <profiles>
             <profile id="1802-869b-ef23-4be9" name="DF-90 Mortar" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">4+</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">3-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive, Cumbersome, Fixed: Front</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Suppressive, Cumbersome, Fixed: Front</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -6866,6 +6866,7 @@
             <infoLink id="c3a6-09e7-da3a-0099" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
             <infoLink id="4c2f-fdf9-2980-aaaf" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
             <infoLink id="44ba-5d16-5e55-b67b" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+            <infoLink id="8ee8-89a4-2e72-85b3" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -8817,6 +8818,37 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d720-887d-8b42-3b97" name="T-21B Trooper†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d425-63e3-9405-6b4f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1300-ad80-6729-5347" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c7be-f325-fcb8-a1df" name="T-21B Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0555-c791-5366-ac39" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="72a9-89ee-5f16-3a3c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="bbf8-c77e-246a-d5c6" name="Comms" hidden="false" collective="false">
@@ -9939,6 +9971,66 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="dac5-1dca-ed05-5160" name="RT-97C Blaster Rifle†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10c2-74c2-fcd3-f726" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41df-bc09-1cd8-4cb3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4bf0-ea0c-2651-8e6b" name="RT-97C Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="9841-1fc6-69ef-2819" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f354-c453-edb0-641f" name="CR-24 Flame Rifle†" hidden="false" collective="false" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10c2-74c2-fcd3-f726" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e60c-7945-7598-9cb4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cb79-f548-3209-2afd" name="CR-24 Flame Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Spray</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f7cb-0bc5-9632-4926" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+            <infoLink id="97db-b19b-b750-2f56" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="36e5-1bf2-f066-6d03" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d746-6c9e-b4ca-bd90" name="Crew" hidden="false" collective="false">
@@ -10082,7 +10174,7 @@
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">2-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 2</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
@@ -10379,7 +10471,7 @@
       <description>While attacking a unit that has a Force upgrade icon, you gain &quot;Attack Surge: Critical&quot;.</description>
     </rule>
     <rule id="35a2-2f63-dc24-1c38" name="Scale" hidden="false">
-      <description>Unhindered, Expert Climber, and after performing a climb or clamber action, you may perform a free move.</description>
+      <description>Unhindered, Expert Climber, and when performing a move action, you may perform a free clamber action before performing that move or perform a free clamber action after performing that move.</description>
     </rule>
     <rule id="bd82-f4e9-9b2e-c37b" name="Smoke X" hidden="false">
       <description>→ Place X smoke tokens within range 1 and in line of sight of your unit leader.</description>
