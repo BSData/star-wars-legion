@@ -5974,7 +5974,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="958f-e019-e7bb-89fb" name="Tauntaun Riders†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="958f-e019-e7bb-89fb" name="Tauntaun Riders" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="1709-d8e5-b2ca-d943" name="Tauntaun Riders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -6011,7 +6011,6 @@
         <categoryLink id="f106-27ca-49f8-daa7" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="524f-2dd4-e3b0-e69f" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
         <categoryLink id="aeff-bb2e-93f5-50f4" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="7a25-eec5-6990-59c8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9bd8-7acd-e8c3-4e79" name=" Horns &amp; Hind Claws" hidden="false" collective="false" type="upgrade">
@@ -6064,7 +6063,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9046-98aa-f2f3-9867" name="Rebel Veterans†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9046-98aa-f2f3-9867" name="Rebel Veterans" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="11d3-2af0-6a46-12c8" name="Rebel Veterans" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -6153,7 +6152,6 @@
         <categoryLink id="fbd9-48ad-ab0c-968c" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="2696-2e15-762d-d7d4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="6a0e-a397-296a-c66f" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="8065-c15a-5673-d2ae" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9f22-0bcd-7279-e92b" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -6727,7 +6725,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper†" hidden="true" collective="false" type="unit">
+    <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper" hidden="true" collective="false" type="unit">
       <modifiers>
         <modifier type="increment" field="b4fd-2961-5409-7437" value="1">
           <repeats>
@@ -6780,7 +6778,6 @@
         <categoryLink id="7486-2757-62bd-cffa" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="fa1a-5658-22fa-4007" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
         <categoryLink id="67d2-bfed-7f6e-a136" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="6eeb-7f77-a200-8a89" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="15d9-cc0a-4c3b-674e" name=" A-280 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -8780,7 +8777,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9bd2-086d-4479-cdac" name="Rebel Veteran†" hidden="false" collective="false" type="model">
+        <selectionEntry id="9bd2-086d-4479-cdac" name="Rebel Veteran" hidden="false" collective="false" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8791,9 +8788,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2aa6-c3a1-9b18-e443" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="bfd4-dd43-5e54-e025" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
@@ -9445,7 +9439,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f67f-0fa0-88ed-dc20" name="CM-O/93 Trooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="f67f-0fa0-88ed-dc20" name="CM-O/93 Trooper" hidden="false" collective="false" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9469,9 +9463,6 @@
           <infoLinks>
             <infoLink id="d83e-0d9e-13cc-df69" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="c7e5-81fa-0414-29a2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
