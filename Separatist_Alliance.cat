@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="1" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="2" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="158b-7bcd-09d7-ff88" name="Objective Cards" hidden="false" collective="false" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
       <modifiers>
@@ -65,5 +65,8 @@
     <entryLink id="6a2e-68c8-c257-cec7" name="B1 Battle Droids†" hidden="false" collective="false" targetId="dbff-85dd-ece7-afbb" type="selectionEntry"/>
     <entryLink id="b771-4265-8611-314d" name="Droidekas†" hidden="false" collective="false" targetId="5623-5a88-7914-1441" type="selectionEntry"/>
     <entryLink id="26ff-e900-5cae-faab" name="•General Grievous†" hidden="false" collective="false" targetId="78ba-e4fe-8cb3-7c8e" type="selectionEntry"/>
+    <entryLink id="2d8b-0e3a-1d46-f1f9" name="B2 Super Battle Droids†" hidden="false" collective="false" targetId="d745-571e-8ef8-3724" type="selectionEntry"/>
+    <entryLink id="bf18-c464-5085-df09" name="AAT Trade Federation Battle Tank†" hidden="false" collective="false" targetId="a42e-0405-17d1-d9ab" type="selectionEntry"/>
+    <entryLink id="e0a2-0c31-8977-4f44" name="•Count Dooku†" hidden="false" collective="false" targetId="87d3-a316-11b8-d706" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
