@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="60" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="61" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -4738,7 +4738,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d425-63e3-9405-6b4f" name="Shoretroopers†" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d425-63e3-9405-6b4f" name="Shoretroopers" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="af4f-021f-d934-43e1" name="Shoretroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -4827,7 +4827,6 @@
         <categoryLink id="95d8-7fd2-df8b-2bd2" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="4261-5c57-4e00-ae81" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="f146-0b72-cd03-0820" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="0c8c-0010-83e5-2cda" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="20b6-73ad-16d8-d94a" name=" E-22 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -6825,7 +6824,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c715-90a3-8247-a80e" name="DF-90 Mortar Trooper†" hidden="true" collective="false" type="unit">
+    <selectionEntry id="c715-90a3-8247-a80e" name="DF-90 Mortar Trooper" hidden="true" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -6878,7 +6877,6 @@
         <categoryLink id="605c-6859-faf5-3fab" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
         <categoryLink id="82e7-3c58-7378-634c" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="f64d-7804-55a9-1a2f" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
-        <categoryLink id="fabe-9534-2206-0ec8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3f7e-c405-532a-b417" name=" E-22 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -8726,7 +8724,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="138b-bed2-2e42-3693" name="Shoretrooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="138b-bed2-2e42-3693" name="Shoretrooper" hidden="false" collective="false" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8737,9 +8735,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f78-3c89-c2b3-bb3c" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="9f37-2a47-3784-9175" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
           </costs>
@@ -8846,7 +8841,7 @@
             <profile id="1c8b-5930-2038-9e13" name="B1 Security Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When you activate, lose AI:Attack until the end of this activation.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -9587,7 +9582,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d720-887d-8b42-3b97" name="T-21B Trooper†" hidden="false" collective="false" type="model">
+        <selectionEntry id="d720-887d-8b42-3b97" name="T-21B Trooper" hidden="false" collective="false" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9611,9 +9606,6 @@
           <infoLinks>
             <infoLink id="0555-c791-5366-ac39" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="72a9-89ee-5f16-3a3c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
@@ -9849,7 +9841,7 @@
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White x3</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
