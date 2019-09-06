@@ -2538,7 +2538,7 @@
         <entryLink id="8148-d4e0-01d6-9930" name="Comms" hidden="false" collective="false" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e372-3fa8-09ef-a6ac" name="•Darth Vader" hidden="false" collective="false" type="unit">
@@ -2622,7 +2622,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2af-ba7b-fb32-a122" name="Stormtroopers" hidden="false" collective="false" type="unit">
@@ -2758,7 +2758,7 @@
             <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">3</characteristic>
-            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Cover 1, Immune: Blast, Immune: Melee, Speeder 2</characteristic>
+            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Cover 1, Immune: Blast, Immune: Melee, Immune: Range 1 Weapons, Speeder 2</characteristic>
             <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Pilot, Hardpoint, Comms</characteristic>
           </characteristics>
         </profile>
@@ -2770,6 +2770,7 @@
         <infoLink id="5c44-3cb5-a26c-e9d5" name="Immune: Blast" hidden="false" targetId="d310-f6f2-d3dd-2fa1" type="rule"/>
         <infoLink id="70ec-ca6f-2a0f-eeed" name="Immune: Melee" hidden="false" targetId="e2e2-c9c7-c142-48fd" type="rule"/>
         <infoLink id="652b-4c48-1974-80ad" name="Speeder X" hidden="false" targetId="f4bf-508a-a537-1ce7" type="rule"/>
+        <infoLink id="be60-7060-ef7a-d671" name="Immune: Range 1 Weapons" hidden="false" targetId="3d21-4cbd-7b5a-69d4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f3d1-7b98-374c-2366" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
@@ -2809,7 +2810,7 @@
         <entryLink id="6631-9967-6aa6-8630" name="Pilot" hidden="false" collective="false" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8a3-880e-852b-a519" name="AT-ST" hidden="false" collective="false" type="unit">
@@ -2911,7 +2912,7 @@
         <entryLink id="730b-ece4-91b1-c278" name="Pilot" hidden="false" collective="false" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="195.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c659-96ac-053c-1980" name=" E-11 Blaster Rifle" hidden="false" collective="false" type="upgrade">
@@ -3706,7 +3707,7 @@
         <entryLink id="9670-fcb2-9d89-8259" name="Grenades" hidden="false" collective="false" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af1d-d285-2921-02e6" name="•Boba Fett" hidden="false" collective="false" type="unit">
@@ -4054,7 +4055,7 @@
         <entryLink id="b68e-8b79-34f5-1696" name="Training" hidden="false" collective="false" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" type="unit">
@@ -4102,7 +4103,7 @@
           <profiles>
             <profile id="f461-caca-7044-a965" name=" 1.4 FD Laser Cannon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x5</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 2, Fixed: Front</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
@@ -4183,14 +4184,13 @@
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Critical</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Full Pivot, Plodding, Reposition, Sentinel</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Full Pivot, Reposition, Sentinel</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms, Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="885b-6976-8264-45d1" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule"/>
-        <infoLink id="3cd3-168b-c506-177f" name="Plodding" hidden="false" targetId="5196-0d21-0f68-ac00" type="rule"/>
         <infoLink id="15ce-15f7-ede4-7e23" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
         <infoLink id="38ce-9f2e-d2b1-d0bb" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
       </infoLinks>
@@ -4579,7 +4579,7 @@
         <entryLink id="d8ef-497f-a68b-1d27" name="Gear" hidden="false" collective="false" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="110.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c365-178d-8de5-291b" name="Wookiee Warriors" hidden="false" collective="false" type="unit">
@@ -5203,7 +5203,7 @@
         <entryLink id="9f11-7d6b-993b-df47" name="Configurable Weapon" hidden="false" collective="false" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="130.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders" hidden="false" collective="false" type="unit">
@@ -8162,7 +8162,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8bdf-fcb7-4cef-0df9" name="Saber Throw" hidden="false" collective="false" type="upgrade">
@@ -8178,7 +8178,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1ca7-e218-b743-c825" name="Battle Meditation" hidden="false" collective="false" type="upgrade">
@@ -8194,7 +8194,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3998-1c74-779f-a4c6" name="Jedi Mind Trick" hidden="false" collective="false" type="upgrade">
@@ -8344,7 +8344,7 @@
             <infoLink id="c887-ab14-b45e-33eb" name="Precise X" hidden="false" targetId="abcc-5c44-68ef-82d1" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="63b3-dab3-c670-1bf0" name="Grappling Hooks" hidden="false" collective="false" type="upgrade">
@@ -8401,7 +8401,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a1c9-3e8c-d277-6e55" name="Recon Intel" hidden="false" collective="false" type="upgrade">
@@ -9019,7 +9019,7 @@
             <infoLink id="be3a-cb47-4319-45db" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36e1-f53d-b721-98e7" name="Z-6 Trooper" hidden="false" collective="false" type="model">
@@ -9101,7 +9101,7 @@
             <infoLink id="a71a-1d80-c03e-2935" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" type="model">
@@ -9118,7 +9118,7 @@
           <profiles>
             <profile id="8d58-9266-4c76-9e92" name="T-7 Ion Snowtrooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 1, Ion 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Exhaust</characteristic>
@@ -9130,7 +9130,7 @@
             <infoLink id="eef1-50f9-605c-52b1" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54a3-22ee-c92b-b6d6" name="Scatter Gun Trooper" hidden="false" collective="false" type="model">
@@ -9180,7 +9180,7 @@
           <profiles>
             <profile id="76be-e37b-f342-5cd8" name="DH-447 Sniper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1+</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Pierce 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
@@ -9250,7 +9250,7 @@
             <infoLink id="93d5-71ff-a260-b46d" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="33.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4448-8551-733b-8fd9" name="Electrostaff Guard" hidden="false" collective="false" type="model">
@@ -9379,7 +9379,7 @@
           <profiles>
             <profile id="6985-6a6d-05c1-e42a" name="DLT-19x Sniper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1+</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Pierce 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
@@ -9621,7 +9621,7 @@
             <infoLink id="d83e-0d9e-13cc-df69" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5502-27e3-e9a4-e274" name="DC-15 Phase I Trooper†" hidden="false" collective="false" type="model">
@@ -10007,7 +10007,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9557-8b36-65f8-e919" name="Comms Jammer" hidden="false" collective="false" type="upgrade">
@@ -10024,7 +10024,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c85-9611-8a49-265a" name="HQ Uplink" hidden="false" collective="false" type="upgrade">
@@ -10130,7 +10130,7 @@
             <infoLink id="3ccb-e192-872a-e283" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fcff-6ef7-c67a-60ce" name="AT-RT Rotary Blaster" hidden="false" collective="false" type="upgrade">
@@ -10158,7 +10158,7 @@
             <infoLink id="66f4-5f8f-baa7-bd5e" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="238e-286f-0335-bcc4" name="AT-RT Flamethrower" hidden="false" collective="false" type="upgrade">
@@ -10188,7 +10188,7 @@
             <infoLink id="4127-4667-d50e-d8a6" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3519-7f49-d235-1b4d" name="88 Twin Light Blaster Cannon" hidden="false" collective="false" type="upgrade">
@@ -10305,7 +10305,7 @@
             <infoLink id="25b5-832f-b120-3aaf" name="Tow Cable" hidden="false" targetId="7e70-8d77-50ad-f8c6" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="00a0-8ac8-60fd-d5a4" name="Ax-108 &quot;Ground Buzzer&quot;" hidden="false" collective="false" type="upgrade">
@@ -10333,7 +10333,7 @@
             <infoLink id="ec04-2eb5-97a5-4333" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="01cf-075b-42c8-3b1b" name="DLT-19 Rifle Pintle" hidden="false" collective="false" type="upgrade">
@@ -10730,7 +10730,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader" hidden="false" collective="false" type="upgrade">
@@ -10828,7 +10828,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="42a9-d4d3-3078-eb70" name="Hunter" hidden="false" collective="false" type="upgrade">
@@ -10949,7 +10949,7 @@
             <infoLink id="c6b7-b005-2967-a8cc" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb5f-17bb-c97e-d8f4" name="Barrage Generator" hidden="false" collective="false" type="upgrade">
@@ -10969,7 +10969,7 @@
             <infoLink id="d32a-8ca0-e20c-2112" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11048,9 +11048,6 @@
           <infoLinks>
             <infoLink id="b91e-fe24-7c9e-9638" name="Reconfigure" hidden="false" targetId="3703-0622-33ae-f15a" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="aaf8-3be9-6511-2a1b" name="E-11D" hidden="false" collective="false" type="upgrade">
           <modifiers>
@@ -11733,6 +11730,9 @@
     </rule>
     <rule id="3aa7-726e-44cb-c46f" name="Outmaneuver" hidden="false">
       <description>You can spend dodge tokens to cancel Critical results.</description>
+    </rule>
+    <rule id="3d21-4cbd-7b5a-69d4" name="Immune: Range 1 Weapons" hidden="false">
+      <description>You cannot be targeted by weapons that have a maximum range of 1.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
