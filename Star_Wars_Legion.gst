@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="62" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="63" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -7995,7 +7995,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank†" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5592-b591-1509-44f1" name="TX-130 Saber-class Fighter Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
           <modifiers>
@@ -8066,7 +8066,7 @@
         <entryLink id="bfd7-2f14-db79-ff50" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f12c-e053-6a37-e328" name="•R2-D2††" hidden="true" collective="false" import="true" type="unit">
