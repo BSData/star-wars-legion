@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="64" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="65" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -932,6 +932,70 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="f556-3276-6d61-e050" name="•You Can Call Me Captain†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="47a7-c18f-1910-7d94" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd38-da16-acc7-4aae" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1374-54ed-e335-a1d1" name="•You Can Call Me Captain" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Clone Captain Rex</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Clone Captain Rex</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Clone Captain Rex gains Fire Support. When using Fire Support, you do not flip your order token facedown. When a friendly unit attacks in melee, Clone Captain Rex can use Fire Support to add a ranged weapon to the attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="99f0-c3f1-e5af-6236" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="91a4-4325-6bb6-c594" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="9323-f682-9d5f-dd12" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="08cc-ecf0-cf3c-43f5" name="•Fear, Surprise and Intimidation†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="87d3-a316-11b8-d706" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3362-7978-d2e3-7480" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4fc0-90e3-78d4-a2d6" name="•Fear, Surprise and Intimidation" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Count Dooku</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Count Dooku</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Count Dooku gains Arsenal 2, Relentless, and of his ranged weapons gain Versatile. After he makes an attack, each defender gains 2 suppression tokens.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a292-6dfc-ce39-9799" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
+                <infoLink id="3cf2-b739-42b2-171e" name="Arsenal X" hidden="false" targetId="1397-0314-a3ee-acc2" type="rule"/>
+                <infoLink id="81bb-04bb-820e-0d29" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="0720-7637-f515-16a1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="dd49-6430-947d-b96a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="3088-96d9-6c4d-e8c2">
@@ -1485,6 +1549,62 @@
               <categoryLinks>
                 <categoryLink id="580f-65a5-02d2-7b8b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="de55-7c6b-0a41-f4f4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adbe-fa28-1864-2aa5" name="••Eat This, Clankers!†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="47a7-c18f-1910-7d94" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40b5-0872-6bd2-3ca7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a7cb-24d1-6142-1e98" name="••Eat This, Clankers!" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Clone Captain Rex</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When a friendly trooper unit with a faceup order token and an aim token makes a ranged attack, during the &quot;Form Attack Pool&quot; step, that unit may increase the increase the maximum range of each of its weapons by 1 (to a maximum of 4).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="e9ec-d271-7fff-640b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="022f-a6c9-a84e-ce6b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3949-cd34-2843-f1a5" name="••Double the Fall†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="87d3-a316-11b8-d706" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33bc-5658-0875-df79" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4389-3c3f-545a-ad9e" name="••Double the Fall" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Count Dooku</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Count Dooku &amp; 1 Unit</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">At the start of the Activation Phase, if Count Dooku has a faceup order token, you may shuffle his order token into the order pool to choose up to 2 enemy units at range 1-2 and shuffle their order tokens into the order pool.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="521a-b78c-ab7c-ad63" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="118a-1b0a-1bf3-5773" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
