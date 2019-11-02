@@ -963,7 +963,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="08cc-ecf0-cf3c-43f5" name="•Fear, Surprise and Intimidation†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="08cc-ecf0-cf3c-43f5" name="•Fear, Surprise, and Intimidation†" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -975,7 +975,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3362-7978-d2e3-7480" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4fc0-90e3-78d4-a2d6" name="•Fear, Surprise and Intimidation" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                <profile id="4fc0-90e3-78d4-a2d6" name="•Fear, Surprise, and Intimidation" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Count Dooku</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Count Dooku</characteristic>
@@ -6587,6 +6587,11 @@
                 <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -6628,10 +6633,27 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="87cb-8c93-8355-def2" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
-        <entryLink id="7705-6f0a-26de-dede" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="7705-6f0a-26de-dede" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="06c9-5f62-6d83-3aa0" value="1.0">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="290e-4a83-8fd8-15b3" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink id="0dba-ed21-6677-4148" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="480b-f9cb-00f7-c944" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="e5d6-4c19-377e-022f" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
+        <entryLink id="232c-b33b-df9e-b320" name="Training" hidden="true" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa1e-8170-6630-f443" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="52.0"/>
@@ -9495,6 +9517,90 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e74e-4084-c441-cf38" name="OOM-Series Battle Droid†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbff-85dd-ece7-afbb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce20-d086-0403-6317" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1c99-ce4b-1c14-c279" name="OOM-Series Battle Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When you use Coordinate, you can issue an order at range 1-2 instead of range 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="8090-a695-5e6f-7aca" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fa1e-8170-6630-f443" name="Phase I Clone Captain†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a090-8d5a-ffce-a9ec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8917-eaae-6d83-18fb" name="Phase I Clone Captain" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain a Training upgrade icon. When you activate, you cannot remove suppression tokens or be suppressed during this activation.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2505-3875-22d0-761b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="23c1-b99b-3670-e9ca" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="290e-4a83-8fd8-15b3" name="Phase I Clone Specialist†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52df-38f1-35cd-5590" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6faf-9e79-7263-7de1" name="Phase I Clone Specialist" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain a Gear upgrade icon. &gt;&gt; Gain 1 aim, dodge, or 1 surge token.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="2e16-b1af-ddb0-32bb" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="e8aa-f460-6961-1e6e" name="Heavy Weapon" hidden="false" collective="false" import="true">
@@ -10481,6 +10587,37 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="24db-1c47-1e39-72a6" name="Radiation Cannon B1 Trooper†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbff-85dd-ece7-afbb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef5e-055d-9734-4a67" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="955c-5857-009c-4aa0" name="Radiation Cannon B1 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Poison 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="180e-05fe-1ab2-c0e8" name="Poison X" hidden="false" targetId="f39b-ba14-7a84-ae56" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a09b-a421-df32-e315" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12269,6 +12406,9 @@
     </rule>
     <rule id="d95f-7467-0347-568b" name="Distract" hidden="false">
       <description>&gt;&gt; Choose an enemy trooper unit at range 1-2 and in line of sight. Until the end of the round, you lose Inconspicuous and when that unit performs an attack, it must attack you, if able.</description>
+    </rule>
+    <rule id="f39b-ba14-7a84-ae56" name="Poison X" hidden="false">
+      <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
