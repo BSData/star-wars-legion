@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="66" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="67" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -6927,7 +6927,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10c2-74c2-fcd3-f726" name="Dewback Rider†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="10c2-74c2-fcd3-f726" name="Dewback Rider" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7b11-0eb8-d224-4afb" name="Dewback Rider" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -6964,7 +6964,6 @@
         <categoryLink id="35b1-bb5c-dde1-cd6f" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="c218-71f2-eaab-3ddb" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="5a60-a855-febf-e6ca" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
-        <categoryLink id="94c4-b238-361f-2000" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3d01-2b5d-7558-376a" name=" Razor Claws &amp; Shock Prod" hidden="false" collective="false" import="true" type="upgrade">
@@ -8667,6 +8666,23 @@
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="84a0-e4c0-8413-3873" name="Hostage†" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bd08-0f0c-f00b-5a2d" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
+            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="257e-6b87-cd16-0966" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4fa0-c4d9-7ca9-0e4b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10749,6 +10765,34 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1027-da56-7de2-f135" name="B2-ACM Trooper†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d745-571e-8ef8-3724" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3be2-5df7-bf1c-e3b9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="265c-c2f7-8847-e835" name="B2-ACM Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4a1e-d184-9d59-f38a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="bbf8-c77e-246a-d5c6" name="Comms" hidden="false" collective="false" import="true">
@@ -11913,7 +11957,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a869-7dd6-9737-d22b" name="T-21 Blaster Rifle†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a869-7dd6-9737-d22b" name="T-21 Blaster Rifle" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -11937,9 +11981,6 @@
           <infoLinks>
             <infoLink id="370a-de75-90d0-17f5" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="6e3f-81d6-98f9-e1d0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
@@ -11974,7 +12015,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dac5-1dca-ed05-5160" name="RT-97C Blaster Rifle†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dac5-1dca-ed05-5160" name="RT-97C Blaster Rifle" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -11995,14 +12036,11 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="9841-1fc6-69ef-2819" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f354-c453-edb0-641f" name="CR-24 Flame Rifle†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f354-c453-edb0-641f" name="CR-24 Flame Rifle" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -12027,9 +12065,6 @@
             <infoLink id="f7cb-0bc5-9632-4926" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
             <infoLink id="97db-b19b-b750-2f56" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="36e5-1bf2-f066-6d03" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
@@ -12539,6 +12574,7 @@
     <rule id="f39b-ba14-7a84-ae56" name="Poison X" hidden="false">
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
+    <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
