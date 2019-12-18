@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="13" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="14" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="d37e-f39d-0c44-26e9" name="74-Z Speeder Bikes" hidden="false" collective="false" targetId="5204-6387-80e3-863d" type="selectionEntry"/>
-    <entryLink id="2f32-d060-0426-ddcd" name="Stormtroopers" hidden="false" collective="false" targetId="d2af-ba7b-fb32-a122" type="selectionEntry"/>
-    <entryLink id="4811-980b-38d6-58d0" name="•Darth Vader" hidden="false" collective="false" targetId="e372-3fa8-09ef-a6ac" type="selectionEntry"/>
-    <entryLink id="2b2e-c511-a513-1098" name="AT-ST" hidden="false" collective="false" targetId="f8a3-880e-852b-a519" type="selectionEntry"/>
-    <entryLink id="eea1-1c8b-a61d-0e17" name="Snowtroopers" hidden="false" collective="false" targetId="8db2-7ceb-9a34-24c7" type="selectionEntry"/>
-    <entryLink id="14ac-8f68-a43b-0b0f" name="•General Veers" hidden="false" collective="false" targetId="1c3d-b1db-07e7-cb3c" type="selectionEntry"/>
-    <entryLink id="af59-a42c-73dd-c386" name="•Boba Fett†" hidden="false" collective="false" targetId="af1d-d285-2921-02e6" type="selectionEntry"/>
-    <entryLink id="30d1-1c24-4024-8615" name="Scout Troopers†" hidden="false" collective="false" targetId="a672-8380-48cd-30a8" type="selectionEntry"/>
-    <entryLink id="75d0-8529-6e38-5e11" name="Scout Troopers† - Strike Team" hidden="false" collective="false" targetId="13e5-b1cc-af4b-b33c" type="selectionEntry"/>
-    <entryLink id="0e34-163c-8207-0951" name="E-Web Heavy Blaster Team†" hidden="false" collective="false" targetId="f4df-37ce-e988-1e54" type="selectionEntry"/>
-    <entryLink id="59ee-25fe-b89f-d909" name="•Emperor Palpatine†" hidden="false" collective="false" targetId="e0c2-b41f-4814-9b56" type="selectionEntry"/>
-    <entryLink id="a8fa-85cd-a3ca-4c1c" name="Imperial Royal Guards†" hidden="false" collective="false" targetId="aec2-d449-8d4a-9a84" type="selectionEntry"/>
-    <entryLink id="e4c3-bec8-eed5-812c" name="Imperial Officer†" hidden="false" collective="false" targetId="b1ab-39cb-f761-ed4a" type="selectionEntry"/>
-    <entryLink id="93a4-4f22-1b3b-32ed" name="Imperial Death Troopers†" hidden="false" collective="false" targetId="fe82-164e-5d9b-3724" type="selectionEntry"/>
-    <entryLink id="5f9a-60bf-cfe2-649b" name="•Director Orson Krennic†" hidden="false" collective="false" targetId="7c06-cdf6-d011-d902" type="selectionEntry"/>
-    <entryLink id="8906-e690-1887-31d6" name="TX-225 GAVw Occupier Combat Assault Tank†" hidden="false" collective="false" targetId="e95b-9d47-5248-9b39" type="selectionEntry"/>
-    <entryLink id="c87d-9bf5-8e68-ab94" name="Objective Cards" hidden="false" collective="false" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
+    <entryLink id="d37e-f39d-0c44-26e9" name="74-Z Speeder Bikes" hidden="false" collective="false" import="true" targetId="5204-6387-80e3-863d" type="selectionEntry"/>
+    <entryLink id="2f32-d060-0426-ddcd" name="Stormtroopers" hidden="false" collective="false" import="true" targetId="d2af-ba7b-fb32-a122" type="selectionEntry"/>
+    <entryLink id="4811-980b-38d6-58d0" name="•Darth Vader" hidden="false" collective="false" import="true" targetId="e372-3fa8-09ef-a6ac" type="selectionEntry"/>
+    <entryLink id="2b2e-c511-a513-1098" name="AT-ST" hidden="false" collective="false" import="true" targetId="f8a3-880e-852b-a519" type="selectionEntry"/>
+    <entryLink id="eea1-1c8b-a61d-0e17" name="Snowtroopers" hidden="false" collective="false" import="true" targetId="8db2-7ceb-9a34-24c7" type="selectionEntry"/>
+    <entryLink id="14ac-8f68-a43b-0b0f" name="•General Veers" hidden="false" collective="false" import="true" targetId="1c3d-b1db-07e7-cb3c" type="selectionEntry"/>
+    <entryLink id="af59-a42c-73dd-c386" name="•Boba Fett†" hidden="false" collective="false" import="true" targetId="af1d-d285-2921-02e6" type="selectionEntry"/>
+    <entryLink id="30d1-1c24-4024-8615" name="Scout Troopers†" hidden="false" collective="false" import="true" targetId="a672-8380-48cd-30a8" type="selectionEntry"/>
+    <entryLink id="75d0-8529-6e38-5e11" name="Scout Troopers† - Strike Team" hidden="false" collective="false" import="true" targetId="13e5-b1cc-af4b-b33c" type="selectionEntry"/>
+    <entryLink id="0e34-163c-8207-0951" name="E-Web Heavy Blaster Team†" hidden="false" collective="false" import="true" targetId="f4df-37ce-e988-1e54" type="selectionEntry"/>
+    <entryLink id="59ee-25fe-b89f-d909" name="•Emperor Palpatine†" hidden="false" collective="false" import="true" targetId="e0c2-b41f-4814-9b56" type="selectionEntry"/>
+    <entryLink id="a8fa-85cd-a3ca-4c1c" name="Imperial Royal Guards†" hidden="false" collective="false" import="true" targetId="aec2-d449-8d4a-9a84" type="selectionEntry"/>
+    <entryLink id="e4c3-bec8-eed5-812c" name="Imperial Officer†" hidden="false" collective="false" import="true" targetId="b1ab-39cb-f761-ed4a" type="selectionEntry"/>
+    <entryLink id="93a4-4f22-1b3b-32ed" name="Imperial Death Troopers†" hidden="false" collective="false" import="true" targetId="fe82-164e-5d9b-3724" type="selectionEntry"/>
+    <entryLink id="5f9a-60bf-cfe2-649b" name="•Director Orson Krennic†" hidden="false" collective="false" import="true" targetId="7c06-cdf6-d011-d902" type="selectionEntry"/>
+    <entryLink id="8906-e690-1887-31d6" name="TX-225 GAVw Occupier Combat Assault Tank†" hidden="false" collective="false" import="true" targetId="e95b-9d47-5248-9b39" type="selectionEntry"/>
+    <entryLink id="c87d-9bf5-8e68-ab94" name="Objective Cards" hidden="false" collective="false" import="true" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="e984-1a8a-7b6b-b526" value="0.0">
           <conditions>
@@ -34,7 +34,7 @@
         <categoryLink id="aa6d-9dcc-04d3-7d91" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6f41-cc20-f140-07ef" name="Condition Cards" hidden="false" collective="false" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
+    <entryLink id="6f41-cc20-f140-07ef" name="Condition Cards" hidden="false" collective="false" import="true" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="013f-069a-6216-afba" value="0.0">
           <conditions>
@@ -51,7 +51,7 @@
         <categoryLink id="eba9-09ef-fad1-420b" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a2d0-a633-8ca2-2e33" name="Deployment Cards" hidden="false" collective="false" targetId="1029-5e4f-678b-a9a9" type="selectionEntry">
+    <entryLink id="a2d0-a633-8ca2-2e33" name="Deployment Cards" hidden="false" collective="false" import="true" targetId="1029-5e4f-678b-a9a9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="04f4-5d51-efe2-eab1" value="0.0">
           <conditions>
@@ -78,10 +78,11 @@
         <categoryLink id="068b-0f46-e6f8-a3b2" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b790-3d83-e87d-80ea" name="•Bossk†" hidden="false" collective="false" targetId="6343-17f7-33c3-08f2" type="selectionEntry"/>
-    <entryLink id="430c-cd6d-2583-95b1" name="Shoretroopers†" hidden="false" collective="false" targetId="d425-63e3-9405-6b4f" type="selectionEntry"/>
-    <entryLink id="06b0-6d5e-3c32-9ee5" name="Dewback Rider†" hidden="false" collective="false" targetId="10c2-74c2-fcd3-f726" type="selectionEntry"/>
-    <entryLink id="8c6e-15f3-496b-912c" name="DF-90 Mortar Trooper†" hidden="false" collective="false" targetId="c715-90a3-8247-a80e" type="selectionEntry"/>
-    <entryLink id="a5cf-c7a0-20ea-fe53" name="•Darth Vader†" hidden="false" collective="false" targetId="8c88-0bd6-8c12-56d2" type="selectionEntry"/>
+    <entryLink id="b790-3d83-e87d-80ea" name="•Bossk†" hidden="false" collective="false" import="true" targetId="6343-17f7-33c3-08f2" type="selectionEntry"/>
+    <entryLink id="430c-cd6d-2583-95b1" name="Shoretroopers†" hidden="false" collective="false" import="true" targetId="d425-63e3-9405-6b4f" type="selectionEntry"/>
+    <entryLink id="06b0-6d5e-3c32-9ee5" name="Dewback Rider†" hidden="false" collective="false" import="true" targetId="10c2-74c2-fcd3-f726" type="selectionEntry"/>
+    <entryLink id="8c6e-15f3-496b-912c" name="DF-90 Mortar Trooper†" hidden="false" collective="false" import="true" targetId="c715-90a3-8247-a80e" type="selectionEntry"/>
+    <entryLink id="a5cf-c7a0-20ea-fe53" name="•Darth Vader†" hidden="false" collective="false" import="true" targetId="8c88-0bd6-8c12-56d2" type="selectionEntry"/>
+    <entryLink id="0bb8-5b63-dc9e-582a" name="•Iden Versio†" hidden="false" collective="false" import="true" targetId="7802-f7dc-f952-e063" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

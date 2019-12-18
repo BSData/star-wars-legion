@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="67" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
@@ -1106,6 +1106,37 @@
               <categoryLinks>
                 <categoryLink id="f741-dd47-184f-d962" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="4449-96ce-13bd-f856" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="306c-8216-74cc-4064" name="•Pulse Scan†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7802-f7dc-f952-e063" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c036-18e2-683d-4062" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fb9b-b56b-23e4-a6ad" name="•Pulse Scan" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden Versio</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Iden Versio gains Sharpshooter 2 and 1 aim token. At the end of her activation, she gains 1 dodge token and 1 standby token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b411-7047-b816-f684" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="002e-e332-47ab-5bda" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4d95-9f8e-a576-4526" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -6194,6 +6225,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3786-5841-24a4-b01e" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6cef-4d40-d362-1f96" name="Flanking Positions" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6206,6 +6240,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c5-e9fc-8b87-23df" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aff4-f0b4-a948-3857" name="Meeting Engagement" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6218,6 +6255,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ec8-a513-bfe9-a77d" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6360,6 +6400,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad4-f8ed-30d2-4d99" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e080-7905-9402-ef51" name="Dawn" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6372,6 +6415,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a9-3b4e-e0ee-adfe" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="42b3-9107-7903-47be" name="Improvised Defenses" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6384,6 +6430,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b3-7ece-02e8-2952" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6541,6 +6590,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c5-68e9-4f5d-4e56" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aed0-b6fb-0136-700e" name="Control" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6553,6 +6605,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ba-210d-986b-64e7" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="81df-0299-f7d6-ae95" name="Elimination" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6565,6 +6620,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-5487-649d-3337" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a1ad-5dfb-7f2e-ff03" name="Pivotal Positions" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6577,6 +6635,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0e-9504-1008-2696" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -9155,6 +9216,130 @@
       </categoryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7802-f7dc-f952-e063" name="•Iden Versio†" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1381-e277-10e4-fa86" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="741b-e09a-ece4-aae5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3a66-973e-624f-1ba8" name="Iden Versio" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Inferno Squad Leader</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Quick Thinking, Covert Ops, Loadout, Marksman, Nimble</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Training x2, Gear, Armament</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="88f6-6060-c988-74a3" name="Loadout" hidden="false" targetId="8d1b-8cf8-70d9-a90b" type="rule"/>
+        <infoLink id="640d-f81a-243a-31f9" name="Marksman" hidden="false" targetId="2622-a15a-021d-0a8c" type="rule"/>
+        <infoLink id="f546-f3d6-fa74-8c03" name="Covert Ops" hidden="false" targetId="4767-0083-a5c9-a7be" type="infoGroup"/>
+        <infoLink id="6d7c-ea59-e591-281c" name="Quick Thinking" hidden="false" targetId="4377-a0ff-5108-0079" type="rule"/>
+        <infoLink id="d4a3-1ef2-67c7-99bb" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="996f-5b2b-6464-50f9" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="e685-9ae5-9f1e-53d0" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="18df-30db-d447-62a5" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="39c4-1036-9193-5424" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="9da9-5aab-9c8b-ff5d" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="1d15-0033-1b46-79ba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d8e7-a0c3-bb35-2d8b" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3eb5-cb59-2591-b4cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7e2-e6a8-d78e-e543" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="97f1-b391-fbbc-0ba5" name=" Advanced Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="27bd-c8ce-9ba8-cf2b" name=" Iden&apos;s E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3482-faed-ded3-2ffc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22c7-1d0b-44c0-3448" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2675-37a1-7544-7ccd" name=" Iden&apos;s E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Pierce 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f33e-a2ef-27ba-3688" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5876-0185-6ca4-f477" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="804e-112e-7f0e-6446" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="4697-01d2-ddad-7e39" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12402,6 +12587,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="815b-c202-34db-c748" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40fb-56eb-4f87-da5c" type="max"/>
           </constraints>
           <profiles>
             <profile id="e167-e8af-5850-4d96" name="The Darksaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
@@ -12468,9 +12654,10 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f403-b66f-9dbc-78df" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d4a-f5c4-e18e-f758" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a5c9-f6e0-2e15-b770" name="•DT-57 &quot;Annihilator&quot;" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="a5c9-f6e0-2e15-b770" name="DT-57 &quot;Annihilator&quot;" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2, White x2</characteristic>
@@ -12574,6 +12761,39 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0531-0bff-35b2-36ec" name="•Iden&apos;s DLT-20A Rifle†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7802-f7dc-f952-e063" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd90-59cd-e7be-08ab" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74d4-13f6-2b96-0237" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="65a5-3c3f-d65e-f2d1" name="Iden&apos;s DLT-20A Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1+</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Pierce 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d4f7-3c88-b484-a0ff" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+            <infoLink id="b29e-6fd8-e42d-1007" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="96fc-e1f0-7792-785b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
