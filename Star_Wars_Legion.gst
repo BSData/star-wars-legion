@@ -999,6 +999,37 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e84a-eff7-5103-283f" name="•Crack Shot†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6b8-678a-aa20-be0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ea6-8bfc-9f77-30cd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="71cd-fa31-5b3d-e3cd" name="•Crack Shot" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Cassian Andor</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cassian Andor</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Cassian Andor gains Gunslinger and 1 aim token. At the end of his activation, he may gain 1 suppression token and he gains 1 standby token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8518-cdf2-355f-56df" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="f741-dd47-184f-d962" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4449-96ce-13bd-f856" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="3088-96d9-6c4d-e8c2">
@@ -6025,6 +6056,17 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b261-0eed-eb02-b09b" name="Danger Close†" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee6-84d2-e9a3-d930" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="0bf3-5775-69cc-4a0d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6091,6 +6133,28 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="4fb7-cba9-27f6-09ea" name="Fortified Positions†" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260e-ef21-03a0-1eb0" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="63ab-4560-6e06-c1f9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c648-cfcb-810e-1b15" name="Supply Drop†" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716e-e08d-678f-faea" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="854c-8275-02b8-3b95" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6153,6 +6217,36 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2a-e605-8ee1-13db" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5fcd-aff6-316b-3ce8" name="Hostage Exchange†" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b8-62e5-3660-84eb" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="0070-857f-4d23-db86" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="002f-e567-b70a-bd7d" name="Hostage†" hidden="false" collective="false" import="true" targetId="84a0-e4c0-8413-3873" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6a9-3710-bb63-239b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="719a-2111-ffa1-b167" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3247-04aa-03c4-3d51" name="Payload†" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c1-9a92-09c6-f2db" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="61c3-4335-f7f0-04a9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -8539,79 +8633,128 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor††" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor†" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0fd-c940-ebca-b528" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d92-3c56-e5fc-3324" type="max"/>
       </constraints>
       <profiles>
-        <profile id="256b-974c-dffd-af77" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="256b-974c-dffd-af77" name="Cassian Andor" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Capable Intelligence Agent</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
-            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
-            <characteristic name="Defense" typeId="d709-b540-6ad3-b884"/>
-            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca"/>
-            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec"/>
-            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f"/>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825"/>
-            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5"/>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Covert Ops, Danger Sense 2, Loadout, Marksman, Tactical 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Training x2, Gear, Armament</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4c40-d95f-5a96-4f03" name="Covert Ops" hidden="false" targetId="4767-0083-a5c9-a7be" type="infoGroup"/>
+        <infoLink id="855c-b4dd-ec7c-c09d" name="Danger Sense X" hidden="false" targetId="4af1-4705-8c43-ccd2" type="rule"/>
+        <infoLink id="6dc2-21ca-89d4-a444" name="Tactical X" hidden="false" targetId="3ca9-ac5e-80c1-3778" type="rule"/>
+        <infoLink id="b2d4-452d-dffa-20ec" name="Loadout" hidden="false" targetId="8d1b-8cf8-70d9-a90b" type="rule"/>
+        <infoLink id="a119-ec86-baa8-9ba1" name="Marksman" hidden="false" targetId="2622-a15a-021d-0a8c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="e778-9c7d-df04-655e" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="80ac-2302-7efe-bd42" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="b5a9-4832-cd7e-b772" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="b54d-f728-f16f-6037" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="6e61-a3f2-84bb-1d97" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="2a4e-fbac-46c7-5f88" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="5585-195c-7d9e-65a7" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e404-8b08-20fa-f9af" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d331-5f37-bf72-a0bd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="811e-1d57-2b18-65ae" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4cf0-2787-6694-0ad8" name=" Advanced Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dbcc-c9b9-b91d-246c" name=" Cassian&apos;s Covert Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b1c-7386-4d56-ceba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0dec-1b97-4a7b-f217" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e7d1-f096-1a8d-0c82" name=" Cassian&apos;s Covert Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Pierce 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="760e-f5ff-0aa8-0f4a" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="eefe-6a16-9226-151e" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="ccaa-b854-3558-f434" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="b0b3-a3af-933c-2fa5" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e57-7b18-ee65-9b89" name="•C-3PO†" hidden="false" collective="false" import="true" type="model">
@@ -8683,6 +8826,9 @@
       <categoryLinks>
         <categoryLink id="4fa0-c4d9-7ca9-0e4b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -12069,6 +12215,37 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6442-aba9-49a6-08b6" name="A200" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6b8-678a-aa20-be0e" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e97b-14de-9a40-6fc0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="04db-c296-9bb4-3017" name="A200-CFE Sniper Config" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1+</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Cumbersome, High Velocity, Pierce 1, Reconfigure</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7db3-129a-0ab8-d233" name="Reconfigure" hidden="false" targetId="3703-0622-33ae-f15a" type="rule"/>
+            <infoLink id="0f2a-dea3-06e0-8d0d" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+            <infoLink id="15d7-4c3f-550b-efe1" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
+            <infoLink id="55ad-2cbb-9ebd-7c89" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d746-6c9e-b4ca-bd90" name="Crew" hidden="false" collective="false" import="true">
@@ -12575,6 +12752,15 @@
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
     <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false"/>
+    <rule id="46a8-f06e-7ba8-afb3" name="Covert Ops" hidden="false">
+      <description>When you deploy, you may treat your rank as Operative. If you do, you gain Infiltrate.</description>
+    </rule>
+    <rule id="8d1b-8cf8-70d9-a90b" name="Loadout" hidden="false">
+      <description>When you deploy, you may swap any of your equipped upgrades with your set aside upgrades.</description>
+    </rule>
+    <rule id="2622-a15a-021d-0a8c" name="Marksman" hidden="false">
+      <description>While attacking, you can spend aim tokens to improve attack die results.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
@@ -12632,6 +12818,12 @@
         <infoLink id="3007-c1d3-1386-c99c" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
         <infoLink id="5461-3783-9d19-f860" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
         <infoLink id="a835-ea85-c439-d3f9" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="4767-0083-a5c9-a7be" name="Covert Ops" hidden="false">
+      <infoLinks>
+        <infoLink id="c060-c3d5-2c48-34eb" name="Covert Ops" hidden="false" targetId="46a8-f06e-7ba8-afb3" type="rule"/>
+        <infoLink id="0486-ddc0-a256-ad05" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
