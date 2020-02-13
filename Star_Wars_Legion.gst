@@ -915,7 +915,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4759-f462-6c26-e06a" name="•You Serve Your Master Well†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4759-f462-6c26-e06a" name="•You Serve Your Master Well" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -942,13 +942,12 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="d88e-d157-44c0-7fc1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="28e4-0318-18cc-79ad" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b13f-7c15-9e90-14db" name="•Vader&apos;s Might†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b13f-7c15-9e90-14db" name="•Vader&apos;s Might" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -975,7 +974,6 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="121a-c8d9-c253-992a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="ffac-15e5-9b2b-1726" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1633,7 +1631,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="847a-84db-a235-e400" name="••Full of Surprises†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="847a-84db-a235-e400" name="••Full of Surprises" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -1660,13 +1658,12 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="c313-70b0-eb7c-f9d2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="4d7b-2e89-9659-ecde" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a03a-3639-8acf-f478" name="••Fear and Dead Men†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a03a-3639-8acf-f478" name="••Fear and Dead Men" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -1693,7 +1690,6 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="580f-65a5-02d2-7b8b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="de55-7c6b-0a41-f4f4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2289,7 +2285,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6a61-3a80-22a1-a6a3" name="•••I am a Jedi†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6a61-3a80-22a1-a6a3" name="•••I am a Jedi" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -2316,13 +2312,12 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="77c8-f50d-f243-6f6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="7e36-58b3-21c8-33f2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3016-bfef-20b2-4120" name="•••Darkness Descends†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3016-bfef-20b2-4120" name="•••Darkness Descends" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -2353,7 +2348,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="d15e-ebea-c646-1acb" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="c854-c0ec-efd9-5973" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -8031,7 +8025,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d1d4-74ca-26fb-9a72" name="•Luke Skywalker†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d1d4-74ca-26fb-9a72" name="•Luke Skywalker" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8080,7 +8074,6 @@
         <categoryLink id="236a-22b6-d4c1-f685" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="2d57-1ca3-da3e-c2e0" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="ad6c-9223-c5c8-7bb6" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="4738-5903-c931-fd71" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7415-0fd9-4487-e86e" name=" Luke&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
@@ -8119,7 +8112,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c88-0bd6-8c12-56d2" name="•Darth Vader†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8c88-0bd6-8c12-56d2" name="•Darth Vader" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8173,7 +8166,6 @@
         <categoryLink id="ebd5-ac8b-2031-6773" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="d2c0-f577-7db0-9576" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="dfdb-6707-98d6-e036" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="d2d1-c044-f27d-938a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ef75-dbbf-3f41-0a07" name=" Vader&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
