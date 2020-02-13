@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="67" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="68" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -981,7 +981,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5bc1-d71d-a857-4447" name="•Blast Off!†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5bc1-d71d-a857-4447" name="•Blast Off!" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -1012,7 +1012,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="94da-4053-045b-192c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="d1ad-071f-6632-1c9e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1754,7 +1753,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2788-1ea7-f21d-3698" name="••Impromptu Immolation†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2788-1ea7-f21d-3698" name="••Impromptu Immolation" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -1794,7 +1793,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="bfc8-844f-ea3c-3e8c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="8ed5-741a-e0e2-b3e8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2415,7 +2413,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f918-f2f9-39ca-eee4" name="•••Smoke Screen†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f918-f2f9-39ca-eee4" name="•••Smoke Screen" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -2445,7 +2443,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="f88d-1e88-f5b7-7745" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="28c4-8d21-b56f-4086" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -8820,7 +8817,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f12c-e053-6a37-e328" name="•R2-D2†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f12c-e053-6a37-e328" name="•R2-D2" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8835,7 +8832,7 @@
       <profiles>
         <profile id="d258-0876-2c0b-c7c3" name="R2-D2" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hero of a Thousand Devices</characteristic>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Independent Astromech</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
@@ -8860,7 +8857,6 @@
         <categoryLink id="5d0a-bb6c-9718-036f" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="b636-a76e-b857-6789" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="baab-f7de-9da9-afde" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="2f30-4450-13a5-5012" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5e93-6a71-ca2f-f12d" name=" Electro-Shock" hidden="false" collective="false" import="true" type="upgrade">
@@ -8894,7 +8890,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="880e-5aed-0e98-5dcf" name="•R2-D2†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="880e-5aed-0e98-5dcf" name="•R2-D2" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8934,7 +8930,6 @@
         <categoryLink id="ecdc-73f2-fd50-2319" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="6e75-2c8f-44af-17d5" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="24f8-77ae-7b26-bd0f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="ebb1-6136-19a1-be41" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e2b5-32b8-7682-cde3" name=" Electro-Shock" hidden="false" collective="false" import="true" type="upgrade">
@@ -8968,7 +8963,14 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c67b-3a23-a437-9957" name="•C-3PO†" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c67b-3a23-a437-9957" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e57-7b18-ee65-9b89" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49fb-5460-d7d9-e60a" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12a0-6cb3-48ef-d96d" type="max"/>
@@ -8994,7 +8996,6 @@
         <categoryLink id="eaa5-c518-f122-02a1" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="4a48-0333-1258-a86e" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="6007-59b3-9fce-212b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="64ae-c983-7c92-cc97" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e01b-67c4-82c2-2e8d" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
@@ -9145,7 +9146,14 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e57-7b18-ee65-9b89" name="•C-3PO†" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0e57-7b18-ee65-9b89" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c67b-3a23-a437-9957" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5851-53a1-8d1e-600b" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f364-7a65-0076-16b6" type="max"/>
@@ -9153,7 +9161,7 @@
       <profiles>
         <profile id="6360-e5ce-e408-64ea" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.2 Counterparts">
           <characteristics>
-            <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Human-Cyborg Relations</characteristic>
+            <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Made to Suffer</characteristic>
             <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
             <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">2</characteristic>
             <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Calculate Odds, Distract, Counterpart: R2-D2</characteristic>
@@ -9171,7 +9179,6 @@
         <categoryLink id="8e64-83ff-bfac-e1d1" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="8dc6-dcea-3e9c-81dd" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="3908-801b-9210-e7c4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="6859-1dc1-52d4-8914" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="38cb-4fed-bee3-4b02" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
@@ -11560,7 +11567,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1081-5fd7-021a-56d0" name="Integrated Comms Antenna†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1081-5fd7-021a-56d0" name="Integrated Comms Antenna" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -11572,7 +11579,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0779-c8a8-3bfe-88bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9562-96f0-dabd-cc2f" name="Integrated Comms Antenna†" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+            <profile id="9562-96f0-dabd-cc2f" name="Integrated Comms Antenna" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Command Phase, you can be issued orders by friendly commander or operative units at range 1-4.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
@@ -11580,9 +11587,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="3af5-ad74-4d62-fd57" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
