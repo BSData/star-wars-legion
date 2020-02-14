@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="2" battleScribeVersion="2.02" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="3" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="158b-7bcd-09d7-ff88" name="Objective Cards" hidden="false" collective="false" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
+    <entryLink id="158b-7bcd-09d7-ff88" name="Objective Cards" hidden="false" collective="false" import="true" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="25aa-7c97-5a4e-f175" value="0.0">
           <conditions>
@@ -18,7 +18,7 @@
         <categoryLink id="764b-52a9-cd08-3abc" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dbb2-a94d-6289-d29e" name="Deployment Cards" hidden="false" collective="false" targetId="1029-5e4f-678b-a9a9" type="selectionEntry">
+    <entryLink id="dbb2-a94d-6289-d29e" name="Deployment Cards" hidden="false" collective="false" import="true" targetId="1029-5e4f-678b-a9a9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="011a-bf21-c015-a170" value="0.0">
           <conditions>
@@ -45,7 +45,7 @@
         <categoryLink id="4889-cb52-cd05-9256" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f0d4-eee7-984a-bd8d" name="Condition Cards" hidden="false" collective="false" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
+    <entryLink id="f0d4-eee7-984a-bd8d" name="Condition Cards" hidden="false" collective="false" import="true" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="bc3e-76a0-61d5-2d7d" value="0.0">
           <conditions>
@@ -62,11 +62,15 @@
         <categoryLink id="4717-8d23-dfe2-bb07" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6a2e-68c8-c257-cec7" name="B1 Battle Droids†" hidden="false" collective="false" targetId="dbff-85dd-ece7-afbb" type="selectionEntry"/>
-    <entryLink id="b771-4265-8611-314d" name="Droidekas†" hidden="false" collective="false" targetId="5623-5a88-7914-1441" type="selectionEntry"/>
-    <entryLink id="26ff-e900-5cae-faab" name="•General Grievous†" hidden="false" collective="false" targetId="78ba-e4fe-8cb3-7c8e" type="selectionEntry"/>
-    <entryLink id="2d8b-0e3a-1d46-f1f9" name="B2 Super Battle Droids†" hidden="false" collective="false" targetId="d745-571e-8ef8-3724" type="selectionEntry"/>
-    <entryLink id="bf18-c464-5085-df09" name="AAT Trade Federation Battle Tank†" hidden="false" collective="false" targetId="a42e-0405-17d1-d9ab" type="selectionEntry"/>
-    <entryLink id="e0a2-0c31-8977-4f44" name="•Count Dooku†" hidden="false" collective="false" targetId="87d3-a316-11b8-d706" type="selectionEntry"/>
+    <entryLink id="6a2e-68c8-c257-cec7" name="B1 Battle Droids†" hidden="false" collective="false" import="true" targetId="dbff-85dd-ece7-afbb" type="selectionEntry"/>
+    <entryLink id="b771-4265-8611-314d" name="Droidekas†" hidden="false" collective="false" import="true" targetId="5623-5a88-7914-1441" type="selectionEntry"/>
+    <entryLink id="26ff-e900-5cae-faab" name="•General Grievous†" hidden="false" collective="false" import="true" targetId="78ba-e4fe-8cb3-7c8e" type="selectionEntry"/>
+    <entryLink id="2d8b-0e3a-1d46-f1f9" name="B2 Super Battle Droids†" hidden="false" collective="false" import="true" targetId="d745-571e-8ef8-3724" type="selectionEntry"/>
+    <entryLink id="bf18-c464-5085-df09" name="AAT Trade Federation Battle Tank†" hidden="false" collective="false" import="true" targetId="a42e-0405-17d1-d9ab" type="selectionEntry"/>
+    <entryLink id="e0a2-0c31-8977-4f44" name="•Count Dooku†" hidden="false" collective="false" import="true" targetId="87d3-a316-11b8-d706" type="selectionEntry"/>
+    <entryLink id="a2e6-1fd8-7d56-bba9" name="•Cad Bane†" hidden="false" collective="false" import="true" targetId="ebbf-c933-8476-7a7d" type="selectionEntry"/>
+    <entryLink id="fae8-5c1d-cda5-3ce8" name="BX-series Droid Commandos††" hidden="false" collective="false" import="true" targetId="72b1-abe6-8b8d-0f36" type="selectionEntry"/>
+    <entryLink id="a15e-2903-03be-cbae" name="BX-series Droid Commandos††" hidden="false" collective="false" import="true" targetId="a4cb-c87b-a754-99f1" type="selectionEntry"/>
+    <entryLink id="39ea-0b40-4a83-e61a" name="STAP††" hidden="false" collective="false" import="true" targetId="28f5-f446-716c-00f9" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
