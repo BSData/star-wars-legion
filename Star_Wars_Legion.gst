@@ -1906,6 +1906,37 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1c0b-6777-6490-d2b9" name="••Last Stand†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6b8-678a-aa20-be0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ff8-3782-35a7-0381" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9576-6320-5c02-81aa" name="••Last Stand" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Cassian Andor</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cassian Andor &amp; 1 Trooper</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Cassian Andor issues an order to a commander or operative unit, that unit gains Indomitable and gains 1 aim, 1 dodge, or 1 suppression token for each wound token that unit has up to 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b7ea-aed0-93cc-8519" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="de82-0a5f-7c1b-2d25" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="fa99-ad8c-297f-1b1d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="2583-c0b2-f79b-dc70">
@@ -2610,6 +2641,68 @@
               <categoryLinks>
                 <categoryLink id="2e3d-3622-ee06-8cba" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="0676-d9ec-0a57-dcef" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56c5-37b2-ca05-b1ac" name="•••Sacrifice†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a360-d849-2e60-9a77" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6e7-f904-7c0c-45bc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="20e6-0740-bc68-3b41" name="•••Sacrifice" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">K-2SO</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cassian Andor &amp; K-2SO</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">K-2SO gains Guardian 4. At the end of K-2SO&apos;s activation, you may choose another friendly commander or operative unit at range 1 and in line of sight of K-2SO. If you do, defeat K-2SO and enemy units cannot perform ranged attacks against the chosen unit until the end of this round.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3714-2abb-ec19-e1cf" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="8268-0300-0f5a-8ef0" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="5700-f4fa-0dfe-f34e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31dc-6590-b4ab-1319" name="•••Volunteer Mission†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6b8-678a-aa20-be0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6f6-641e-9549-0d41" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="275f-f14b-e907-9f5b" name="•••Volunteer Mission" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Cassian Andor</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cassian Andor &amp; 2 Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Cassian Andor issues an order to a commander, operative, or special forces unit, that unit recovers, gains Danger Sense 1, and may gain 1 suppression token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bea0-ce74-4f69-10ee" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="f173-c487-357e-b44f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="384e-9e82-2773-a56d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -9362,7 +9455,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e57-7b18-ee65-9b89" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
@@ -10350,6 +10443,78 @@
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a360-d849-2e60-9a77" name="•K-2SO†" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6b8-678a-aa20-be0e" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54ed-9481-3330-5f8f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8dff-e3d9-8ac8-518b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="edf3-bc0a-40e6-8423" name="K-2SO" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Sardonic Security Droid</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">5</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Critical</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Calculate Odds, Armor 1, Detachment: Cassian Andor, Incognito, Teamwork: Cassian Andor</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Comms, Armament</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fc17-1b74-ee81-916a" name="Calculate Odds" hidden="false" targetId="9e27-98a3-38df-26b6" type="rule"/>
+        <infoLink id="5829-1990-e5b7-167e" name="Teamwork: *Unit Name*" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule"/>
+        <infoLink id="651c-99b0-bfdd-bf7a" name="Detachment: *Unit Name*" hidden="false" targetId="8870-40bf-20d5-ee78" type="rule"/>
+        <infoLink id="9e50-ee14-194c-711c" name="Armor X" hidden="false" targetId="557e-290b-b9ad-2a97" type="rule"/>
+        <infoLink id="9d6d-fec6-df34-1cfc" name="Incognito" hidden="false" targetId="9dd1-210e-b149-b2c0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="78de-2794-40da-3570" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="a77a-de00-893c-a230" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+        <categoryLink id="ff44-2c1f-c0d3-bd2e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="834e-12c6-d680-3287" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="c2e9-f4ec-bd0c-067f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="f8a3-7e4c-f6e3-8ddf" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e62d-2bba-1eb0-e397" name=" Overpower" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a7a-f738-0237-2d6d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fae-ce2c-cc34-d2db" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="baa6-1a52-2fea-bd96" name=" Overpower" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x4</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9701-4ead-43c0-aa47" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="9735-c4fb-86f4-f999" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -14056,7 +14221,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e97b-14de-9a40-6fc0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="04db-c296-9bb4-3017" name="A280-CFE Sniper Config" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="04db-c296-9bb4-3017" name="A280-CFE Pistol Config" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Long Shot 1, Reconfigure, Pierce 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="bf3d-6fa5-6180-f7a1" name="A280-CFE Sniper Config" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1+</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black</characteristic>
@@ -14070,6 +14243,7 @@
             <infoLink id="0f2a-dea3-06e0-8d0d" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
             <infoLink id="15d7-4c3f-550b-efe1" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
             <infoLink id="55ad-2cbb-9ebd-7c89" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
+            <infoLink id="43ed-5f7b-9b1d-d7dc" name="Longshot X" hidden="false" targetId="5718-26da-aed5-de58" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="a405-5ed3-1eea-76d0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
@@ -14258,6 +14432,44 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e68-8fd3-a960-65d5" name="•Jyn&apos;s SE-14 Blaster†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a360-d849-2e60-9a77" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1618-567c-e0b2-c65e" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92c8-fc70-7dac-f625" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0db5-420f-cbd0-b3f5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="095f-47e7-6130-77e1" name="Jyn&apos;s SE-14 Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x5</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Pierce 1, Suppressive</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="463d-8095-212a-5eab" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+            <infoLink id="a331-0096-cb37-5e18" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="885d-2caa-e5ae-b7d0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14868,6 +15080,12 @@
     </rule>
     <rule id="382f-3d01-d08f-9e83" name="AI: Dodge, Move" hidden="false">
       <description>Unless you have a faceup order token, your first action must be a dodge or a move.</description>
+    </rule>
+    <rule id="9dd1-210e-b149-b2c0" name="Incognito" hidden="false">
+      <description>You cannot be attacked by enemy units beyond range 1, unless you have performed an attack or used an objective card during this game.</description>
+    </rule>
+    <rule id="5718-26da-aed5-de58" name="Longshot X" hidden="false">
+      <description>While attacking, spend up to X aim tokens to increase this weapon&apos;s maximum range by 1 for each aim token spent.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="14" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="15" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2a10-5c0d-f801-7b5b" name="•Luke Skywalker" hidden="false" collective="false" import="true" targetId="7deb-60e8-a3e8-8259" type="selectionEntry"/>
     <entryLink id="358e-96e3-17c2-5d9f" name="Rebel Troopers" hidden="false" collective="false" import="true" targetId="af85-fff4-b341-2331" type="selectionEntry"/>
@@ -85,5 +85,6 @@
     <entryLink id="c0dd-8999-013d-b483" name="•Luke Skywalker†" hidden="false" collective="false" import="true" targetId="d1d4-74ca-26fb-9a72" type="selectionEntry"/>
     <entryLink id="0506-2388-ee28-b6d9" name="•R2-D2†" hidden="false" collective="false" import="true" targetId="880e-5aed-0e98-5dcf" type="selectionEntry"/>
     <entryLink id="b548-4818-4af5-4a6e" name="•Cassian Andor††" hidden="false" collective="false" import="true" targetId="d6b8-678a-aa20-be0e" type="selectionEntry"/>
+    <entryLink id="7494-46bf-0bc6-906d" name="•K-2SO†" hidden="false" collective="false" import="true" targetId="a360-d849-2e60-9a77" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
