@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="69" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="70" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -8537,7 +8537,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="205.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d745-571e-8ef8-3724" name="B2 Super Battle Droids†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d745-571e-8ef8-3724" name="B2 Super Battle Droids" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f746-feac-0a86-38e7" name="B2 Super Battle Droids†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -8576,7 +8576,6 @@
         <categoryLink id="f587-5168-c27c-6d54" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="2757-ae01-cf97-2f32" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="a222-64b3-c927-aef5" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="1903-b5a4-ff34-fb31" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c6f5-a156-71fa-c564" name=" Arm Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -8863,7 +8862,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7ff-aac0-8cce-fbfc" name="Phase II Clone Troopers†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e7ff-aac0-8cce-fbfc" name="Phase II Clone Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8209-46f7-3957-4ee0" name="Phase II Clone Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -8937,7 +8936,6 @@
         <categoryLink id="0eb8-77db-acf1-0988" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="e4c6-4175-f51f-8807" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="49a4-bcd2-8d61-5929" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="4d6c-be06-4d4e-e6e1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="91dd-f786-55af-d1c6" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -8965,7 +8963,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5592-b591-1509-44f1" name="TX-130 Saber-class Fighter Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
           <modifiers>
@@ -9001,7 +8999,6 @@
         <categoryLink id="b55c-7d77-b923-5a82" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="6f3e-a3f6-9861-d440" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="3955-30a9-8701-4538" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
-        <categoryLink id="3e4b-67a4-e46d-f022" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="da00-7895-3ffc-a165" name=" Twin Lateral GA-6x Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -10007,8 +10004,11 @@
         <categoryLink id="600c-a885-de80-3e1d" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="2477-f2a4-9185-7be8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos††" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d52f-ace8-d9d3-a06a" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -10092,7 +10092,7 @@
             <profile id="54ea-3404-1a06-785b" name=" Commando E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
@@ -10112,7 +10112,7 @@
         <entryLink id="caf7-e13f-a6e3-4970" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="108.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="68.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebbf-c933-8476-7a7d" name="•Cad Bane†" hidden="false" collective="false" import="true" type="unit">
@@ -10239,7 +10239,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos††" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="588c-acab-c31e-30ac" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -10325,7 +10325,7 @@
             <profile id="5d22-52c9-97ac-3258" name=" Commando E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
@@ -10349,7 +10349,7 @@
         <entryLink id="f8e4-86c7-0c25-646f" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10866,7 +10866,7 @@
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -11225,7 +11225,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c276-8a2b-35b7-1aa3" name="B2 Super Battle Droid†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c276-8a2b-35b7-1aa3" name="B2 Super Battle Droid" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -11236,14 +11236,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64b5-882d-00df-735d" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="c221-1d79-3d5f-9af0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bbe8-2c18-867d-c3db" name="Phase II Clone Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bbe8-2c18-867d-c3db" name="Phase II Clone Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -11254,9 +11251,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4340-73df-aeea-b525" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f581-addc-d574-1a25" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
@@ -12207,7 +12201,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="03cb-2c82-1510-86e4" name="Z-6 Phase II Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="03cb-2c82-1510-86e4" name="Z-6 Phase II Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -12228,9 +12222,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="e02c-58f0-ce9d-78b5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
           </costs>
@@ -12457,7 +12448,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1027-da56-7de2-f135" name="B2-ACM Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1027-da56-7de2-f135" name="B2-ACM Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -12478,14 +12469,11 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="4a1e-d184-9d59-f38a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1c0d-6b73-ccd8-bc2c" name="Phase II Mortar Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1c0d-6b73-ccd8-bc2c" name="Phase II Mortar Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -12511,14 +12499,11 @@
             <infoLink id="73af-7185-b599-dc5b" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
             <infoLink id="6a2e-671d-1cb8-7ac9" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="6268-ec9e-e4f8-f5d5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="245a-ead8-0a34-8077" name="B2-HA Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="245a-ead8-0a34-8077" name="B2-HA Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -12544,9 +12529,6 @@
             <infoLink id="67e2-1c2c-7ea5-b0dc" name="Cycle" hidden="false" targetId="0165-2c78-7a77-1b82" type="rule"/>
             <infoLink id="7017-1fcf-8cfa-d7b6" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="6cdc-632a-43b2-a419" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
@@ -12680,6 +12662,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="9bf9-570d-6aa7-f395" name="Comms Relay" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="800f-3742-0fdf-e2da" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60c1-a627-64f1-423e" type="max"/>
           </constraints>
@@ -13103,7 +13092,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="13e6-5d27-5a53-8ad8" name="TX-130 Twin Laser Turret†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="13e6-5d27-5a53-8ad8" name="TX-130 Twin Laser Turret" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13127,14 +13116,11 @@
           <infoLinks>
             <infoLink id="467b-938d-8e78-e367" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="5451-c0cb-563b-367a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a2a-3e72-a6ac-8138" name="TX-130 Beam Cannon Turret†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6a2a-3e72-a6ac-8138" name="TX-130 Beam Cannon Turret" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13158,9 +13144,6 @@
           <infoLinks>
             <infoLink id="afb5-d37d-6e8f-fc83" name="Beam X" hidden="false" targetId="7577-ca56-e0a4-0b4e" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="f87a-2e6f-a378-ff13" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
@@ -13225,15 +13208,12 @@
           <profiles>
             <profile id="b03c-96c7-753f-8fab" name="Wedge Antilles" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Full Pivot.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Perform a pivot.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="9ca8-cdaf-e0da-b0ea" name="Full Pivot" hidden="false" targetId="f2fe-8c57-7a66-0761" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
@@ -13395,7 +13375,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ec98-adc0-2b10-3dc9" name="•Aayla Secura†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ec98-adc0-2b10-3dc9" name="•Aayla Secura" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13420,14 +13400,11 @@
             <infoLink id="c80d-884c-dce7-c9f0" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
             <infoLink id="0c81-2e80-f8ea-3ced" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="d150-e078-02cc-ea9e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="66ad-9e66-03f4-abcb" name="Veteran Clone Pilot†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="66ad-9e66-03f4-abcb" name="Veteran Clone Pilot" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13447,14 +13424,11 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="b3d6-7dd4-3dfd-226c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10f0-d0ab-21b7-b4f3" name="•Plo Koon†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10f0-d0ab-21b7-b4f3" name="•Plo Koon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13478,9 +13452,6 @@
           <infoLinks>
             <infoLink id="ab99-cb37-ad62-2619" name="Agile X" hidden="false" targetId="3a2a-fc8b-8c65-9670" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="e684-c900-d399-eec6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
@@ -13560,14 +13531,14 @@
           <profiles>
             <profile id="5989-1914-0f56-050a" name="Commanding Presence" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When issuing orders, you can issue orders at range 4.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When issuing orders, you can issue orders at range 1-4.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1cfa-c362-1adc-23b2" name="Esteemed Leader" hidden="false" collective="false" import="true" type="upgrade">
@@ -14451,7 +14422,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db0b-b378-05d4-25c9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2775-7bf2-d151-6164" name="High-Energy Shells†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2775-7bf2-d151-6164" name="High-Energy Shells" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ade9-bfe1-e2df-1e18" type="max"/>
           </constraints>
@@ -14471,14 +14442,11 @@
             <infoLink id="f7a7-331d-0f7f-f792" name="Cycle" hidden="false" targetId="0165-2c78-7a77-1b82" type="rule"/>
             <infoLink id="bf7a-57cb-a96c-a117" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="ca3d-a133-bdc0-e979" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c5b8-3ebd-0c80-96ac" name="&quot;Bunker Buster&quot; Shells†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c5b8-3ebd-0c80-96ac" name="&quot;Bunker Buster&quot; Shells" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e8b-278f-9b38-a437" type="max"/>
           </constraints>
@@ -14498,14 +14466,11 @@
             <infoLink id="3eae-b2d0-6e0f-267e" name="Cycle" hidden="false" targetId="0165-2c78-7a77-1b82" type="rule"/>
             <infoLink id="375d-6475-0c5e-cc19" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="9d5c-2691-3d34-3e44" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="974d-1f30-755b-3a2c" name="Armor-Piercing Shells†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="974d-1f30-755b-3a2c" name="Armor-Piercing Shells" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8076-daae-2527-8a7c" type="max"/>
           </constraints>
@@ -14524,9 +14489,6 @@
             <infoLink id="3ed0-be17-be58-356f" name="Cycle" hidden="false" targetId="0165-2c78-7a77-1b82" type="rule"/>
             <infoLink id="1be3-02e6-6c50-8171" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="f755-7b1e-9d9d-594b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
