@@ -1137,7 +1137,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5578-dbe2-f201-97ea" name="•Our Fate is in Your Hands†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5578-dbe2-f201-97ea" name="•Our Fate is in Your Hands" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1159,7 +1159,6 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="40e6-7dbc-85c7-5055" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="510a-1bfb-33e8-841c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1850,7 +1849,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e67f-c939-b214-bfc6" name="••Aggressive Negotiations††" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e67f-c939-b214-bfc6" name="••Aggressive Negotiations" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1865,14 +1864,13 @@
                 <profile id="e132-261a-07f3-7be0" name="••Aggressive Negotiations" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Padmé Amidala</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Padmé Amidala &amp; 1 Trooper</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Padmé Amidala issues an order to a trooper unit, it may either perform a speed-1 move or gain 1 aim, dodge, or surge token.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="4f6b-8562-8ecc-8dfb" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="2144-b05e-a167-db82" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2650,7 +2648,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bfad-fbdc-5511-f9fb" name="•••Diplomatic Cover†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bfad-fbdc-5511-f9fb" name="•••Diplomatic Cover" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2677,7 +2675,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="2bd3-4f8a-bc6b-9ca6" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="c01f-fe00-5b55-7087" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -9938,7 +9935,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bddb-ae6e-47cd-0552" name="•Padmé Amidala†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bddb-ae6e-47cd-0552" name="•Padmé Amidala" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a3fd-500b-e994-0b9e" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c86-6329-d9a9-e6e0" type="max"/>
@@ -9988,7 +9985,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Spirited Senator</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -10014,7 +10011,6 @@
         <categoryLink id="9f73-4503-6f3f-e478" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="1f2e-5c41-8e90-717a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="54b8-eac0-2144-2b1c" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="5869-4fd8-1138-c4d0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c2e3-0217-53bd-a6e1" name=" Martial Arts" hidden="false" collective="false" import="true" type="upgrade">
@@ -14963,7 +14959,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="39cd-e32c-a0ed-d122" name="Looted E-5 Blaster†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="39cd-e32c-a0ed-d122" name="Looted E-5 Blaster" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14987,9 +14983,6 @@
           <infoLinks>
             <infoLink id="2857-4476-3ce7-0419" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="6904-3f9b-da16-d372" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
