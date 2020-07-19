@@ -1077,7 +1077,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e84a-eff7-5103-283f" name="•Crack Shot†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e84a-eff7-5103-283f" name="•Crack Shot" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1102,7 +1102,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="f741-dd47-184f-d962" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="4449-96ce-13bd-f856" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1905,7 +1904,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1c0b-6777-6490-d2b9" name="••Last Stand†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1c0b-6777-6490-d2b9" name="••Last Stand" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1930,7 +1929,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="de82-0a5f-7c1b-2d25" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="fa99-ad8c-297f-1b1d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1992,7 +1990,7 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden&apos;s ID10 Seeker Droid</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">During Iden Versio&apos;s activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden&apos;s ID10 Seeker Droid. That unit gains 3 suppression tokens. Then, if it is a Corps unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">During Iden Versio&apos;s activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden&apos;s ID10 Seeker Droid. That unit gains 3 suppression tokens. Then, if it is a corps unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2712,7 +2710,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="56c5-37b2-ca05-b1ac" name="•••Sacrifice†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="56c5-37b2-ca05-b1ac" name="•••Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2737,13 +2735,12 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="8268-0300-0f5a-8ef0" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="5700-f4fa-0dfe-f34e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="31dc-6590-b4ab-1319" name="•••Volunteer Mission†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="31dc-6590-b4ab-1319" name="•••Volunteer Mission" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2768,7 +2765,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="f173-c487-357e-b44f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="384e-9e82-2773-a56d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2790,7 +2786,7 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden Versio</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio &amp; 3 Troopers</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Iden Versio or a friendly Special Forces unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains Steady and Tactical 1.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Iden Versio or a friendly special forces unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains Steady and Tactical 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9448,7 +9444,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0fd-c940-ebca-b528" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d92-3c56-e5fc-3324" type="max"/>
@@ -9496,7 +9492,7 @@
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Covert Ops, Danger Sense 2, Loadout, Marksman, Tactical 1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Covert Ops, Danger Sense 3, Loadout, Marksman, Tactical 1</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Training x2, Gear, Armament</characteristic>
           </characteristics>
         </profile>
@@ -9514,7 +9510,6 @@
         <categoryLink id="b54d-f728-f16f-6037" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="6e61-a3f2-84bb-1d97" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="2a4e-fbac-46c7-5f88" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="5585-195c-7d9e-65a7" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e404-8b08-20fa-f9af" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -10709,7 +10704,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a360-d849-2e60-9a77" name="•K-2SO†" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="a360-d849-2e60-9a77" name="•K-2SO" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -10750,7 +10745,6 @@
         <categoryLink id="ff44-2c1f-c0d3-bd2e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="834e-12c6-d680-3287" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="c2e9-f4ec-bd0c-067f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="f8a3-7e4c-f6e3-8ddf" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e62d-2bba-1eb0-e397" name=" Overpower" hidden="false" collective="false" import="true" type="upgrade">
@@ -14667,7 +14661,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6442-aba9-49a6-08b6" name="A280†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6442-aba9-49a6-08b6" name="A280" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14703,9 +14697,6 @@
             <infoLink id="55ad-2cbb-9ebd-7c89" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
             <infoLink id="43ed-5f7b-9b1d-d7dc" name="Longshot X" hidden="false" targetId="5718-26da-aed5-de58" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="a405-5ed3-1eea-76d0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
@@ -14900,6 +14891,11 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="7d8d-a40c-cb7f-9ff3" value="5.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1618-567c-e0b2-c65e" type="atLeast"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
