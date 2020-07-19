@@ -1165,7 +1165,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="101d-b97e-d40e-50c4" name="•I&apos;m Your Worst Nightmare††" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="101d-b97e-d40e-50c4" name="•I&apos;m Your Worst Nightmare" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1180,14 +1180,16 @@
                 <profile id="9fd2-5cca-0efe-704c" name="•I&apos;m Your Worst Nightmare" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Cad Bane</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1"/>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cad Bane</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Cade Bane gains Uncanny Luck 2. During Cad Bane&apos;s activation, he can perform up to 2 attack actions.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="e3fd-10e6-434b-f85b" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="02f3-751b-a7a8-d460" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="b54b-ba30-be82-324d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1876,7 +1878,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eaac-91be-504d-af6e" name="••I&apos;m in Control†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eaac-91be-504d-af6e" name="••I&apos;m in Control" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1898,7 +1900,6 @@
               </profiles>
               <categoryLinks>
                 <categoryLink id="f10c-d023-034b-5154" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="f392-683f-575e-9888" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2665,7 +2666,7 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Padmé Amidala</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Padmé Amidala</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent. If this card was divulged, Padmé Amidala gains Secret Mission. If it was not, she gains Reliable 1 instead. Divulge: Deploy Units Step. Padmé Amidala gains Infiltrate and when she is deployed she gains 1 dodge token. This card must be selected during round 1.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent. If this card was divulged, Padmé Amidala gains Secret Mission. If it was not, she gains Reliable 1 instead. Divulge: Deploy Units Step: Padmé Amidala gains Infiltrate and when she is deployed she gains 1 dodge token. This card must be selected during round 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2682,7 +2683,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2436-5082-788f-c003" name="•••I Make the Rules Now††" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2436-5082-788f-c003" name="•••I Make the Rules Now" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2698,13 +2699,20 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Cad Bane</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Cad Bane</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96"/>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">If this card was not divulged, place 1 Bane token within range 1 of Cad Bane and beyond range 1 of all enemy units. Divulge: Deploy Units Step: Place three Bane tokens on the battlefield beyond range 1 of any deployment zone. Do not deploy Cad Bane. This card must be selected during round 1.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="bf25-d998-eee8-c263" name="•••I Make the Rules Now (&quot;Kablamo!&quot;)" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1 (Area Weapon)</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black x2</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Impact 2, Suppressive</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Attack Surge: Critical</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="2e3d-3622-ee06-8cba" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="0676-d9ec-0a57-dcef" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3055,6 +3063,11 @@
             <modifier type="set" field="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear x2, Grenades">
               <conditions>
                 <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b22-8980-b9c6-18a6" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3470,6 +3483,11 @@
                 <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a179-853d-3f83-5e90" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -3797,6 +3815,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value="Coordinate: Corps Trooper">
               <conditions>
                 <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a179-853d-3f83-5e90" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4243,6 +4266,11 @@
                 <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Unorthodox General</characteristic>
@@ -4367,6 +4395,11 @@
                 <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -4464,6 +4497,11 @@
                 <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
@@ -4559,6 +4597,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
               <conditions>
                 <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4715,6 +4758,11 @@
                 <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -4810,6 +4858,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
               <conditions>
                 <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5207,6 +5260,11 @@
                 <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -5307,6 +5365,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
               <conditions>
                 <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5427,6 +5490,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
               <conditions>
                 <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5757,6 +5825,11 @@
                 <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a179-853d-3f83-5e90" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -5966,6 +6039,11 @@
                 <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Stardust</characteristic>
@@ -6078,6 +6156,11 @@
                 <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -6186,6 +6269,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
               <conditions>
                 <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7097,6 +7185,11 @@
                 <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Explosive Artist</characteristic>
@@ -7202,6 +7295,11 @@
                 <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Trandoshan Terror</characteristic>
@@ -7297,6 +7395,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
                 <condition field="selections" scope="958f-e019-e7bb-89fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="958f-e019-e7bb-89fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7443,6 +7546,11 @@
                 <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -7556,6 +7664,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
                 <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7793,6 +7906,11 @@
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -7819,6 +7937,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
                 <condition field="selections" scope="10c2-74c2-fcd3-f726" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="10c2-74c2-fcd3-f726" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7900,6 +8023,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
               <conditions>
                 <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ac-9938-26cd-a3e7" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8346,6 +8474,11 @@
                 <condition field="selections" scope="78ba-e4fe-8cb3-7c8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="78ba-e4fe-8cb3-7c8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Sinister Cyborg</characteristic>
@@ -8367,7 +8500,7 @@
         <infoLink id="1ee0-dff2-0dcd-4a5f" name="Impervious" hidden="false" targetId="8c57-6c86-0cef-1c7b" type="rule"/>
         <infoLink id="0f0a-b9d0-0698-91da" name="Jedi Hunter" hidden="false" targetId="f68b-2c74-aef3-17f4" type="rule"/>
         <infoLink id="a706-bd15-f1ef-b0e6" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
-        <infoLink id="5aaa-1966-aeed-b062" name="Scale" hidden="false" targetId="b1ed-0064-c8ce-a200" type="infoGroup"/>
+        <infoLink id="5aaa-1966-aeed-b062" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4f4c-f225-dfe4-f550" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
@@ -8455,6 +8588,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
                 <condition field="selections" scope="d1d4-74ca-26fb-9a72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="d1d4-74ca-26fb-9a72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8547,6 +8685,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
               <conditions>
                 <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8981,6 +9124,11 @@
                 <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Honorable Soldier</characteristic>
@@ -9111,6 +9259,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
               <conditions>
                 <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9481,6 +9634,11 @@
                 <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Capable Intelligence Agent</characteristic>
@@ -9680,6 +9838,11 @@
                 <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Inferno Squad Leader</characteristic>
@@ -9818,6 +9981,11 @@
                 <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -9948,6 +10116,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Jump 2">
               <conditions>
                 <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10099,6 +10272,11 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Jump 2">
               <conditions>
                 <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10403,6 +10581,11 @@
                 <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ae8-a836-c3da-2530" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -10422,7 +10605,7 @@
         <infoLink id="5176-bd3e-32d1-55bc" name="Impervious" hidden="false" targetId="8c57-6c86-0cef-1c7b" type="rule"/>
         <infoLink id="48cd-6134-9cba-4659" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
         <infoLink id="d28f-7fc6-5623-8821" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
-        <infoLink id="6ac3-e02c-2dd8-ec8a" name="Scale" hidden="false" targetId="b1ed-0064-c8ce-a200" type="infoGroup"/>
+        <infoLink id="6ac3-e02c-2dd8-ec8a" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
         <infoLink id="0735-91e8-76d9-2257" name="AI: Dodge, Move" hidden="false" targetId="382f-3d01-d08f-9e83" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -10466,7 +10649,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="68.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebbf-c933-8476-7a7d" name="•Cad Bane†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ebbf-c933-8476-7a7d" name="•Cad Bane" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="787c-722c-585e-fdb7" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecc5-1525-9d5c-1c96" type="max"/>
@@ -10509,9 +10692,14 @@
                 <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Needs No Introduction</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
@@ -10537,7 +10725,6 @@
         <categoryLink id="eb14-2ad5-cde3-6a95" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="5ad0-55f0-145d-b311" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="1024-5fd1-5946-3cf5" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="c8e3-1d62-11d4-665a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="58d1-f9ae-32d5-1144" name=" Martial Arts" hidden="false" collective="false" import="true" type="upgrade">
@@ -10574,6 +10761,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="0dc6-4f15-5c85-85bf" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -10634,6 +10824,11 @@
                 <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ae8-a836-c3da-2530" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
@@ -10653,7 +10848,7 @@
         <infoLink id="6f5d-7dc4-82b6-966a" name="Impervious" hidden="false" targetId="8c57-6c86-0cef-1c7b" type="rule"/>
         <infoLink id="20e6-a84a-fa3b-dfe3" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
         <infoLink id="2a82-8da6-404a-abe4" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
-        <infoLink id="a786-55ee-721e-a8b4" name="Scale" hidden="false" targetId="b1ed-0064-c8ce-a200" type="infoGroup"/>
+        <infoLink id="a786-55ee-721e-a8b4" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
         <infoLink id="71fb-bd96-c521-3cdb" name="AI: Dodge, Move" hidden="false" targetId="382f-3d01-d08f-9e83" type="rule"/>
         <infoLink id="e556-3cec-d10d-8792" name="Heavy Weapon Team" hidden="false" targetId="0795-6e12-9110-ea7d" type="rule"/>
       </infoLinks>
@@ -11236,6 +11431,26 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2c55-680e-ddcc-ee9f" name="Ascension Cables" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3050-650a-5621-7e4b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4b43-1a89-26ad-137b" name="Ascension Cables" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Scale.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="79d9-588e-8fc0-b8e1" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14334,6 +14549,33 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1e12-e885-1a48-33a7" name="Situational Awareness" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="7d8d-a40c-cb7f-9ff3" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b871-39d2-ad98-e654" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2417-16d8-8376-82f4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="184e-c3f4-b322-831b" name="Situational Awareness" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Outmaneuver.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d70b-b04a-85b2-f999" name="Outmaneuver" hidden="false" targetId="3aa7-726e-44cb-c46f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="862b-184e-d702-1db1" name="Generator" hidden="false" collective="false" import="true">
@@ -14752,7 +14994,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2bff-ead9-c915-4578" name="Electro Gauntlets†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2bff-ead9-c915-4578" name="Electro Gauntlets" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14784,9 +15026,6 @@
             <infoLink id="a7d7-f174-3769-83d8" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
             <infoLink id="d768-6e77-5b7a-1349" name="Immobilize X" hidden="false" targetId="6174-bf0d-0783-05a8" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="4079-abcf-e746-ffc0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
@@ -15458,7 +15697,7 @@
       <description>While attacking a unit that has a Force upgrade icon, you gain &quot;Attack Surge: Critical&quot;.</description>
     </rule>
     <rule id="35a2-2f63-dc24-1c38" name="Scale" hidden="false">
-      <description>Unhindered, Expert Climber, and when performing a move action, you may perform a free clamber action before performing that move or perform a free clamber action after performing that move.</description>
+      <description>You ignore the effects of difficult terrain and do not suffer wounds while clambering. Either before or after you perform a move action, you may perform a free clamber action.</description>
     </rule>
     <rule id="bd82-f4e9-9b2e-c37b" name="Smoke X" hidden="false">
       <description>→ Place X smoke tokens within range 1 and in line of sight of your unit leader.</description>
@@ -15616,13 +15855,6 @@
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
-    <infoGroup id="b1ed-0064-c8ce-a200" name="Scale" hidden="false">
-      <infoLinks>
-        <infoLink id="3007-c1d3-1386-c99c" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
-        <infoLink id="5461-3783-9d19-f860" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
-        <infoLink id="a835-ea85-c439-d3f9" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
-      </infoLinks>
-    </infoGroup>
     <infoGroup id="4767-0083-a5c9-a7be" name="Covert Ops" hidden="false">
       <infoLinks>
         <infoLink id="c060-c3d5-2c48-34eb" name="Covert Ops" hidden="false" targetId="46a8-f06e-7ba8-afb3" type="rule"/>
