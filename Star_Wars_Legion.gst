@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="72" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="73" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0"/>
+    <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="add8-9503-b851-9d2d" name="1.1 Troopers">
@@ -6483,7 +6483,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b261-0eed-eb02-b09b" name="Danger Close†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b261-0eed-eb02-b09b" name="Danger Close" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6494,9 +6494,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee6-84d2-e9a3-d930" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="0bf3-5775-69cc-4a0d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -6546,7 +6543,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6a67-03bb-515d-35a9" name="Roll Out†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6a67-03bb-515d-35a9" name="Roll Out" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6557,9 +6554,21 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b1-20e6-c69d-c065" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="30d8-ea51-6754-0a9a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d5cb-4262-8e54-e48a" name="Hemmed In" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8208-479f-946a-ebef" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a388-e2ec-247b-67a9" type="max"/>
+              </constraints>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -6658,7 +6667,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4fb7-cba9-27f6-09ea" name="Fortified Positions†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4fb7-cba9-27f6-09ea" name="Fortified Positions" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6669,14 +6678,11 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260e-ef21-03a0-1eb0" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="63ab-4560-6e06-c1f9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c648-cfcb-810e-1b15" name="Supply Drop†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c648-cfcb-810e-1b15" name="Supply Drop" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6687,21 +6693,11 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716e-e08d-678f-faea" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="854c-8275-02b8-3b95" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="07b0-7332-27fe-803e" name="War Weary" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8208-479f-946a-ebef" type="notInstanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad4-f8ed-30d2-4d99" type="max"/>
               </constraints>
@@ -6840,7 +6836,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5fcd-aff6-316b-3ce8" name="Hostage Exchange†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5fcd-aff6-316b-3ce8" name="Hostage Exchange" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6851,9 +6847,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b8-62e5-3660-84eb" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="0070-857f-4d23-db86" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <entryLinks>
                 <entryLink id="002f-e567-b70a-bd7d" name="Hostage†" hidden="false" collective="false" import="true" targetId="84a0-e4c0-8413-3873" type="selectionEntry">
                   <constraints>
@@ -6866,7 +6859,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3247-04aa-03c4-3d51" name="Payload†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3247-04aa-03c4-3d51" name="Payload" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6877,9 +6870,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c1-9a92-09c6-f2db" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="61c3-4335-f7f0-04a9" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -6944,7 +6934,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e7bf-3b73-ef69-92d9" name="Bombing Run†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e7bf-3b73-ef69-92d9" name="Bombing Run" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6955,9 +6945,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff0-89c5-be43-b905" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="3c74-f3fa-f887-7357" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -9547,7 +9534,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="84a0-e4c0-8413-3873" name="Hostage†" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="84a0-e4c0-8413-3873" name="Hostage" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="bd08-0f0c-f00b-5a2d" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
           <characteristics>
@@ -9560,9 +9547,6 @@
       <infoLinks>
         <infoLink id="257e-6b87-cd16-0966" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4fa0-c4d9-7ca9-0e4b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
@@ -13030,7 +13014,7 @@
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Lethal 1</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
             <profile id="069e-4fd9-f6e2-1d33" name="Del Meeko" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
@@ -13075,8 +13059,8 @@
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
             <profile id="c5a9-8387-c3ae-ec8f" name="Gideon Hask" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
