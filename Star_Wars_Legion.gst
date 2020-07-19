@@ -8811,7 +8811,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a42e-0405-17d1-d9ab" name="AAT Trade Federation Battle Tank†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a42e-0405-17d1-d9ab" name="AAT Trade Federation Battle Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a1ed-d7f2-51f2-e72a" name="AAT Trade Federation Battle Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
           <modifiers>
@@ -8840,7 +8840,7 @@
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">--</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">1</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">AI: Attack, Armor, Arsenal 2, Barrage, Hover: Ground, Weak Point 2: Rear</characteristic>
-            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Pilot, Shells x2, Comms</characteristic>
+            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Pilot, Ordnance x2, Comms</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8871,7 +8871,6 @@
         <categoryLink id="1cdd-308b-37d8-583a" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="badf-9a1e-f1b9-d1e5" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="7f67-3060-e659-c5ba" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
-        <categoryLink id="a991-ee7a-4fe2-f3a3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a3b8-d10b-1d4c-7a92" name=" Lateral Anti-Personnel Lasers" hidden="false" collective="false" import="true" type="upgrade">
@@ -9185,7 +9184,7 @@
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">--</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">2</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Hover: Ground, Outmaneuver, Weak Point 1: Rear, Sides</characteristic>
-            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Pilot, Hardpoint, Shells, Comms</characteristic>
+            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Pilot, Hardpoint, Ordnance, Comms</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13962,7 +13961,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="18e8-dd09-6991-cbec" name="T-Series Tactical Droid Pilot†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="18e8-dd09-6991-cbec" name="T-Series Tactical Droid Pilot" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -13985,9 +13984,6 @@
           <infoLinks>
             <infoLink id="3579-be1c-7f36-0aad" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="0dac-79a1-63ff-2f8a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
@@ -14073,7 +14069,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2912-3e45-90af-db0d" name="OOM-Series Droid Pilot†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2912-3e45-90af-db0d" name="OOM-Series Droid Pilot" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14096,14 +14092,11 @@
           <infoLinks>
             <infoLink id="009c-c22f-d58a-49f9" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="0a94-1967-fbf6-7f9b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8fd1-bf6b-c58d-8a5d" name="•Lok Durd†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8fd1-bf6b-c58d-8a5d" name="•Lok Durd" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14127,9 +14120,6 @@
           <infoLinks>
             <infoLink id="fb84-ad54-5192-f7e0" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="2b9d-5cd6-f1a9-ad68" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
@@ -15110,7 +15100,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bb6c-b9a5-54e2-8320" name="Shells" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bb6c-b9a5-54e2-8320" name="Ordnance" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db0b-b378-05d4-25c9" type="max"/>
       </constraints>
