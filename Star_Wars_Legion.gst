@@ -1108,7 +1108,7 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="306c-8216-74cc-4064" name="•Pulse Scan†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="306c-8216-74cc-4064" name="•Pulse Scan" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1133,7 +1133,6 @@
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="002e-e332-47ab-5bda" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="4d95-9f8e-a576-4526" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1937,6 +1936,73 @@
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="2339-18ec-d0b9-60f4" name="••Concussive Blast" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7802-f7dc-f952-e063" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f59-8f3d-61e2-8cf0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ce07-35a7-1fed-8751" name="••Concussive Blast" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden Versio</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Iden Versio activates, she recovers. During Iden Versio&apos;s activation, she gains the following weapon:</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8476-da9b-3633-0190" name="••Concussive Blast" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x5</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Scatter, Suppressive</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c965-9562-daa6-33be" name="Scatter" hidden="false" targetId="6067-c530-5719-30af" type="rule"/>
+                <infoLink id="a589-4731-2079-841d" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+                <infoLink id="c6da-e4c3-b9ad-b3ca" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="bff3-804a-18b7-2e6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b53-1283-97c1-810d" name="••Incapacitate" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="735a-6109-0faa-58ae" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f02-d9a7-abf0-a1a1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="514d-bfde-ba5d-8394" name="••Incapacitate" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden&apos;s ID10 Seeker Droid</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">During Iden Versio&apos;s activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden&apos;s ID10 Seeker Droid. That unit gains 3 suppression tokens. Then, if it is a Corps unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="237b-16e3-4dd6-e671" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="2583-c0b2-f79b-dc70">
@@ -2703,6 +2769,37 @@
               <categoryLinks>
                 <categoryLink id="f173-c487-357e-b44f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="384e-9e82-2773-a56d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c0fa-96f0-f224-5f07" name="•••Tactical Strke" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7802-f7dc-f952-e063" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6be9-d0dc-fef7-daae" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7edc-6ee3-a9f5-50c8" name="•••Tactical Strke" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Iden Versio</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Iden Versio &amp; 3 Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Iden Versio or a friendly Special Forces unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains Steady and Tactical 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="389d-4452-5ced-3ea6" name="Tactical X" hidden="false" targetId="3ca9-ac5e-80c1-3778" type="rule"/>
+                <infoLink id="9803-0278-e26e-ce83" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="4412-cb09-ce4e-9641" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -9551,7 +9648,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7802-f7dc-f952-e063" name="•Iden Versio†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7802-f7dc-f952-e063" name="•Iden Versio" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1381-e277-10e4-fa86" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="741b-e09a-ece4-aae5" type="max"/>
@@ -9617,7 +9714,6 @@
         <categoryLink id="18df-30db-d447-62a5" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="39c4-1036-9193-5424" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="9da9-5aab-9c8b-ff5d" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="1d15-0033-1b46-79ba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d8e7-a0c3-bb35-2d8b" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -10685,7 +10781,7 @@
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="735a-6109-0faa-58ae" name="•Iden&apos;s ID10 Seeker Droid†" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="735a-6109-0faa-58ae" name="•Iden&apos;s ID10 Seeker Droid" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff81-f4e6-9877-aa1d" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f301-2ecb-6678-5bf3" type="max"/>
@@ -10708,10 +10804,10 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7e9-ba77-cf13-f8a6" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
-        <categoryLink id="2fbc-9f70-bc3c-8f44" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
-        <categoryLink id="7b96-9c5c-6413-2b5a" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="eb64-8391-6613-1cd8" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="193f-554e-fac6-444d" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="1456-b305-5214-cf89" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="871a-2f72-d623-d0fb" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+        <categoryLink id="0e72-a068-5618-f761" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="570d-6859-6207-f631" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8233-812a-7dad-722e" name=" Electro-Shock" hidden="false" collective="false" import="true" type="upgrade">
@@ -14614,7 +14710,7 @@
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0531-0bff-35b2-36ec" name="•Iden&apos;s DLT-20A Rifle†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0531-0bff-35b2-36ec" name="•Iden&apos;s DLT-20A Rifle" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14640,9 +14736,6 @@
             <infoLink id="d4f7-3c88-b484-a0ff" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
             <infoLink id="b29e-6fd8-e42d-1007" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="96fc-e1f0-7792-785b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
@@ -14832,6 +14925,36 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3177-dc9f-7cb6-16a6" name="•Iden&apos;s TL-50 Repeater" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7802-f7dc-f952-e063" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b191-741e-ac93-4ec6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87fe-68d4-a8ae-2a1c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5e9d-c314-e707-5af4" name="Iden&apos;s TL-50 Repeater" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Impact 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4935-0aa1-7059-63e2" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="0337-6abb-d326-ca8b" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
