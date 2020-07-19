@@ -7668,6 +7668,21 @@
                 <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -9263,6 +9278,21 @@
                 <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -10119,6 +10149,21 @@
                 <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
+              <conditions>
+                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
+              <conditions>
+                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
+              <conditions>
+                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
@@ -10273,6 +10318,21 @@
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
               <conditions>
                 <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
+              <conditions>
+                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
+              <conditions>
+                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
+              <conditions>
+                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -13253,6 +13313,9 @@
             <infoLink id="513f-3257-dd4c-e1a0" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
             <infoLink id="8dcf-2509-806b-a771" name="Lethal X" hidden="false" targetId="3cf0-869d-474d-6f37" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="bc45-8129-7ac5-862c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
@@ -13380,6 +13443,103 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6385-1926-4f65-e566" name="•Echo†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f24b-6e59-a4fa-8054" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f04-0ae9-c8eb-0b9c" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ff-aac0-8cce-fbfc" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d4c-15e5-500e-9352" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb93-6459-9451-ae0b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1d70-b9b6-ddf5-74cf" name="Echo" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Lethal 1, Immune: Deflect</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="b58a-441b-effc-7513" name="Echo" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Reliable 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e66b-7d4f-c3a2-cfd4" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
+            <infoLink id="63eb-281e-f9f6-8661" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+            <infoLink id="58f2-0d81-64e0-517e" name="Lethal X" hidden="false" targetId="3cf0-869d-474d-6f37" type="rule"/>
+            <infoLink id="3a79-2bfd-560e-9b44" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
+            <infoLink id="a4bd-ddb0-c79f-f74b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ac08-bcaa-986c-59f6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f0a-6110-5863-dc98" name="•Fives†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f24b-6e59-a4fa-8054" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f04-0ae9-c8eb-0b9c" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ff-aac0-8cce-fbfc" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ff5-b48f-b4e3-26e7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1226-ae35-223b-2ae8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1d7a-b55a-c1da-ddf7" name="Fives" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="94e0-2bdd-d1e4-9b20" name="Fives" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Your courage is increased by 1. You gain Coordinate: Clone Trooper.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="841a-9927-79fb-7ab5" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
+            <infoLink id="3bc1-f969-a9cb-6fa1" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5c33-87c8-c771-bc2d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
