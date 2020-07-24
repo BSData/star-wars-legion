@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="74" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="75" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -10951,7 +10951,7 @@
         <entryLink id="f8e4-86c7-0c25-646f" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a360-d849-2e60-9a77" name="•K-2SO" hidden="true" collective="false" import="true" type="unit">
@@ -13350,8 +13350,11 @@
             <infoLink id="cfdc-adc2-177b-7094" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
             <infoLink id="aa44-4177-5bc0-0b9f" name="Lethal X" hidden="false" targetId="3cf0-869d-474d-6f37" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f450-09bf-77c9-544b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75e0-1be4-747d-2b7d" name="•Del Meeko†" hidden="false" collective="false" import="true" type="model">
@@ -13540,6 +13543,51 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a7dc-8c33-10ec-3a68" name="Dioxis Mine Saboteur†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4cb-c87b-a754-99f1" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72b1-abe6-8b8d-0f36" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97b8-d24b-ea96-e3a0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8ddf-8fcb-6234-3cf9" name="Detonate 1: Dioxis Mine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1 (Area Weapon)</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Poison 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Attack Surge: Hit</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a1be-fb70-66de-d73d" name="Dioxis Mine Saboteur" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Arm 1: Dioxis Mine</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c022-8b93-28ec-8281" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+            <infoLink id="bb7c-9e83-9186-40d5" name="Poison X" hidden="false" targetId="f39b-ba14-7a84-ae56" type="rule"/>
+            <infoLink id="678e-3b0c-7133-3c3c" name="Arm X: *Charge Type*" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0d66-219e-c978-9c4b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
