@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="15" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3e28-1d5a-9ee9-8f04" name="Rebel Alliance" revision="16" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2a10-5c0d-f801-7b5b" name="•Luke Skywalker" hidden="false" collective="false" import="true" targetId="7deb-60e8-a3e8-8259" type="selectionEntry"/>
     <entryLink id="358e-96e3-17c2-5d9f" name="Rebel Troopers" hidden="false" collective="false" import="true" targetId="af85-fff4-b341-2331" type="selectionEntry"/>
@@ -10,7 +10,7 @@
     <entryLink id="6903-3a82-298b-e5f5" name="•Han Solo†" hidden="false" collective="false" import="true" targetId="701d-d692-a791-d034" type="selectionEntry"/>
     <entryLink id="6a18-06f5-9788-5d25" name="Rebel Commandos†" hidden="false" collective="false" import="true" targetId="0f83-7e06-cecd-48c9" type="selectionEntry"/>
     <entryLink id="8cca-fee2-4627-9a4d" name="Rebel Commandos - Strike Team†" hidden="false" collective="false" import="true" targetId="f7a4-bec8-396e-5bd7" type="selectionEntry"/>
-    <entryLink id="bbd8-3ca9-1ca4-772c" name="1.4 FD Laser Cannon Team†" hidden="false" collective="false" import="true" targetId="0f63-4823-0b22-7775" type="selectionEntry"/>
+    <entryLink id="bbd8-3ca9-1ca4-772c" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" import="true" targetId="0f63-4823-0b22-7775" type="selectionEntry"/>
     <entryLink id="05f7-a2c9-8689-5cba" name="•Chewbacca†" hidden="false" collective="false" import="true" targetId="b3dd-044d-5d7c-d7a6" type="selectionEntry"/>
     <entryLink id="7fc9-bd8e-1455-9807" name="Wookiee Warriors†" hidden="false" collective="false" import="true" targetId="c365-178d-8de5-291b" type="selectionEntry"/>
     <entryLink id="2eab-a0cf-3421-fe43" name="Rebel Officer†" hidden="false" collective="false" import="true" targetId="6a95-8257-96f5-984e" type="selectionEntry"/>
@@ -86,5 +86,7 @@
     <entryLink id="0506-2388-ee28-b6d9" name="•R2-D2†" hidden="false" collective="false" import="true" targetId="880e-5aed-0e98-5dcf" type="selectionEntry"/>
     <entryLink id="b548-4818-4af5-4a6e" name="•Cassian Andor††" hidden="false" collective="false" import="true" targetId="d6b8-678a-aa20-be0e" type="selectionEntry"/>
     <entryLink id="7494-46bf-0bc6-906d" name="•K-2SO†" hidden="false" collective="false" import="true" targetId="a360-d849-2e60-9a77" type="selectionEntry"/>
+    <entryLink id="eade-7c0e-b508-8a8b" name="Mandalorian Resistance†" hidden="false" collective="false" import="true" targetId="9845-41fc-a150-5324" type="selectionEntry"/>
+    <entryLink id="eacb-b61c-1a7d-1550" name="Mandalorian Resistance†" hidden="false" collective="false" import="true" targetId="01c8-7c22-ce19-3759" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
