@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="76" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="77" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -10394,7 +10394,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f24b-6e59-a4fa-8054" name="ARC Troopers†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f24b-6e59-a4fa-8054" name="ARC Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="cc5e-6479-7070-1faf" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -10497,7 +10497,6 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <categoryLink id="516a-7190-6a45-8332" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="7085-6040-4123-a258" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="213a-7d4d-fab8-4be3" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
-        <categoryLink id="2b92-c289-9d2b-7e3e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d20-5ff0-41c6-e0ca" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -10570,7 +10569,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="21.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f04-0ae9-c8eb-0b9c" name="ARC Troopers†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5f04-0ae9-c8eb-0b9c" name="ARC Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="282c-3671-fe49-89fa" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -10671,7 +10670,6 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <categoryLink id="cc1f-9885-b395-ea59" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="445d-1b10-41cd-ad12" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="addc-91bf-54e6-64be" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="cd1b-9858-d183-d4e5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ed4c-92e2-01df-8b41" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -10902,7 +10900,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="73.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d52f-ace8-d9d3-a06a" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -10979,7 +10977,6 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <categoryLink id="911f-c395-ffb6-2295" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="1c25-b94d-ea00-1935" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="b585-dbcc-2cd2-92e7" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="425c-7c52-5ef6-3f83" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ba45-591f-ce32-05ee" name=" Commando E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -11150,7 +11147,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="588c-acab-c31e-30ac" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
           <modifiers>
@@ -11229,7 +11226,6 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <categoryLink id="627b-b71d-e2d4-ba72" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="d01e-b265-7a3a-a64b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="445b-a80b-8446-1080" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
-        <categoryLink id="7a3f-ef29-030c-47da" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dc08-6757-01a0-96a9" name=" Commando E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -11376,7 +11372,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
           <profiles>
             <profile id="b214-3951-502e-85c0" name=" Electro-Shock" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1-2</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
@@ -12855,7 +12851,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7842-bae7-c46f-8ae4" name="JT-12 Jetpacks†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7842-bae7-c46f-8ae4" name="JT-12 Jetpacks" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -12889,9 +12885,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <infoLinks>
             <infoLink id="0b65-9d15-7263-6e48" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="b9e1-43ba-21e9-7b71" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
@@ -13014,7 +13007,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0cbb-8070-0f72-a79e" name="EMP &quot;Droid Poppers&quot;†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0cbb-8070-0f72-a79e" name="EMP &quot;Droid Poppers&quot;" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c894-8be1-3b23-ef5f" type="max"/>
           </constraints>
@@ -13038,9 +13031,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <infoLinks>
             <infoLink id="b172-974d-c809-432c" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="4a63-742f-e952-ab4a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
@@ -14739,7 +14729,7 @@ You gain Reliable 1.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb1b-2a72-00df-503c" name="DC-15x ARC Trooper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bb1b-2a72-00df-503c" name="DC-15x ARC Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14770,14 +14760,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="513f-3257-dd4c-e1a0" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
             <infoLink id="8dcf-2509-806b-a771" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="bc45-8129-7ac5-862c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="310c-2861-7d7a-06e0" name="BX-series Droid Sniper†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="310c-2861-7d7a-06e0" name="BX-series Droid Sniper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14807,14 +14794,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="cfdc-adc2-177b-7094" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
             <infoLink id="aa44-4177-5bc0-0b9f" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="f450-09bf-77c9-544b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6385-1926-4f65-e566" name="•Echo†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6385-1926-4f65-e566" name="•Echo" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14857,14 +14841,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="3a79-2bfd-560e-9b44" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
             <infoLink id="a4bd-ddb0-c79f-f74b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="ac08-bcaa-986c-59f6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f0a-6110-5863-dc98" name="•Fives†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3f0a-6110-5863-dc98" name="•Fives" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14905,14 +14886,11 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="841a-9927-79fb-7ab5" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
             <infoLink id="3bc1-f969-a9cb-6fa1" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="5c33-87c8-c771-bc2d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a7dc-8c33-10ec-3a68" name="Dioxis Mine Saboteur†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a7dc-8c33-10ec-3a68" name="Dioxis Mine Saboteur" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14950,9 +14928,6 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="bb7c-9e83-9186-40d5" name="Poison X" hidden="false" targetId="f39b-ba14-7a84-ae56" type="rule"/>
             <infoLink id="678e-3b0c-7133-3c3c" name="Arm X: *Charge Type*" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="0d66-219e-c978-9c4b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
@@ -16768,7 +16743,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="36dd-d8de-48fa-a982" name="Vibroswords†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="36dd-d8de-48fa-a982" name="Vibroswords" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -16804,14 +16779,11 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
           <infoLinks>
             <infoLink id="f0c5-749b-9d89-4586" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="7ca0-f8b1-4e37-9744" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5ae8-a836-c3da-2530" name="Deflector Shields†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5ae8-a836-c3da-2530" name="Deflector Shields" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -16840,9 +16812,6 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="7fdd-8603-a1cf-49b0" name="Shielded X" hidden="false" targetId="0515-3f69-586d-60d0" type="rule"/>
             <infoLink id="13f2-ccfb-e4a7-b9e5" name="Recharge X" hidden="false" targetId="e453-4644-25ec-b759" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="b0e5-d05b-1a1b-b31d" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
