@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="77" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="78" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="add8-9503-b851-9d2d" name="1.1 Troopers">
+    <profileType id="add8-9503-b851-9d2d" name="1.2 Troopers">
       <characteristicTypes>
         <characteristicType id="1037-daec-b00d-38d0" name="Subtitle"/>
         <characteristicType id="a5b5-9e18-969c-7e34" name="Models"/>
@@ -18,7 +18,7 @@
         <characteristicType id="4381-84d3-c939-9df5" name="Upgrade Bar"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5f75-fcdc-0366-0628" name="1.3 Vehicles">
+    <profileType id="5f75-fcdc-0366-0628" name="1.4 Vehicles">
       <characteristicTypes>
         <characteristicType id="621a-0141-7be7-8335" name="Models"/>
         <characteristicType id="eee7-55c8-4a95-6177" name="Wounds"/>
@@ -59,12 +59,18 @@
         <characteristicType id="957b-dc58-3195-2a96" name="Effect"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2332-473f-2385-57a9" name="1.2 Counterparts">
+    <profileType id="2332-473f-2385-57a9" name="1.3 Counterparts">
       <characteristicTypes>
         <characteristicType id="c2e6-3500-61a5-d6c4" name="Subtitle"/>
         <characteristicType id="8715-991f-4d19-44ff" name="Models"/>
         <characteristicType id="266b-70a8-36f6-e230" name="Wounds"/>
         <characteristicType id="0ced-237b-5eb7-c27f" name="Keywords"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="084c-0986-0483-007f" name="1.1 Flaws">
+      <characteristicTypes>
+        <characteristicType id="bed9-dc7f-795d-63f5" name="Commander"/>
+        <characteristicType id="9c06-de8e-b8cf-5b43" name="Effect"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -1268,6 +1274,39 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="a540-60d3-a232-286e" name="•This Is Where the Fun Begins†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4fc9-b585-a7aa-1fc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be6d-3738-dddb-b6fb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bb61-f128-1e7d-4cc0" name="•This Is Where the Fun Begins" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Anakin Skywalker</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Anakin Skywalker</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent.
+Anakin Skywalker gains Outmaneuver and Relentless. At the end of his activation, if he was not the first friendly unit to activate during the current round, he gains 1 suppression token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7076-e37a-8759-cc7d" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
+                <infoLink id="69ba-256a-c394-6c54" name="Outmaneuver" hidden="false" targetId="3aa7-726e-44cb-c46f" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d955-662e-4b70-58f2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="db14-d8eb-2f61-6f96" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="3088-96d9-6c4d-e8c2">
@@ -2076,6 +2115,38 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
               </profiles>
               <categoryLinks>
                 <categoryLink id="237b-16e3-4dd6-e671" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="798c-0175-eae4-5595" name="••You Underestimate My Power†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4fc9-b585-a7aa-1fc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="470c-68f8-d422-374c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6706-89ea-455e-9deb" name="••You Underestimate My Power" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Anakin Skywalker</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Anakin Skywalker</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent.
+Anakin Skywalker gains &quot;Attack Surge: Critical&quot; and Master of the Force 1. At the end of his activation, if he did not perform an attack, he gains 1 suppression token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="295d-d92f-3a70-535a" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="0fb1-772c-67d6-f175" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="6337-ea16-7178-3e10" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2902,6 +2973,39 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="129c-d4cc-1302-b713" name="•••Hero of the Clone Wars†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4fc9-b585-a7aa-1fc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f90-aa71-d88c-ba6b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dd34-ee52-da8b-5ff3" name="•••Hero of the Clone Wars" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Anakin Skywalker</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Anakin Skywalker &amp; 2 Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent.
+Anakin Skywalker gains Exemplar and Reliable 2. At the end of his activation, if he is not at range 1-2 of a friendly unit, he gains 1 suppression token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4662-7418-0d44-40ce" name="Exemplar" hidden="false" targetId="e7ef-a7f1-5c59-6f3b" type="rule"/>
+                <infoLink id="de1a-0b18-f4d1-db85" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="97be-eaf0-2b58-3d38" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="618c-52a1-7492-ebf1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f4d0-4753-630b-44e9" name="4 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbe0-babb-480f-b9a9">
@@ -2953,7 +3057,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4855-80c7-366c-138a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4900-1648-8469-26e1" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="4900-1648-8469-26e1" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -3092,7 +3196,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="af85-fff4-b341-2331" name="Rebel Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d348-100d-6a5c-ee90" name="Rebel Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d348-100d-6a5c-ee90" name="Rebel Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -3257,7 +3361,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="7244-8b48-51ef-c76f" name="AT-RT" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f07c-56d5-3ca8-63bf" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="f07c-56d5-3ca8-63bf" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -3343,7 +3447,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="5204-6387-80e3-863d" name="74-Z Speeder Bikes" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0097-8eff-2bb3-01b2" name="74-Z Speeder Bikes" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="0097-8eff-2bb3-01b2" name="74-Z Speeder Bikes" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -3432,7 +3536,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfc0-6bb9-e319-dfc2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2a92-8395-2bea-65e4" name="Darth Vader" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="2a92-8395-2bea-65e4" name="Darth Vader" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
               <conditions>
@@ -3506,7 +3610,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="d2af-ba7b-fb32-a122" name="Stormtroopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b012-6a6c-0e8e-5af1" name="Stormtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="b012-6a6c-0e8e-5af1" name="Stormtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="set" field="9940-b5a3-802f-9825" value="Precise 2">
               <conditions>
@@ -3668,7 +3772,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="796d-372c-6024-0213" name="T-47 Airspeeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ee06-6557-c7a5-3613" name="T-47 Airspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="ee06-6557-c7a5-3613" name="T-47 Airspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Cover 2, Immune: Blast, Immune: Melee, Speeder 2">
               <conditions>
@@ -3746,7 +3850,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="f8a3-880e-852b-a519" name="AT-ST" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a63a-0365-d558-3088" name="AT-ST" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="a63a-0365-d558-3088" name="AT-ST" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Tactical 1">
               <conditions>
@@ -3860,7 +3964,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -3994,7 +4098,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="306a-4b25-c916-9c79" type="max"/>
       </constraints>
       <profiles>
-        <profile id="55eb-69b8-b357-70bb" name="General Veers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="55eb-69b8-b357-70bb" name="General Veers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="set" field="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 2, Sharpshooter 1">
               <conditions>
@@ -4104,7 +4208,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="3d12-2c85-4a5f-ff69" name="Fleet Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="83c8-fc0c-bca8-a7b9" name="Fleet Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="83c8-fc0c-bca8-a7b9" name="Fleet Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -4243,7 +4347,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e80-394c-0ad8-2aea" type="max"/>
       </constraints>
       <profiles>
-        <profile id="19d4-ddc1-311c-722c" name="Leia Organa" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="19d4-ddc1-311c-722c" name="Leia Organa" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
@@ -4364,7 +4468,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23e8-6267-b4ac-ea69" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d09a-3e50-8849-493b" name="Han Solo" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d09a-3e50-8849-493b" name="Han Solo" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
@@ -4488,7 +4592,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="0f83-7e06-cecd-48c9" name="Rebel Commandos" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e053-d14d-0b01-a8fe" name="Rebel Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="e053-d14d-0b01-a8fe" name="Rebel Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -4595,7 +4699,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos " hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
@@ -4712,7 +4816,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ab6d-9471-2256-369c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3003-c8c0-01d2-c4d3" name="Boba Fett" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="3003-c8c0-01d2-c4d3" name="Boba Fett" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -4866,7 +4970,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="a672-8380-48cd-30a8" name="Scout Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8b96-d4a5-f1ea-33c2" name="Scout Troopers†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="8b96-d4a5-f1ea-33c2" name="Scout Troopers†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -4973,7 +5077,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="13e5-b1cc-af4b-b33c" name="Scout Troopers " hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6db9-a222-7e62-6be4" name="Scout Troopers " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="6db9-a222-7e62-6be4" name="Scout Troopers " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -5086,7 +5190,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a33c-c773-f780-e4ce" name="1.4 FD Laser Cannon Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="a33c-c773-f780-e4ce" name="1.4 FD Laser Cannon Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
               <conditions>
@@ -5193,7 +5297,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="dc90-d56f-870f-d096" name="E-Web Heavy Blaster Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="dc90-d56f-870f-d096" name="E-Web Heavy Blaster Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
               <conditions>
@@ -5304,7 +5408,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b3f-0f94-9fbd-4384" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0997-6253-37ac-6f8c" name="Emperor Palpatine" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="0997-6253-37ac-6f8c" name="Emperor Palpatine" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
               <conditions>
@@ -5379,7 +5483,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="aec2-d449-8d4a-9a84" name="Imperial Royal Guards" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4924-c39f-bd7a-aad5" name="Imperial Royal Guards" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="4924-c39f-bd7a-aad5" name="Imperial Royal Guards" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
@@ -5511,7 +5615,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d641-e857-b832-b66b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0c86-5718-6c08-8577" name="Chewbacca" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="0c86-5718-6c08-8577" name="Chewbacca" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -5630,7 +5734,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="c365-178d-8de5-291b" name="Wookiee Warriors" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f7bc-9774-a6c7-3fc5" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="f7bc-9774-a6c7-3fc5" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -5756,7 +5860,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="6a95-8257-96f5-984e" name="Rebel Officer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="956e-24de-3328-1a95" name="Rebel Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="956e-24de-3328-1a95" name="Rebel Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
               <conditions>
@@ -5847,7 +5951,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="b1ab-39cb-f761-ed4a" name="Imperial Officer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="577c-c1ce-b746-ba19" name="Imperial Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="577c-c1ce-b746-ba19" name="Imperial Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
               <conditions>
@@ -5938,7 +6042,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="d425-63e3-9405-6b4f" name="Shoretroopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="af4f-021f-d934-43e1" name="Shoretroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="af4f-021f-d934-43e1" name="Shoretroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -6099,7 +6203,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2d6a-aa91-3dab-3214" type="max"/>
       </constraints>
       <profiles>
-        <profile id="56a1-55f2-68dc-8e00" name="Director Orson Krennic" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="56a1-55f2-68dc-8e00" name="Director Orson Krennic" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -6202,7 +6306,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="33c9-05f4-7135-ca8d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fd27-0c3a-a262-7323" name="Jyn Erso" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="fd27-0c3a-a262-7323" name="Jyn Erso" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -6309,7 +6413,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4878-11a3-c90c-ef2a" name="Rebel Pathfinders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="4878-11a3-c90c-ef2a" name="Rebel Pathfinders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -6429,7 +6533,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="fe82-164e-5d9b-3724" name="Imperial Death Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b267-56e3-0854-feaa" name="Imperial Death Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="b267-56e3-0854-feaa" name="Imperial Death Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -6586,7 +6690,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="976e-3faa-c0b8-56ba" name="X-34 Landspeeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8297-7529-7836-87ab" name="X-34 Landspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="8297-7529-7836-87ab" name="X-34 Landspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor 2, Arsenal 3, Cover 2, Light Transport 1: Open, Speeder 1">
               <conditions>
@@ -6663,7 +6767,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="e95b-9d47-5248-9b39" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f451-3666-e73e-f1e0" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="f451-3666-e73e-f1e0" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Tactical 1">
               <conditions>
@@ -7353,7 +7457,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fcc1-8966-d9a5-e272" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1d53-d12a-0837-869b" name="Sabine Wren" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="1d53-d12a-0837-869b" name="Sabine Wren" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -7488,7 +7592,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a7f-6ec8-d357-5527" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e307-65ff-dcc3-2e86" name="Bossk" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="e307-65ff-dcc3-2e86" name="Bossk" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -7610,7 +7714,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="958f-e019-e7bb-89fb" name="Tauntaun Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1709-d8e5-b2ca-d943" name="Tauntaun Riders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="1709-d8e5-b2ca-d943" name="Tauntaun Riders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -7704,7 +7808,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="9046-98aa-f2f3-9867" name="Rebel Veterans" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="11d3-2af0-6a46-12c8" name="Rebel Veterans" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="11d3-2af0-6a46-12c8" name="Rebel Veterans" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -7844,7 +7948,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="8943-cb3d-8d0c-9a04" name="Phase I Clone Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="337c-4338-977e-8f18" name="Phase I Clone Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="337c-4338-977e-8f18" name="Phase I Clone Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -8005,7 +8109,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="dbff-85dd-ece7-afbb" name="B1 Battle Droids" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="be42-53e6-d82f-6822" name="B1 Battle Droids" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="be42-53e6-d82f-6822" name="B1 Battle Droids" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -8123,7 +8227,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d162-d942-61be-e728" type="max"/>
       </constraints>
       <profiles>
-        <profile id="32c9-f278-e50d-c86f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="32c9-f278-e50d-c86f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -8201,7 +8305,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="10c2-74c2-fcd3-f726" name="Dewback Rider" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7b11-0eb8-d224-4afb" name="Dewback Rider" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="7b11-0eb8-d224-4afb" name="Dewback Rider" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -8282,7 +8386,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="790e-2732-4eb3-164a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6192-1779-3cf7-8846" name="Obi-Wan Kenobi" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="6192-1779-3cf7-8846" name="Obi-Wan Kenobi" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -8371,7 +8475,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c742-36a0-b2f1-7a8c" name="BARC Speeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="c742-36a0-b2f1-7a8c" name="BARC Speeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="decrement" field="4f1a-9937-f30d-051a" value="1">
               <conditions>
@@ -8470,7 +8574,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4fd-2961-5409-7437" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b791-d83b-ee7d-2e4e" name="Mark II Medium Blaster Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="b791-d83b-ee7d-2e4e" name="Mark II Medium Blaster Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
               <conditions>
@@ -8570,7 +8674,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93ae-7e4e-fdfb-a409" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
               <conditions>
@@ -8663,7 +8767,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="5623-5a88-7914-1441" name="Droidekas" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f027-5b87-85af-b4e9" name="Droidekas" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="f027-5b87-85af-b4e9" name="Droidekas" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -8737,7 +8841,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fbcf-2163-0729-e5dd" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bfa5-9e89-b55a-8ca6" name="General Grievous" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="bfa5-9e89-b55a-8ca6" name="General Grievous" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -8853,7 +8957,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36b8-6cb6-b217-016e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cd32-d734-b5ad-87fe" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="cd32-d734-b5ad-87fe" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -8946,7 +9050,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab8-2e49-8300-ba8b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d2a3-db0e-5fa7-68c2" name="Darth Vader " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d2a3-db0e-5fa7-68c2" name="Darth Vader " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
@@ -9060,7 +9164,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a46e-c0dc-7338-8dc6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e5d8-ae64-cb72-a9d6" name="Count Dooku" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="e5d8-ae64-cb72-a9d6" name="Count Dooku" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
               <conditions>
@@ -9158,7 +9262,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="d745-571e-8ef8-3724" name="B2 Super Battle Droids" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f746-feac-0a86-38e7" name="B2 Super Battle Droids†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="f746-feac-0a86-38e7" name="B2 Super Battle Droids†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -9242,7 +9346,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="a42e-0405-17d1-d9ab" name="AAT Trade Federation Battle Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a1ed-d7f2-51f2-e72a" name="AAT Trade Federation Battle Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="a1ed-d7f2-51f2-e72a" name="AAT Trade Federation Battle Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Barrage, Field Commander, Hover: Ground, Weak Point 2: Rear">
               <conditions>
@@ -9368,7 +9472,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59ad-41d4-ea05-8e3e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d679-fa31-f06a-c053" name="Clone Captain Rex" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d679-fa31-f06a-c053" name="Clone Captain Rex" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="set" field="9940-b5a3-802f-9825" value="Gunslinger, Scout 2, Scouting Party 2, Sharpshooter 1, Tactical 1">
               <conditions>
@@ -9505,7 +9609,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="e7ff-aac0-8cce-fbfc" name="Phase II Clone Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8209-46f7-3957-4ee0" name="Phase II Clone Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="8209-46f7-3957-4ee0" name="Phase II Clone Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -9631,7 +9735,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5592-b591-1509-44f1" name="TX-130 Saber-class Fighter Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="5592-b591-1509-44f1" name="TX-130 Saber-class Fighter Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="7374-8d85-f1fe-aee4" value=", Inspire 2, Field Commander">
               <conditions>
@@ -9715,7 +9819,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee1e-a061-c966-2673" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d258-0876-2c0b-c7c3" name="R2-D2" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d258-0876-2c0b-c7c3" name="R2-D2" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Independent Astromech</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9788,7 +9892,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a21c-3fdf-ae83-34fc" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a0ec-1bf3-8ac2-2914" name="R2-D2" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="a0ec-1bf3-8ac2-2914" name="R2-D2" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hero of a Thousand Devices</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9861,7 +9965,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12a0-6cb3-48ef-d96d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="736e-9c9c-09fd-4466" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.2 Counterparts">
+        <profile id="736e-9c9c-09fd-4466" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
           <characteristics>
             <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Human-Cyborg Relations</characteristic>
             <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
@@ -9913,7 +10017,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d92-3c56-e5fc-3324" type="max"/>
       </constraints>
       <profiles>
-        <profile id="256b-974c-dffd-af77" name="Cassian Andor" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="256b-974c-dffd-af77" name="Cassian Andor" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -10053,7 +10157,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f364-7a65-0076-16b6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6360-e5ce-e408-64ea" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.2 Counterparts">
+        <profile id="6360-e5ce-e408-64ea" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
           <characteristics>
             <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Made to Suffer</characteristic>
             <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
@@ -10122,7 +10226,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="741b-e09a-ece4-aae5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3a66-973e-624f-1ba8" name="Iden Versio" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="3a66-973e-624f-1ba8" name="Iden Versio" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -10265,7 +10369,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c86-6329-d9a9-e6e0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0f68-4b93-7eda-6056" name="Padmé Amidala" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="0f68-4b93-7eda-6056" name="Padmé Amidala" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -10396,7 +10500,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="f24b-6e59-a4fa-8054" name="ARC Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cc5e-6479-7070-1faf" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="cc5e-6479-7070-1faf" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -10571,7 +10675,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="5f04-0ae9-c8eb-0b9c" name="ARC Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="282c-3671-fe49-89fa" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="282c-3671-fe49-89fa" name="ARC Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -10740,7 +10844,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="4851-c273-87a5-febd" name="AT-RT" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cb17-ee28-cb5c-cc26" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="cb17-ee28-cb5c-cc26" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -10831,7 +10935,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="28f5-f446-716c-00f9" name="STAP Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1747-9714-78e1-955a" name="STAP Riders" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.3 Vehicles">
+        <profile id="1747-9714-78e1-955a" name="STAP Riders" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
           <modifiers>
             <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
               <conditions>
@@ -10900,7 +11004,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d52f-ace8-d9d3-a06a" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="d52f-ace8-d9d3-a06a" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -11015,7 +11119,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecc5-1525-9d5c-1c96" type="max"/>
       </constraints>
       <profiles>
-        <profile id="87ae-4ca3-a9a1-ee0e" name="Cad Bane" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="87ae-4ca3-a9a1-ee0e" name="Cad Bane" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -11147,7 +11251,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="588c-acab-c31e-30ac" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="588c-acab-c31e-30ac" name="BX-series Droid Commandos" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -11275,7 +11379,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8dff-e3d9-8ac8-518b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="edf3-bc0a-40e6-8423" name="K-2SO" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="edf3-bc0a-40e6-8423" name="K-2SO" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Sardonic Security Droid</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -11339,7 +11443,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f301-2ecb-6678-5bf3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7831-1acc-e694-21ef" name="Iden&apos;s ID10 Seeker Droid" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.2 Counterparts">
+        <profile id="7831-1acc-e694-21ef" name="Iden&apos;s ID10 Seeker Droid" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
           <characteristics>
             <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">&quot;Droid&quot;</characteristic>
             <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
@@ -11391,7 +11495,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
     </selectionEntry>
     <selectionEntry id="9845-41fc-a150-5324" name="Mandalorian Resistance" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="dde1-bb27-3c9a-f6de" name="Mandalorian Resistance" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="dde1-bb27-3c9a-f6de" name="Mandalorian Resistance" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -11537,7 +11641,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="08ca-02d8-ea84-d8a1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9380-fc16-dc7b-2689" name="Mandalorian Resistance" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="9380-fc16-dc7b-2689" name="Mandalorian Resistance" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -11770,89 +11874,106 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fc9-b585-a7aa-1fc0" name=" •Anakin Skywalker††" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="4fc9-b585-a7aa-1fc0" name="•Anakin Skywalker†" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b21-af60-ad4a-07c8" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70f8-3421-980b-5809" type="max"/>
       </constraints>
       <profiles>
-        <profile id="df8b-62f1-f980-df4f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="df8b-62f1-f980-df4f" name="Anakin Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">The Chosen One</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
-            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
-            <characteristic name="Defense" typeId="d709-b540-6ad3-b884"/>
-            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca"/>
-            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec"/>
-            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f"/>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825"/>
-            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5"/>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Jump 1, Djem So Mastery, Flawed, Immune: Pierce, Tempted</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Force x2, Training x2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8e32-360e-b241-2bd9" name="Not a Story the Jedi Would Tell" hidden="false" typeId="084c-0986-0483-007f" typeName="1.1 Flaws">
+          <characteristics>
+            <characteristic name="Commander" typeId="bed9-dc7f-795d-63f5">Anakin Skywalker</characteristic>
+            <characteristic name="Effect" typeId="9c06-de8e-b8cf-5b43">You may play this card at the start of the Command Phase if there is an enemy Anakin Skywalker with at least 1 suppression token. That enemy Anakin Skywalker cannot be issued orders.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="6129-7ddc-cadb-927e" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
+        <infoLink id="c570-f468-45de-c278" name="Djem So Mastery" hidden="false" targetId="77da-36c3-3fe7-0830" type="rule"/>
+        <infoLink id="c637-7950-49ac-d099" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
+        <infoLink id="6917-f184-f83f-9471" name="Flawed" hidden="false" targetId="b79c-9dc8-3030-edf5" type="rule"/>
+        <infoLink id="55fa-c376-4871-add9" name="Tempted" hidden="false" targetId="a34d-4d67-ab99-a8ca" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5981-56bd-9ba6-0393" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="8e44-d8d2-030b-bc9b" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="e51c-300b-ec53-b16d" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
+        <categoryLink id="3523-7592-6d03-8082" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="0aaa-fa24-c51e-1faf" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+        <categoryLink id="53c6-2e37-f063-673a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="f49b-2b9d-e9ab-0b66" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="25f0-f584-320f-6855" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d97b-1831-3bbe-6085" name=" Anakin&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ef4-2c2f-b6f4-3152" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfaf-1c08-0fef-016e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4c97-a13e-9191-a898" name=" Anakin&apos;s Lightsaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x5</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 3, Pierce 3</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="94ac-c137-ba3e-19ec" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="3c32-2f67-626e-fdf6" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f89f-99ef-1865-c808" name="Force" hidden="false" collective="false" import="true" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="dbfc-7d30-3a27-39d9" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8773-cc1e-ca48-fc89" name=" •Maul††" hidden="true" collective="false" import="true" type="unit">
@@ -11861,7 +11982,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9a7-355c-2155-e347" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6345-25e9-58bc-5f84" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="6345-25e9-58bc-5f84" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -11946,7 +12067,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb03-696b-39bd-b5e5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="94c8-14d7-0c09-380f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="94c8-14d7-0c09-380f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -12031,7 +12152,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d09c-8aae-f5b7-c3db" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1535-e902-2419-cbde" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="1535-e902-2419-cbde" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -12174,7 +12295,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
     </selectionEntry>
     <selectionEntry id="6421-4bca-d13f-05dd" name="Imperial Special Forces" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8b72-fd3e-91bc-4eec" name="Imperial Special Forces" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="8b72-fd3e-91bc-4eec" name="Imperial Special Forces" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -12302,7 +12423,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
     </selectionEntry>
     <selectionEntry id="9670-a5ef-c0f4-a8ed" name="Imperial Special Forces" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="dd76-2cd1-c9c9-d54e" name="Imperial Special Forces" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.1 Troopers">
+        <profile id="dd76-2cd1-c9c9-d54e" name="Imperial Special Forces" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -12672,6 +12793,25 @@ You gain Coordinate: Corps Trooper.</characteristic>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="873d-b41f-85a4-0deb" name="Force Barrier†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce0a-cef3-2b15-b448" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6ed7-e3fc-6dfe-c708" name="Force Barrier" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
+              <characteristics>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">While another friendly trooper unit at range 1 is defending against a ranged attack, during the Modify Attack Dice step, cancel either 1 Critical result or up to 2 Hit results.</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="b68e-da92-e51f-2a03" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16236,7 +16376,7 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f4c1-4f5e-1570-a638" name="Offensive Stance†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f4c1-4f5e-1570-a638" name="Defensive/Offensive Stance†" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16256,9 +16396,49 @@ When you perform an aim action, gain 2 aim tokens instead of 1. You cannot spend
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
+            <profile id="4d90-64fd-1a58-2554" name="Defensive Stance" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">At the start of your activation, you may flip this card.
+When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot spend aim tokens.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
           </profiles>
           <categoryLinks>
             <categoryLink id="4c79-f6d1-a097-f8a3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e5f1-d7fe-9055-49f7" name="Seize the Initiative†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb02-3ca8-cc7c-87a9" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8837-65e9-c1bd-f304" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aea5-08fa-60d1-caa3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="99a5-d9e7-5b53-1baf" name="Seize the Initiative" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Issue Orders step of the Command Phase, issue an order to yourself.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Expend</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="2891-2184-3696-5b58" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
@@ -17542,6 +17722,15 @@ While defending against a melee attack, if you spend a dodge token, gain Immune:
     </rule>
     <rule id="1761-f3d6-1a45-e5c4" name="Sidearm: Ranged" hidden="false">
       <description>While performing a ranged attack, this mini can only use the weapon on this card.</description>
+    </rule>
+    <rule id="b79c-9dc8-3030-edf5" name="Flawed" hidden="false">
+      <description>Add your flaw card to an opponent&apos;s hand.</description>
+    </rule>
+    <rule id="a34d-4d67-ab99-a8ca" name="Tempted" hidden="false">
+      <description>You can equip Force upgrades of any alignment.</description>
+    </rule>
+    <rule id="77da-36c3-3fe7-0830" name="Djem So Mastery" hidden="false">
+      <description>While defending, if you spend a dodge token, you gain &quot;Defense Surge: Block&quot;; if at least 1 Hit or Critical result was canceled, the attacker suffers 1 wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
