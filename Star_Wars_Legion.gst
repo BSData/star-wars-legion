@@ -1275,7 +1275,7 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a540-60d3-a232-286e" name="•This Is Where the Fun Begins†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a540-60d3-a232-286e" name="•This Is Where the Fun Begins" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1302,13 +1302,12 @@ Anakin Skywalker gains Outmaneuver and Relentless. At the end of his activation,
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="d955-662e-4b70-58f2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="db14-d8eb-2f61-6f96" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5c78-1ca1-d40a-f68e" name="•Duel of the Fates†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5c78-1ca1-d40a-f68e" name="•Duel of the Fates" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1334,7 +1333,6 @@ While Maul is engaged with an enemy unit, that unit cannot spend aim, dodge, sta
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="c2c3-4559-86e2-8e87" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="26c5-b899-754b-0203" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2153,7 +2151,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="798c-0175-eae4-5595" name="••You Underestimate My Power†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="798c-0175-eae4-5595" name="••You Underestimate My Power" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2179,13 +2177,12 @@ Anakin Skywalker gains &quot;Attack Surge: Critical&quot; and Master of the Forc
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="0fb1-772c-67d6-f175" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="6337-ea16-7178-3e10" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4ddc-5364-9c71-a114" name="••The Phantom Menace†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4ddc-5364-9c71-a114" name="••The Phantom Menace" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2211,7 +2208,6 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="e1eb-6a9f-ba59-74a1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="9e2c-6d60-e423-3d37" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3038,7 +3034,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="129c-d4cc-1302-b713" name="•••Hero of the Clone Wars†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="129c-d4cc-1302-b713" name="•••Hero of the Clone Wars" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3065,13 +3061,12 @@ Anakin Skywalker gains Exemplar and Reliable 2. At the end of his activation, if
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="97be-eaf0-2b58-3d38" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="618c-52a1-7492-ebf1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4784-e58c-f31f-ce3a" name="•At Last†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4784-e58c-f31f-ce3a" name="•At Last" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3097,7 +3092,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="2147-ec1d-0872-f0d4" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="cbcb-c24f-46a2-4ce5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -11993,7 +11987,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fc9-b585-a7aa-1fc0" name="•Anakin Skywalker†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fc9-b585-a7aa-1fc0" name="•Anakin Skywalker" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b21-af60-ad4a-07c8" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70f8-3421-980b-5809" type="max"/>
@@ -12052,7 +12046,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <categoryLink id="0aaa-fa24-c51e-1faf" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="53c6-2e37-f063-673a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="f49b-2b9d-e9ab-0b66" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="25f0-f584-320f-6855" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d97b-1831-3bbe-6085" name=" Anakin&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
@@ -12095,7 +12088,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8773-cc1e-ca48-fc89" name="•Maul†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8773-cc1e-ca48-fc89" name="•Maul" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6619-8fae-df43-5801" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9a7-355c-2155-e347" type="max"/>
@@ -12146,7 +12139,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <categoryLink id="776a-3851-d2ea-da23" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="32b2-1466-61df-7556" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="f796-fa10-1c98-af83" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="1f97-2955-8aa8-05e0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="063b-57cf-9393-3048" name=" Maul&apos;s Double-bladed Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
@@ -12189,7 +12181,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fab-8387-1ad1-e0cb" name="DRK-1 Sith Probe Droids†" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="8fab-8387-1ad1-e0cb" name="DRK-1 Sith Probe Droids" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -12230,7 +12222,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <categoryLink id="8deb-78c0-861d-27ca" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="9e1e-1668-0787-6449" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="d3b5-d3e3-24e9-e35f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="bae7-1bdc-2fe9-3bf5" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7a53-08b9-018e-262a" name=" Electro-stun Micro Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -12912,7 +12903,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="873d-b41f-85a4-0deb" name="Force Barrier†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="873d-b41f-85a4-0deb" name="Force Barrier" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce0a-cef3-2b15-b448" type="max"/>
           </constraints>
@@ -12924,9 +12915,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="b68e-da92-e51f-2a03" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
@@ -16490,7 +16478,7 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f4c1-4f5e-1570-a638" name="Defensive/Offensive Stance†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f4c1-4f5e-1570-a638" name="Defensive/Offensive Stance" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16519,14 +16507,11 @@ When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot sp
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="4c79-f6d1-a097-f8a3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e5f1-d7fe-9055-49f7" name="Seize the Initiative†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e5f1-d7fe-9055-49f7" name="Seize the Initiative" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -16551,9 +16536,6 @@ When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot sp
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="2891-2184-3696-5b58" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
