@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="79" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="80" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -107,6 +107,7 @@
     <categoryEntry id="8f23-7df3-e89c-3a4f" name="Sidecar" hidden="false"/>
     <categoryEntry id="5938-b46b-abe2-3c4f" name="Strike Team" hidden="false"/>
     <categoryEntry id="5607-032a-efad-1d58" name="Counterpart" hidden="false"/>
+    <categoryEntry id="be18-9b53-454b-4214" name="Wookiee Trooper" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -416,7 +417,7 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Luke Skywalker</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Luke Skywalker</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After Luke Skywalker performs his first attack, he may perform 1 additional attack.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After Luke Skywalker performs his first attack, he may perform a free attack action, even if he has already performed an attack action during his activation.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -657,7 +658,7 @@ After Emperor Palpatine performs an attack, the defender gains 1 immobilized tok
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Rebel</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Special Forces or Operative Unit</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Your opponent must issue orders to 1 fewer units than is indicated on their command card, to a minimum of 1.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">While an opponent is issuing orders using a command card, they can issue only 1 order with that card.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -684,7 +685,7 @@ After Emperor Palpatine performs an attack, the defender gains 1 immobilized tok
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Imperial</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Special Forces or Operative Unit</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Look at up to 2 random command cards from an opponent&apos;s hand.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">While an opponent is issuing orders using a command card, each unit that is issued an order with that card gains 1 suppression token.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3701,7 +3702,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="190.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2af-ba7b-fb32-a122" name="Stormtroopers" hidden="false" collective="false" import="true" type="unit">
@@ -3886,7 +3887,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">7</characteristic>
             <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">5</characteristic>
             <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
-            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">Critical</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">3</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Cover 1, Immune: Blast, Immune: Melee, Immune: Range 1 Weapons, Speeder 2</characteristic>
@@ -3941,7 +3942,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="6631-9967-6aa6-8630" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="140.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8a3-880e-852b-a519" name="AT-ST" hidden="false" collective="false" import="true" type="unit">
@@ -4043,7 +4044,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="730b-ece4-91b1-c278" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c659-96ac-053c-1980" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -4185,7 +4186,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c3d-b1db-07e7-cb3c" name="•General Veers" hidden="false" collective="false" import="true" type="unit">
@@ -4434,7 +4435,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="44.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce2d-0391-be63-e507" name="•Leia Organa" hidden="false" collective="false" import="true" type="unit">
@@ -4683,7 +4684,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="259e-4d84-56f8-5bb0" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f83-7e06-cecd-48c9" name="Rebel Commandos" hidden="false" collective="false" import="true" type="unit">
@@ -4790,7 +4791,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="13c5-4924-434c-e583" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos " hidden="false" collective="false" import="true" type="unit">
@@ -5061,7 +5062,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="140.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a672-8380-48cd-30a8" name="Scout Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -5168,7 +5169,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="9a90-0de7-c0d7-f835" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13e5-b1cc-af4b-b33c" name="Scout Troopers " hidden="false" collective="false" import="true" type="unit">
@@ -5574,7 +5575,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="210.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aec2-d449-8d4a-9a84" name="Imperial Royal Guards" hidden="false" collective="false" import="true" type="unit">
@@ -5743,6 +5744,16 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Walking Carpet</characteristic>
@@ -5753,41 +5764,43 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Critical</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Enrage 4, Expert Climber, Guardian 3, Teamwork: Han Solo, Unhindered</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Enrage 4, Guardian 3, Scale, Teamwork: Han Solo</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Training x2, Gear</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b2d1-750c-4e25-21d5" name="Enrage" hidden="false" targetId="43ef-e5b2-b408-933f" type="infoGroup"/>
-        <infoLink id="e874-4592-3642-83ff" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
         <infoLink id="8979-a90b-f9e8-58e2" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
         <infoLink id="f875-a678-e839-cbf9" name="Teamwork: Han Solo" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule"/>
-        <infoLink id="712c-acf7-9991-455d" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
+        <infoLink id="712c-acf7-9991-455d" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c1ad-db4d-c64c-e5f9" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="b8fe-3c0b-8ee1-014e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="922a-954d-00c0-fe70" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="3fbb-fd79-4ecd-5085" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="5141-5af3-0776-720a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="4c32-65c3-ca9f-c3bb" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b2d8-ea94-36b1-808d" name=" Overpower" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b2d8-ea94-36b1-808d" name=" Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4de-bf8f-d81b-891d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f55d-4723-326e-23e1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="abd8-c603-2afd-e048" name=" Overpower" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="abd8-c603-2afd-e048" name=" Overwhelm" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x4</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Lethal 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="fa0e-4447-bec0-a7d8" name="Lethal X" hidden="false" targetId="3cf0-869d-474d-6f37" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -5825,7 +5838,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="d8ef-497f-a68b-1d27" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="95.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c365-178d-8de5-291b" name="Wookiee Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -5872,6 +5885,16 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -5882,23 +5905,23 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Charge, Expert Climber, Indomitable, Unhindered</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Charge, Duelist, Indomitable, Scale</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training x2, Gear, Grenades</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="5987-75c4-f468-560f" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
-        <infoLink id="925c-ae6d-b988-d295" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
-        <infoLink id="7fe6-5da7-7982-7e87" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
+        <infoLink id="925c-ae6d-b988-d295" name="Duelist" hidden="false" targetId="e789-d963-2537-ba9b" type="rule"/>
+        <infoLink id="7fe6-5da7-7982-7e87" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
         <infoLink id="7272-463e-0698-8fb9" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7f90-2f11-cd77-e9f2" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="17eb-b212-3f39-6703" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="007f-b95a-7bec-df13" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="7553-ab5d-ec23-8bf8" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="7780-4796-4f45-8e66" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="f663-b396-5092-12b5" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0f61-48b7-632d-a338" name=" Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -5951,7 +5974,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="2ea1-1a31-025a-b21f" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="69.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a95-8257-96f5-984e" name="Rebel Officer" hidden="false" collective="false" import="true" type="unit">
@@ -6042,7 +6065,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="a399-4e52-261e-3692" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1ab-39cb-f761-ed4a" name="Imperial Officer" hidden="false" collective="false" import="true" type="unit">
@@ -6133,7 +6156,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="689c-4bd3-c716-9f0f" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d425-63e3-9405-6b4f" name="Shoretroopers" hidden="false" collective="false" import="true" type="unit">
@@ -6504,7 +6527,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="9f11-7d6b-993b-df47" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="110.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders" hidden="false" collective="false" import="true" type="unit">
@@ -6624,7 +6647,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="cfbd-c609-67e4-7dec" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="68.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe82-164e-5d9b-3724" name="Imperial Death Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -6858,7 +6881,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e95b-9d47-5248-9b39" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" collective="false" import="true" type="unit">
@@ -6962,7 +6985,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="716b-6125-0721-04ee" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1029-5e4f-678b-a9a9" name="Deployment Cards" hidden="false" collective="false" import="true" type="unit">
@@ -7899,7 +7922,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="0219-0d88-4f42-135f" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9046-98aa-f2f3-9867" name="Rebel Veterans" hidden="false" collective="false" import="true" type="unit">
@@ -8473,7 +8496,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="ca38-42db-82a8-9315" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="595e-1631-d059-2372" name="•Obi-Wan Kenobi" hidden="false" collective="false" import="true" type="unit">
@@ -8566,7 +8589,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="90cf-3204-13c5-e662" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder" hidden="false" collective="false" import="true" type="unit">
@@ -8650,7 +8673,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="820f-a168-26db-9ad8" name="Crew" hidden="false" collective="false" import="true" targetId="d746-6c9e-b4ca-bd90" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper" hidden="true" collective="false" import="true" type="unit">
@@ -8681,7 +8704,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
             <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
@@ -8858,7 +8881,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="8ae9-0ce4-6969-af9e" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5623-5a88-7914-1441" name="Droidekas" hidden="false" collective="false" import="true" type="unit">
@@ -8928,7 +8951,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="538a-dbc9-ed49-4e5d" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78ba-e4fe-8cb3-7c8e" name="•General Grievous" hidden="false" collective="false" import="true" type="unit">
@@ -9037,7 +9060,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="623a-c109-f047-183b" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1d4-74ca-26fb-9a72" name="•Luke Skywalker" hidden="false" collective="false" import="true" type="unit">
@@ -9130,7 +9153,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="3350-3fa1-ca89-39f0" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="195.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c88-0bd6-8c12-56d2" name="•Darth Vader" hidden="false" collective="false" import="true" type="unit">
@@ -9251,7 +9274,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87d3-a316-11b8-d706" name="•Count Dooku" hidden="false" collective="false" import="true" type="unit">
@@ -9353,7 +9376,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="27f4-0a2c-2eb5-e459" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="205.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d745-571e-8ef8-3724" name="B2 Super Battle Droids" hidden="false" collective="false" import="true" type="unit">
@@ -9437,7 +9460,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="a3c3-14e2-d6a3-d2c5" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a42e-0405-17d1-d9ab" name="AAT Trade Federation Battle Tank" hidden="false" collective="false" import="true" type="unit">
@@ -9826,7 +9849,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="2cbc-bc99-8a50-d5bf" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="62.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank" hidden="false" collective="false" import="true" type="unit">
@@ -9972,7 +9995,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="8a0d-a7ea-9cef-5a90" name="•C-3PO† 2" hidden="false" collective="false" import="true" targetId="0e57-7b18-ee65-9b89" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="880e-5aed-0e98-5dcf" name="•R2-D2" hidden="false" collective="false" import="true" type="unit">
@@ -10045,7 +10068,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="f38e-7684-327b-6431" name="•C-3PO†" hidden="false" collective="false" import="true" targetId="c67b-3a23-a437-9957" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c67b-3a23-a437-9957" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
@@ -10766,7 +10789,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="12dd-5f38-4e23-076c" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="21.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f04-0ae9-c8eb-0b9c" name="ARC Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -10935,7 +10958,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="31d4-7d5d-7e3f-aab2" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="78.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4851-c273-87a5-febd" name="AT-RT" hidden="false" collective="false" import="true" type="unit">
@@ -12181,7 +12204,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
       <profiles>
         <profile id="94c8-14d7-0c09-380f" name="DRK-1 Sith Probe Droids" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"></characteristic>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
             <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">1</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">1</characteristic>
@@ -12740,7 +12763,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8bdf-fcb7-4cef-0df9" name="Saber Throw" hidden="false" collective="false" import="true" type="upgrade">
@@ -12789,7 +12812,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <profiles>
             <profile id="786c-3b93-0387-8a9d" name="Jedi Mind Trick" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
-                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose an enemy trooper unit at range 1-2. It gains 2 suppression tokens.</characteristic>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose a non-commander, non-operative enemy trooper unit at range 1. It gains 2 suppression tokens.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -12834,7 +12857,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="69ac-9938-26cd-a3e7" name="Hope" hidden="false" collective="false" import="true" type="upgrade">
@@ -12952,7 +12975,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="c946-6ebd-8647-98ef" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0410-76a2-1c5f-fc56" name="Environmental Gear" hidden="false" collective="false" import="true" type="upgrade">
@@ -12972,7 +12995,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="28ed-1f3e-0b60-9a61" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac74-fe61-2334-12bb" name="Emergency Stims" hidden="false" collective="false" import="true" type="upgrade">
@@ -12989,7 +13012,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a1c9-3e8c-d277-6e55" name="Recon Intel" hidden="false" collective="false" import="true" type="upgrade">
@@ -13040,7 +13063,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="f042-5ffd-c693-59c2" name="Recharge X" hidden="false" targetId="e453-4644-25ec-b759" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a8de-ecdf-b12b-822c" name="Electro Grappling Line" hidden="false" collective="false" import="true" type="upgrade">
@@ -13154,7 +13177,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="d5f3-f78a-01ce-31eb" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d6a7-c313-3dbe-1c45" name="Impact Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -13175,7 +13198,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="4674-97cb-26da-0c44" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c650-034b-bcea-8da3" name="Fragmentation Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -13220,7 +13243,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="c688-4faa-387f-31f3" name="Smoke X" hidden="false" targetId="bd82-f4e9-9b2e-c37b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0cbb-8070-0f72-a79e" name="EMP &quot;Droid Poppers&quot;" hidden="false" collective="false" import="true" type="upgrade">
@@ -13270,7 +13293,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8918-51ab-4d89-8cf4" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7410-5742-9493-caa9" name="Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -13285,7 +13308,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f03b-ad5a-0a9c-ed07" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="56d9-071f-6509-8064" name="Snowtrooper" hidden="false" collective="false" import="true" type="model">
@@ -13300,7 +13323,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d05-f128-460f-4193" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="57e7-b29c-ace0-c94b" name="Fleet Trooper" hidden="false" collective="false" import="true" type="model">
@@ -13315,7 +13338,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1b5-82f9-9d49-0bc0" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f27e-ea67-0cc1-c555" name="Rebel Officer" hidden="false" collective="false" import="true" type="model">
@@ -13344,7 +13367,7 @@ You gain Inspire 1.</characteristic>
             <infoLink id="2e99-049b-d8ad-d3df" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="19.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c060-98e5-50f8-878f" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
@@ -13373,7 +13396,7 @@ You gain Inspire 1.</characteristic>
             <infoLink id="051f-110d-b28b-714c" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d59f-f02a-d940-3b90" name="Rebel Comms Technician" hidden="false" collective="false" import="true" type="model">
@@ -13542,7 +13565,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f78-3c89-c2b3-bb3c" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1799-30e6-cdeb-2c1c" name="Phase I Clone Trooper" hidden="false" collective="false" import="true" type="model">
@@ -13557,7 +13580,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f1c-4a62-a666-6079" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c49a-a8e7-4e82-11de" name="B1 Battle Droid" hidden="false" collective="false" import="true" type="model">
@@ -13572,7 +13595,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f26-b709-5eb5-2187" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9bd2-086d-4479-cdac" name="Rebel Veteran" hidden="false" collective="false" import="true" type="model">
@@ -13587,7 +13610,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2aa6-c3a1-9b18-e443" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c276-8a2b-35b7-1aa3" name="B2 Super Battle Droid" hidden="false" collective="false" import="true" type="model">
@@ -13602,7 +13625,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64b5-882d-00df-735d" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bbe8-2c18-867d-c3db" name="Phase II Clone Trooper" hidden="false" collective="false" import="true" type="model">
@@ -13617,7 +13640,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4340-73df-aeea-b525" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da6c-f710-7037-2c02" name="B1 Security Droid" hidden="false" collective="false" import="true" type="model">
@@ -13641,7 +13664,7 @@ You gain Inspire 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c97-a2b4-dcf8-8903" name="Stormtrooper Specialist" hidden="false" collective="false" import="true" type="model">
@@ -13666,7 +13689,7 @@ You gain Inspire 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1f73-ef9f-7998-c008" name="Stormtrooper Captain" hidden="false" collective="false" import="true" type="model">
@@ -13694,7 +13717,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <infoLink id="26b1-6463-13f1-b288" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f27f-b90c-f2cb-0352" name="Rebel Trooper Captain" hidden="false" collective="false" import="true" type="model">
@@ -13722,7 +13745,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <infoLink id="c2ee-2d75-b076-1d04" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b22-8980-b9c6-18a6" name="Rebel Trooper Specialist" hidden="false" collective="false" import="true" type="model">
@@ -13747,7 +13770,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e74e-4084-c441-cf38" name="OOM-Series Battle Droid" hidden="false" collective="false" import="true" type="model">
@@ -13771,7 +13794,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa1e-8170-6630-f443" name="Phase I Clone Captain" hidden="false" collective="false" import="true" type="model">
@@ -13799,7 +13822,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <infoLink id="2505-3875-22d0-761b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="290e-4a83-8fd8-15b3" name="Phase I Clone Specialist" hidden="false" collective="false" import="true" type="model">
@@ -13824,7 +13847,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5619-06ab-34fd-991b" name="T-series Tactical Droid†" hidden="false" collective="false" import="true" type="model">
@@ -13902,7 +13925,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="be3a-cb47-4319-45db" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36e1-f53d-b721-98e7" name="Z-6 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -13927,7 +13950,7 @@ You gain Reliable 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5cb0-488d-ca31-9276" name="DLT-19 Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -13955,7 +13978,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="f1d7-234a-ae3b-5421" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d60c-fbc7-8620-d32b" name="HH-12 Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -13984,7 +14007,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="a71a-1d80-c03e-2935" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" import="true" type="model">
@@ -14013,7 +14036,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="eef1-50f9-605c-52b1" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54a3-22ee-c92b-b6d6" name="Scatter Gun Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14133,7 +14156,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="93d5-71ff-a260-b46d" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4448-8551-733b-8fd9" name="Electrostaff Guard" hidden="false" collective="false" import="true" type="model">
@@ -14240,7 +14263,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="f147-7641-87a4-f487" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="61e8-f340-b411-5137" name="DLT-19x Sniper" hidden="false" collective="false" import="true" type="model">
@@ -14344,7 +14367,7 @@ You gain Reliable 1.</characteristic>
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Inspire 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14374,7 +14397,7 @@ You gain Reliable 1.</characteristic>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x4</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 1, Ion 1</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Exhaust</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">2 Wounds, Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14383,7 +14406,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="0435-76dd-087a-754e" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fd6c-2552-b5c6-f147" name="•DT-F16" hidden="false" collective="false" import="true" type="model">
@@ -14411,7 +14434,7 @@ You gain Reliable 1.</characteristic>
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Compel.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14473,7 +14496,7 @@ You gain Reliable 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f67f-0fa0-88ed-dc20" name="CM-O/93 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14490,7 +14513,7 @@ You gain Reliable 1.</characteristic>
           <profiles>
             <profile id="90cf-54d4-aee0-6e16" name="CM-O/93 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x4</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 2</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
@@ -14529,7 +14552,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="4cba-4d38-393d-2de7" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2ae6-e501-8bab-020b" name="E-5C B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14610,7 +14633,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="0555-c791-5366-ac39" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="03cb-2c82-1510-86e4" name="Z-6 Phase II Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14664,7 +14687,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="2fb7-3c99-9c62-52c1" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="21.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b1c-b538-9726-4140" name="DP-23 Phase I Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14692,7 +14715,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="a021-1b6e-96b6-1203" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ce0-51ad-2eea-4ff7" name="E-5s B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14748,7 +14771,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="1561-9678-6de5-ca4b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee71-bce7-c011-8882" name="DLT-20A Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14804,7 +14827,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="576d-9109-44bc-4d71" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="472e-918e-ba5a-2d89" name="RT-97C Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -14882,7 +14905,7 @@ You gain Reliable 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1c0d-6b73-ccd8-bc2c" name="Phase II Mortar Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14912,7 +14935,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="6a2e-671d-1cb8-7ac9" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="245a-ead8-0a34-8077" name="B2-HA Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14942,7 +14965,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="7017-1fcf-8cfa-d7b6" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb1b-2a72-00df-503c" name="DC-15x ARC Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15487,7 +15510,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="3ccb-e192-872a-e283" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fcff-6ef7-c67a-60ce" name="AT-RT Rotary Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -15671,9 +15694,6 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="7438-4403-7a29-d964" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule"/>
             <infoLink id="25b5-832f-b120-3aaf" name="Tow Cable" hidden="false" targetId="7e70-8d77-50ad-f8c6" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="00a0-8ac8-60fd-d5a4" name="Ax-108 &quot;Ground Buzzer&quot;" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -15783,7 +15803,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="6ae9-99ef-78d4-1595" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d90-dfab-6232-ed21" name="Mark II Medium Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -15811,7 +15831,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="3a25-4ae2-61f4-9081" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="13e6-5d27-5a53-8ad8" name="TX-130 Twin Laser Turret" hidden="false" collective="false" import="true" type="upgrade">
@@ -15907,7 +15927,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="68e4-874b-5d1e-43b8" name="Arsenal X" hidden="false" targetId="1397-0314-a3ee-acc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6b6-ae34-8774-1377" name="•Wedge Antilles" hidden="false" collective="false" import="true" type="upgrade">
@@ -15937,7 +15957,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b31f-0858-4928-9ea7" name="•Ryder Azadi" hidden="false" collective="false" import="true" type="upgrade">
@@ -16291,7 +16311,7 @@ During the End Phase, ready this card.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6997-b023-cb85-ddda" name="Strict Orders" hidden="false" collective="false" import="true" type="upgrade">
@@ -16318,14 +16338,14 @@ During the End Phase, ready this card.</characteristic>
           <profiles>
             <profile id="5364-1dad-da32-c611" name="Aggressive Tactics" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While you are the nominated commander, after issuing orders, choose up to 4 friendly units with faceup order tokens. Each chosen unit gains 1 surge token.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Command Phase, if you were nominated, after issuing orders choose up to 4 friendly units with faceup order tokens. Each chosen unit gains 1 surge token.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16562,7 +16582,7 @@ When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot sp
             <infoLink id="c6b7-b005-2967-a8cc" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb5f-17bb-c97e-d8f4" name="Barrage Generator" hidden="false" collective="false" import="true" type="upgrade">
@@ -16582,7 +16602,7 @@ When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot sp
             <infoLink id="d32a-8ca0-e20c-2112" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16740,7 +16760,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="2458-61eb-481e-1cfc" name="Dauntless" hidden="false" targetId="e30f-0dd3-f201-316a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a869-7dd6-9737-d22b" name="T-21 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -16768,7 +16788,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="370a-de75-90d0-17f5" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="89f9-76d9-c9e1-0bd5" name="•DT-57 &quot;Annihilator&quot;" hidden="false" collective="false" import="true" type="upgrade">
@@ -16824,7 +16844,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f354-c453-edb0-641f" name="CR-24 Flame Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -16853,7 +16873,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="97db-b19b-b750-2f56" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6442-aba9-49a6-08b6" name="A280" hidden="false" collective="false" import="true" type="upgrade">
@@ -17227,7 +17247,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="0332-8da1-ddf5-baa7" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a19c-60b9-d0fb-9739" name="BARC Twin Laser Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -17258,7 +17278,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <categoryLink id="d967-4a0e-f012-18b4" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="baa6-b355-a3dc-a8f8" name="BARC Ion Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -17291,7 +17311,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <categoryLink id="6058-f8a2-d2c3-4280" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="05df-d153-db3e-4f34" name="BARC RPS-6 Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -17322,7 +17342,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <categoryLink id="928d-b1a5-1d37-e550" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="21.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
