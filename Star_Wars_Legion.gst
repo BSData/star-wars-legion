@@ -109,6 +109,9 @@
     <categoryEntry id="5607-032a-efad-1d58" name="Counterpart" hidden="false"/>
     <categoryEntry id="be18-9b53-454b-4214" name="Wookiee Trooper" hidden="false"/>
     <categoryEntry id="c12f-ba6d-8a73-68aa" name="Field Commander" hidden="false"/>
+    <categoryEntry id="a28a-87da-7eed-cb4c" name="Leader" hidden="false">
+      <comment></comment>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -12001,6 +12004,18 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
       </costs>
     </selectionEntry>
     <selectionEntry id="2877-1e2f-f685-2e9c" name="•Ursa Wren" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2877-1e2f-f685-2e9c" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f3e-427f-472e-ef46" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8817-d1b7-a985-8950" type="max"/>
@@ -12027,6 +12042,9 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <infoLink id="754c-95e3-1b67-3fc2" name="Dauntless" hidden="false" targetId="e30f-0dd3-f201-316a" type="rule"/>
         <infoLink id="8561-4916-69eb-4d64" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="31bd-6eb3-9042-abc6" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
@@ -12468,6 +12486,18 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
       </costs>
     </selectionEntry>
     <selectionEntry id="1ce0-c90d-134a-93d7" name="•Gideon Hask" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1ce0-c90d-134a-93d7" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2ac-fd69-8eba-a821" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be61-72f0-6d33-208b" type="max"/>
@@ -12494,6 +12524,9 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="6050-260c-f65e-a9d7" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
         <infoLink id="768e-8384-6420-0d36" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ff64-80d7-f27c-528d" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
@@ -13549,6 +13582,16 @@ You gain Coordinate: Corps Trooper.</characteristic>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d91-e11e-a87b-4790" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f27e-ea67-0cc1-c555" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87c8-387b-27ed-28eb" type="max"/>
@@ -13567,6 +13610,9 @@ You gain Inspire 1.</characteristic>
             <infoLink id="6123-8bcc-e1e2-ee4d" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
             <infoLink id="2e99-049b-d8ad-d3df" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="dd21-f857-0c93-7e96" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
@@ -13577,6 +13623,16 @@ You gain Inspire 1.</characteristic>
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
               </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c060-98e5-50f8-878f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -13596,6 +13652,9 @@ You gain Inspire 1.</characteristic>
             <infoLink id="dd99-5f90-6a4c-8c25" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
             <infoLink id="051f-110d-b28b-714c" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a5a2-b72d-0b72-6873" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
           </costs>
@@ -13900,6 +13959,16 @@ You gain Inspire 1.</characteristic>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-ba7b-fb32-a122" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f73-ef9f-7998-c008" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="263d-1cf2-7ed5-bcc5" type="max"/>
@@ -13917,6 +13986,9 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
           <infoLinks>
             <infoLink id="26b1-6463-13f1-b288" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4962-d6af-ca68-7443" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
@@ -13927,6 +13999,16 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af85-fff4-b341-2331" type="notInstanceOf"/>
               </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f27f-b90c-f2cb-0352" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -13945,6 +14027,9 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
           <infoLinks>
             <infoLink id="c2ee-2d75-b076-1d04" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="eec1-a8fb-4dbe-4f1a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
@@ -14005,6 +14090,16 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fa1e-8170-6630-f443" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a090-8d5a-ffce-a9ec" type="max"/>
@@ -14022,6 +14117,9 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
           <infoLinks>
             <infoLink id="2505-3875-22d0-761b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="cdad-a6a7-911c-3448" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
@@ -14058,6 +14156,16 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ed-3197-cf01-9a62" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5619-06ab-34fd-991b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e5a-cd4c-7264-aa52" type="max"/>
@@ -14087,6 +14195,7 @@ You gain Reliable 1.</characteristic>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="cf19-48d1-9f30-7872" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+            <categoryLink id="e3c3-d53a-6271-5874" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
@@ -14651,6 +14760,16 @@ You gain Reliable 1.</characteristic>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="366c-1d23-178b-9949" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eedd-d971-eec8-a40a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79c3-fe6b-c4f9-38d9" type="max"/>
@@ -14677,6 +14796,9 @@ You gain Reliable 1.</characteristic>
             <infoLink id="36df-ad7c-9da8-803b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
             <infoLink id="81e3-6f9a-897a-0d29" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f03c-f2b8-ba89-1fcf" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
@@ -14718,6 +14840,16 @@ You gain Reliable 1.</characteristic>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe82-164e-5d9b-3724" type="notInstanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fd6c-2552-b5c6-f147" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9797-dc4c-5ad4-5fff" type="max"/>
@@ -14744,6 +14876,9 @@ You gain Reliable 1.</characteristic>
             <infoLink id="3b11-b946-8feb-7a20" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
             <infoLink id="2f15-b112-f974-3d63" name="Compel" hidden="false" targetId="2dd6-d418-4321-f5bf" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0448-1e10-dbb0-6798" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
@@ -15353,6 +15488,16 @@ You gain Reliable 1.</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6385-1926-4f65-e566" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d4c-15e5-500e-9352" type="max"/>
@@ -15382,6 +15527,9 @@ You gain Reliable 1.</characteristic>
             <infoLink id="3a79-2bfd-560e-9b44" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
             <infoLink id="a4bd-ddb0-c79f-f74b" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="dbee-1720-158b-e41a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
           </costs>
@@ -15396,6 +15544,16 @@ You gain Reliable 1.</characteristic>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f04-0ae9-c8eb-0b9c" type="notInstanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8943-cb3d-8d0c-9a04" type="notInstanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ff-aac0-8cce-fbfc" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3f0a-6110-5863-dc98" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15427,6 +15585,9 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="841a-9927-79fb-7ab5" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
             <infoLink id="3bc1-f969-a9cb-6fa1" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="8576-0bdf-8fac-0c0a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
           </costs>
