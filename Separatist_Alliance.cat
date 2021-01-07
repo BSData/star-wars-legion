@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="4" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="16cf-9426-473f-afff" name="Separatist Alliance" revision="5" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="158b-7bcd-09d7-ff88" name="Objective Cards" hidden="false" collective="false" import="true" targetId="d52e-37ec-0ac6-ce3f" type="selectionEntry">
       <modifiers>
@@ -74,5 +74,6 @@
     <entryLink id="39ea-0b40-4a83-e61a" name="STAP††" hidden="false" collective="false" import="true" targetId="28f5-f446-716c-00f9" type="selectionEntry"/>
     <entryLink id="a09e-92f8-4e70-ad28" name=" •Maul†" hidden="false" collective="false" import="true" targetId="8773-cc1e-ca48-fc89" type="selectionEntry"/>
     <entryLink id="05f8-4989-9028-107b" name=" T-series Tactical Droid††" hidden="false" collective="false" import="true" targetId="8fab-8387-1ad1-e0cb" type="selectionEntry"/>
+    <entryLink id="284a-409f-c728-774e" name="T-series Tactical Droid†" hidden="false" collective="false" import="true" targetId="efb2-3aa9-b123-8be5" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

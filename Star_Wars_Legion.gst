@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="80" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="81" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -108,11 +108,19 @@
     <categoryEntry id="5938-b46b-abe2-3c4f" name="Strike Team" hidden="false"/>
     <categoryEntry id="5607-032a-efad-1d58" name="Counterpart" hidden="false"/>
     <categoryEntry id="be18-9b53-454b-4214" name="Wookiee Trooper" hidden="false"/>
+    <categoryEntry id="c12f-ba6d-8a73-68aa" name="Field Commander" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
       <categoryLinks>
         <categoryLink id="2ec9-0943-7752-330d" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <modifiers>
+            <modifier type="set" field="d162-0df1-bfbf-b0d8" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c12f-ba6d-8a73-68aa" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d162-0df1-bfbf-b0d8" type="min"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="c61a-8bef-44d8-2556" type="max"/>
@@ -200,6 +208,13 @@
           </constraints>
         </categoryLink>
         <categoryLink id="c7df-1c64-6ef2-59a7" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <modifiers>
+            <modifier type="set" field="1082-f209-9761-236e" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c12f-ba6d-8a73-68aa" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1082-f209-9761-236e" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="fca7-d0f3-4366-2c97" type="max"/>
@@ -276,6 +291,13 @@
           </constraints>
         </categoryLink>
         <categoryLink id="63ca-668f-6b67-e5bf" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <modifiers>
+            <modifier type="set" field="09a3-5182-ab8b-8031" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c12f-ba6d-8a73-68aa" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="09a3-5182-ab8b-8031" type="min"/>
           </constraints>
@@ -301,6 +323,13 @@
     <forceEntry id="8208-479f-946a-ebef" name="Skirmish" hidden="false">
       <categoryLinks>
         <categoryLink id="8ee7-5c45-5b35-f5d3" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="false">
+          <modifiers>
+            <modifier type="set" field="0930-4226-9451-78b7" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c12f-ba6d-8a73-68aa" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="0930-4226-9451-78b7" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="b0ae-b8c9-e63a-ee6d" type="max"/>
@@ -2213,6 +2242,46 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="2c15-cb29-4964-7429" name="••Orbital Strike†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="509e-5ffe-1bbb-5ff7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79eb-4d9a-9d51-bdd0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="756a-692d-6498-9a83" name="••Orbital Strike" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Separatist</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Commander or Heavy Unit</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Once this round, at the end of the activation of a friendly commander droid trooper unit or friendly Field Commander unit, it may perform an attack using the following weapon:</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a205-284e-339a-dac5" name="••Orbital Strike" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">4+</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black x2</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive, Immune: Deflect</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8911-71c9-ca70-9e02" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
+                <infoLink id="e8f7-1ba0-5846-55d0" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="3057-ebb4-f964-49d9" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="9e11-5e9d-b50d-fba4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="2583-c0b2-f79b-dc70">
@@ -3092,6 +3161,34 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="2147-ec1d-0872-f0d4" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ee8-94d6-1a74-f6e8" name="•••Roger, Roger!†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="509e-5ffe-1bbb-5ff7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="85c4-59e3-6cc5-d5df" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="25ed-9077-b466-63fb" name="•••Roger, Roger!" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Separatist</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">3 Droid Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When a unit is issued an order using this card, it gains either 1 dodge or 1 surge token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="b307-e793-1631-763c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f522-5228-f775-58ba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -12695,6 +12792,122 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="efb2-3aa9-b123-8be5" name="T-series Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6a65-cb38-b1c1-2fe7" name="T-series Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
+              <conditions>
+                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Programmed for Strategy</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Bolster 2, Direct: Corps Droid Trooper Unit, Sharpshooter 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Comms, Gear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="808c-76e5-1492-0c89" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+        <infoLink id="6ee1-e909-965d-3087" name="Bolster X" hidden="false" targetId="bc35-e8ee-5f31-74bc" type="rule"/>
+        <infoLink id="ef6a-1378-587e-b1d5" name="Direct: *Unit Type*" hidden="false" targetId="113b-1d4f-1fc6-1db9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="be40-5680-ff79-6f58" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="0a92-5cc2-554b-9667" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="28b4-c228-31a7-4aca" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+        <categoryLink id="a4b7-2d1b-93b2-bc6b" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
+        <categoryLink id="42df-cdcb-877b-3ff6" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="13ed-c5b1-1452-870f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fc80-0b86-f0e0-161d" name=" Bludgeon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="71ad-48df-fe2b-ce20" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="840e-0f98-3215-5c3f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="94c0-da47-601e-6078" name=" Bludgeon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b0d6-c78a-99b5-270a" name=" Commander&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e34e-2d84-a381-16d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63f8-45a9-403b-8682" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c492-200e-4efa-212b" name=" Commander&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d58f-caf6-4789-4cce" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
+        <entryLink id="5cfd-c093-338b-a41e" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="284d-a3fa-b14c-eaba" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9510-6572-6230-10dc" name="Force" hidden="false" collective="false" import="true">
@@ -13874,6 +14087,107 @@ You gain Reliable 1.</characteristic>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="cf19-48d1-9f30-7872" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2abe-f32b-99c9-fdfa" name="EV-series Medical Droid†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ed-3197-cf01-9a62" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="057e-ef2e-4c4a-b94c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="26ac-21cd-1038-fc9b" name="EV-series Medical Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Treat 1: Capacity 2</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Noncombatant</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">1 Wound</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d280-c70d-b3c2-bb5f" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule"/>
+            <infoLink id="639f-a046-b838-d782" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f021-6892-0c11-03c1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="af7d-86b8-3480-da37" name="PK-series Worker Droid†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ed-3197-cf01-9a62" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7342-2090-0b69-10de" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="96cb-dc36-3726-c9ab" name="PK-series Worker Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Repair 1: Capacity 2</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Noncombatant</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">1 Wound</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e333-b3bc-746e-3d31" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule"/>
+            <infoLink id="813c-1347-d179-372f" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="bbd4-3ecd-f23a-4af1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8787-fda8-b523-025c" name="Viper Recon Droid†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40ed-3197-cf01-9a62" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ed4-0b1d-b6ab-9e45" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="18d3-2a8a-e150-7141" name="Viper Recon Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Observe 2</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">1 Wound</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0157-fddb-e512-dc4a" name="Viper Recon Droid" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Sidearm: Melee</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bfbb-c3fc-a5b7-6df1" name="Observe X" hidden="false" targetId="91e1-6a35-58cd-701b" type="rule"/>
+            <infoLink id="aea2-fd03-47e0-4e29" name="Sidearm: Ranged" hidden="false" targetId="1761-f3d6-1a45-e5c4" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="61e9-420c-e8aa-8806" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
@@ -15234,7 +15548,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="14a2-3e7b-9e44-ba41" name="•Ursa Wren†" hidden="false" collective="false" import="true" targetId="2877-1e2f-f685-2e9c" type="selectionEntry">
+        <entryLink id="14a2-3e7b-9e44-ba41" name="•Ursa Wren" hidden="false" collective="false" import="true" targetId="2877-1e2f-f685-2e9c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15682,6 +15996,9 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="7438-4403-7a29-d964" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule"/>
             <infoLink id="25b5-832f-b120-3aaf" name="Tow Cable" hidden="false" targetId="7e70-8d77-50ad-f8c6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="00a0-8ac8-60fd-d5a4" name="Ax-108 &quot;Ground Buzzer&quot;" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -16099,6 +16416,9 @@ You gain Field Commander.</characteristic>
           <infoLinks>
             <infoLink id="3579-be1c-7f36-0aad" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e3dc-8664-1bc6-590e" name="Field Commander" hidden="false" targetId="c12f-ba6d-8a73-68aa" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
@@ -16128,6 +16448,9 @@ You gain Field Commander.</characteristic>
             <infoLink id="c80d-884c-dce7-c9f0" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
             <infoLink id="0c81-2e80-f8ea-3ced" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="b4b5-ec55-0ed9-57b2" name="Field Commander" hidden="false" targetId="c12f-ba6d-8a73-68aa" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
@@ -16334,6 +16657,26 @@ During the End Phase, ready this card.</characteristic>
           </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a869-abf6-13cd-89a1" name="Inspiring Presence†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d738-7913-1d3f-f47b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d81b-b3b3-3f2f-62c4" name="Inspiring Presence" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Friendly units at range 1-4 can use your courage value when checking whether they are panicked. This range can be reduced by other effects.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="6530-62b5-30bc-131a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -17836,6 +18179,12 @@ While defending against a melee attack, if you spend a dodge token, gain Immune:
     </rule>
     <rule id="91e1-6a35-58cd-701b" name="Observe X" hidden="false">
       <description>→ Choose an enemy unit at range 1-3 and in line of sight. It gains X observation tokens.</description>
+    </rule>
+    <rule id="bc35-e8ee-5f31-74bc" name="Bolster X" hidden="false">
+      <description>→ Choose up to X friendly units at range 1. Each chosen unit gains a surge token.</description>
+    </rule>
+    <rule id="113b-1d4f-1fc6-1db9" name="Direct: *Unit Type*" hidden="false">
+      <description>During the Command Phase, you may issue an order to a friendly *Unit Type* at range 1-2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
