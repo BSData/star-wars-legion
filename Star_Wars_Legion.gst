@@ -2285,6 +2285,46 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b495-a2a2-4203-de4e" name="••Air Support†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e057-60b7-67f9-8d41" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01f0-3212-e850-e619" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cb18-d03d-c511-dd1d" name="••Air Support" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Republic</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">1 Commander or Heavy Unit</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Once this round, at the end of the activation of a friendly commander clone trooper unit or friendly Field Commander unit, it may perform an attack using the following weapon:</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d56b-5f34-64c8-9edb" name="••Air Support" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">4+</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x2</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Beam 2, Immune: Deflect</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a3b0-7531-2238-850d" name="Beam X" hidden="false" targetId="7577-ca56-e0a4-0b4e" type="rule"/>
+                <infoLink id="88f6-566c-cbed-1e2b" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="936c-7324-b9e7-3c63" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="0633-5db4-b454-5b00" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bc8c-23e1-af9f-4118" name="3 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="2583-c0b2-f79b-dc70">
@@ -3192,6 +3232,34 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               <categoryLinks>
                 <categoryLink id="b307-e793-1631-763c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="f522-5228-f775-58ba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6888-db73-6012-54a0" name="•••Attack of the Clones†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e057-60b7-67f9-8d41" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ba6-6c0e-c599-5c21" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7611-d7f2-be9b-834c" name="•••Attack of the Clones" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Any Republic</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">3 Clone Troopers</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When a unit is issued an order using this card, it either gains 1 surge token or removes 1 suppression token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="e04b-d0b0-0fa4-7105" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="598d-cfcc-cc00-568e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -8233,6 +8301,11 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1, Reliable 1">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="599b-ee4e-aa83-87f2" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -8291,6 +8364,20 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa1e-8170-6630-f443" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b2aa-86ba-379e-a6fa" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7140-5c3b-ad21-9853" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1.0">
+              <conditions>
+                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7140-5c3b-ad21-9853" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9894,6 +9981,11 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
               </conditions>
             </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1, Reliable 1">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="599b-ee4e-aa83-87f2" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -9941,6 +10033,20 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <entryLink id="64b4-6766-3322-ca9a" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="cc5d-ad17-93b3-6c22" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="2cbc-bc99-8a50-d5bf" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="4cae-09d6-6d1a-c1dc" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7140-5c3b-ad21-9853" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c263-b01c-befb-e341" value="1.0">
+              <conditions>
+                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7140-5c3b-ad21-9853" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="62.0"/>
@@ -12369,89 +12475,125 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b55-36e8-6913-02fb" name=" Clone Commander††" hidden="true" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="323f-d950-1d2f-3e42" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d09c-8aae-f5b7-c3db" type="max"/>
-      </constraints>
+    <selectionEntry id="9b55-36e8-6913-02fb" name="Clone Commander†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1535-e902-2419-cbde" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="1535-e902-2419-cbde" name="Clone Commander" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Trained for Leadership</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538"/>
-            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9"/>
-            <characteristic name="Defense" typeId="d709-b540-6ad3-b884"/>
-            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca"/>
-            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec"/>
-            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f"/>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825"/>
-            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5"/>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">4</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Bolster 2, Direct: Corps Clone Trooper Unit, Sharpshooter 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Training, Gear</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a45a-bd78-2d4c-4612" name="Bolster X" hidden="false" targetId="bc35-e8ee-5f31-74bc" type="rule"/>
+        <infoLink id="039a-afb5-8a7d-2eb6" name="Direct: *Unit Type*" hidden="false" targetId="113b-1d4f-1fc6-1db9" type="rule"/>
+        <infoLink id="392b-0eee-1fc0-4762" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4f05-0420-05fc-6909" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="0a4f-641c-e0e4-d941" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
+        <categoryLink id="44f9-7ed4-4757-8a1c" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="08f5-babe-2754-5352" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+        <categoryLink id="6cfe-bf04-cf48-b0ae" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="c935-31b1-7b06-0cff" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5a7b-14dd-d041-d9d2" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ccb-9705-ae41-9156" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62b2-07bf-8b65-24d5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="44cb-a60d-dd9a-4870" name=" Advanced Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="27a4-1e83-d82f-c05f" name=" Commander&apos;s DC-15 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8772-2180-855f-7461" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82e9-44f7-505b-efe4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="834e-8314-4fa9-2d4c" name=" Commander&apos;s DC-15 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="650d-cb65-9a42-354a" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
+        <entryLink id="2a17-9189-16c2-c2f6" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="4236-9d6c-7dcb-c873" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e38-e153-4cd1-cf18" name="•Del Meeko" hidden="false" collective="false" import="true" type="model">
@@ -14300,6 +14442,134 @@ You gain Reliable 1.</characteristic>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="599b-ee4e-aa83-87f2" name="Clone Commander†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce68-baa2-9223-05d7" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="599b-ee4e-aa83-87f2" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="29f4-c3e7-4d61-8685" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c420-37f6-9729-758e" name="Clone Commander" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Inspire 1.
+You gain Reliable 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="04aa-d118-cca2-d5f2" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
+            <infoLink id="d4cd-0b07-dec8-79f1" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+            <infoLink id="3639-b0f0-4a44-c01e" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0ec3-86eb-bd30-8a5a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+            <categoryLink id="d3d7-2840-d28c-d535" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f8af-fc32-8b98-e3c0" name="Clone Medic†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce68-baa2-9223-05d7" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e7f-1a68-20dd-3ed3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2421-eca8-43cd-4d20" name="Clone Medic" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Treat 1: Capacity 1</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c71a-1934-dad4-4b66" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="dc8b-e362-a5a3-1f3a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="164b-bee6-52c4-0ca4" name="Clone Engineer†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce68-baa2-9223-05d7" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d79-75b5-8763-69eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6e62-ff94-641c-8af9" name="Clone Engineer" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Repair 1: Capacity 1</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0dfc-76f5-2dec-fb17" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="c70a-6015-9a85-22b4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7140-5c3b-ad21-9853" name="Clone Comms Technician†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce68-baa2-9223-05d7" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="61c5-29ae-7d6b-f62e" name="Clone Comms Technician" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain a Comms upgrade icon. You must equip a Comms upgrade card.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="9002-0fc2-bef2-db96" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16840,6 +17110,26 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="99e8-23c7-9f33-43b9" name="Vigilance†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1dfb-2cf5-6b53-db73" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a0f4-2d23-d495-ab1a" name="Vigilance" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the End Phase, choose either 1 friendly trooper unit at range 1-2 or up to 2 friendly corps trooper units at range 1-2. Each chosen unit does not remove 1 dodge token.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="d794-975c-9844-9dd6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="fc8c-6e59-70b2-c76d" name="Training" hidden="false" collective="false" import="true">
@@ -17999,7 +18289,7 @@ When you activate, perform a compulsory move.</description>
       <description>→ Choose up to X friendly units at range 1. Each chosen unit gains an aim token.</description>
     </rule>
     <rule id="a4c9-42f5-6ea5-f3a3" name="Inspire X" hidden="false">
-      <description>After your Rally step, remove up to X supression tokens from another friendly unit at range 1-2.</description>
+      <description>After your Rally step, remove up to X suppression tokens from another friendly unit at range 1-2.</description>
     </rule>
     <rule id="18d2-5e0e-d04e-f771" name="Sharpshooter X" hidden="false">
       <description>While performing a ranged attack, reduce the defender&apos;s cover by X.</description>
