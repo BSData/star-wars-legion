@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="81" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="82" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -109,9 +109,7 @@
     <categoryEntry id="5607-032a-efad-1d58" name="Counterpart" hidden="false"/>
     <categoryEntry id="be18-9b53-454b-4214" name="Wookiee Trooper" hidden="false"/>
     <categoryEntry id="c12f-ba6d-8a73-68aa" name="Field Commander" hidden="false"/>
-    <categoryEntry id="a28a-87da-7eed-cb4c" name="Leader" hidden="false">
-      <comment></comment>
-    </categoryEntry>
+    <categoryEntry id="a28a-87da-7eed-cb4c" name="Leader" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c9b1-e0bb-61ac-ce52" name=" Standard" hidden="false">
@@ -14858,7 +14856,7 @@ You gain Reliable 1.</characteristic>
             <profile id="18d3-2a8a-e150-7141" name="Viper Recon Droid" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Observe 2</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">1 Wound</characteristic>
               </characteristics>
             </profile>
@@ -14879,7 +14877,7 @@ You gain Reliable 1.</characteristic>
             <categoryLink id="61e9-420c-e8aa-8806" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="599b-ee4e-aa83-87f2" name="Clone Commander†" hidden="false" collective="false" import="true" type="model">
@@ -14941,8 +14939,8 @@ You gain Reliable 1.</characteristic>
             <profile id="2421-eca8-43cd-4d20" name="Clone Medic" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Treat 1: Capacity 1</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
@@ -14971,8 +14969,8 @@ You gain Reliable 1.</characteristic>
             <profile id="6e62-ff94-641c-8af9" name="Clone Engineer" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Repair 1: Capacity 1</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"></characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
