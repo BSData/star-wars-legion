@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="82" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="83" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -1319,7 +1319,7 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b232-4607-4ea8-5dc2" name="•Mechanized Incursion†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b232-4607-4ea8-5dc2" name="•Mechanized Incursion" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1341,13 +1341,12 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
               </profiles>
               <categoryLinks>
                 <categoryLink id="c8e4-abd1-9113-64ee" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="e9e6-cd40-068e-0bf0" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5386-db07-b3d8-07f4" name="•Synchronized Offensive†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5386-db07-b3d8-07f4" name="•Synchronized Offensive" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1369,7 +1368,6 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
               </profiles>
               <categoryLinks>
                 <categoryLink id="9f40-aca9-ebca-7532" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="7df7-a2d9-529d-8caa" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2369,7 +2367,7 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2c15-cb29-4964-7429" name="••Orbital Strike†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2c15-cb29-4964-7429" name="••Orbital Strike" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2403,13 +2401,12 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="3057-ebb4-f964-49d9" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="9e11-5e9d-b50d-fba4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b495-a2a2-4203-de4e" name="••Air Support†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b495-a2a2-4203-de4e" name="••Air Support" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2443,7 +2440,6 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="936c-7324-b9e7-3c63" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="0633-5db4-b454-5b00" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3384,7 +3380,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4ee8-94d6-1a74-f6e8" name="•••Roger, Roger!†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4ee8-94d6-1a74-f6e8" name="•••Roger, Roger!" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3406,13 +3402,12 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               </profiles>
               <categoryLinks>
                 <categoryLink id="b307-e793-1631-763c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="f522-5228-f775-58ba" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6888-db73-6012-54a0" name="•••Attack of the Clones†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6888-db73-6012-54a0" name="•••Attack of the Clones" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3434,7 +3429,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               </profiles>
               <categoryLinks>
                 <categoryLink id="e04b-d0b0-0fa4-7105" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="598d-cfcc-cc00-568e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -12360,7 +12354,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bdc-dbab-fe87-f7d9" name="Portable Scanner†" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8bdc-dbab-fe87-f7d9" name="Portable Scanner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4108-12b6-16f4-85f4" type="max"/>
       </constraints>
@@ -12376,9 +12370,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
       <infoLinks>
         <infoLink id="011c-76ff-6eef-e865" name="Take Cover X" hidden="false" targetId="dcab-9ffc-62be-bb59" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="b163-6f7c-d52c-5048" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
       </costs>
@@ -12650,7 +12641,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b55-36e8-6913-02fb" name="Clone Commander†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9b55-36e8-6913-02fb" name="Clone Commander" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1535-e902-2419-cbde" name="Clone Commander" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
@@ -12720,7 +12711,6 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
         <categoryLink id="44f9-7ed4-4757-8a1c" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="08f5-babe-2754-5352" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="6cfe-bf04-cf48-b0ae" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="c935-31b1-7b06-0cff" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a7b-14dd-d041-d9d2" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -13142,7 +13132,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="efb2-3aa9-b123-8be5" name="T-series Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="efb2-3aa9-b123-8be5" name="T-series Tactical Droid" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6a65-cb38-b1c1-2fe7" name="T-series Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
@@ -13207,7 +13197,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="28b4-c228-31a7-4aca" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="a4b7-2d1b-93b2-bc6b" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="42df-cdcb-877b-3ff6" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="13ed-c5b1-1452-870f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fc80-0b86-f0e0-161d" name=" Bludgeon" hidden="false" collective="false" import="true" type="upgrade">
@@ -14727,7 +14716,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5619-06ab-34fd-991b" name="T-series Tactical Droid†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5619-06ab-34fd-991b" name="T-series Tactical Droid" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14761,7 +14750,7 @@ You gain Reliable 1.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Sidearm: Melee</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Sidearm: Ranged</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -14772,14 +14761,13 @@ You gain Reliable 1.</characteristic>
             <infoLink id="57fd-e0ae-11d4-a2b8" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="cf19-48d1-9f30-7872" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
             <categoryLink id="e3c3-d53a-6271-5874" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2abe-f32b-99c9-fdfa" name="EV-series Medical Droid†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2abe-f32b-99c9-fdfa" name="EV-series Medical Droid" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14803,14 +14791,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="d280-c70d-b3c2-bb5f" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule"/>
             <infoLink id="639f-a046-b838-d782" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="f021-6892-0c11-03c1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="af7d-86b8-3480-da37" name="PK-series Worker Droid†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="af7d-86b8-3480-da37" name="PK-series Worker Droid" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14834,14 +14819,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="e333-b3bc-746e-3d31" name="Noncombatant" hidden="false" targetId="b618-1cf4-8edc-3797" type="rule"/>
             <infoLink id="813c-1347-d179-372f" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="bbd4-3ecd-f23a-4af1" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8787-fda8-b523-025c" name="Viper Recon Droid†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8787-fda8-b523-025c" name="Viper Recon Droid" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14873,14 +14855,11 @@ You gain Reliable 1.</characteristic>
             <infoLink id="bfbb-c3fc-a5b7-6df1" name="Observe X" hidden="false" targetId="91e1-6a35-58cd-701b" type="rule"/>
             <infoLink id="aea2-fd03-47e0-4e29" name="Sidearm: Ranged" hidden="false" targetId="1761-f3d6-1a45-e5c4" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="61e9-420c-e8aa-8806" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="599b-ee4e-aa83-87f2" name="Clone Commander†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="599b-ee4e-aa83-87f2" name="Clone Commander" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14918,13 +14897,12 @@ You gain Reliable 1.</characteristic>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="0ec3-86eb-bd30-8a5a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
-            <categoryLink id="d3d7-2840-d28c-d535" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8af-fc32-8b98-e3c0" name="Clone Medic†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f8af-fc32-8b98-e3c0" name="Clone Medic" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14947,14 +14925,11 @@ You gain Reliable 1.</characteristic>
           <infoLinks>
             <infoLink id="c71a-1934-dad4-4b66" name="Treat X: Capacity Y" hidden="false" targetId="c06c-ef48-f54b-e8dc" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="dc8b-e362-a5a3-1f3a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="164b-bee6-52c4-0ca4" name="Clone Engineer†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="164b-bee6-52c4-0ca4" name="Clone Engineer" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14977,14 +14952,11 @@ You gain Reliable 1.</characteristic>
           <infoLinks>
             <infoLink id="0dfc-76f5-2dec-fb17" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="c70a-6015-9a85-22b4" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7140-5c3b-ad21-9853" name="Clone Comms Technician†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7140-5c3b-ad21-9853" name="Clone Comms Technician" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15001,9 +14973,6 @@ You gain Reliable 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="9002-0fc2-bef2-db96" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
@@ -17526,7 +17495,7 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a869-abf6-13cd-89a1" name="Inspiring Presence†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a869-abf6-13cd-89a1" name="Inspiring Presence" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d738-7913-1d3f-f47b" type="max"/>
           </constraints>
@@ -17539,14 +17508,11 @@ During the End Phase, ready this card.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="6530-62b5-30bc-131a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="99e8-23c7-9f33-43b9" name="Vigilance†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="99e8-23c7-9f33-43b9" name="Vigilance" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1dfb-2cf5-6b53-db73" type="max"/>
           </constraints>
@@ -17559,9 +17525,6 @@ During the End Phase, ready this card.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="d794-975c-9844-9dd6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
