@@ -1436,7 +1436,7 @@ While Maul is engaged with an enemy unit, that unit cannot spend aim, dodge, sta
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3945-e3bb-5280-0000" name="•Face Me!†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3945-e3bb-5280-0000" name="•Face Me!" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1464,7 +1464,38 @@ Enemy units engaged with Agent Kallus cannot withdraw.</characteristic>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="525a-bccd-64bb-cc6c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="4bf9-350c-4083-6346" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78a9-0a22-6041-ec24" name="•Idiot&apos;s Array" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e1ae-5b04-3639-39f6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6164-eed5-2307-7630" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9094-5dee-7965-41ab" name="•Idiot&apos;s Array" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Lando Calrissian</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Lando Calrissian</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Lando Calrissian gains Gunslinger and Marksman.
+If there is a 3-pip command card in your discard pile, Lando Calrissian gains 1 aim and 1 dodge token, or 2 aim and 2 dodge tokens if there is a 3-pip card and a 2-pip card, or 3 aim and 3 dodge tokens if there is a 3-pip card, a 2-pip card, and a 1-pip card.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fc2b-e26b-42f6-2321" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
+                <infoLink id="712f-b892-9dcb-87bb" name="Marksman" hidden="false" targetId="2622-a15a-021d-0a8c" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="bdb1-c232-2076-caba" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2445,7 +2476,7 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="291c-e3b1-d29c-4877" name="••Ace up His Sleeve†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="291c-e3b1-d29c-4877" name="••Ace up His Sleeve" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2468,7 +2499,33 @@ Before drawing from your order pool, you may instead discard this card from your
               </profiles>
               <categoryLinks>
                 <categoryLink id="2549-a509-2f70-5966" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="32d6-e510-ca96-06a7" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c47b-bd10-c0db-016c" name="••ISB Investigation" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7869-877b-821d-3092" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="95ca-3966-2a51-90c3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="14b2-511a-9842-9326" name="••ISB Investigation" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Agent Kallus</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Agent Kallus &amp; 1 Unit</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Declare a number and choose an opponent. That opponent sets aside, faceup, any command cards that have a number of pips equal to the declared number. That opponent returns these command cards to their hand after they select a command card in a subsequent round.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="c2a9-d98e-f1e4-682c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3429,6 +3486,62 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
               </profiles>
               <categoryLinks>
                 <categoryLink id="e04b-d0b0-0fa4-7105" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e056-b127-615b-0b3b" name="•••All In" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e1ae-5b04-3639-39f6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a04-54a4-9867-4fdb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1f55-543f-1fd3-1aec" name="•••All In" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Lando Calrissian</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Lando Calrissian &amp; 2 Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Each enemy unit at range 1-3 and in line of sight of Lando Calrissian gains 2 observation tokens.
+Before Lando Calrissian rolls dice during an attack, you may declare a Block or Critical result. After your Reroll Dice step, if there is at least 1 of the declared result, add 2 matching results; if there is not, your opponent removes up to 2 dice.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="8602-6f36-daba-a3a9" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c45e-3db5-2c42-7824" name="•••Ruthless Tactics" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7869-877b-821d-3092" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38ba-5270-8a6a-e103" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c0ff-d31b-679a-45bd" name="•••Ruthless Tactics" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Agent Kallus</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Agent Kallus &amp; 2 Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After an enemy unit defends against a ranged attack, it gains 1 observation token, or 2 observation tokens if it has a number of suppression tokens equal to or exceeding its courage value.
+During Agent Kallus&apos;s activation, he may perform a free recover action.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="270b-36a8-a594-2285" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -13247,7 +13360,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7869-877b-821d-3092" name="•Agent Kallus†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7869-877b-821d-3092" name="•Agent Kallus" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d38-a0fd-c3fb-b3f3" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29e4-1096-f72a-7f08" type="max"/>
@@ -13309,6 +13422,12 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Training, Gear, Armament</characteristic>
           </characteristics>
         </profile>
+        <profile id="41e8-4b5e-5173-c44c" name="Developing Sympathies" hidden="false" typeId="084c-0986-0483-007f" typeName="1.1 Flaws">
+          <characteristics>
+            <characteristic name="Commander" typeId="bed9-dc7f-795d-63f5">Agent Kallus</characteristic>
+            <characteristic name="Effect" typeId="9c06-de8e-b8cf-5b43">You may play this card at the start of the Command Phase if there is a wounded enemy Agent Kallus. At the end of that enemy Agent Kallus&apos;s activation, if he performed an attack, he gains 4 suppression tokens.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="f98f-5648-1ddd-fb05" name="Cunning" hidden="false" targetId="bccd-2bef-a175-725e" type="rule"/>
@@ -13323,7 +13442,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="58bc-6285-5681-0d6c" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="2b7f-496f-954f-fcfc" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="78e7-62a1-034f-edb0" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="b2aa-32cf-034b-c6c8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f3e2-555d-def4-2088" name=" Advanced Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -13378,7 +13496,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1ae-5b04-3639-39f6" name="•Lando Calrissian†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e1ae-5b04-3639-39f6" name="•Lando Calrissian" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c98-391b-7baf-5fe5" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32c4-7117-f57c-7fbf" type="max"/>
@@ -13440,6 +13558,12 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Training, Gear</characteristic>
           </characteristics>
         </profile>
+        <profile id="43ca-6fe4-aafc-bd62" name="I&apos;ve Altered the Deal" hidden="false" typeId="084c-0986-0483-007f" typeName="1.1 Flaws">
+          <characteristics>
+            <characteristic name="Commander" typeId="bed9-dc7f-795d-63f5">Lando Calrissian</characteristic>
+            <characteristic name="Effect" typeId="9c06-de8e-b8cf-5b43">You may play this card at the start of the Command Phase if there are at least 3 cards in the discard pile of an opponent who controls Lando Calrissian. That opponent cannot use their contingencies or Lando Calrissian&apos;s command cards.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a143-9bb7-b103-6a71" name="Contingencies X" hidden="false" targetId="1b56-13f4-bf16-bd68" type="rule"/>
@@ -13454,7 +13578,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="bf77-0c06-79c3-92d3" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="1d7e-6092-bc90-e7cd" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="90ea-30b7-b1d6-29be" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="171e-a10e-0d1f-e538" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4f88-8288-1d5c-0f29" name=" Lando&apos;s X-8 Night Sniper Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -13505,7 +13628,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <entryLink id="eb8f-99c9-bb6e-19da" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="105.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -18359,7 +18482,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2895-22a4-5a81-e8bf" name="J-19 Bo-rifle†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2895-22a4-5a81-e8bf" name="J-19 Bo-rifle" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -18376,7 +18499,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x2, White</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Lethal 1, Reconfigure</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Lethal 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -18391,8 +18514,8 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <profile id="93d3-96cc-4871-91f8" name="J-19 Bo-rifle Staff" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Charge.
-When defending against a melee attack, you gain Immune: Deflect.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+When defending against a melee attack, you gain Immune: Pierce.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Reconfigure</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -18401,11 +18524,8 @@ When defending against a melee attack, you gain Immune: Deflect.</characteristic
             <infoLink id="88d7-5c7d-a9ba-5243" name="Lethal X" hidden="false" targetId="3cf0-869d-474d-6f37" type="rule"/>
             <infoLink id="245b-86b4-36f6-71a3" name="Reconfigure" hidden="false" targetId="3703-0622-33ae-f15a" type="rule"/>
             <infoLink id="c9d2-243e-d8ff-8656" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
-            <infoLink id="5154-bad9-d47d-d97b" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
+            <infoLink id="5154-bad9-d47d-d97b" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="f2ae-410b-40f2-bf38" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
