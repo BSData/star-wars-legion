@@ -17221,9 +17221,6 @@ You gain Coordinate: Clone Trooper.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="e130-df7e-fcc6-9758" name="Tactical X" hidden="false" targetId="3ca9-ac5e-80c1-3778" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
