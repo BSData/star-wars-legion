@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="16" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df8a-dd7e-4d2b-f1f1" name="Galactic Empire" revision="16" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="83" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d37e-f39d-0c44-26e9" name="74-Z Speeder Bikes" hidden="false" collective="false" import="true" targetId="5204-6387-80e3-863d" type="selectionEntry"/>
     <entryLink id="2f32-d060-0426-ddcd" name="Stormtroopers" hidden="false" collective="false" import="true" targetId="d2af-ba7b-fb32-a122" type="selectionEntry"/>
@@ -80,12 +80,13 @@
     </entryLink>
     <entryLink id="b790-3d83-e87d-80ea" name="•Bossk†" hidden="false" collective="false" import="true" targetId="6343-17f7-33c3-08f2" type="selectionEntry"/>
     <entryLink id="430c-cd6d-2583-95b1" name="Shoretroopers†" hidden="false" collective="false" import="true" targetId="d425-63e3-9405-6b4f" type="selectionEntry"/>
-    <entryLink id="06b0-6d5e-3c32-9ee5" name="Dewback Rider†" hidden="false" collective="false" import="true" targetId="10c2-74c2-fcd3-f726" type="selectionEntry"/>
+    <entryLink id="06b0-6d5e-3c32-9ee5" name="Dewback Rider" hidden="false" collective="false" import="true" targetId="10c2-74c2-fcd3-f726" type="selectionEntry"/>
     <entryLink id="8c6e-15f3-496b-912c" name="DF-90 Mortar Trooper†" hidden="false" collective="false" import="true" targetId="c715-90a3-8247-a80e" type="selectionEntry"/>
     <entryLink id="a5cf-c7a0-20ea-fe53" name="•Darth Vader†" hidden="false" collective="false" import="true" targetId="8c88-0bd6-8c12-56d2" type="selectionEntry"/>
     <entryLink id="0bb8-5b63-dc9e-582a" name="•Iden Versio†" hidden="false" collective="false" import="true" targetId="7802-f7dc-f952-e063" type="selectionEntry"/>
-    <entryLink id="10b7-a838-d176-afe0" name="Imperial Special Forces†" hidden="false" collective="false" import="true" targetId="6421-4bca-d13f-05dd" type="selectionEntry"/>
+    <entryLink id="10b7-a838-d176-afe0" name="Imperial Special Forces" hidden="false" collective="false" import="true" targetId="6421-4bca-d13f-05dd" type="selectionEntry"/>
     <entryLink id="cc24-4d8e-947b-c5a0" name="Imperial Special Forces†" hidden="false" collective="false" import="true" targetId="9670-a5ef-c0f4-a8ed" type="selectionEntry"/>
     <entryLink id="9e3d-a274-672e-1e24" name="•Agent Kallus†" hidden="false" collective="false" import="true" targetId="7869-877b-821d-3092" type="selectionEntry"/>
+    <entryLink id="2fcf-027d-c596-204e" name="LAAT/le Patrol Transport" hidden="false" collective="false" import="true" targetId="9d72-ff48-535f-9984" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
