@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0cc-03b7-70ca-2d40" name="Galactic Republic" revision="4" battleScribeVersion="2.03" authorName="Dr Lucky" authorContact="Dr Lucky on the BGG or FFG forums" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="83" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0cc-03b7-70ca-2d40" name="Galactic Republic" revision="5" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="84" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="60cd-71d8-b272-9fed" name="Phase I Clone Troopers†" hidden="false" collective="false" import="true" targetId="8943-cb3d-8d0c-9a04" type="selectionEntry"/>
     <entryLink id="cc29-e840-8201-48ed" name="Condition Cards" hidden="false" collective="false" import="true" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
