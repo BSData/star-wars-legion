@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="84" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="85" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -6368,13 +6368,13 @@ During Agent Kallus&apos;s activation, he may perform a free recover action.</ch
         <categoryLink id="f663-b396-5092-12b5" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0f61-48b7-632d-a338" name=" Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0f61-48b7-632d-a338" name="Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b3e-2c0b-a6dc-5030" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6958-972b-8547-35d9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bc64-3729-803a-6d5f" name=" Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="bc64-3729-803a-6d5f" name="Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -6387,13 +6387,13 @@ During Agent Kallus&apos;s activation, he may perform a free recover action.</ch
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eec3-669a-5ccb-d29c" name=" Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eec3-669a-5ccb-d29c" name="Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9051-c3eb-f3e8-aa3b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9588-ac3c-7503-e368" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2e0a-ea90-ec01-bf87" name=" Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="2e0a-ea90-ec01-bf87" name="Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -13651,7 +13651,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
             <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">6</characteristic>
             <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
-            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd"/>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">1</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Hover: Ground, Reposition, Transport 1: Closed, Weak Point 2: Rear</characteristic>
@@ -13707,7 +13707,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
             <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">6</characteristic>
             <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
-            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd"/>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">2</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Cover 1, Hover: Air 2, Immune: Blast, Immune: Melee, Immune: Range 1 Weapons, Transport 1: Closed</characteristic>
@@ -13777,7 +13777,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
             <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">6</characteristic>
             <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
-            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd"/>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">--</characteristic>
             <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
             <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">2</characteristic>
             <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Armor, Arsenal 2, Cover 1, Hover: Air 2, Immune: Blast, Immune: Melee, Immune: Range 1 Weapons, Transport 1: Closed</characteristic>
@@ -13830,6 +13830,404 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce40-7bde-464f-4449" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6684-c9eb-25ce-3de3" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kashyyk Resistance</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Indomitable, Scale, Sharpshooter 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training, Gear, Grenades</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8aeb-2a20-d8b4-0c2a" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
+        <infoLink id="339e-37ee-e886-4365" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
+        <infoLink id="1c02-97b7-0b01-7a08" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3421-bcfd-2141-5b9e" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="f15f-35b8-3fac-ac87" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="aae3-475c-4ea6-4ea7" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="95ca-b149-5a79-5f60" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="9296-957c-c22f-d2fa" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="403b-6e50-9141-dcfa" name="Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b17-d623-f206-77fe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0aa-b863-ac9d-1317" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a113-ee33-b91b-87f2" name="Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89b4-f274-049b-f4b9" name="X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8960-bcac-a1df-f379" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a1e-dfae-15b1-9035" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0753-62c2-4720-c430" name="X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9d04-09e4-bad5-a930" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
+        <entryLink id="0e87-aefa-30b4-e852" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="5425-2939-ea90-8e1a" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="287d-fd67-e3d2-aea7" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c30-b791-3e63-d01d" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cf51-d0ec-078b-6081" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Charge, Duelist, Indomitable, Scale</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training x2, Gear, Grenades</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3732-b2a9-ecf8-ba6a" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
+        <infoLink id="6468-48e9-a87f-d743" name="Duelist" hidden="false" targetId="bf03-5df2-34a9-6a4b" type="infoGroup"/>
+        <infoLink id="da34-e33d-5fc9-aee2" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
+        <infoLink id="bd79-c0ae-aac4-5c17" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="38fe-b162-2c8c-da4a" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="49e8-151b-80bb-ac74" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="e2b5-7e6c-a1be-6f86" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="8ff1-50eb-e7d0-c4d6" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
+        <categoryLink id="34e7-b265-d20a-2c10" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="48f3-0f42-a75f-dc09" name="Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e79-4bcd-bc36-2932" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b264-ac6e-e8f1-fad9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3cba-82e4-f3af-63e9" name="Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="389c-9053-defa-6c27" name="Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad8e-ca5b-6bb6-d24f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7727-2016-6a75-9aa1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c748-55e9-8c33-f044" name="Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e598-b400-f601-b4ea" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
+        <entryLink id="7649-83cb-d758-39a1" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="2"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="828b-f7bc-4967-9b3b" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="32a6-cda8-5551-c51c" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="69.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="814e-83e4-e695-7933" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e0fd-1978-1537-0023" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+          <modifiers>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
+              <repeats>
+                <repeat field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
+              <conditions>
+                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kashyyk Defenders</characteristic>
+            <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">3</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">3</characteristic>
+            <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">2</characteristic>
+            <characteristic name="Defense" typeId="d709-b540-6ad3-b884">White</characteristic>
+            <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Indomitable, Scale, Sharpshooter 1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training, Gear, Grenades</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f56f-3f3c-5dd4-74fa" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
+        <infoLink id="8f4b-4d32-fb65-b338" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
+        <infoLink id="db03-e3a1-a0c9-e7e8" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2afd-3fe6-a5d5-4c5e" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="1fb5-a6ad-f56b-1cf7" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="c39d-cb32-0f41-eebb" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="4c96-f9d8-a1c3-78f9" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
+        <categoryLink id="c3cc-f4f9-5723-24c7" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1772-aaae-66e2-3341" name="Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2522-8dc5-9573-a307" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5237-34b4-e3d8-efd4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5c1a-4206-ef11-c69a" name="Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9484-438b-e774-4dff" name="X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba96-7188-8675-92af" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43e9-0495-5546-5c70" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d925-93a2-9032-5725" name="X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c51e-3a47-4c4c-9f81" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
+        <entryLink id="f364-a02c-ef5c-1ee9" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="ffe1-4cb3-e20c-569f" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
+        <entryLink id="ecdf-a0f3-adbd-bc79" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -15650,9 +16048,16 @@ You gain Reliable 1.</characteristic>
         <selectionEntry id="c6e6-ce10-57d7-567e" name="Bowcaster Wookiee" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c365-178d-8de5-291b" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c365-178d-8de5-291b" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c30-b791-3e63-d01d" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce40-7bde-464f-4449" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="814e-83e4-e695-7933" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -16694,6 +17099,99 @@ You gain Coordinate: Clone Trooper.</characteristic>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="29.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="670f-3a81-3936-372c" name="Battle Shield Wookiee†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c365-178d-8de5-291b" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c30-b791-3e63-d01d" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce40-7bde-464f-4449" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="814e-83e4-e695-7933" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddbe-aaed-af24-5501" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b4af-393a-6d81-7239" name="Battle Shield Wookiee (Offensive)" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">At the start of your activation, you may flip this card.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+            <profile id="0eed-44d6-d5c6-0e19" name="Battle Shield Wookiee (Defensive)" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">At the start of your activation, you may flip this card.
+Reduce your maximum speed by 1</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Armor 1</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+            <profile id="a3c6-3837-ca5d-051c" name="Battle Shield Wookiee (Defensive)" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="03d3-0c8e-9102-1bf9" name="Battle Shield Wookiee (Offensive)" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f6d5-455c-3967-9064" name="Armor X" hidden="false" targetId="557e-290b-b9ad-2a97" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34b1-86b3-5333-e9a8" name="Long Gun Wookiee†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c365-178d-8de5-291b" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c30-b791-3e63-d01d" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce40-7bde-464f-4449" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="814e-83e4-e695-7933" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb14-2a1a-8be4-614d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b23-b462-fcaa-16b2" name="Long Gun Wookiee" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6412-492d-3c2c-d22f" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
