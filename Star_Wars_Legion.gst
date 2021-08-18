@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="85" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="86" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -15605,6 +15605,45 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="bc91-19c6-2338-500c" name="Force Lift†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2586-f7a1-1baf-ee76" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f34f-4da2-3ca0-b9b6" name="Force Lift" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
+              <characteristics>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">When you deploy, you may place a barricade at range 1.
+&gt;&gt; Choose a barricade at range 1 and move it to within range 1 and height 1 of its current position.</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="cb38-8d3a-ab5b-88e3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d7ad-d270-d059-f46b" name="Burst of Speed†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d1e-d181-2037-c301" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4b5e-e654-f3e3-6389" name="Burst of Speed" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
+              <characteristics>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">At the start of your activation, treat your maximum speed as 3 until the end of the round. If you do, gain 1 immobilize token at the end of the round.</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Expend</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="01c9-3ebb-de86-fe94" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="8e54-db3e-b853-ebb3" name="Gear" hidden="false" collective="false" import="true">
@@ -20066,6 +20105,47 @@ When you perform a dodge action, gain 2 dodge tokens instead of 1. You cannot sp
           </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd92-7e38-34f5-55ce" name="Protector†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e72-ad65-1c5c-d29e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="70cf-0d45-daa7-7b82" name="Protector" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While using Guardian, you can cancel Critical results as though they were Hit results.
+During the End Phase, ready this card.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="85f2-2419-53c5-af38" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f05-83a6-18b1-4206" name="Into the Fray†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2be6-b26f-d246-9a37" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fae7-24f8-4325-3e3a" name="Into the Fray" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When an enemy unit at range 1 activates, you may gain 1 surge token.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="0bea-f9bd-0dc2-548f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
