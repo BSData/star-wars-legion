@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="86" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="87" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -14476,7 +14476,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7364-05e5-c470-a990" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c330-0c06-f095-7498" name="Chewbacca†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="c330-0c06-f095-7498" name="Chewbacca" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -14613,7 +14613,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ee2-5c50-5683-b69b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="abad-b21f-8cf4-d9f8" name="•Wookiee Chieftain†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="abad-b21f-8cf4-d9f8" name="•Wookiee Chieftain" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
               <conditions>
@@ -14753,7 +14753,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="14af-09be-726d-7044" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8e47-1a4f-fb61-0625" name="•Yoda†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="8e47-1a4f-fb61-0625" name="•Yoda" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Grand Master of the Jedi Order</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -14845,7 +14845,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
     </selectionEntry>
     <selectionEntry id="1ebf-a178-398b-24d0" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3a04-e538-c96f-9e07" name="IG-100 MagnaGuard†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="3a04-e538-c96f-9e07" name="IG-100 MagnaGuard" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
@@ -14960,7 +14960,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfc4-0a43-011f-71e6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5929-eef2-446f-c934" name="•Super Tactical Droid†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="5929-eef2-446f-c934" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <conditions>
@@ -15105,7 +15105,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="401b-ca19-8687-900b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6c5e-311b-1bdd-299f" name="•Super Tactical Droid†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="6c5e-311b-1bdd-299f" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <conditions>
@@ -15254,7 +15254,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e86d-9ce5-252f-3c49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
               <conditions>
@@ -18382,6 +18382,88 @@ Reduce your maximum speed by 1</characteristic>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a85b-04a4-dd79-1a57" name="Electro-Whip MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ebf-a178-398b-24d0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd13-f33e-d673-985e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e66-ecef-23ed-5deb" name="Electro-Whip MagnaGuard" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Immobilize 1, Versatile</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7846-6779-925a-8c00" name="Immobilize X" hidden="false" targetId="6174-bf0d-0783-05a8" type="rule"/>
+            <infoLink id="9c45-c8ba-e2ea-eb06" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="732d-d9cd-ce64-8e79" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1849-e295-eee4-32e0" name="RPS-6 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ebf-a178-398b-24d0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77e6-03cb-114c-a222" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c996-d7e1-e6d9-8691" name="RPS-6 MagnaGuard" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">2-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Impact 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="251e-4dde-7149-07e7" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="a578-4e81-b05b-5304" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="29d0-9839-b2bb-33b2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="774c-7b8a-de8b-535a" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ebf-a178-398b-24d0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca16-b431-fb5e-96e4" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="92be-fc51-1aef-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
