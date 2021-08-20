@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="87" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="88" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -465,7 +465,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91f5-1acb-f030-ca86" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="795c-5cbf-3722-5a49" name="New CategoryLink" hidden="false" targetId="6405-820e-ddee-20d3" primary="true"/>
+        <categoryLink id="795c-5cbf-3722-5a49" name="Command Hand" hidden="false" targetId="6405-820e-ddee-20d3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f485-5e67-3e4f-35ec" name="1 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="e769-f9a5-1870-62b3">
@@ -522,7 +522,7 @@
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="cba5-3761-9e3d-f6a8" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="cba5-3761-9e3d-f6a8" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -542,7 +542,7 @@
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="19ac-b282-6f02-e86e" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="19ac-b282-6f02-e86e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -575,7 +575,7 @@ During Darth Vader&apos;s second activation, he performs 1 fewer action.</charac
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="c3bd-5aa6-4187-3329" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c3bd-5aa6-4187-3329" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -614,7 +614,7 @@ During Darth Vader&apos;s second activation, he performs 1 fewer action.</charac
                 <infoLink id="ec29-8d80-9285-c84b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="59f7-c7e1-2a17-693d" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="59f7-c7e1-2a17-693d" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -652,7 +652,7 @@ During Darth Vader&apos;s second activation, he performs 1 fewer action.</charac
                 <infoLink id="20b7-fd82-0aca-0e06" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="4f09-bf93-48f8-531b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4f09-bf93-48f8-531b" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -680,7 +680,7 @@ When Han Solo is issued an order, he gains 1 aim token and 1 dodge token.</chara
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2153-fbe8-5f0b-d331" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2153-fbe8-5f0b-d331" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -708,7 +708,7 @@ During Boba Fett&apos;s activation, he gains: &gt;&gt; Chose an enemy trooper un
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="3dea-14e1-b7e8-f02c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="3dea-14e1-b7e8-f02c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -736,7 +736,7 @@ After Emperor Palpatine performs an attack, the defender gains 1 immobilized tok
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="0a92-7937-b84f-90f3" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="0a92-7937-b84f-90f3" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -823,7 +823,7 @@ After Luke Skywalker activates, if Chewbacca has a faceup order token, he may ac
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="00ea-4f57-74c0-3943" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="00ea-4f57-74c0-3943" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -850,7 +850,7 @@ After Luke Skywalker activates, if Chewbacca has a faceup order token, he may ac
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="03ff-bc93-e68e-90a6" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="03ff-bc93-e68e-90a6" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -881,7 +881,7 @@ Once per round, when an enemy unit at range 1-2 and in line of sight of Jyn Erso
                 <infoLink id="9032-ea9b-bffd-bc98" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="66b8-d777-5aeb-97ec" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="66b8-d777-5aeb-97ec" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -921,7 +921,7 @@ Do not discard this card from play.</characteristic>
                 <infoLink id="41f4-48b0-4fdd-6c5b" name="Arm X: *Charge Type*" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="96d3-0421-1840-4aa3" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="96d3-0421-1840-4aa3" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -962,7 +962,7 @@ Do not discard this card from play.</characteristic>
                 <infoLink id="6522-3d78-9246-5f26" name="Arm X: *Charge Type*" hidden="false" targetId="be08-2939-cc00-c2b9" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="5024-896b-a59f-d658" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="5024-896b-a59f-d658" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -993,7 +993,7 @@ At the start of the Activation Phase, Obi-Wan Kenobi gains 1 aim, 1 dodge, 1 sta
                 <infoLink id="523e-9d8a-794c-ad61" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="8ead-f560-ba9a-7470" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8ead-f560-ba9a-7470" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1034,7 +1034,7 @@ At the end of his activation, he may perform an attack against each enemy unit a
                 <infoLink id="cd29-3308-b736-75c3" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="8e5f-e8a0-6ea7-4ec2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8e5f-e8a0-6ea7-4ec2" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1066,7 +1066,7 @@ At the end of his activation, he may perform an attack against each enemy unit a
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="d88e-d157-44c0-7fc1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="d88e-d157-44c0-7fc1" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1098,7 +1098,7 @@ At the end of his activation, he may perform an attack against each enemy unit a
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="121a-c8d9-c253-992a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="121a-c8d9-c253-992a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1134,7 +1134,7 @@ At the end of his activation, he may perform an attack against each enemy unit a
                 <infoLink id="68ab-6acd-7014-6839" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="94da-4053-045b-192c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="94da-4053-045b-192c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1165,7 +1165,7 @@ When a friendly unit performs a melee attack, Clone Captain Rex can use Fire Sup
                 <infoLink id="99f0-c3f1-e5af-6236" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="91a4-4325-6bb6-c594" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="91a4-4325-6bb6-c594" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1198,7 +1198,7 @@ After he performs an attack, each defender gains 2 suppression tokens.</characte
                 <infoLink id="81bb-04bb-820e-0d29" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="0720-7637-f515-16a1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="0720-7637-f515-16a1" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1229,7 +1229,7 @@ At the end of his activation, he may gain 1 suppression token and he gains 1 sta
                 <infoLink id="8518-cdf2-355f-56df" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="f741-dd47-184f-d962" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f741-dd47-184f-d962" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1260,7 +1260,7 @@ At the end of her activation, she gains 1 dodge token and 1 standby token.</char
                 <infoLink id="b411-7047-b816-f684" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="002e-e332-47ab-5bda" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="002e-e332-47ab-5bda" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1288,7 +1288,7 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="40e6-7dbc-85c7-5055" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="40e6-7dbc-85c7-5055" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1318,7 +1318,7 @@ At the start of the Activation Phase, Padmé Amidala may transfer any number of 
                 <infoLink id="e3fd-10e6-434b-f85b" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="02f3-751b-a7a8-d460" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="02f3-751b-a7a8-d460" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1404,7 +1404,7 @@ Anakin Skywalker gains Outmaneuver and Relentless. At the end of his activation,
                 <infoLink id="69ba-256a-c394-6c54" name="Outmaneuver" hidden="false" targetId="3aa7-726e-44cb-c46f" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="d955-662e-4b70-58f2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="d955-662e-4b70-58f2" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1435,7 +1435,7 @@ While Maul is engaged with an enemy unit, that unit cannot spend aim, dodge, sta
                 <infoLink id="249c-88e8-16a2-9fa3" name="Disengage" hidden="false" targetId="1f57-513a-d262-486b" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="c2c3-4559-86e2-8e87" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c2c3-4559-86e2-8e87" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1468,7 +1468,7 @@ Enemy units engaged with Agent Kallus cannot withdraw.</characteristic>
                 <infoLink id="25aa-dd18-954d-29de" name="Block" hidden="false" targetId="8aa5-c537-ea38-418d" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="525a-bccd-64bb-cc6c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="525a-bccd-64bb-cc6c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1500,7 +1500,7 @@ If there is a 3-pip command card in your discard pile, Lando Calrissian gains 1 
                 <infoLink id="712f-b892-9dcb-87bb" name="Marksman" hidden="false" targetId="2622-a15a-021d-0a8c" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="bdb1-c232-2076-caba" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="bdb1-c232-2076-caba" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1613,7 +1613,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="3612-057a-810e-d151" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="3612-057a-810e-d151" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1645,7 +1645,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2725-a1cc-6692-87c5" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2725-a1cc-6692-87c5" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1677,7 +1677,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="307a-3880-50cd-6477" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="307a-3880-50cd-6477" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1704,7 +1704,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="8972-c3a9-9861-54ce" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8972-c3a9-9861-54ce" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1731,7 +1731,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="5bff-f6d1-457e-eee7" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="5bff-f6d1-457e-eee7" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1759,7 +1759,7 @@ Friendly vehicle units can spend dodge tokens to cancel Critical results.</chara
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="3ddc-7a04-1822-0a74" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="3ddc-7a04-1822-0a74" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1798,7 +1798,7 @@ Friendly vehicle units can spend dodge tokens to cancel Critical results.</chara
                 <infoLink id="1fe8-48cf-a72f-aa09" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="4e78-09e0-0cf2-059a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4e78-09e0-0cf2-059a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1860,7 +1860,7 @@ Friendly vehicle units can spend dodge tokens to cancel Critical results.</chara
                 <infoLink id="dd61-3196-e70e-3755" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="745a-81d5-b740-3e7a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="745a-81d5-b740-3e7a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="69e1-c5b7-e729-374b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
@@ -1950,7 +1950,7 @@ When Jyn Erso issues an order to another friendly trooper unit, that unit gains 
                 <infoLink id="e993-981b-9b09-0f0f" name="Teamwork: *Unit Name*" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="cdee-f8e5-ccc4-4a31" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="cdee-f8e5-ccc4-4a31" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -1978,7 +1978,7 @@ During Sabine Wren&apos;s activation, you may place 1 graffiti token at range 1 
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="5fc9-f876-449e-2b53" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="5fc9-f876-449e-2b53" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2005,7 +2005,7 @@ During Sabine Wren&apos;s activation, you may place 1 graffiti token at range 1 
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="86e2-1c06-766e-e2ea" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="86e2-1c06-766e-e2ea" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2032,7 +2032,7 @@ During Sabine Wren&apos;s activation, you may place 1 graffiti token at range 1 
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="5bd5-7b18-cb23-84ef" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="5bd5-7b18-cb23-84ef" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2060,7 +2060,7 @@ Obi-Wan Kenobi can use Guardian during a melee attack.</characteristic>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2265-8d94-ee29-7267" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2265-8d94-ee29-7267" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2091,7 +2091,7 @@ While another friendly trooper unit has a faceup order token, it gains Guardian 
                 <infoLink id="beb8-4477-beca-f90f" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="d912-ff67-6d7a-9c6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="d912-ff67-6d7a-9c6a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2124,7 +2124,7 @@ While he is defending, he rolls a number of additional white dice equal to his c
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="c313-70b0-eb7c-f9d2" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c313-70b0-eb7c-f9d2" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2157,7 +2157,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="580f-65a5-02d2-7b8b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="580f-65a5-02d2-7b8b" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2184,7 +2184,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="e9ec-d271-7fff-640b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="e9ec-d271-7fff-640b" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2211,7 +2211,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="521a-b78c-ab7c-ad63" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="521a-b78c-ab7c-ad63" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2256,7 +2256,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 <infoLink id="3a41-18d5-87e3-2998" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="bfc8-844f-ea3c-3e8c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="bfc8-844f-ea3c-3e8c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2283,7 +2283,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="4f6b-8562-8ecc-8dfb" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4f6b-8562-8ecc-8dfb" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2310,7 +2310,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="f10c-d023-034b-5154" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f10c-d023-034b-5154" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2340,7 +2340,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 <infoLink id="b7ea-aed0-93cc-8519" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="de82-0a5f-7c1b-2d25" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="de82-0a5f-7c1b-2d25" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2380,7 +2380,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 <infoLink id="c6da-e4c3-b9ad-b3ca" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="bff3-804a-18b7-2e6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="bff3-804a-18b7-2e6a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2407,7 +2407,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="237b-16e3-4dd6-e671" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="237b-16e3-4dd6-e671" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2438,7 +2438,7 @@ Anakin Skywalker gains &quot;Attack Surge: Critical&quot; and Master of the Forc
                 <infoLink id="295d-d92f-3a70-535a" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="0fb1-772c-67d6-f175" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="0fb1-772c-67d6-f175" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2469,7 +2469,7 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
                 <infoLink id="cd5c-4273-7e06-cc5e" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="e1eb-6a9f-ba59-74a1" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="e1eb-6a9f-ba59-74a1" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2575,7 +2575,7 @@ Before drawing from your order pool, you may instead discard this card from your
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2549-a509-2f70-5966" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2549-a509-2f70-5966" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2602,7 +2602,7 @@ Before drawing from your order pool, you may instead discard this card from your
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="c2a9-d98e-f1e4-682c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c2a9-d98e-f1e4-682c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2666,7 +2666,7 @@ Before drawing from your order pool, you may instead discard this card from your
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="a81b-8cd2-2105-8f69" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="a81b-8cd2-2105-8f69" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2747,7 +2747,7 @@ Before drawing from your order pool, you may instead discard this card from your
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="6641-6a75-bce6-9508" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="6641-6a75-bce6-9508" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2780,7 +2780,7 @@ When Luke Skywalker activates, each friendly trooper unit at range 1-3 of him ma
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="8e2d-1898-bae1-80bd" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8e2d-1898-bae1-80bd" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2813,7 +2813,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="289c-daad-8d12-56e8" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="289c-daad-8d12-56e8" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2840,7 +2840,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="a936-91b8-b901-d40c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="a936-91b8-b901-d40c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2867,7 +2867,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="ec9d-fbde-0887-b7ca" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="ec9d-fbde-0887-b7ca" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2894,7 +2894,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="7fc0-c746-37ae-d05f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="7fc0-c746-37ae-d05f" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2921,7 +2921,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="4a97-f73d-d323-4e3e" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4a97-f73d-d323-4e3e" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2953,7 +2953,7 @@ When Darth Vader activates, each enemy trooper at range 1-2 of him gains 3 suppr
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="f710-2450-3930-c1fa" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f710-2450-3930-c1fa" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3078,7 +3078,7 @@ When a friendly trooper unit with a faceup order token activates, during its act
                 <infoLink id="b353-4fdb-15ed-28d0" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="1bc5-b463-29d7-ea5b" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="1bc5-b463-29d7-ea5b" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3109,7 +3109,7 @@ When Sabine Wren issues an order to a commander, operative, or special forces un
                 <infoLink id="7f41-b543-72e5-2f9f" name="Inspire X" hidden="false" targetId="a4c9-42f5-6ea5-f3a3" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="4b53-947f-9d7f-168c" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4b53-947f-9d7f-168c" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3140,7 +3140,7 @@ After an enemy unit activates, Bossk gains 1 aim token.</characteristic>
                 <infoLink id="75ed-5920-b11f-49a8" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="6f31-cee0-26e5-34bc" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="6f31-cee0-26e5-34bc" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3167,7 +3167,7 @@ After an enemy unit activates, Bossk gains 1 aim token.</characteristic>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="386c-e39a-7205-5c83" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="386c-e39a-7205-5c83" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3194,7 +3194,7 @@ After an enemy unit activates, Bossk gains 1 aim token.</characteristic>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2832-e742-1a44-8c66" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2832-e742-1a44-8c66" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3221,7 +3221,7 @@ After an enemy unit activates, Bossk gains 1 aim token.</characteristic>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="4673-098b-7cf1-0b45" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4673-098b-7cf1-0b45" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3254,7 +3254,7 @@ When he is issued an order, he may choose up to 2 enemy trooper units at range 1
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="77c8-f50d-f243-6f6a" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="77c8-f50d-f243-6f6a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3291,7 +3291,7 @@ This card may be revealed at the start of the Deploy Units step. If it is, it mu
                 <infoLink id="ec0d-892a-691c-1f77" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="d15e-ebea-c646-1acb" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="d15e-ebea-c646-1acb" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3319,7 +3319,7 @@ After Count Dooku performs a ranged attack against a trooper unit, he may perfor
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="c3a1-0c98-c42d-31b5" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="c3a1-0c98-c42d-31b5" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3347,7 +3347,7 @@ When Clone Captain Rex activates, he recovers.</characteristic>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="6ed4-fa17-648e-dc48" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="6ed4-fa17-648e-dc48" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3383,7 +3383,7 @@ At the start of the Activation Phase, R2-D2 may perform the following: &gt;&gt;S
                 <infoLink id="6b06-009b-3a8b-40be" name="Smoke X" hidden="false" targetId="bd82-f4e9-9b2e-c37b" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="f88d-1e88-f5b7-7745" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f88d-1e88-f5b7-7745" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3417,7 +3417,7 @@ Divulge: Deploy Units Step: Padmé Amidala gains Infiltrate and when she is depl
                 <infoLink id="c5d7-367c-1141-aa48" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="2bd3-4f8a-bc6b-9ca6" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2bd3-4f8a-bc6b-9ca6" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3453,7 +3453,7 @@ Divulge: Deploy Units Step: Place three Bane tokens on the battlefield beyond ra
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="2e3d-3622-ee06-8cba" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2e3d-3622-ee06-8cba" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3484,7 +3484,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
                 <infoLink id="3714-2abb-ec19-e1cf" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="8268-0300-0f5a-8ef0" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8268-0300-0f5a-8ef0" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3514,7 +3514,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
                 <infoLink id="bea0-ce74-4f69-10ee" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="f173-c487-357e-b44f" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="f173-c487-357e-b44f" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3545,7 +3545,7 @@ At the end of K-2SO&apos;s activation, you may choose another friendly commander
                 <infoLink id="9803-0278-e26e-ce83" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="4412-cb09-ce4e-9641" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="4412-cb09-ce4e-9641" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3577,7 +3577,7 @@ Anakin Skywalker gains Exemplar and Reliable 2. At the end of his activation, if
                 <infoLink id="de1a-0b18-f4d1-db85" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="97be-eaf0-2b58-3d38" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="97be-eaf0-2b58-3d38" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3608,7 +3608,7 @@ Maul gains 1 aim token and Jedi Hunter. When he activates, he may suffer 1 wound
                 <infoLink id="9955-65e7-0f9e-85aa" name="Jedi Hunter" hidden="false" targetId="f68b-2c74-aef3-17f4" type="rule"/>
               </infoLinks>
               <categoryLinks>
-                <categoryLink id="2147-ec1d-0872-f0d4" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="2147-ec1d-0872-f0d4" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3690,7 +3690,7 @@ Before Lando Calrissian rolls dice during an attack, you may declare a Block or 
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="8602-6f36-daba-a3a9" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="8602-6f36-daba-a3a9" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3718,7 +3718,7 @@ During Agent Kallus&apos;s activation, he may perform a free recover action.</ch
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="270b-36a8-a594-2285" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="270b-36a8-a594-2285" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3807,7 +3807,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="34db-2bd0-dca3-8672" name="New CategoryLink" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="34db-2bd0-dca3-8672" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3894,10 +3894,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="94f0-dcb6-5235-f7e2" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7ca9-b193-2f39-319f" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="260d-51ef-e84e-bba3" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="0bc2-e8fc-0074-0cc0" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="5057-31fa-f917-e99a" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="7ca9-b193-2f39-319f" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="260d-51ef-e84e-bba3" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="0bc2-e8fc-0074-0cc0" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="5057-31fa-f917-e99a" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="63c3-d567-b8f4-9801" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="e9f2-b18f-b195-5af5" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
       </categoryLinks>
@@ -4075,10 +4075,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="681f-3a4f-a5a6-90cb" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="553a-528e-818e-1d56" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
-        <categoryLink id="1efc-e338-95f6-6d92" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="e5d9-1078-2af2-c45c" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="8818-a4bc-bd94-6c3a" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="553a-528e-818e-1d56" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="1efc-e338-95f6-6d92" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="e5d9-1078-2af2-c45c" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="8818-a4bc-bd94-6c3a" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="d92c-5231-d6d2-9928" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4166,10 +4166,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="d724-827d-9079-1718" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e17a-1541-9066-e06b" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
-        <categoryLink id="f74a-d0eb-a7e0-814e" name="New CategoryLink" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
-        <categoryLink id="d586-ed30-e6d6-98bb" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="8789-0c71-7599-3759" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="e17a-1541-9066-e06b" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="f74a-d0eb-a7e0-814e" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
+        <categoryLink id="d586-ed30-e6d6-98bb" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="8789-0c71-7599-3759" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="c47d-5074-3351-bb2a" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4251,10 +4251,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="6910-1afb-9b7f-e29a" name="Cover X" hidden="false" targetId="99c4-94e0-7110-4e99" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3fa5-95fb-2534-1d53" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
-        <categoryLink id="7a8a-022e-77e0-f5af" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="a412-3daa-91b9-1ace" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="8ffd-ec78-0823-ced5" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="3fa5-95fb-2534-1d53" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="7a8a-022e-77e0-f5af" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="a412-3daa-91b9-1ace" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="8ffd-ec78-0823-ced5" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="c75e-f05d-97e3-7894" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4343,10 +4343,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="ed08-f5dc-5014-6cd5" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5c93-85b8-0d45-f458" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="ed12-4eee-20d1-fc4e" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="af3a-cdb0-0fb8-afa0" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="1c8e-7df7-2b49-c249" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="5c93-85b8-0d45-f458" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="ed12-4eee-20d1-fc4e" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="af3a-cdb0-0fb8-afa0" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="1c8e-7df7-2b49-c249" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="a926-dd56-9e04-c3f4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="8348-f3ee-721f-e806" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
       </categoryLinks>
@@ -4499,10 +4499,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="9db1-08ac-1edb-7106" name="Precise X" hidden="false" targetId="abcc-5c44-68ef-82d1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6a56-4488-f5ec-26b4" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
-        <categoryLink id="5bbb-eac2-14d5-41fe" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="3436-0049-2821-9d23" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="a6ff-389d-604e-4090" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="6a56-4488-f5ec-26b4" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="5bbb-eac2-14d5-41fe" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="3436-0049-2821-9d23" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="a6ff-389d-604e-4090" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="56f6-c2b9-5a94-7449" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -4586,10 +4586,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="be60-7060-ef7a-d671" name="Immune: Range 1 Weapons" hidden="false" targetId="3d21-4cbd-7b5a-69d4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f3d1-7b98-374c-2366" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="c816-a9a2-8ab9-c64a" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="dd9c-e295-2992-f385" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="f4e3-ec35-378a-8269" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="f3d1-7b98-374c-2366" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="c816-a9a2-8ab9-c64a" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="dd9c-e295-2992-f385" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="f4e3-ec35-378a-8269" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="1f4b-ff4b-5298-fb1e" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4665,10 +4665,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="f125-eac5-95e8-f33c" name="Weak Point X: Rear" hidden="false" targetId="23a9-6a39-9307-2469" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e730-0de6-089b-b3d0" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="eaa8-df41-5671-57fe" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="261a-58c6-fb91-a163" name="New CategoryLink" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
-        <categoryLink id="c640-edf3-2cca-7a8f" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="e730-0de6-089b-b3d0" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="eaa8-df41-5671-57fe" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="261a-58c6-fb91-a163" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
+        <categoryLink id="c640-edf3-2cca-7a8f" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="6736-f5f5-1a43-9346" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4838,10 +4838,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="6c6c-7537-84c3-3626" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="849b-17ed-0c43-8012" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
-        <categoryLink id="37b3-84e6-526b-5c5c" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="ffe7-9f9c-ba23-4001" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="79c0-0ed9-874a-c2d4" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="849b-17ed-0c43-8012" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="37b3-84e6-526b-5c5c" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="ffe7-9f9c-ba23-4001" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="79c0-0ed9-874a-c2d4" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="8902-6ea1-90fc-a1bf" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -4930,10 +4930,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="5208-cefa-9095-d11e" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6ed2-e06e-1667-c88a" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="6992-d2e8-8102-5dbf" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="323c-c984-5de4-35cb" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="a757-b259-0c4f-fe15" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="6ed2-e06e-1667-c88a" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="6992-d2e8-8102-5dbf" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="323c-c984-5de4-35cb" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="a757-b259-0c4f-fe15" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="8098-f0b2-aecc-fee6" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5067,10 +5067,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="bc79-e061-23a0-855a" name="Ready X" hidden="false" targetId="a517-5867-63b2-82d2" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e97a-4d2a-2ea2-73fb" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
-        <categoryLink id="f4c8-f5c3-8879-c6bc" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="fc3a-008a-521e-25d4" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="d594-1db1-c13f-a5a1" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="e97a-4d2a-2ea2-73fb" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="f4c8-f5c3-8879-c6bc" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="fc3a-008a-521e-25d4" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="d594-1db1-c13f-a5a1" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="2960-3c6f-8132-bfd2" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5179,10 +5179,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="51f9-ceac-5281-ec00" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d5d8-aaa3-0448-4c88" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="35e9-6a29-de2b-a9a2" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="52b3-3c0e-b932-ab12" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="7770-ad71-d4f9-2913" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="d5d8-aaa3-0448-4c88" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="35e9-6a29-de2b-a9a2" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="52b3-3c0e-b932-ab12" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="7770-ad71-d4f9-2913" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="f9b6-d2db-7419-1b87" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5310,10 +5310,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="2d1d-7403-69ec-c9c1" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ad74-56f2-6928-e3a4" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="aed0-b271-d2da-1ae4" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="5e7e-53e5-7fac-5473" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="1b2e-9864-294e-ef72" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="ad74-56f2-6928-e3a4" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="aed0-b271-d2da-1ae4" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="5e7e-53e5-7fac-5473" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="1b2e-9864-294e-ef72" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="61bc-8218-53cd-e136" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5443,10 +5443,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="cb37-08f0-e886-b36b" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="92cc-08d3-1e6d-637d" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
-        <categoryLink id="b094-ca14-64e2-ab04" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="d22a-3634-0bea-67d4" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="457b-c12c-1ea6-1a39" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="92cc-08d3-1e6d-637d" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="b094-ca14-64e2-ab04" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="d22a-3634-0bea-67d4" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="457b-c12c-1ea6-1a39" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="eb2f-7870-e57d-fd59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5551,10 +5551,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="4b61-3590-43bd-2234" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="09fb-a5d8-ae84-d6fd" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
-        <categoryLink id="08d9-7b4a-d6d7-adc4" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="299a-ff09-7cfd-f825" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="97e7-45f5-6717-e6a5" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="09fb-a5d8-ae84-d6fd" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="08d9-7b4a-d6d7-adc4" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="299a-ff09-7cfd-f825" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="97e7-45f5-6717-e6a5" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="86ff-8ff6-a40f-d487" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="119e-5b3b-4615-2dd3" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
@@ -5659,10 +5659,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="44ff-c1e8-07a6-4127" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f1c3-f508-98cf-218f" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
-        <categoryLink id="33ca-f990-c3b7-ca5e" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="26d9-0810-d95b-b86f" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="772e-f61f-6381-1d63" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="f1c3-f508-98cf-218f" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="33ca-f990-c3b7-ca5e" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="26d9-0810-d95b-b86f" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="772e-f61f-6381-1d63" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="7e7c-b91f-a0e0-db59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5821,10 +5821,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="4a52-bdce-d485-12c0" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ea80-2e36-5add-33f0" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
-        <categoryLink id="f369-b817-0f6f-2289" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="3733-1fbb-06fd-8ced" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="e93f-d349-86b5-34b4" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="ea80-2e36-5add-33f0" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="f369-b817-0f6f-2289" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="3733-1fbb-06fd-8ced" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="e93f-d349-86b5-34b4" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="a95d-a429-28c9-9ae8" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5929,10 +5929,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="f99b-3f9d-a2ae-d00a" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4639-d3a3-9f48-cec5" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
-        <categoryLink id="9483-5599-add4-0e29" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="c0b8-32fa-ca11-1d19" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="7ce5-cf84-fcdf-7883" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="4639-d3a3-9f48-cec5" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="9483-5599-add4-0e29" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="c0b8-32fa-ca11-1d19" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="7ce5-cf84-fcdf-7883" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="e73c-9e9d-2034-8208" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="120b-ca5b-ad81-c0bb" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
@@ -5996,10 +5996,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="f241-50c4-1e18-d921" name="Stationary" hidden="false" targetId="a1b4-49d7-bca5-385f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b38b-6f47-071d-6a0c" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
-        <categoryLink id="18b6-5f45-fbc6-34d4" name="New CategoryLink" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
-        <categoryLink id="7245-5146-95d3-2046" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="c36a-1144-846a-0302" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="b38b-6f47-071d-6a0c" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="18b6-5f45-fbc6-34d4" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
+        <categoryLink id="7245-5146-95d3-2046" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="c36a-1144-846a-0302" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="212c-fe0b-4468-1fa7" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6103,10 +6103,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="38ce-9f2e-d2b1-d0bb" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7533-1398-8274-e8c1" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
-        <categoryLink id="dd25-b21c-31bf-7f7c" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="4185-4129-d63f-1a80" name="New CategoryLink" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
-        <categoryLink id="cfda-a3e7-8ef9-22fc" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="7533-1398-8274-e8c1" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="dd25-b21c-31bf-7f7c" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="4185-4129-d63f-1a80" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
+        <categoryLink id="cfda-a3e7-8ef9-22fc" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="3186-1ad3-d804-4a2c" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6215,10 +6215,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="88cd-80ed-fb91-1f3d" name="Pulling the Strings" hidden="false" targetId="c49c-fb1f-d74d-bdfe" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c332-76c3-d089-ceea" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
-        <categoryLink id="a182-98f4-5bf2-3426" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="60cb-3123-62b4-b0cd" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="a5b0-4026-2995-6496" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="c332-76c3-d089-ceea" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="a182-98f4-5bf2-3426" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="60cb-3123-62b4-b0cd" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="a5b0-4026-2995-6496" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="d94a-eae0-12be-5192" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="8bdf-4103-88e5-e509" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
       </categoryLinks>
@@ -6334,10 +6334,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="6aa7-7360-4b98-d70c" name="Disciplined X" hidden="false" targetId="b45d-4b6c-0efa-b70e" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8f68-a25f-4f03-4de3" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
-        <categoryLink id="3485-cc04-0ca3-04c8" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="14b8-5c3d-0fe0-a04a" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="584d-e6b1-bbb2-04c8" name="New CategoryLink" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="8f68-a25f-4f03-4de3" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="3485-cc04-0ca3-04c8" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="14b8-5c3d-0fe0-a04a" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="584d-e6b1-bbb2-04c8" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="c9c6-5b93-1e02-e68b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6457,7 +6457,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="712c-acf7-9991-455d" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c1ad-db4d-c64c-e5f9" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="c1ad-db4d-c64c-e5f9" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="b8fe-3c0b-8ee1-014e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="922a-954d-00c0-fe70" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="5141-5af3-0776-720a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -6598,20 +6598,20 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="7272-463e-0698-8fb9" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7f90-2f11-cd77-e9f2" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="7f90-2f11-cd77-e9f2" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="17eb-b212-3f39-6703" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="007f-b95a-7bec-df13" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="7780-4796-4f45-8e66" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="f663-b396-5092-12b5" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0f61-48b7-632d-a338" name="Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0f61-48b7-632d-a338" name=" Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b3e-2c0b-a6dc-5030" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6958-972b-8547-35d9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bc64-3729-803a-6d5f" name="Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="bc64-3729-803a-6d5f" name=" Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -6624,13 +6624,13 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eec3-669a-5ccb-d29c" name="Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eec3-669a-5ccb-d29c" name=" Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9051-c3eb-f3e8-aa3b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9588-ac3c-7503-e368" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2e0a-ea90-ec01-bf87" name="Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="2e0a-ea90-ec01-bf87" name=" Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -6713,7 +6713,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="2666-a460-9f83-2fd3" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2ed3-15ff-b09d-8e82" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="2ed3-15ff-b09d-8e82" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="224e-2fe5-4561-3218" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="5b9b-4e80-978d-da65" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="61d4-1838-c3ee-a02c" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
@@ -6804,7 +6804,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="fc4e-3943-c4b8-6005" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="13af-5496-e2a1-6994" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="13af-5496-e2a1-6994" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="9d49-806f-b92a-d765" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="2859-2533-6580-1add" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="1ba3-e9a9-7020-e7ef" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
@@ -6944,7 +6944,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="8989-7440-923a-47da" name="Target X" hidden="false" targetId="9daa-4ccf-63bd-7524" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2bc6-57b8-d3c7-71ad" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="2bc6-57b8-d3c7-71ad" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="6d67-719d-dfea-5e05" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="95d8-7fd2-df8b-2bd2" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="4261-5c57-4e00-ae81" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -7057,7 +7057,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="2816-b384-e1f3-f256" name="Compel" hidden="false" targetId="2dd6-d418-4321-f5bf" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="69e5-476b-d7cf-11fd" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="69e5-476b-d7cf-11fd" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="5222-6707-aa9e-158e" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="c32f-d59c-04fc-282e" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="a422-d2e5-8af8-d0cd" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -7171,7 +7171,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="29c2-5e36-ac97-e94c" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5bcf-cf63-8fa9-e7e6" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="5bcf-cf63-8fa9-e7e6" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="2212-1c17-789f-5360" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="343b-93de-70a4-01a1" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="80a5-79a6-59fc-70c6" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -7291,7 +7291,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="4175-6084-e322-b834" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4c6f-e741-bc15-3170" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="4c6f-e741-bc15-3170" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="cc54-a2a6-91ec-abb6" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="b7dd-dc08-759c-a8ea" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="0e3f-f9ea-61f4-d5f3" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -7411,7 +7411,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="cbfc-ffcc-97fc-15a2" name="Ready X" hidden="false" targetId="a517-5867-63b2-82d2" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2a92-b7b8-e41c-9946" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="2a92-b7b8-e41c-9946" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="0e2b-1932-1a06-d578" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="4a47-ada5-8871-ef65" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="432e-f579-c46d-f704" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -7524,7 +7524,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="d092-22b0-02ea-560b" name="Speeder X" hidden="false" targetId="f4bf-508a-a537-1ce7" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6076-2137-a137-f110" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="6076-2137-a137-f110" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
         <categoryLink id="cc45-a436-62e5-e275" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="2360-b275-fe50-af48" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="f09d-439b-2f74-2def" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
@@ -7606,10 +7606,10 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="f831-9351-2a85-82c8" name="Transport X: Open" hidden="false" targetId="3c45-d376-201b-e8f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4a39-5566-3c1c-13b1" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="9420-002b-fae8-85a9" name="New CategoryLink" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="3a86-423e-d33a-9dfe" name="New CategoryLink" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
-        <categoryLink id="037b-fbcd-c162-086c" name="New CategoryLink" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+        <categoryLink id="4a39-5566-3c1c-13b1" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="9420-002b-fae8-85a9" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="3a86-423e-d33a-9dfe" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
+        <categoryLink id="037b-fbcd-c162-086c" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="08b6-26c6-3de7-90d5" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -8331,7 +8331,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="4116-0720-a234-48e3" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a08a-d0bb-9c58-ed6d" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="a08a-d0bb-9c58-ed6d" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="7c6c-fd21-97fa-1be4" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="e50f-096d-ed52-c398" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="04d6-9dbd-a432-5653" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -8447,7 +8447,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="2ed4-4dce-8340-e6d6" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7ca4-74b6-ebd8-3e0e" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="7ca4-74b6-ebd8-3e0e" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="aa64-5f52-80ad-dd45" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="bb23-0c7f-9f77-bc67" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="88e9-bb09-e41a-e00f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -8549,7 +8549,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="ffb2-8c4e-4893-5578" name="Unhindered" hidden="false" targetId="cac7-4e9c-5f18-1773" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="db6f-101e-dbac-87d7" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="db6f-101e-dbac-87d7" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="db6b-39b0-c4b2-da45" name="Creature Trooper" hidden="false" targetId="d091-0d08-aebd-34d9" primary="false"/>
         <categoryLink id="f106-27ca-49f8-daa7" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="524f-2dd4-e3b0-e69f" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
@@ -8700,7 +8700,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="a6fa-6f0f-8738-10fc" name="Defend X" hidden="false" targetId="efd2-65da-0994-0b77" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7b5e-bca2-ad9d-b42e" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="7b5e-bca2-ad9d-b42e" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="476e-5874-1a6f-86af" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="fbd9-48ad-ab0c-968c" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="2696-2e15-762d-d7d4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -8844,7 +8844,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="4f3a-7322-0bc9-f4da" name="Fire Support" hidden="false" targetId="69f0-0418-8196-8873" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e440-0f3a-760d-4257" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="e440-0f3a-760d-4257" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="6678-90a8-7352-71c7" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="e2f1-8c2b-ae1d-297d" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="3b67-459b-25d5-c0a2" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -8983,7 +8983,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="70a5-c649-7c57-2548" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2b8e-2e57-5ccf-f87b" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="2b8e-2e57-5ccf-f87b" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="289b-a60d-2e3f-f802" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="4d34-5169-d78d-9a96" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="effa-2430-8442-9a26" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -9159,7 +9159,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="25e2-d8fd-77bd-09a9" name="Spur" hidden="false" targetId="cc37-290e-3d87-264b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e7da-41bc-92f6-11e8" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="e7da-41bc-92f6-11e8" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="6a70-40f1-9c7c-b512" name="Creature Trooper" hidden="false" targetId="d091-0d08-aebd-34d9" primary="false"/>
         <categoryLink id="35b1-bb5c-dde1-cd6f" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="c218-71f2-eaab-3ddb" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
@@ -9246,7 +9246,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="439e-c3f0-90fc-89d7" name="Charge" hidden="false" targetId="a44a-b83d-9e7c-964f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f102-7764-34b1-dc21" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="f102-7764-34b1-dc21" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="3614-9f17-005e-8ac6" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="13ca-2f32-0006-5a70" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="b43d-adf5-4273-623e" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -9326,7 +9326,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="3aac-de44-1d15-5083" name="Speeder X" hidden="false" targetId="f4bf-508a-a537-1ce7" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b571-e563-e970-eda6" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="b571-e563-e970-eda6" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="8132-a63b-e169-5d08" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
         <categoryLink id="b03f-df09-3833-2c85" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="e668-fd45-f691-3d4f" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -9423,7 +9423,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="0ee5-72ac-1130-318b" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2dba-71d0-0d32-584f" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="2dba-71d0-0d32-584f" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="25fc-5848-6a75-23ce" name="Detachment" hidden="false" targetId="a824-a683-e978-d045" primary="false"/>
         <categoryLink id="55f9-cfda-ccb8-0432" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
         <categoryLink id="7486-2757-62bd-cffa" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
@@ -9523,7 +9523,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="79bf-c874-1443-f0c4" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6f5b-1065-bec9-85ad" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="6f5b-1065-bec9-85ad" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="ac60-fb62-4165-e509" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="808b-01f5-8377-b78e" name="Detachment" hidden="false" targetId="a824-a683-e978-d045" primary="false"/>
         <categoryLink id="605c-6859-faf5-3fab" name="Emplacement Trooper" hidden="false" targetId="800f-3742-0fdf-e2da" primary="false"/>
@@ -9615,7 +9615,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="654e-fa69-8306-bb55" name="Wheel Mode" hidden="false" targetId="6bb5-4031-b045-a080" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5ad1-d492-b54b-81a3" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="5ad1-d492-b54b-81a3" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="67d1-e219-08ed-915b" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="f610-f204-59d4-509d" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
         <categoryLink id="30e8-5c1c-d909-1d75" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
@@ -9696,7 +9696,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="5aaa-1966-aeed-b062" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4f4c-f225-dfe4-f550" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="4f4c-f225-dfe4-f550" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="0bf0-e0e1-84ff-695d" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="e72b-7261-edc4-5841" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="b56a-b31f-92da-950c" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -9812,7 +9812,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="832d-d943-a9a6-3a35" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b128-a6fe-db2e-6fa2" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="b128-a6fe-db2e-6fa2" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="c932-0d31-dc72-a573" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="236a-22b6-d4c1-f685" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="2d57-1ca3-da3e-c2e0" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -9910,7 +9910,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="c117-7cff-8223-9fb9" name="Spur" hidden="false" targetId="cc37-290e-3d87-264b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1a0f-0ef9-e70c-f598" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="1a0f-0ef9-e70c-f598" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="be10-8466-a537-d428" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="ebd5-ac8b-2031-6773" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="d2c0-f577-7db0-9576" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -10012,7 +10012,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="d606-eef0-7c59-2c5b" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d3db-fd86-d661-452c" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="d3db-fd86-d661-452c" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="2ee0-af7a-35b5-f43a" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="65f6-5824-0511-1214" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="54e0-2eb3-9450-1b5e" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -10126,7 +10126,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0de8-bc4c-d609-a3a7" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="0de8-bc4c-d609-a3a7" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="a59d-90c2-a8a4-9875" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="f587-5168-c27c-6d54" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="2757-ae01-cf97-2f32" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -10223,7 +10223,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="3493-7b78-c73b-f068" name="Hover: Ground" hidden="false" targetId="c0c4-0f9c-4db8-73f9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5bba-bf40-b4c7-48f0" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="5bba-bf40-b4c7-48f0" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
         <categoryLink id="3cb4-8d9d-d537-b143" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="1cdd-308b-37d8-583a" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="badf-9a1e-f1b9-d1e5" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
@@ -10371,7 +10371,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="e19e-e14b-ba93-b6e3" name="Scouting Party X" hidden="false" targetId="bbaa-6329-e1b9-86fb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c2d2-d9b3-ea24-7621" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="c2d2-d9b3-ea24-7621" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="60b2-c8aa-99a6-c2e3" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="c72e-007b-514c-aaab" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="9c4f-4bcc-1c7d-dc2e" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -10530,7 +10530,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="74da-ca0d-0103-e038" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f3aa-2357-d417-0d39" name="New CategoryLink" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
+        <categoryLink id="f3aa-2357-d417-0d39" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="true"/>
         <categoryLink id="c2bc-450d-af59-4596" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="0eb8-77db-acf1-0988" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="e4c6-4175-f51f-8807" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -10607,7 +10607,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="1f4b-75d1-035c-ce8d" name="Weak Point X: Rear, Sides" hidden="false" targetId="3de3-77ac-9e3a-aff6" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6b10-eaee-508e-cbd5" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="6b10-eaee-508e-cbd5" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
         <categoryLink id="7171-6efa-c6cc-cefd" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="b55c-7d77-b923-5a82" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="6f3e-a3f6-9861-d440" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -10684,7 +10684,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="64fb-0510-b232-79cb" name="Secret Mission" hidden="false" targetId="95e8-30da-54b0-8883" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5574-ce2c-79ed-8691" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="5574-ce2c-79ed-8691" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="722d-c2e0-b5bb-2dd5" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="5d0a-bb6c-9718-036f" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="b636-a76e-b857-6789" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -10757,7 +10757,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="90e2-4b85-18f3-ae53" name="Inconspicuous" hidden="false" targetId="9050-0d8e-979c-94ef" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2d73-e1a5-b5b9-c9a5" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="2d73-e1a5-b5b9-c9a5" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="13ab-1b46-ef88-a652" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="ecdc-73f2-fd50-2319" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="6e75-2c8f-44af-17d5" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
@@ -10925,7 +10925,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="a119-ec86-baa8-9ba1" name="Marksman" hidden="false" targetId="2622-a15a-021d-0a8c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="80ac-2302-7efe-bd42" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="80ac-2302-7efe-bd42" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="b5a9-4832-cd7e-b772" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="b54d-f728-f16f-6037" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="6e61-a3f2-84bb-1d97" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -11134,7 +11134,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="d4a3-1ef2-67c7-99bb" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="996f-5b2b-6464-50f9" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="996f-5b2b-6464-50f9" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="e685-9ae5-9f1e-53d0" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="18df-30db-d447-62a5" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="39c4-1036-9193-5424" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -11282,7 +11282,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="c9bf-2118-9052-d71c" name="Authorative" hidden="false" targetId="c062-11dc-7b3e-d79f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a8f6-d391-d7f8-b4bc" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="a8f6-d391-d7f8-b4bc" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="d163-b01b-aba5-3008" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="9f73-4503-6f3f-e478" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="1f2e-5c41-8e90-717a" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -11438,7 +11438,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="ebbb-c0e0-038a-9f51" name="Tactical X" hidden="false" targetId="3ca9-ac5e-80c1-3778" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6ef0-203c-c499-c076" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="6ef0-203c-c499-c076" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="5738-9990-3a5b-2163" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="6d22-65f5-419e-5ed3" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="516a-7190-6a45-8332" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -11612,7 +11612,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="f829-a337-9b71-91d8" name="Tactical X" hidden="false" targetId="3ca9-ac5e-80c1-3778" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7544-a018-7501-0680" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="7544-a018-7501-0680" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="7431-ed98-b4cc-60b4" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="cc1f-9885-b395-ea59" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="445d-1b10-41cd-ad12" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -11715,7 +11715,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="646d-ba14-26cc-1434" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="aee9-074f-1130-a5b8" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="aee9-074f-1130-a5b8" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="6cd4-b0df-7a0c-f784" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
         <categoryLink id="6ec2-3e1c-dae5-52f9" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
         <categoryLink id="5a0c-ca7b-a7b1-44b6" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
@@ -11807,7 +11807,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="58b4-213c-ca37-d8ff" name="AI: Move" hidden="false" targetId="65bb-5045-98f0-23b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="600c-a885-de80-3e1d" name="New CategoryLink" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="600c-a885-de80-3e1d" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
         <categoryLink id="9a8b-f890-895e-50e1" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="0b7a-5cf1-3c67-d1f3" name="Medium Base" hidden="false" targetId="81b7-a43d-9e75-399a" primary="false"/>
         <categoryLink id="a44c-b476-a56f-150c" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
@@ -11917,7 +11917,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="0735-91e8-76d9-2257" name="AI: Dodge, Move" hidden="false" targetId="382f-3d01-d08f-9e83" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1f50-aada-a6a6-5397" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="1f50-aada-a6a6-5397" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="29ee-39b8-41cc-89db" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="911f-c395-ffb6-2295" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="1c25-b94d-ea00-1935" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -12032,7 +12032,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="3386-aaef-e6ce-6117" name="Jump X" hidden="false" targetId="89df-da7f-b7da-6c0c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c47a-c283-8c97-65cb" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="c47a-c283-8c97-65cb" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="fc51-0dce-17db-8ec0" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="eb14-2ad5-cde3-6a95" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="5ad0-55f0-145d-b311" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -12165,7 +12165,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="e556-3cec-d10d-8792" name="Heavy Weapon Team" hidden="false" targetId="0795-6e12-9110-ea7d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7d8f-8988-5108-4888" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="7d8f-8988-5108-4888" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="89ae-af54-a177-73ac" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="6cbc-7a1f-418d-eeb3" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="627b-b71d-e2d4-ba72" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -12245,7 +12245,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="9d6d-fec6-df34-1cfc" name="Incognito" hidden="false" targetId="9dd1-210e-b149-b2c0" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="78de-2794-40da-3570" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="78de-2794-40da-3570" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="a77a-de00-893c-a230" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="ff44-2c1f-c0d3-bd2e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="834e-12c6-d680-3287" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
@@ -12421,7 +12421,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="e36a-65c2-24d1-8123" name="Nimble" hidden="false" targetId="3565-7985-bb05-c0a5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="eb07-e751-bff0-604d" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="eb07-e751-bff0-604d" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="9260-bc5a-8b45-200e" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="8bad-04a7-5ba9-6ff3" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="df09-b913-f60b-2d8b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -12564,7 +12564,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="9c18-3c89-0710-ac44" name="Equip: *Unit Name*" hidden="false" targetId="0d6b-c5f0-443a-a0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e9f3-07d0-3653-9b0f" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="e9f3-07d0-3653-9b0f" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="ba1f-4fef-d7dc-5e44" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="f90f-1f88-9351-298f" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="54a8-7bd8-85b3-7595" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -12781,7 +12781,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="55fa-c376-4871-add9" name="Tempted" hidden="false" targetId="a34d-4d67-ab99-a8ca" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5981-56bd-9ba6-0393" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="5981-56bd-9ba6-0393" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="8e44-d8d2-030b-bc9b" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="e51c-300b-ec53-b16d" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
         <categoryLink id="3523-7592-6d03-8082" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
@@ -12875,7 +12875,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="7535-d460-8444-155b" name="Juyo Mastery" hidden="false" targetId="9ca2-252c-19ee-1c48" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0e62-f325-7470-832d" name="New CategoryLink" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
+        <categoryLink id="0e62-f325-7470-832d" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
         <categoryLink id="9608-17e7-45fa-32f9" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="4ad7-3959-baea-47a3" name="Force User" hidden="false" targetId="8d3c-284b-625a-5346" primary="false"/>
         <categoryLink id="776a-3851-d2ea-da23" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -12958,7 +12958,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="a161-7f57-094b-0e8b" name="Hover: Air X" hidden="false" targetId="a0ee-5634-1ac2-d283" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2839-72b4-5daf-195d" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="2839-72b4-5daf-195d" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="0747-a0dd-13f8-e023" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="1550-11e5-c479-0038" name="Detachment" hidden="false" targetId="a824-a683-e978-d045" primary="false"/>
         <categoryLink id="8deb-78c0-861d-27ca" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
@@ -13061,7 +13061,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
         <infoLink id="392b-0eee-1fc0-4762" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4f05-0420-05fc-6909" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="4f05-0420-05fc-6909" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="0a4f-641c-e0e4-d941" name="Clone Trooper" hidden="false" targetId="ce68-baa2-9223-05d7" primary="false"/>
         <categoryLink id="44f9-7ed4-4757-8a1c" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="08f5-babe-2754-5352" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
@@ -13278,7 +13278,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="7be6-312d-4425-0f1f" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1643-4ed1-839a-f01d" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="1643-4ed1-839a-f01d" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="cff1-7bbc-e5ed-f4d4" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="6165-98c4-c70a-b9b3" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="0d49-f896-9919-f446" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -13408,7 +13408,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="15b7-e8d4-ac5f-73c6" name="Retinue: *Unit Name*" hidden="false" targetId="d85e-627d-31dc-8df5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8b2f-9235-95e7-5fba" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="8b2f-9235-95e7-5fba" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="06dc-2a15-ccec-1a67" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="bb0b-5936-7c5d-c63e" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="d4ab-dcff-b1dd-3781" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -13547,7 +13547,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="ef6a-1378-587e-b1d5" name="Direct: *Unit Type*" hidden="false" targetId="113b-1d4f-1fc6-1db9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be40-5680-ff79-6f58" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="be40-5680-ff79-6f58" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="0a92-5cc2-554b-9667" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="28b4-c228-31a7-4aca" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="a4b7-2d1b-93b2-bc6b" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -13679,7 +13679,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="503e-428b-bba3-21f4" name="Contingencies X" hidden="false" targetId="1b56-13f4-bf16-bd68" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="347c-7000-c6ff-7d7c" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="347c-7000-c6ff-7d7c" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="282d-68e3-20c3-71fa" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="58bc-6285-5681-0d6c" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
         <categoryLink id="2b7f-496f-954f-fcfc" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -13815,7 +13815,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="c5c1-f987-9758-3c90" name="Covert Ops" hidden="false" targetId="4767-0083-a5c9-a7be" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c341-8f2d-cf21-3d8f" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="c341-8f2d-cf21-3d8f" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="2bdd-ebb2-bb69-5283" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="bf77-0c06-79c3-92d3" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="1d7e-6092-bc90-e7cd" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -13904,21 +13904,21 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="0b8e-36d4-ef7c-31eb" name="Weak Point X: Rear" hidden="false" targetId="23a9-6a39-9307-2469" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="01b1-187d-5636-4033" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="f167-1baf-7b59-2972" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="d1ca-a389-aa9c-3b6c" name="New CategoryLink" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="ed26-1b14-99e0-d4ad" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="01b1-187d-5636-4033" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="f167-1baf-7b59-2972" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="d1ca-a389-aa9c-3b6c" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+        <categoryLink id="ed26-1b14-99e0-d4ad" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="5612-077e-f016-0cfe" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="01a4-222b-4391-8e9e" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
-        <entryLink id="1f01-e544-6d1d-ab95" name="Hardpoint" hidden="false" collective="false" import="true" targetId="542e-0da1-cc37-5c44" type="selectionEntryGroup"/>
         <entryLink id="02da-197d-0bfc-3bf1" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
         <entryLink id="3b91-adf7-d2de-865c" name="Crew" hidden="false" collective="false" import="true" targetId="d746-6c9e-b4ca-bd90" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="9e23-d8cf-bae8-9d8a" value="2.0"/>
           </modifiers>
         </entryLink>
+        <entryLink id="1f01-e544-6d1d-ab95" name="Hardpoint" hidden="false" collective="false" import="true" targetId="542e-0da1-cc37-5c44" type="selectionEntryGroup"/>
+        <entryLink id="01a4-222b-4391-8e9e" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
@@ -13963,20 +13963,20 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="0969-a5b0-7c63-c745" name="Cover X" hidden="false" targetId="99c4-94e0-7110-4e99" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5f7f-c95f-9e1f-3e50" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="a1d8-53bd-6081-1628" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="5f7f-c95f-9e1f-3e50" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="a1d8-53bd-6081-1628" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="7226-66b0-c3b2-22b7" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="980b-cb7b-3e69-24eb" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="0e97-b4d5-14b0-5511" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c80-a9a8-9518-d437" name="Twin Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1c80-a9a8-9518-d437" name=" Twin Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9c-75a6-402a-7433" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8d-64a9-1883-cb27" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d168-d370-9985-7686" name="Twin Laser Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="d168-d370-9985-7686" name=" Twin Laser Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x3</characteristic>
@@ -13991,9 +13991,9 @@ You gain Coordinate: Corps Trooper.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b711-abaa-08f1-c066" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="a27a-4f96-4e1e-b2a9" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
         <entryLink id="f176-a8a4-4cbf-3dd6" name="Ordnance" hidden="false" collective="false" import="true" targetId="bb6c-b9a5-54e2-8320" type="selectionEntryGroup"/>
+        <entryLink id="b711-abaa-08f1-c066" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
@@ -14033,20 +14033,20 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="5e8d-4f55-3265-373d" name="Cover X" hidden="false" targetId="99c4-94e0-7110-4e99" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c1c2-2d19-65de-81c4" name="New CategoryLink" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
-        <categoryLink id="fcd1-8a24-6903-de86" name="New CategoryLink" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="e7ce-493e-ca01-d2e0" name="New CategoryLink" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="c1c2-2d19-65de-81c4" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="true"/>
+        <categoryLink id="fcd1-8a24-6903-de86" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="e7ce-493e-ca01-d2e0" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
         <categoryLink id="5658-19cf-5a03-3b48" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
         <categoryLink id="53ef-d65b-d9f5-7963" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fa88-63ed-e213-0538" name="Twin Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fa88-63ed-e213-0538" name=" Twin Laser Cannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427b-b38e-4a81-89c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e89d-64a6-dcb1-0685" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e472-6e81-8f33-d617" name="Twin Laser Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="e472-6e81-8f33-d617" name=" Twin Laser Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x3</characteristic>
@@ -14061,9 +14061,9 @@ You gain Coordinate: Corps Trooper.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b025-bfc4-05da-d505" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="48e8-70bb-d11c-4074" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
         <entryLink id="2963-6506-e019-28ab" name="Ordnance" hidden="false" collective="false" import="true" targetId="bb6c-b9a5-54e2-8320" type="selectionEntryGroup"/>
+        <entryLink id="b025-bfc4-05da-d505" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
@@ -14144,7 +14144,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="1c02-97b7-0b01-7a08" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3421-bcfd-2141-5b9e" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="3421-bcfd-2141-5b9e" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="f15f-35b8-3fac-ac87" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="aae3-475c-4ea6-4ea7" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
         <categoryLink id="95ca-b149-5a79-5f60" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -14152,13 +14152,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="37f6-ae02-62f5-624a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="403b-6e50-9141-dcfa" name="Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="403b-6e50-9141-dcfa" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b17-d623-f206-77fe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0aa-b863-ac9d-1317" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a113-ee33-b91b-87f2" name="Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="a113-ee33-b91b-87f2" name=" Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -14171,13 +14171,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="89b4-f274-049b-f4b9" name="X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="89b4-f274-049b-f4b9" name=" X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8960-bcac-a1df-f379" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a1e-dfae-15b1-9035" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0753-62c2-4720-c430" name="X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="0753-62c2-4720-c430" name=" X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
@@ -14277,7 +14277,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="bd79-c0ae-aac4-5c17" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="38fe-b162-2c8c-da4a" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="38fe-b162-2c8c-da4a" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="49e8-151b-80bb-ac74" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="e2b5-7e6c-a1be-6f86" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="8ff1-50eb-e7d0-c4d6" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
@@ -14285,13 +14285,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="4a30-e17b-7597-29d3" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="48f3-0f42-a75f-dc09" name="Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="48f3-0f42-a75f-dc09" name=" Ryyk Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e79-4bcd-bc36-2932" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b264-ac6e-e8f1-fad9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3cba-82e4-f3af-63e9" name="Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="3cba-82e4-f3af-63e9" name=" Ryyk Blade" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -14304,13 +14304,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="389c-9053-defa-6c27" name="Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="389c-9053-defa-6c27" name=" Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad8e-ca5b-6bb6-d24f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7727-2016-6a75-9aa1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c748-55e9-8c33-f044" name="Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="c748-55e9-8c33-f044" name=" Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -14413,7 +14413,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="db03-e3a1-a0c9-e7e8" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2afd-3fe6-a5d5-4c5e" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="2afd-3fe6-a5d5-4c5e" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="1fb5-a6ad-f56b-1cf7" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
         <categoryLink id="c39d-cb32-0f41-eebb" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="4c96-f9d8-a1c3-78f9" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
@@ -14421,13 +14421,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="632d-579d-74db-bd4a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1772-aaae-66e2-3341" name="Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1772-aaae-66e2-3341" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2522-8dc5-9573-a307" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5237-34b4-e3d8-efd4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5c1a-4206-ef11-c69a" name="Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="5c1a-4206-ef11-c69a" name=" Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -14440,13 +14440,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9484-438b-e774-4dff" name="X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9484-438b-e774-4dff" name=" X1 Carbine" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba96-7188-8675-92af" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43e9-0495-5546-5c70" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d925-93a2-9032-5725" name="X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="d925-93a2-9032-5725" name=" X1 Carbine" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x2</characteristic>
@@ -14545,7 +14545,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="1297-584d-88c8-3184" name="Wookiee Trooper" hidden="false" targetId="be18-9b53-454b-4214" primary="false"/>
         <categoryLink id="0b65-9c31-cf79-60a4" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="4d51-8e02-667e-7e5f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-        <categoryLink id="cb0f-4356-09e8-e44a" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="cb0f-4356-09e8-e44a" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="54d3-acfb-b1ef-504d" name=" Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -14688,16 +14688,16 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="8428-f823-7d8b-c7f0" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="f281-501a-a776-3fc1" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
         <categoryLink id="d815-8ffe-2dba-ed15" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="d6f2-4c26-769d-57a2" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="d6f2-4c26-769d-57a2" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3a64-cb73-1011-5e14" name="Ancestral Weapon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3a64-cb73-1011-5e14" name=" Ancestral Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3b2-06a9-dbe9-c18e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="964b-dabe-44c3-f2b1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9fd5-5b17-bed2-44d5" name="Ancestral Weapon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="9fd5-5b17-bed2-44d5" name=" Ancestral Weapon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black x2, White x2</characteristic>
@@ -14710,13 +14710,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4602-fb83-03a6-ab78" name="Chieftain&apos;s Bowcaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4602-fb83-03a6-ab78" name=" Chieftain&apos;s Bowcaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="139f-33e8-7021-4bf3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0700-8d81-58d8-46c3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="386d-2534-f8c2-8b86" name="Chieftain&apos;s Bowcaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="386d-2534-f8c2-8b86" name=" Chieftain&apos;s Bowcaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x4</characteristic>
@@ -14784,13 +14784,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="8313-22a4-ba1a-2f78" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cefb-680a-fc6b-f629" name="Yoda&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cefb-680a-fc6b-f629" name=" Yoda&apos;s Lightsaber" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc36-a07d-e11e-d2b3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d634-6fa4-d5a3-71b2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="2821-c33e-6cca-b05c" name="Yoda&apos;s Lightsaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="2821-c33e-6cca-b05c" name=" Yoda&apos;s Lightsaber" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x4</characteristic>
@@ -14807,13 +14807,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="670f-a1b4-b6bc-cb1d" name="Force Wave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="670f-a1b4-b6bc-cb1d" name=" Force Wave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba65-a883-906d-bffc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="288d-a8a3-36eb-b70e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9944-1b09-a1d5-a926" name="Force Wave" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="9944-1b09-a1d5-a926" name=" Force Wave" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x4</characteristic>
@@ -14881,7 +14881,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="7d08-8359-5ff9-5827" name="Immune: Melee Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1642-a33e-7594-c943" name="New CategoryLink" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
+        <categoryLink id="1642-a33e-7594-c943" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
         <categoryLink id="0889-404d-9b25-606a" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="3192-4cbc-2465-da97" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="ca84-ff15-04a1-4624" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
@@ -14889,13 +14889,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="8783-3ffd-bf42-84a8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d6f7-d469-5f17-cb41" name="Precision Laser Dart" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d6f7-d469-5f17-cb41" name=" Precision Laser Dart" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="396d-e034-d9df-a68b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83e5-5294-0164-b0c8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86d1-e85d-f9f4-d8f5" name="Precision Laser Dart" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="86d1-e85d-f9f4-d8f5" name=" Precision Laser Dart" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -14908,13 +14908,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd51-531f-8b16-2196" name="Electrostaff" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd51-531f-8b16-2196" name=" Electrostaff" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4013-1b6d-f0e4-596b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ad7-03e2-e39f-2032" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a085-2a5e-b930-1c7e" name="Electrostaff" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="a085-2a5e-b930-1c7e" name=" Electrostaff" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -15024,7 +15024,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="c022-0b5b-a433-fe12" name="Override X" hidden="false" targetId="c25e-c43b-2e6b-6241" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7959-513c-f040-418c" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="7959-513c-f040-418c" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="3237-89da-ab7f-6920" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="d2b1-4dae-dea5-5045" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="6312-765a-8223-ccd1" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -15032,13 +15032,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="01dc-f9fe-b216-f47e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2e38-171b-70f9-98da" name="Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2e38-171b-70f9-98da" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ea4-e24b-dff4-3337" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cafb-4c42-e7a5-5306" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a44f-07dc-a8b2-f4f8" name="Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="a44f-07dc-a8b2-f4f8" name=" Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -15051,13 +15051,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8373-7772-9453-75f2" name="Overseer&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8373-7772-9453-75f2" name=" Overseer&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="801c-684a-847a-47b0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b854-70ab-bbdf-27b1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="793b-c0e2-062b-43ce" name="Overseer&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="793b-c0e2-062b-43ce" name=" Overseer&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White</characteristic>
@@ -15169,7 +15169,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="c8c6-9d78-690d-1d47" name="Override X" hidden="false" targetId="c25e-c43b-2e6b-6241" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a6ab-484e-b99d-b44c" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="a6ab-484e-b99d-b44c" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="cf4f-a79c-f288-44c7" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="6730-fd3c-fe56-c2ff" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="c928-e1d3-49c4-098f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -15177,13 +15177,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="d12c-e068-42d3-e3a6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b658-07d7-9bed-94cb" name="Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b658-07d7-9bed-94cb" name=" Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="051c-7775-4011-ee58" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9104-5ee0-a15d-1a1e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="54f5-e06d-0e09-7602" name="Overwhelm" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="54f5-e06d-0e09-7602" name=" Overwhelm" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x4</characteristic>
@@ -15199,13 +15199,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="127c-3bc4-433a-0e16" name="Kraken&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="127c-3bc4-433a-0e16" name=" Kraken&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3132-6d9d-e3bb-b780" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87b0-7d06-7fd3-46c8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5904-debb-9e81-044f" name="Kraken&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="5904-debb-9e81-044f" name=" Kraken&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
@@ -15318,7 +15318,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <infoLink id="e414-54e9-55b9-81ee" name="Reinforcements" hidden="false" targetId="6740-1df6-ae5c-45f5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8895-a834-3c45-dc58" name="New CategoryLink" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
+        <categoryLink id="8895-a834-3c45-dc58" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
         <categoryLink id="881c-0a74-9562-c401" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
         <categoryLink id="d506-bcc1-29d1-aaee" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="84fc-147a-4a19-db0c" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
@@ -15326,13 +15326,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <categoryLink id="8b3b-0d7f-ed9e-be87" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="542b-a9a9-5ae8-8f29" name="Combat Training" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="542b-a9a9-5ae8-8f29" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af75-40b8-e6e1-6e34" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98f4-bdd4-0264-b61f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5018-0b84-116a-975f" name="Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="5018-0b84-116a-975f" name=" Combat Training" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
@@ -15345,13 +15345,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="53cc-501a-e9e3-30d4" name="Kalani&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="53cc-501a-e9e3-30d4" name=" Kalani&apos;s E-5 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f4e-8274-05dd-52d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="254e-c5dc-571b-20a1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="73d7-529b-053e-89b2" name="Kalani&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="73d7-529b-053e-89b2" name=" Kalani&apos;s E-5 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
