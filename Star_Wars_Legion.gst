@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="88" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="89" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -1569,6 +1569,40 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="9f89-8dd8-f0e3-61f2" name="•They Too Will Suffer†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c114-73b7-7652-b01a" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54ec-d59f-98ac-26ea" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6362-eccf-edc8-e45d" name="•They Too Will Suffer" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Super Tactical Droid</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Super Tactical Droid</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">At the end of the Command Phase, your opponent must choose 1 of their Corps, Special Forces, Support, or Heavy units with an order token, if able, and return it to their order pool.The first time your opponent would draw a random order from their order pool this round, you may force them to draw a tken with a rank of your choice instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="97c2-385a-4170-a59a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="03cb-8f81-68f4-5e3a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2694-d08f-e332-7ed0" name="2 Pip Command Cards" hidden="false" collective="false" import="true" defaultSelectionEntryId="3088-96d9-6c4d-e8c2">
@@ -2467,6 +2501,7 @@ Divulge: Deploy Units Step. Maul gains Infiltrate. During the first round, Maul 
               </profiles>
               <infoLinks>
                 <infoLink id="cd5c-4273-7e06-cc5e" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
+                <infoLink id="51d6-f769-c312-78ef" name="Divulge" hidden="false" targetId="5e49-44ef-fc17-aca6" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="e1eb-6a9f-ba59-74a1" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
@@ -2698,6 +2733,44 @@ Before drawing from your order pool, you may instead discard this card from your
               <categoryLinks>
                 <categoryLink id="07c3-3a9b-06c5-aeb5" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="e173-47dd-adb9-da53" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="294b-1887-e71f-3957" name="••Preservation Protocols†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c114-73b7-7652-b01a" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3e2-808a-6e57-9fd0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="47a5-d9c4-2429-0b99" name="••Preservation Protocols" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Super Tactical Droid</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Droid Troopers or AI Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Super Tactical Droid issues an order to a droid trooper unit or a unit with AI, it gains Disengage , Impervious, and 1 dodge token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2b12-e954-d7c7-a0c9" name="Disengage" hidden="false" targetId="1f57-513a-d262-486b" type="rule"/>
+                <infoLink id="6bf5-031d-c7fe-28c1" name="Impervious" hidden="false" targetId="8c57-6c86-0cef-1c7b" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="bab9-782c-faa8-e519" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="1d49-a313-511b-db24" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3415,6 +3488,7 @@ Divulge: Deploy Units Step: Padmé Amidala gains Infiltrate and when she is depl
                 <infoLink id="5837-f2bf-09bd-d29c" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
                 <infoLink id="e3e5-f5d7-6655-c3b6" name="Secret Mission" hidden="false" targetId="95e8-30da-54b0-8883" type="rule"/>
                 <infoLink id="c5d7-367c-1141-aa48" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
+                <infoLink id="d708-ed6f-3d06-89a7" name="Divulge" hidden="false" targetId="5e49-44ef-fc17-aca6" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="2bd3-4f8a-bc6b-9ca6" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
@@ -3452,6 +3526,9 @@ Divulge: Deploy Units Step: Place three Bane tokens on the battlefield beyond ra
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="017f-c65c-6fa5-e412" name="Divulge" hidden="false" targetId="5e49-44ef-fc17-aca6" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="2e3d-3622-ee06-8cba" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
               </categoryLinks>
@@ -3779,6 +3856,46 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
               <categoryLinks>
                 <categoryLink id="b8b8-71d4-72a4-df04" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
                 <categoryLink id="5563-508a-c02f-0cc6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6988-2f0c-b3a0-fa90" name="•••Do Not Underestimate Our Means†" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c114-73b7-7652-b01a" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3449-61c4-065e-9c1e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8eac-c41e-9b6f-bb57" name="•••Do Not Underestimate Our Means" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
+                  <characteristics>
+                    <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Super Tactical Droid</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">3 Droid Troopers or AI Units</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">If this card was not divulged, at the start of the Activation Phase, choose up to 2 friendly units with face up order tokens. Each chosen unit recovers.
+
+Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen unit gains Reinforcements.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5c72-4682-d43c-7173" name="Reinforcements" hidden="false" targetId="6740-1df6-ae5c-45f5" type="rule"/>
+                <infoLink id="7d3e-0243-9c45-b4bb" name="Divulge" hidden="false" targetId="5e49-44ef-fc17-aca6" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="96a0-5255-938e-40f5" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
+                <categoryLink id="78bb-ed1e-32fe-079e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -21716,6 +21833,12 @@ While a unit is being transported, it cannot perform attacks or be the defender 
     </rule>
     <rule id="6740-1df6-ae5c-45f5" name="Reinforcements" hidden="false">
       <description>You may deploy after all units without Reinforcements have deployed.</description>
+    </rule>
+    <rule id="5e49-44ef-fc17-aca6" name="Divulge" hidden="false">
+      <description>Some command cards have the divulge keyword. These cards can be revealed at the start of the Phase or step stated after the divulge keyword on the command card.
+If a card is divulged in this manner, resolve the text that follows the divulge keyword.
+
+A card that is revealed in this way is not played, and is returned to that player’s command had at the end of the step in which it was divulged.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
