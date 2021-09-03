@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0cc-03b7-70ca-2d40" name="Galactic Republic" revision="6" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="85" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0cc-03b7-70ca-2d40" name="Galactic Republic" revision="7" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" library="false" gameSystemId="bece-5df3-7e27-1c4d" gameSystemRevision="90" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="60cd-71d8-b272-9fed" name="Phase I Clone Troopers†" hidden="false" collective="false" import="true" targetId="8943-cb3d-8d0c-9a04" type="selectionEntry"/>
     <entryLink id="cc29-e840-8201-48ed" name="Condition Cards" hidden="false" collective="false" import="true" targetId="274d-8bba-00e6-88cf" type="selectionEntry">
@@ -64,7 +64,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="6758-77b0-d0fb-6704" name="•Obi-Wan Kenobi†" hidden="false" collective="false" import="true" targetId="595e-1631-d059-2372" type="selectionEntry"/>
-    <entryLink id="eeb8-5edc-d4f1-742f" name=" BARC Speeder†" hidden="false" collective="false" import="true" targetId="3340-5506-fd20-70b5" type="selectionEntry"/>
+    <entryLink id="eeb8-5edc-d4f1-742f" name="BARC Speeder" hidden="false" collective="false" import="true" targetId="3340-5506-fd20-70b5" type="selectionEntry"/>
     <entryLink id="e40b-5aee-0fc1-b0fe" name="•Clone Captain Rex†" hidden="false" collective="false" import="true" targetId="47a7-c18f-1910-7d94" type="selectionEntry"/>
     <entryLink id="7f1e-e73f-1068-c818" name="Phase II Clone Troopers†" hidden="false" collective="false" import="true" targetId="e7ff-aac0-8cce-fbfc" type="selectionEntry"/>
     <entryLink id="7349-627c-bf9c-e7df" name="TX-130 Saber-class Fighter Tank" hidden="false" collective="false" import="true" targetId="03a1-6d04-5ff4-304c" type="selectionEntry"/>
@@ -81,5 +81,6 @@
     <entryLink id="0b1e-1ce8-cbbd-3afe" name="•Chewbacca†" hidden="false" collective="false" import="true" targetId="b5f7-7b1a-fe25-8a8e" type="selectionEntry"/>
     <entryLink id="35fc-81d7-3cc8-5d12" name="•Wookiee Chieftain†" hidden="false" collective="false" import="true" targetId="89b9-999c-5406-06fd" type="selectionEntry"/>
     <entryLink id="3b70-ba48-a6f7-ea16" name="•Yoda†" hidden="false" collective="false" import="true" targetId="985f-4bbc-b614-689e" type="selectionEntry"/>
+    <entryLink id="f14a-e86c-edcd-b207" name="Raddaugh Gnasp Fluttercraft†" hidden="false" collective="false" import="true" targetId="35be-285e-0012-cd11" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

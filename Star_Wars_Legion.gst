@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="89" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="90" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -242,7 +242,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1082-f209-9761-236e" type="min"/>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="fca7-d0f3-4366-2c97" type="max"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="fca7-d0f3-4366-2c97" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="e7a8-0b0f-e616-c917" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="false">
@@ -252,7 +252,7 @@
         </categoryLink>
         <categoryLink id="8ed1-b282-45d4-126e" name="Corps" hidden="false" targetId="0020-8ddc-bf35-3170" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="869a-2829-7d4f-c229" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="869a-2829-7d4f-c229" type="min"/>
             <constraint field="selections" scope="force" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="faa9-577c-1b1b-d557" type="max"/>
           </constraints>
         </categoryLink>
@@ -290,7 +290,7 @@
         </categoryLink>
         <categoryLink id="5ee5-ccc3-6496-fe9d" name="Heavy" hidden="false" targetId="2efc-25e2-f8de-7494" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d4a4-33ba-115c-ef5c" type="max"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d4a4-33ba-115c-ef5c" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3114-af46-fb6b-1639" name="Command Hand" hidden="false" targetId="6405-820e-ddee-20d3" primary="false">
@@ -303,6 +303,11 @@
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a25d-5cfe-4430-d66c" type="min"/>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="44fb-0ee5-e4bc-a7a0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e274-b7bf-5661-5a50" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="8cd9-758e-b25c-47f1" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1573,7 +1578,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
@@ -2424,7 +2429,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="735a-6109-0faa-58ae" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a9f7-60bf-03c1-ea8f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2742,7 +2747,7 @@ Before drawing from your order pool, you may instead discard this card from your
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
@@ -2760,7 +2765,7 @@ Before drawing from your order pool, you may instead discard this card from your
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Super Tactical Droid</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Droid Troopers or AI Units</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Super Tactical Droid issues an order to a droid trooper unit or a unit with AI, it gains Disengage , Impervious, and 1 dodge token.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Super Tactical Droid issues an order to a droid trooper unit or a unit with AI, it gains Disengage, Impervious, and 1 dodge token.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3865,7 +3870,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="81e5-d57c-f6d2-48f4" type="equalTo"/>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5251-4c50-6611-76af" type="equalTo"/>
@@ -3953,43 +3958,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="4900-1648-8469-26e1" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ac-9938-26cd-a3e7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="7deb-60e8-a3e8-8259" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hero of the Rebellion</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -4077,101 +4045,15 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13fd-48be-e1e4-2462" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2950-dc6a-64b9-74a1" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1699-9c82-821f-64ed" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="0518-9137-e783-5a23" name=" Unarmed" hidden="false" targetId="2577-2af4-7ca4-3912" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="af85-fff4-b341-2331" name="Rebel Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d348-100d-6a5c-ee90" name="Rebel Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Training">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27f-b90c-f2cb-0352" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear x2, Grenades">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b22-8980-b9c6-18a6" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="af85-fff4-b341-2331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -4199,21 +4081,46 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="d92c-5231-d6d2-9928" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2a93-82ec-1447-cc40" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fefe-20b4-408a-3904" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fc9-8e66-e236-2dd9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f28-445f-6e5c-cf6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b30a-0e3d-5aae-e14a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3c6-5a0a-25c4-c963" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8106-8c2a-3886-e492" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="42cc-ddf9-e1ee-6c19" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c531-4a5f-0def-0833" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0980-c6f3-86d2-4c11" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99a6-5f83-ccb5-b616" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6dd3-4bb5-356e-56c6" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8bef-586b-a017-7fa8" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="bd5a-b7f3-d6d7-7075" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="06c9-5f62-6d83-3aa0" value="1.0">
@@ -4257,13 +4164,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="7244-8b48-51ef-c76f" name="AT-RT" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f07c-56d5-3ca8-63bf" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="7244-8b48-51ef-c76f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
@@ -4343,13 +4243,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="5204-6387-80e3-863d" name="74-Z Speeder Bikes" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0097-8eff-2bb3-01b2" name="74-Z Speeder Bikes" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="5204-6387-80e3-863d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">2</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">3</characteristic>
@@ -4380,9 +4273,16 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4eb4-af44-2de2-7bf1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="525f-e998-b10b-2347" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="c0e1-9460-e626-018a" name=" EC-17 Holdout Blaster" hidden="false" targetId="21de-bb81-7a1f-5664" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="f646-897a-0df7-7cae" name=" EC-17 Holdout Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -4432,13 +4332,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="2a92-8395-2bea-65e4" name="Darth Vader" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="e372-3fa8-09ef-a6ac" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Dark Lord of the Sith</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -4507,95 +4400,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <profiles>
         <profile id="b012-6a6c-0e8e-5af1" name="Stormtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Precise 2">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
                 <repeat field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="4381-84d3-c939-9df5" value="Heavy Weapon, Personnel, Gear x2, Grenades">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c97-a2b4-dcf8-8903" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Training">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f73-ef9f-7998-c008" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value="Coordinate: Corps Trooper">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="d2af-ba7b-fb32-a122" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -4622,8 +4431,47 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="a6ff-389d-604e-4090" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="56f6-c2b9-5a94-7449" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="488e-651a-8b27-9012" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="84bd-170b-4b7a-d292" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e2c7-bd62-787c-ace3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="70c0-cbd8-2483-2599" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bddb-cb22-4ba3-048d" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52f0-a5e8-43d1-ba94" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8eca-3a6b-3dc2-9d24" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9e02-f9e6-9bde-cbcb" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="589d-8e2f-3eac-2b76" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="da82-cc8b-b3b1-7ff1" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="06c9-5f62-6d83-3aa0" value="1.0">
@@ -4634,9 +4482,8 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           </modifiers>
         </entryLink>
         <entryLink id="de85-7bf9-567b-cfac" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
-        <entryLink id="57d4-b5cf-5bd9-f268" name="Specialist Trooper" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
-        <entryLink id="fcac-f692-5843-1ac1" name="Extra Trooper" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
-        <entryLink id="3d16-126a-fedc-410c" name="E-11 Blaster Rifle" hidden="false" collective="false" import="true" targetId="c659-96ac-053c-1980" type="selectionEntry"/>
+        <entryLink id="57d4-b5cf-5bd9-f268" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
+        <entryLink id="fcac-f692-5843-1ac1" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
         <entryLink id="7bf3-2145-7b70-73fa" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="c263-b01c-befb-e341" value="1">
@@ -4668,18 +4515,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="796d-372c-6024-0213" name="T-47 Airspeeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ee06-6557-c7a5-3613" name="T-47 Airspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Cover 2, Immune: Blast, Immune: Melee, Speeder 2">
-              <conditions>
-                <condition field="selections" scope="796d-372c-6024-0213" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d10-fcf9-3b39-6aff" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="796d-372c-6024-0213" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">7</characteristic>
@@ -4746,23 +4581,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="f8a3-880e-852b-a519" name="AT-ST" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a63a-0365-d558-3088" name="AT-ST" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Tactical 1">
-              <conditions>
-                <condition field="selections" scope="f8a3-880e-852b-a519" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="955b-b889-d0c6-67fe" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="8bb0-caac-b4b4-82cd" value="Hit">
-              <conditions>
-                <condition field="selections" scope="f8a3-880e-852b-a519" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d66d-d77d-7e0d-2ca5" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="f8a3-880e-852b-a519" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">11</characteristic>
@@ -4845,96 +4663,15 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c659-96ac-053c-1980" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f7d-db5a-8dc3-29f1" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="402b-f367-7c36-e1a9" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="6e8d-c122-5cd8-67e7" name=" E-11 Blaster Rifle" hidden="false" targetId="4248-c8e1-a092-6929" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="acc0-fe4d-c4cc-f1c5" name="Snowtroopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value="Coordinate: Corps Trooper">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="8db2-7ceb-9a34-24c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -4961,13 +4698,51 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="79c0-0ed9-874a-c2d4" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
         <categoryLink id="8902-6ea1-90fc-a1bf" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4026-d5c5-6aa6-63e1" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a59-afde-f7d7-2081" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3568-be09-eac3-1256" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2244-06ee-bca7-014b" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3ea8-3d25-9014-d441" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6e3-fd74-7064-96f1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44ad-75d7-938c-6151" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c516-1f6d-a0e8-4e90" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="46ac-02cb-74ff-cdae" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
-        <entryLink id="1f01-07e7-a772-4c65" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" targetId="c659-96ac-053c-1980" type="selectionEntry"/>
-        <entryLink id="c292-6cf0-9d31-0ed2" name="Extra Trooper" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
+        <entryLink id="c292-6cf0-9d31-0ed2" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
         <entryLink id="3d1b-e283-0f4b-225a" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="959b-5edc-6a15-d39e" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
-        <entryLink id="c6a3-0326-5317-cd5e" name="Specialist Trooper" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
+        <entryLink id="c6a3-0326-5317-cd5e" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="ca46-8669-6c0c-bdc6" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="c263-b01c-befb-e341" value="1">
@@ -4994,38 +4769,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="55eb-69b8-b357-70bb" name="General Veers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Precise 2, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Spotter 3, Inspire 1, Precise 1, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="1c3d-b1db-07e7-cb3c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Master Tactician</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -5076,21 +4819,28 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9c8b-7bbf-9afd-0f17" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="723f-0b64-e5e7-385d" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f56-1522-57b9-7a0e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97cc-9c15-7573-9b80" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56b1-d4e6-8faf-157d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2172-99ca-d6f0-9d0b" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8bb5-6bb1-5467-4bb8" name=" Combat Expertise" hidden="false" targetId="5981-b1da-c60a-5bc7" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="711a-31db-97b1-f4d7" name=" Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="bf69-d0b0-b7f7-df41" name="Leadership" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+        <entryLink id="bf69-d0b0-b7f7-df41" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="f723-b61d-0d43-f5e6" value="2"/>
           </modifiers>
@@ -5107,63 +4857,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="3d12-2c85-4a5f-ff69" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -5210,9 +4906,27 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="72ab-5b99-467d-e6f8" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1499-c5c3-2c99-2616" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61e5-2d09-96e1-551e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6e21-b6e6-71ac-bc41" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6709-91ce-63bb-ca28" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="ea78-928f-8146-26ae" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="efa1-eb4c-179c-01cf" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="5de0-af0c-2c73-25b1" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
@@ -5243,38 +4957,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="19d4-ddc1-311c-722c" name="Leia Organa" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="ce2d-0391-be63-e507" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Fearless and Inventive</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -5347,7 +5029,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </selectionEntries>
       <entryLinks>
         <entryLink id="30d6-f457-f17c-a315" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="b726-6bca-665f-2ab6" name="Leadership" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+        <entryLink id="b726-6bca-665f-2ab6" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="f723-b61d-0d43-f5e6" value="2"/>
           </modifiers>
@@ -5364,48 +5046,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="d09a-3e50-8849-493b" name="Han Solo" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="701d-d692-a791-d034" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Unorthodox General</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -5479,7 +5119,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <entryLinks>
         <entryLink id="6a66-f4e3-cbf1-5035" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
         <entryLink id="2c6f-24fe-6107-a39a" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="259e-4d84-56f8-5bb0" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="259e-4d84-56f8-5bb0" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
@@ -5493,51 +5133,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Low Profile, Scout 3, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="0f83-7e06-cecd-48c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -5567,14 +5162,40 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="eb2f-7870-e57d-fd59" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d9af-013b-410b-a67c" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c236-60d7-db50-8e1d" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a8ff-8792-00b5-97a9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="08e9-701b-3659-3c68" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15c5-1c2b-7882-1509" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6919-c155-4e52-c74f" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="cd6f-9131-109e-01da" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="9133-522f-5827-22b4" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="178a-a570-2afe-99a3" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc2a-d4b7-c775-ac4e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="050b-1a01-e399-78cc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0ad5-a5cc-bbe0-f118" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -5582,11 +5203,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </selectionEntries>
       <entryLinks>
         <entryLink id="85df-9788-1c77-305b" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
-        <entryLink id="03ab-fd20-6d3d-92fe" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="03ab-fd20-6d3d-92fe" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
         <entryLink id="c521-c032-1fd8-c1be" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="0ea2-dc32-00c2-9c51" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="69ca-714b-a87c-e527" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
-        <entryLink id="13c5-4924-434c-e583" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
@@ -5596,55 +5216,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <profiles>
         <profile id="ba1b-f227-b223-07b2" name="Rebel Commandos " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 3, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="f7a4-bec8-396e-5bd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -5681,16 +5256,41 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37a3-844b-446d-2538" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2988-f067-333a-3f14" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="79fb-72db-f855-200f" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="5f82-7841-143e-1fdb" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f0b3-98cf-426a-b654" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e1d-7099-ac6a-388d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00cd-3a45-c538-7889" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="63b0-bf17-7441-673e" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b709-ea82-b064-f116" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="b812-9705-2194-53af" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="870f-dd9a-76e2-c8d7" value="1.0"/>
@@ -5698,7 +5298,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
         <entryLink id="d37f-bc4d-ea02-83f3" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="2cf8-4770-9bc4-2ca1" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="517e-a3a5-d3e8-3fee" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="517e-a3a5-d3e8-3fee" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
         <entryLink id="9670-fcb2-9d89-8259" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -5712,48 +5312,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="3003-c8c0-01d2-c4d3" name="Boba Fett" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="af1d-d285-2921-02e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Infamous Bounty Hunter</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -5853,7 +5411,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <modifier type="set" field="06c9-5f62-6d83-3aa0" value="2"/>
           </modifiers>
         </entryLink>
-        <entryLink id="4cd3-5d44-6088-f47a" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+        <entryLink id="4cd3-5d44-6088-f47a" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="d61f-e553-69e6-5ac1" value="2"/>
           </modifiers>
@@ -5865,57 +5423,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     </selectionEntry>
     <selectionEntry id="a672-8380-48cd-30a8" name="Scout Troopers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8b96-d4a5-f1ea-33c2" name="Scout Troopers†" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="8b96-d4a5-f1ea-33c2" name="Scout Troopers" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Low Profile, Scout 2, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="a672-8380-48cd-30a8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -5945,26 +5458,51 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="a95d-a429-28c9-9ae8" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8967-6ac6-b013-4d9f" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4e23-4c5e-ff71-0dd7" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="608b-6614-1335-3613" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d579-bfec-61e3-e1d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b22e-1c58-01f7-b64d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="622d-4d5c-c897-aa46" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="82ee-3e76-a9b0-c5f8" name=" EC-17 Holdout Blaster" hidden="false" targetId="21de-bb81-7a1f-5664" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="e0c6-216c-cf05-0ad0" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="69b8-23a9-d745-5036" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc58-dc28-2c58-9980" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33d4-6fb6-f1e2-4106" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="18fd-a1a2-012f-5fbe" name=" EC-17 Holdout Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2cde-ed36-3fae-b7aa" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="2325-f81b-deb2-0e4f" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="f389-fbbd-7c07-711a" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="a3d4-d6f6-020e-d791" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="e84e-0611-6351-8ab9" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
-        <entryLink id="9a90-0de7-c0d7-f835" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="9a90-0de7-c0d7-f835" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
@@ -5974,55 +5512,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <profiles>
         <profile id="6db9-a222-7e62-6be4" name="Scout Troopers " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Heavy Weapon Team, Low Profile, Scout 2, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="13e5-b1cc-af4b-b33c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -6054,21 +5547,46 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="120b-ca5b-ad81-c0bb" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="183c-d9fb-4993-c939" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bb7f-0840-2d64-64fe" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0878-397e-71fe-6f14" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="269d-d60d-080e-1fa4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc0a-e155-91d0-c298" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd61-dc67-b856-36a1" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="5740-e739-f29d-963d" name=" EC-17 Holdout Blaster" hidden="false" targetId="21de-bb81-7a1f-5664" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="21ab-a1bb-c7be-ea5d" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cf9d-56ed-6e87-939b" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fe0-82d4-9319-395f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0f3-dfb7-dbc4-a8c9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5fc4-9fba-22a4-40c0" name=" EC-17 Holdout Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e664-b1b7-a2dd-95e4" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="d29f-f806-8b24-a0b4" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="2022-db25-4bb8-90a0" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="2e1c-56d6-f097-ca41" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
@@ -6086,13 +5604,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="0f63-4823-0b22-7775" name="1.4 FD Laser Cannon Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a33c-c773-f780-e4ce" name="1.4 FD Laser Cannon Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="0f63-4823-0b22-7775" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6193,13 +5704,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="dc90-d56f-870f-d096" name="E-Web Heavy Blaster Team" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="f4df-37ce-e988-1e54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6304,13 +5808,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="0997-6253-37ac-6f8c" name="Emperor Palpatine" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="e0c2-b41f-4814-9b56" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Ruler of the Galactic Empire</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6380,55 +5877,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <profiles>
         <profile id="4924-c39f-bd7a-aad5" name="Imperial Royal Guards" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="aec2-d449-8d4a-9a84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -6477,14 +5929,21 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7342-c38f-1a30-5b26" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a483-ba53-0514-51d5" name=" EC-17 Holdout Blaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7452-ae78-259a-c28f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddef-b2df-5a01-02a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0455-892e-eaf0-5150" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8466-a42f-c308-353d" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="65e5-908e-64f3-400d" name=" EC-17 Holdout Blaster" hidden="false" targetId="21de-bb81-7a1f-5664" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="66ea-8b6c-4bb3-1e0d" name=" EC-17 Holdout Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -6511,48 +5970,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="0c86-5718-6c08-8577" name="Chewbacca" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="b3dd-044d-5d7c-d7a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Walking Carpet</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6570,7 +5987,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <infoLinks>
         <infoLink id="b2d1-750c-4e25-21d5" name="Enrage" hidden="false" targetId="43ef-e5b2-b408-933f" type="infoGroup"/>
         <infoLink id="8979-a90b-f9e8-58e2" name="Guardian X" hidden="false" targetId="2d99-7e82-617e-053b" type="rule"/>
-        <infoLink id="f875-a678-e839-cbf9" name="Teamwork: Han Solo" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule"/>
+        <infoLink id="f875-a678-e839-cbf9" name="Teamwork: *Unit Name*" hidden="false" targetId="afb7-f258-6b46-a4b9" type="rule"/>
         <infoLink id="712c-acf7-9991-455d" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -6643,55 +6060,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <profiles>
         <profile id="f7bc-9774-a6c7-3fc5" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="c365-178d-8de5-291b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -6778,38 +6150,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="6a95-8257-96f5-984e" name="Rebel Officer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="956e-24de-3328-1a95" name="Rebel Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="6a95-8257-96f5-984e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Resolute Commander</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6856,9 +6196,27 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7348-ca3f-23db-cc20" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="985f-ceff-0255-7cc4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c347-30f5-bdfc-6e89" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6d05-bb21-aa4e-4732" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c02e-e80b-4ae5-089e" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="d051-2c91-f83b-f3b1" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="a399-4e52-261e-3692" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
@@ -6869,38 +6227,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="b1ab-39cb-f761-ed4a" name="Imperial Officer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="577c-c1ce-b746-ba19" name="Imperial Officer" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Spotter 2, Inspire 1, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="b1ab-39cb-f761-ed4a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Ruthless Commander</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -6947,11 +6273,29 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="48ae-0a2b-2d8d-235d" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="407b-6c43-97dd-e8c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7655-3a19-793d-346f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3bbc-dcab-d38f-df08" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="4cba-9522-dc4e-b6e0" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
         <entryLink id="dee7-ce30-165e-e9b1" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="689c-4bd3-c716-9f0f" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
@@ -6963,83 +6307,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c060-98e5-50f8-878f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfe7-752d-6405-295e" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value="Coordinate: Corps Trooper">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="d425-63e3-9405-6b4f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -7087,9 +6357,27 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="4e68-3bad-2918-816a" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="722b-9399-0f7b-bafc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b39c-0986-1b41-5866" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5431-6b52-ecb8-68ca" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a3e5-4bfd-41bc-26e8" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="a102-be08-25dd-15cc" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="a856-a3c3-03d1-ad7f" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="b9be-1cc8-7b20-d2e3" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
@@ -7121,38 +6409,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="56a1-55f2-68dc-8e00" name="Director Orson Krennic" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="7c06-cdf6-d011-d902" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Architect of Terror</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -7203,6 +6459,25 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1627-a5e9-2d0b-1647" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7686-ae29-ed40-eb26" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64ee-0cfd-29b0-7ab4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5cd6-7182-06c2-0b0c" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="fe5e-43d5-a80f-a461" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
@@ -7211,7 +6486,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           </modifiers>
         </entryLink>
         <entryLink id="f473-27b4-8671-6355" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="423f-3b4f-7d09-0718" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
@@ -7224,48 +6498,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="fd27-0c3a-a262-7323" name="Jyn Erso" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="1618-567c-e0b2-c65e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Stardust</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -7322,7 +6554,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="52e7-b6cd-34dc-7833" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
         <entryLink id="f4ce-afcd-6761-16d7" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
         <entryLink id="2b78-9260-d2f9-0d33" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="9f11-7d6b-993b-df47" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="9f11-7d6b-993b-df47" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
@@ -7336,56 +6568,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedd-d971-eec8-a40a" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="366c-1d23-178b-9949" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -7434,14 +6616,32 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f9b1-adfb-883c-6eee" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6894-3afb-2705-43a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d30-c113-628b-f9d9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="872a-8941-9ed6-a136" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2f98-1a5c-59ef-bff9" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="85b9-e1ca-2c8d-0eb1" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="1ba6-57a8-ac57-ce7a" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
         <entryLink id="3e33-16fd-58b7-39f3" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="789e-671b-5bc2-f2ae" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="a35b-1e53-1c49-9827" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="a35b-1e53-1c49-9827" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="cfbd-c609-67e4-7dec" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -7456,56 +6656,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Disciplined 1, Precise 3, Ready 1">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Compel">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd6c-2552-b5c6-f147" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="fe82-164e-5d9b-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -7608,18 +6758,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="976e-3faa-c0b8-56ba" name="X-34 Landspeeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8297-7529-7836-87ab" name="X-34 Landspeeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor 2, Arsenal 3, Cover 2, Light Transport 1: Open, Speeder 1">
-              <conditions>
-                <condition field="selections" scope="976e-3faa-c0b8-56ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d10-fcf9-3b39-6aff" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="976e-3faa-c0b8-56ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
@@ -7685,23 +6823,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="e95b-9d47-5248-9b39" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f451-3666-e73e-f1e0" name="TX-225 GAVw Occupier Combat Assault Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Tactical 1">
-              <conditions>
-                <condition field="selections" scope="e95b-9d47-5248-9b39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="955b-b889-d0c6-67fe" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="8bb0-caac-b4b4-82cd" value="Hit">
-              <conditions>
-                <condition field="selections" scope="e95b-9d47-5248-9b39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d66d-d77d-7e0d-2ca5" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="e95b-9d47-5248-9b39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
@@ -8259,14 +7380,25 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b8-62e5-3660-84eb" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="002f-e567-b70a-bd7d" name="Hostage†" hidden="false" collective="false" import="true" targetId="84a0-e4c0-8413-3873" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6a9-3710-bb63-239b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="719a-2111-ffa1-b167" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+              <selectionEntries>
+                <selectionEntry id="535e-46a5-d9ff-20e4" name="Hostage" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="263d-c1a8-5f6b-9b9f" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+                      <characteristics>
+                        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
+                        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="dc26-0829-aba1-fc24" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -8375,58 +7507,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="1d53-d12a-0837-869b" name="Sabine Wren" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Dauntless">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbaa-0096-0a5d-9675" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Shielded 1, Recharge 1">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c232-0699-d542-69d2" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="e639-78c7-1647-af49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Explosive Artist</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -8460,9 +7540,16 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="133d-9caa-5f26-6680" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0671-f3eb-81b4-05fd" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="50f1-895e-d151-cd44" name=" Combat Expertise" hidden="false" targetId="5981-b1da-c60a-5bc7" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="4e12-3aa8-0306-747d" name=" Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -8510,38 +7597,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="e307-65ff-dcc3-2e86" name="Bossk" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="6343-17f7-33c3-08f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Trandoshan Terror</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -8632,18 +7687,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="958f-e019-e7bb-89fb" name="Tauntaun Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1709-d8e5-b2ca-d943" name="Tauntaun Riders" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="958f-e019-e7bb-89fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="958f-e019-e7bb-89fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">2</characteristic>
@@ -8730,72 +7773,8 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
                 <repeat field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f27e-ea67-0cc1-c555" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="4381-84d3-c939-9df5" value=", Comms">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d59f-f02a-d940-3b90" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="9046-98aa-f2f3-9867" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -8824,14 +7803,40 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="6a0e-a397-296a-c66f" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9f22-0bcd-7279-e92b" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1e9e-f141-b757-3ef2" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c61c-219d-0c57-9842" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="accb-55d5-2d68-9a36" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bce0-cf47-54b9-61c5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1fc5-da45-79be-b10f" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="3ecd-689c-0f24-64da" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="341c-cdda-d4bb-e466" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="359a-305c-a45d-3bc1" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d177-1a22-f20c-0607" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae19-052e-8ec5-1ba3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="689e-a838-2949-9dd4" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -8843,7 +7848,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="274d-24d2-bcbb-3aad" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="ef13-1e04-e0b1-96fd" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
         <entryLink id="e6d1-6896-7bac-f262" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
-        <entryLink id="2795-e44e-7db9-c484" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="c93a-213d-524b-be6a" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="c263-b01c-befb-e341" value="1">
@@ -8869,78 +7873,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1, Reliable 1">
-              <conditions>
-                <condition field="selections" scope="8943-cb3d-8d0c-9a04" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="599b-ee4e-aa83-87f2" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -8968,21 +7903,46 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="28b3-18eb-d9d1-efec" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="02f1-867b-0fee-56f8" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b715-2cc9-e792-9fdd" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a96-e308-698e-4f58" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e42-ab35-acd8-f6d3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="597b-cb4b-6689-8646" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4688-804b-4e5c-3629" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="3728-356c-3e30-d983" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="7ac2-5883-f2e4-c20f" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1924-3a43-e34d-7948" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1308-2eca-2ebe-09ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e28-2ef9-dd78-eac6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e922-939e-e40d-a489" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="87cb-8c93-8355-def2" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="7705-6f0a-26de-dede" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="06c9-5f62-6d83-3aa0" value="1.0">
@@ -9023,54 +7983,15 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="52.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4395-4833-d4a6-a707" name="Electrobinoculars" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aadb-67c2-82bd-b040" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="0a25-566e-f0b0-4c85" name="Electrobinoculars" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Spotter 1.</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="526f-fb7a-5e93-0fd7" name="Spotter X" hidden="false" targetId="a053-6a51-2d8d-a717" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="dbff-85dd-ece7-afbb" name="B1 Battle Droids" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="be42-53e6-d82f-6822" name="B1 Battle Droids" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Coordinate: Droid Trooper, Reliable 1">
-              <conditions>
-                <condition field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5619-06ab-34fd-991b" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="dbff-85dd-ece7-afbb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -9147,80 +8068,23 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9d2c-1f9b-90d2-a209" name="Electrobinoculars†" hidden="false" collective="false" import="true" targetId="4395-4833-d4a6-a707" type="selectionEntry"/>
+        <entryLink id="9d2c-1f9b-90d2-a209" name="Electrobinoculars" hidden="false" collective="false" import="true" targetId="05a1-16be-1b78-5862" type="selectionEntry"/>
         <entryLink id="2812-ddb0-c425-4405" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="f07d-9146-2237-d631" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
         <entryLink id="67cb-2066-baef-7088" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
-        <entryLink id="4344-344a-b888-0078" name="Portable Scanner†" hidden="false" collective="false" import="true" targetId="8bdc-dbab-fe87-f7d9" type="selectionEntry"/>
+        <entryLink id="4344-344a-b888-0078" name="Portable Scanner" hidden="false" collective="false" import="true" targetId="a66d-3ba3-c278-f426" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4677-e368-e468-24af" name="  •Trooper Template†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4677-e368-e468-24af" name="  •Unit Template†" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c66-beee-7867-e3c1" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d162-d942-61be-e728" type="max"/>
       </constraints>
       <profiles>
-        <profile id="32c9-f278-e50d-c86f" name="  •Trooper Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <profile id="32c9-f278-e50d-c86f" name="  •Unit Template" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9235,6 +8099,46 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry id="dbe5-2518-fe70-2530" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c917-2d1f-07aa-e556" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e08-9c4f-9b91-2bda" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="23d7-e2ef-c28b-0b4c" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5861-fba2-d189-4e8a" name=" E-11 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c992-79d7-0fd4-d934" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efd0-48b2-4ceb-732f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="26d6-4896-bdd1-7bdf" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
       </costs>
@@ -9242,18 +8146,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="10c2-74c2-fcd3-f726" name="Dewback Rider" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7b11-0eb8-d224-4afb" name="Dewback Rider" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="10c2-74c2-fcd3-f726" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="10c2-74c2-fcd3-f726" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9323,23 +8215,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="6192-1779-3cf7-8846" name="Obi-Wan Kenobi" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1">
-              <conditions>
-                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ac-9938-26cd-a3e7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="595e-1631-d059-2372" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Civilized Warrior</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9412,18 +8287,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="3340-5506-fd20-70b5" name="BARC Speeder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c742-36a0-b2f1-7a8c" name="BARC Speeder" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="decrement" field="4f1a-9937-f30d-051a" value="1">
-              <conditions>
-                <condition field="selections" scope="3340-5506-fd20-70b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f23-7df3-e89c-3a4f" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="3340-5506-fd20-70b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">5</characteristic>
@@ -9477,9 +8340,16 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="843f-df5d-08be-235d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b45-162f-5ac1-0eed" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="c341-26aa-e45a-641f" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="0279-71f3-e97b-a1b0" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -9511,13 +8381,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="b791-d83b-ee7d-2e4e" name="Mark II Medium Blaster Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="b3bf-83ff-42d7-4a42" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9548,18 +8411,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="67d2-bfed-7f6e-a136" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="15d9-cc0a-4c3b-674e" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03a8-545d-fcfd-47f4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0154-19d2-ad81-2590" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="bec3-61bd-b8e8-dea7" name=" A-280 Blaster Rifle" hidden="false" targetId="8c6b-8e25-f299-6ade" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="fbbb-8179-44d7-9b88" name=" Mark II Medium Blaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="905b-1795-ddd5-ec16" type="min"/>
@@ -9584,10 +8435,47 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="25bd-cc7d-28bb-1519" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ae9-fccc-cf33-dc89" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d421-2161-a97c-8c31" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b2cf-e22c-5c49-cd06" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0172-7c74-ac63-3617" name=" A-280 Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4f9-5704-7389-4c0a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e47c-0d72-68d7-2cf9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1704-d88d-f3e2-bd59" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="2b53-cf48-e459-f7f2" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
-        <entryLink id="5deb-c239-a2bc-026e" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
@@ -9611,13 +8499,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="fd44-0ad6-2f09-36f9" name="DF-90 Mortar Trooper" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="c715-90a3-8247-a80e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9692,10 +8573,28 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5b94-c75f-8735-66f3" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6eea-b202-98e4-fec1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6e1-fc0a-083e-66be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="825f-0905-61f2-6b0a" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="724d-6501-13f5-b274" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
-        <entryLink id="8ae9-0ce4-6969-af9e" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
@@ -9704,13 +8603,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="5623-5a88-7914-1441" name="Droidekas" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f027-5b87-85af-b4e9" name="Droidekas" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="5623-5a88-7914-1441" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">2</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">3</characteristic>
@@ -9778,18 +8670,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="bfa5-9e89-b55a-8ca6" name="General Grievous" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="78ba-e4fe-8cb3-7c8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="78ba-e4fe-8cb3-7c8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Sinister Cyborg</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9894,18 +8774,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="cd32-d734-b5ad-87fe" name="Luke Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="d1d4-74ca-26fb-9a72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="d1d4-74ca-26fb-9a72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Jedi Knight</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -9987,23 +8855,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="d2a3-db0e-5fa7-68c2" name="Darth Vader " hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="8c88-0bd6-8c12-56d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">The Emperor&apos;s Apprentice</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -10101,13 +8952,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="e5d8-ae64-cb72-a9d6" name="Count Dooku" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="87d3-a316-11b8-d706" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Darth Tyranus</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -10203,17 +9047,8 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="d745-571e-8ef8-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
                 <repeat field="selections" scope="d745-571e-8ef8-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Armor 1, Reliable 1">
-              <conditions>
-                <condition field="selections" scope="d745-571e-8ef8-3724" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5619-06ab-34fd-991b" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -10269,11 +9104,29 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="555b-153a-e7d1-1eb6" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e62e-3e4f-72e6-0a5f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6bd-9930-18f2-94e2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="92eb-23be-575f-39c0" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="9651-450c-d08a-6cc1" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="8bbd-90cd-9354-3245" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
-        <entryLink id="ef14-755a-e588-d9e5" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="a3c3-14e2-d6a3-d2c5" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -10283,28 +9136,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="a42e-0405-17d1-d9ab" name="AAT Trade Federation Battle Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a1ed-d7f2-51f2-e72a" name="AAT Trade Federation Battle Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Barrage, Field Commander, Hover: Ground, Weak Point 2: Rear">
-              <conditions>
-                <condition field="selections" scope="a42e-0405-17d1-d9ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="18e8-dd09-6991-cbec" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b524-8c1f-51b8-94fa" value="AI: Attack, Armor, Arsenal 2, Coordinate: Droid Trooper, Barrage, Hover: Ground, Weak Point 2: Rear">
-              <conditions>
-                <condition field="selections" scope="a42e-0405-17d1-d9ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2912-3e45-90af-db0d" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b524-8c1f-51b8-94fa" value="Armor, Arsenal 2, Barrage, Hover: Ground, Weak Point 2: Rear">
-              <conditions>
-                <condition field="selections" scope="a42e-0405-17d1-d9ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8fd1-bf6b-c58d-8a5d" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="a42e-0405-17d1-d9ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">9</characteristic>
@@ -10414,58 +9245,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="d679-fa31-f06a-c053" name="Clone Captain Rex" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Gunslinger, Scout 2, Scouting Party 2, Sharpshooter 1, Tactical 1">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Jump 2">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="47a7-c18f-1910-7d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Honorable Soldier</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -10554,78 +9333,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <modifiers>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
+                <repeat field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
                 <repeat field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-b6ce-3d80-b87c" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
-              <repeats>
-                <repeat field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Inspire 1, Reliable 1">
-              <conditions>
-                <condition field="selections" scope="e7ff-aac0-8cce-fbfc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="599b-ee4e-aa83-87f2" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -10654,21 +9364,46 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="49a4-bcd2-8d61-5929" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="91dd-f786-55af-d1c6" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="67b0-af81-ad4d-fa8e" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3a3-3491-9f06-b457" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d700-e091-3ed3-8a2a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09ea-d458-8283-6391" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="577a-6798-f99d-1276" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="71e8-79db-4e67-bc46" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="badd-0b2d-9d21-009a" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="af68-e657-fa48-b8bc" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c7a4-a48b-6988-60a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efbb-361f-07f6-7c4d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2e33-9c8a-baad-b12b" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c2e1-b0e2-176e-11cc" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="e3ec-3811-fa12-f1eb" name="Personnel" hidden="false" collective="false" import="true" targetId="5758-b6ce-3d80-b87c" type="selectionEntryGroup"/>
         <entryLink id="1ca2-5609-1318-83f9" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
         <entryLink id="64b4-6766-3322-ca9a" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
@@ -10696,13 +9431,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="03a1-6d04-5ff4-304c" name="TX-130 Saber-class Fighter Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5592-b591-1509-44f1" name="TX-130 Saber-class Fighter Tank" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="7374-8d85-f1fe-aee4" value=", Inspire 2, Field Commander">
-              <conditions>
-                <condition field="selections" scope="03a1-6d04-5ff4-304c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec98-adc0-2b10-3dc9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">9</characteristic>
@@ -10833,7 +9561,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </selectionEntries>
       <entryLinks>
         <entryLink id="1ced-c265-42fc-74c7" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
-        <entryLink id="8a0d-a7ea-9cef-5a90" name="•C-3PO† 2" hidden="false" collective="false" import="true" targetId="0e57-7b18-ee65-9b89" type="selectionEntry"/>
+        <entryLink id="8a0d-a7ea-9cef-5a90" name="•C-3PO" hidden="false" collective="false" import="true" targetId="a34f-b5ab-cd35-b6f1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
@@ -10906,69 +9634,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </selectionEntries>
       <entryLinks>
         <entryLink id="d884-1e12-28c8-6f51" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
-        <entryLink id="f38e-7684-327b-6431" name="•C-3PO†" hidden="false" collective="false" import="true" targetId="c67b-3a23-a437-9957" type="selectionEntry"/>
+        <entryLink id="f38e-7684-327b-6431" name="•C-3PO" hidden="false" collective="false" import="true" targetId="f4b4-b387-a8f0-1f46" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c67b-3a23-a437-9957" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e57-7b18-ee65-9b89" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49fb-5460-d7d9-e60a" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12a0-6cb3-48ef-d96d" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="736e-9c9c-09fd-4466" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
-          <characteristics>
-            <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Human-Cyborg Relations</characteristic>
-            <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
-            <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">2</characteristic>
-            <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Calculate Odds, Distract, Counterpart: R2-D2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="08de-fcf4-7fad-8ee3" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
-        <infoLink id="6e88-1245-0a52-afdb" name="Calculate Odds" hidden="false" targetId="9e27-98a3-38df-26b6" type="rule"/>
-        <infoLink id="1431-18c9-b021-aee7" name="Distract" hidden="false" targetId="d95f-7467-0347-568b" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8d4d-c4c3-39bd-8555" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
-        <categoryLink id="ad47-0b02-ff5f-de84" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
-        <categoryLink id="eaa5-c518-f122-02a1" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="4a48-0333-1258-a86e" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
-        <categoryLink id="6007-59b3-9fce-212b" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e01b-67c4-82c2-2e8d" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b88-a685-ceb1-39e8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="476e-5b20-379f-d774" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="857a-3d9c-efdf-6bd0" name=" Clumsy Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-              <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor" hidden="false" collective="false" import="true" type="unit">
@@ -10978,48 +9647,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="256b-974c-dffd-af77" name="Cassian Andor" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="d6b8-678a-aa20-be0e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Capable Intelligence Agent</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -11092,7 +9719,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="eefe-6a16-9226-151e" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="eefe-6a16-9226-151e" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="ccaa-b854-3558-f434" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="b0b3-a3af-933c-2fa5" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
           <modifiers>
@@ -11104,82 +9731,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e57-7b18-ee65-9b89" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c67b-3a23-a437-9957" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5851-53a1-8d1e-600b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f364-7a65-0076-16b6" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="6360-e5ce-e408-64ea" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
-          <characteristics>
-            <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Made to Suffer</characteristic>
-            <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
-            <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">2</characteristic>
-            <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Calculate Odds, Distract, Counterpart: R2-D2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="56ab-74e7-ba7f-1951" name="Calculate Odds" hidden="false" targetId="9e27-98a3-38df-26b6" type="rule"/>
-        <infoLink id="8f6f-0e5c-6d42-95b8" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
-        <infoLink id="acf4-2a80-c72f-3cc2" name="Distract" hidden="false" targetId="d95f-7467-0347-568b" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8149-ebab-929d-aaee" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
-        <categoryLink id="4821-7b9c-8258-3128" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
-        <categoryLink id="8e64-83ff-bfac-e1d1" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
-        <categoryLink id="8dc6-dcea-3e9c-81dd" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
-        <categoryLink id="3908-801b-9210-e7c4" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="38cb-4fed-bee3-4b02" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff0a-07e3-3871-32f1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f6f-4b6d-f277-e06d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="113d-36c2-0413-a6cc" name=" Clumsy Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-              <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="84a0-e4c0-8413-3873" name="Hostage" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="bd08-0f0c-f00b-5a2d" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="257e-6b87-cd16-0966" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="7802-f7dc-f952-e063" name="•Iden Versio" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1381-e277-10e4-fa86" type="max"/>
@@ -11187,48 +9738,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="3a66-973e-624f-1ba8" name="Iden Versio" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Inferno Squad Leader</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -11301,19 +9810,19 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5876-0185-6ca4-f477" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="5876-0185-6ca4-f477" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="804e-112e-7f0e-6446" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="4697-01d2-ddad-7e39" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="d61f-e553-69e6-5ac1" value="2.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="7566-7455-3054-d665" name="•Iden&apos;s ID10 Seeker Droid†" hidden="false" collective="false" import="true" targetId="735a-6109-0faa-58ae" type="selectionEntry"/>
+        <entryLink id="7566-7455-3054-d665" name="•Iden&apos;s ID10 Seeker Droid" hidden="false" collective="false" import="true" targetId="a9f7-60bf-03c1-ea8f" type="selectionEntry"/>
         <entryLink id="9a6f-0f3d-438f-795d" name="Comms" hidden="true" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="735a-6109-0faa-58ae" type="atLeast"/>
+                <condition field="selections" scope="7802-f7dc-f952-e063" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9f7-60bf-03c1-ea8f" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11330,53 +9839,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="0f68-4b93-7eda-6056" name="Padmé Amidala" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="bddb-ae6e-47cd-0552" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Spirited Senator</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -11467,71 +9929,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
                 <repeat field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Heavy Weapons Team, Impervious, Scout 3, Sharpshooter 1, Tactical 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Jump 2">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="f24b-6e59-a4fa-8054" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Strike Team</characteristic>
@@ -11563,18 +9960,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="213a-7d4d-fab8-4be3" name="Strike Team" hidden="false" targetId="5938-b46b-abe2-3c4f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1d20-5ff0-41c6-e0ca" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a13c-2eb2-4c5b-a076" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="679d-0495-efbe-63d6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="e87e-c16d-c296-faaf" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="c56c-f0ce-92d7-b81f" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fb5-f09e-da50-4939" type="min"/>
@@ -11613,6 +9998,25 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9404-1bd5-0afc-a328" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="750b-31d0-9093-9a5a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="682b-a1b6-9b4c-164d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b376-8892-d817-84b6" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="f2af-ac03-b2c1-2202" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
@@ -11641,71 +10045,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="Impervious, Scout 3, Sharpshooter 1, Tactical 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Jump 2">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7842-bae7-c46f-8ae4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Clone Trooper">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f0a-6110-5863-dc98" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Reliable 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6385-1926-4f65-e566" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="5f04-0ae9-c8eb-0b9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -11736,18 +10075,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="addc-91bf-54e6-64be" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ed4c-92e2-01df-8b41" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4664-c1d9-64a6-c655" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="366f-17da-8ce4-e85a" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6b9e-1839-ecfb-f4a0" name=" DC-15A Blaster Rifle" hidden="false" targetId="1d01-186a-053e-92c5" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="6b30-a9ce-a016-90c8" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="768f-74f7-9720-3ab5" type="min"/>
@@ -11786,6 +10113,25 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="93ea-4a80-dd4f-0056" name=" DC-15A Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4d4-7777-17c8-0c60" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff78-6101-7b8b-4cbb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1a54-2e25-6567-52d1" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="97fb-5c79-9fc5-58c3" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
@@ -11805,13 +10151,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="4851-c273-87a5-febd" name="AT-RT" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="cb17-ee28-cb5c-cc26" name="AT-RT" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="4851-c273-87a5-febd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
@@ -11896,13 +10235,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="28f5-f446-716c-00f9" name="STAP Riders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1747-9714-78e1-955a" name="STAP Riders" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="28f5-f446-716c-00f9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">2</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">3</characteristic>
@@ -11971,46 +10303,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
                 <repeat field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="AI: Dodge, Move, Impervious, Scale, Scout 3, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Charge">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36dd-d8de-48fa-a982" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Shielded 2, Recharge 2">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ae8-a836-c3da-2530" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="72b1-abe6-8b8d-0f36" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -12060,12 +10352,30 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="bf93-e9cf-8178-a349" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b651-36d2-856d-fb6d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a987-3272-5fee-d676" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3f92-4479-78bb-2ac0" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2ced-04cd-5bac-24ca" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="2ced-04cd-5bac-24ca" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="b937-a931-17c3-1ac3" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="22d7-beff-38c0-d22d" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
-        <entryLink id="6cf7-90a4-8468-03ee" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="1c59-e0ef-c381-ee74" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="caf7-e13f-a6e3-4970" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
@@ -12080,53 +10390,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="87ae-4ca3-a9a1-ee0e" name="Cad Bane" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="ebbf-c933-8476-7a7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Needs No Introduction</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12200,7 +10463,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </selectionEntries>
       <entryLinks>
         <entryLink id="d620-2190-8d4f-8828" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
-        <entryLink id="659e-d596-6e19-f788" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="659e-d596-6e19-f788" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="0449-b304-48ad-2ce5" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
         <entryLink id="710d-18e9-59a8-5d69" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
         <entryLink id="fbdf-ff87-fb55-8751" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
@@ -12217,46 +10480,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="9940-b5a3-802f-9825" value="AI: Dodge, Move, Impervious, Scale, Scout 3, Sharpshooter 1">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Charge">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36dd-d8de-48fa-a982" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Shielded 2, Recharge 2">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ae8-a836-c3da-2530" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="a4cb-c87b-a754-99f1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -12309,18 +10532,36 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6dfb-c74d-7a78-b669" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c2f0-c2d0-bbf9-de89" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1dd3-91a4-2c0f-7aa5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="af71-0a2b-3bcd-6ae0" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e027-9c0e-5d81-765a" name="Configurable Weapon" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
+        <entryLink id="e027-9c0e-5d81-765a" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
         <entryLink id="a2d1-ff80-2bc4-ce2a" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="09f0-9d54-8cab-dc41" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="870f-dd9a-76e2-c8d7" value="1.0"/>
           </modifiers>
         </entryLink>
-        <entryLink id="adcd-2104-326e-1bbc" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
         <entryLink id="1ae1-901a-64ed-d349" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
-        <entryLink id="f8e4-86c7-0c25-646f" name="Tactics" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="f8e4-86c7-0c25-646f" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
@@ -12397,62 +10638,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="735a-6109-0faa-58ae" name="•Iden&apos;s ID10 Seeker Droid" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff81-f4e6-9877-aa1d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f301-2ecb-6678-5bf3" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7831-1acc-e694-21ef" name="Iden&apos;s ID10 Seeker Droid" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
-          <characteristics>
-            <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">&quot;Droid&quot;</characteristic>
-            <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
-            <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">1</characteristic>
-            <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Counterpart: Iden Versio, Recharge 1, Shielded 1, Small</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="c43c-f079-042a-9c98" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
-        <infoLink id="5431-0f51-aa13-0143" name="Recharge X" hidden="false" targetId="e453-4644-25ec-b759" type="rule"/>
-        <infoLink id="8fbe-cd5e-e2db-f735" name="Shielded X" hidden="false" targetId="0515-3f69-586d-60d0" type="rule"/>
-        <infoLink id="ba02-2789-cd10-fe00" name="Small" hidden="false" targetId="875b-c67a-3256-8f1a" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c7e9-ba77-cf13-f8a6" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
-        <categoryLink id="1456-b305-5214-cf89" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
-        <categoryLink id="871a-2f72-d623-d0fb" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
-        <categoryLink id="0e72-a068-5618-f761" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
-        <categoryLink id="570d-6859-6207-f631" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8233-812a-7dad-722e" name=" Electro-Shock" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fc0-03f4-f619-8a12" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ed6-51b6-3482-70e0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b214-3951-502e-85c0" name=" Electro-Shock" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-              <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="e263-110f-6b69-00f0" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9845-41fc-a150-5324" name="Mandalorian Resistance" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="dde1-bb27-3c9a-f6de" name="Mandalorian Resistance" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
@@ -12461,61 +10646,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <repeats>
                 <repeat field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Dauntless">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2877-1e2f-f685-2e9c" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Duelist">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0727-60e7-27e5-11ae" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="9845-41fc-a150-5324" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -12608,56 +10738,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
                 <repeat field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cbd-ca19-b15a-e6c5" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Dauntless">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2877-1e2f-f685-2e9c" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="01c8-7c22-ce19-3759" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Clan Wren</characteristic>
@@ -12707,14 +10787,21 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="febe-fdb3-4826-19a5" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7778-ca6b-2ed9-d864" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fafe-4596-458c-1f20" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3657-0d16-c9ca-c1c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83af-6fb2-9487-2401" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e9a-5bf4-a1da-292c" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="4b34-3a1d-dadc-abb5" name=" Combat Expertise" hidden="false" targetId="5981-b1da-c60a-5bc7" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="e0a1-b895-8dde-5a46" name=" Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
@@ -12726,12 +10813,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b6a-9090-56b5-a020" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2fd0-5b1f-b7cf-6cf1" name="•Ursa Wren†" hidden="false" collective="false" import="true" targetId="2877-1e2f-f685-2e9c" type="selectionEntry">
+            <entryLink id="2fd0-5b1f-b7cf-6cf1" name="•Ursa Wren" hidden="false" collective="false" import="true" targetId="be97-6449-5f7a-429c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6250-9505-1043-0ba1" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="e780-c575-b007-a0c6" name="•Tristan Wren†" hidden="false" collective="false" import="true" targetId="a254-15cb-aa4f-5e26" type="selectionEntry">
+            <entryLink id="e780-c575-b007-a0c6" name="•Tristan Wren" hidden="false" collective="false" import="true" targetId="5839-fe25-2a07-b5c2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ec9d-3f21-177d-bea1" type="min"/>
               </constraints>
@@ -12750,102 +10837,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="34.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2877-1e2f-f685-2e9c" name="•Ursa Wren" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2877-1e2f-f685-2e9c" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f3e-427f-472e-ef46" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8817-d1b7-a985-8950" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="db37-3ab4-ee76-1fa5" name="Ursa Wren" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Dauntless.</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7c33-118d-e813-1cb2" name="Ursa Wren" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-          <characteristics>
-            <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
-            <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
-            <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Long Shot 1</characteristic>
-            <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="0eb9-f82e-5891-0168" name="Longshot X" hidden="false" targetId="5718-26da-aed5-de58" type="rule"/>
-        <infoLink id="754c-95e3-1b67-3fc2" name="Dauntless" hidden="false" targetId="e30f-0dd3-f201-316a" type="rule"/>
-        <infoLink id="8561-4916-69eb-4d64" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="31bd-6eb3-9042-abc6" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a254-15cb-aa4f-5e26" name="•Tristan Wren" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e6f-fbf9-16be-a01f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d6f-eaf5-01f3-d648" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="e42e-d7f5-6293-a922" name="Tristan Wren" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc"/>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="fbd3-8a4e-c070-5766" name="Tristan Wren" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-          <characteristics>
-            <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-            <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
-            <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Lethal 1, Suppressive</characteristic>
-            <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="2955-a70f-f3be-9508" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
-        <infoLink id="0549-3477-c52b-5be6" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8bdc-dbab-fe87-f7d9" name="Portable Scanner" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4108-12b6-16f4-85f4" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="1118-5347-9402-d818" name="Portable Scanner" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Take Cover 1.</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="011c-76ff-6eef-e865" name="Take Cover X" hidden="false" targetId="dcab-9ffc-62be-bb59" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4fc9-b585-a7aa-1fc0" name="•Anakin Skywalker" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b21-af60-ad4a-07c8" type="max"/>
@@ -12853,23 +10844,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="df8b-62f1-f980-df4f" name="Anakin Skywalker" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="4fc9-b585-a7aa-1fc0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">The Chosen One</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12954,23 +10928,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </constraints>
       <profiles>
         <profile id="6345-25e9-58bc-5f84" name="Maul" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="8773-cc1e-ca48-fc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="8773-cc1e-ca48-fc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Demoralize 1">
-              <conditions>
-                <condition field="selections" scope="8773-cc1e-ca48-fc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a89-f0c2-a0df-ca22" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Impatient Apprentice</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -13116,48 +11073,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
     <selectionEntry id="9b55-36e8-6913-02fb" name="Clone Commander" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1535-e902-2419-cbde" name="Clone Commander" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="9b55-36e8-6913-02fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Trained for Leadership</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -13233,83 +11148,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e38-e153-4cd1-cf18" name="•Del Meeko" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d665-b913-462d-d3af" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b1e2-03f5-d6a4-b1fc" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="4749-f34e-ac33-f94a" name="Del Meeko" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-          <characteristics>
-            <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
-            <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
-            <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Lethal 1</characteristic>
-            <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-          </characteristics>
-        </profile>
-        <profile id="dd47-ad12-a9ad-9559" name="Del Meeko" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Repair 2, Capacity 1</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="3d08-b3f0-f16d-a525" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
-        <infoLink id="02c8-192f-7b3f-5982" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
-        <infoLink id="ab55-544c-c291-56e3" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1ce0-c90d-134a-93d7" name="•Gideon Hask" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1ce0-c90d-134a-93d7" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2ac-fd69-8eba-a821" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be61-72f0-6d33-208b" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="85a3-ebc3-753b-bc76" name="Gideon Hask" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-          <characteristics>
-            <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-            <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
-            <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-            <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-          </characteristics>
-        </profile>
-        <profile id="6840-2c06-11f6-e154" name="Gideon Hask" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-          <characteristics>
-            <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Your courage is increased by 1.
-You gain Coordinate: Corps Trooper.</characteristic>
-            <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
-            <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="6050-260c-f65e-a9d7" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
-        <infoLink id="768e-8384-6420-0d36" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="ff64-80d7-f27c-528d" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6421-4bca-d13f-05dd" name="Imperial Special Forces" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8b72-fd3e-91bc-4eec" name="Imperial Special Forces" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
@@ -13318,61 +11156,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
               <repeats>
                 <repeat field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Corps Trooper">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="6421-4bca-d13f-05dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -13421,6 +11204,25 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="24b2-a79c-3e83-f365" name=" Unarmed" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b562-8cb2-0992-32f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a60-5986-f859-31a8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f566-4e86-4ea2-f5b1" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="be3c-527f-1b7e-7288" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
@@ -13432,7 +11234,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <entryLink id="c7e1-e06a-2d81-fd2a" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="4e0d-99a3-5cee-9d41" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
         <entryLink id="23d7-e0a6-5bf3-97b7" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
-        <entryLink id="af94-4017-5955-c70f" name=" Unarmed" hidden="false" collective="false" import="true" targetId="13fd-48be-e1e4-2462" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="68.0"/>
@@ -13446,61 +11247,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
               <repeats>
                 <repeat field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f96c-26ac-0510-4063" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="2023-ab5b-e8e1-42c9" value="1">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Coordinate: Corps Trooper">
-              <conditions>
-                <condition field="selections" scope="9670-a5ef-c0f4-a8ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ce0-c90d-134a-93d7" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -13577,12 +11323,12 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9528-bf71-f5dd-2908" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fbb6-ebd0-f137-d11b" name="•Del Meeko†" hidden="false" collective="false" import="true" targetId="1e38-e153-4cd1-cf18" type="selectionEntry">
+            <entryLink id="fbb6-ebd0-f137-d11b" name="•Del Meeko" hidden="false" collective="false" import="true" targetId="b147-7f11-66e5-1885" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5772-b2ec-6686-1d83" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="68dc-823f-697d-1199" name="•Gideon Hask†" hidden="false" collective="false" import="true" targetId="1ce0-c90d-134a-93d7" type="selectionEntry">
+            <entryLink id="68dc-823f-697d-1199" name="•Gideon Hask" hidden="false" collective="false" import="true" targetId="a6fc-9588-0c26-0678" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53a6-8dc5-008e-bc1a" type="min"/>
               </constraints>
@@ -13607,43 +11353,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
     <selectionEntry id="efb2-3aa9-b123-8be5" name="T-series Tactical Droid" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6a65-cb38-b1c1-2fe7" name="T-series Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="efb2-3aa9-b123-8be5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Programmed for Strategy</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -13726,48 +11435,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="1318-1758-e191-9e3b" name="Agent Kallus" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="7869-877b-821d-3092" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hunter of Spectres</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -13862,48 +11529,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="ec69-c045-474b-6073" name="Lando Calrissian" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="e1ae-5b04-3639-39f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Smooth Operator</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -13993,13 +11618,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
     <selectionEntry id="1eb8-aa6b-6bec-9515" name="A-A5 Speeder Truck" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3bc7-b33b-537b-a9e4" name="A-A5 Speeder Truck" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="1eb8-aa6b-6bec-9515" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
@@ -14044,18 +11662,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
     <selectionEntry id="9d72-ff48-535f-9984" name="LAAT/le Patrol Transport" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="08c0-5932-4f4c-19b1" name="LAAT/le Patrol Transport" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="9d72-ff48-535f-9984" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="4f1a-9937-f30d-051a" value="3">
-              <conditions>
-                <condition field="selections" scope="9d72-ff48-535f-9984" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d66d-d77d-7e0d-2ca5" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
@@ -14119,13 +11725,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
     <selectionEntry id="6c48-8772-70d4-0ffe" name="LAAT/le Patrol Transport" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="70c5-b108-d8d6-eb43" name="LAAT/le Patrol Transport" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
-          <modifiers>
-            <modifier type="append" field="b524-8c1f-51b8-94fa" value=", Target 1">
-              <conditions>
-                <condition field="selections" scope="6c48-8772-70d4-0ffe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4286-4b76-8c7a-fc97" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
             <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">8</characteristic>
@@ -14190,55 +11789,10 @@ You gain Coordinate: Corps Trooper.</characteristic>
       <profiles>
         <profile id="6684-c9eb-25ce-3de3" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="ce40-7bde-464f-4449" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -14322,55 +11876,10 @@ You gain Coordinate: Corps Trooper.</characteristic>
       <profiles>
         <profile id="cf51-d0ec-078b-6081" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="0c30-b791-3e63-d01d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -14459,55 +11968,10 @@ You gain Coordinate: Corps Trooper.</characteristic>
       <profiles>
         <profile id="e0fd-1978-1537-0023" name="Wookiee Warriors" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="a5b5-9e18-969c-7e34" value="1">
               <repeats>
                 <repeat field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="814e-83e4-e695-7933" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -14594,48 +12058,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="c330-0c06-f095-7498" name="Chewbacca" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="b5f7-7b1a-fe25-8a8e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Hero of Kashyyyk</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -14731,53 +12153,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="abad-b21f-8cf4-d9f8" name="•Wookiee Chieftain" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="89b9-999c-5406-06fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Clan Leader</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -14969,11 +12344,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
                 <repeat field="selections" scope="1ebf-a178-398b-24d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e8aa-f460-6961-1e6e" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Smoke 1">
-              <conditions>
-                <condition field="selections" scope="1ebf-a178-398b-24d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24f0-731d-fe7e-5ac4" type="atLeast"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
@@ -15078,48 +12448,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="5929-eef2-446f-c934" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="81e5-d57c-f6d2-48f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0"/>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -15222,49 +12550,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="401b-ca19-8687-900b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6c5e-311b-1bdd-299f" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="5251-4c50-6611-76af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <profile id="8a65-7bff-ea80-d8ef" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kraken</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -15372,48 +12658,6 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </constraints>
       <profiles>
         <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
-          <modifiers>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Scout 1">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1c9-3e8c-d277-6e55" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Precise 1">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acfb-0203-4b38-8d68" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Take Cover 1">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bdc-dbab-fe87-f7d9" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Sentinel">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0bc-6c79-097c-2202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Outmaneuver">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e12-e885-1a48-33a7" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Spotter 1">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4395-4833-d4a6-a707" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Expert Climber">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b3-dab3-c670-1bf0" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" field="9940-b5a3-802f-9825" value=", Unhindered">
-              <conditions>
-                <condition field="selections" scope="c114-73b7-7652-b01a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0410-76a2-1c5f-fc56" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kalani</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -15496,6 +12740,148 @@ You gain Coordinate: Corps Trooper.</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35be-285e-0012-cd11" name="Raddaugh Gnasp Fluttercraft†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="763c-1ec0-a440-73c6" name="Raddaugh Gnasp Fluttercraft" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
+          <characteristics>
+            <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
+            <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
+            <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">3</characteristic>
+            <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
+            <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">2</characteristic>
+            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Cover 2, Immune: Blast, Immune: Melee, Immune: Range 1 Weapons, Reposition, Speeder 2</characteristic>
+            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Crew, Comms</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0ee6-162a-81d8-b5e1" name="Cover X" hidden="false" targetId="99c4-94e0-7110-4e99" type="rule"/>
+        <infoLink id="b6c8-f441-568c-1d60" name="Speeder X" hidden="false" targetId="f4bf-508a-a537-1ce7" type="rule"/>
+        <infoLink id="050e-4c33-f5dc-ba7a" name="Immune: Blast" hidden="false" targetId="d310-f6f2-d3dd-2fa1" type="rule"/>
+        <infoLink id="0b62-620f-2943-ed6a" name="Immune: Melee" hidden="false" targetId="e2e2-c9c7-c142-48fd" type="rule"/>
+        <infoLink id="f8dd-05b1-58d3-e643" name="Immune: Range 1 Weapons" hidden="false" targetId="3d21-4cbd-7b5a-69d4" type="rule"/>
+        <infoLink id="a26a-cb53-f0d5-2cf9" name="Reposition" hidden="false" targetId="a307-c43d-f182-4a23" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ef0d-c0a7-70cd-7599" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="acd2-0ce7-a24e-c424" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
+        <categoryLink id="c05b-c9e8-d350-6766" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+        <categoryLink id="4826-be8e-6391-a069" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+        <categoryLink id="2e36-1911-bcdb-3bfd" name="Repulsor Vehicle" hidden="false" targetId="1231-e5e0-ce18-e2be" primary="false"/>
+        <categoryLink id="8228-763c-1242-4465" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a931-96dd-335c-4e50" name=" Pilot&apos;s Kashyyyk Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ae2-0cca-0776-9978" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2083-e4c5-a6bf-92b9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dec8-7311-236c-ad5d" name=" Pilot&apos;s Kashyyyk Pistol" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6927-0fc0-735b-7bb0" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="bbaa-ade6-ec42-eef0" name="Crew" hidden="false" collective="false" import="true" targetId="d746-6c9e-b4ca-bd90" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40c2-4474-5a52-c1e9" name="DSD1 Dwarf Spider Droid†" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9506-56e2-db5b-53e2" name="DSD1 Dwarf Spider Droid" hidden="false" typeId="5f75-fcdc-0366-0628" typeName="1.4 Vehicles">
+          <characteristics>
+            <characteristic name="Models" typeId="621a-0141-7be7-8335">1</characteristic>
+            <characteristic name="Wounds" typeId="eee7-55c8-4a95-6177">6</characteristic>
+            <characteristic name="Resilience" typeId="8f53-abe0-8322-e7d2">4</characteristic>
+            <characteristic name="Defense" typeId="a098-86b4-db8f-c431">White</characteristic>
+            <characteristic name="Attack Surge" typeId="8bb0-caac-b4b4-82cd">Hit</characteristic>
+            <characteristic name="Defense Surge" typeId="1ca6-e726-090a-340d">Block</characteristic>
+            <characteristic name="Speed" typeId="4f1a-9937-f30d-051a">2</characteristic>
+            <characteristic name="Keywords" typeId="b524-8c1f-51b8-94fa">Self-Destruct 4, Armor 3, Climbing Vehicle, Expert Climber, Programmed</characteristic>
+            <characteristic name="Upgrade Bar" typeId="7374-8d85-f1fe-aee4">Programming, Hardpoint, Comms</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="19b6-08c0-880a-bf21" name="Self-Destruct X" hidden="false" targetId="05aa-d4ac-3529-df25" type="rule"/>
+        <infoLink id="99f4-2f43-4f81-ac9d" name="Armor X" hidden="false" targetId="557e-290b-b9ad-2a97" type="rule"/>
+        <infoLink id="acb0-9593-80ec-edb3" name="Climbing Vehicle" hidden="false" targetId="1ed9-75e6-51da-bfba" type="rule"/>
+        <infoLink id="b788-3594-74d7-7fbe" name="Expert Climber" hidden="false" targetId="e39c-9c4b-a68d-2dda" type="rule"/>
+        <infoLink id="4d18-e9d2-b47c-4ee5" name="Programmed" hidden="false" targetId="fa89-b58c-fdbb-c725" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4f8a-056e-2629-196b" name="Support" hidden="false" targetId="b871-39d2-ad98-e654" primary="true"/>
+        <categoryLink id="8bf3-8405-7b99-ab26" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+        <categoryLink id="e558-ae92-e20e-9911" name="Ground Vehicle" hidden="false" targetId="ee3b-cb96-3862-edb2" primary="false"/>
+        <categoryLink id="80f6-df76-d7c2-abdd" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
+        <categoryLink id="0927-57fc-7b67-2a01" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
+        <categoryLink id="989b-34f1-64c3-1cbe" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cfd1-dd01-3d5b-d71e" name="Wicked Kick" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="082a-8ecc-f90b-aacf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2df3-92fd-61c0-caf2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66a1-2fdd-281b-53ad" name="Wicked Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3fe0-b9e2-67b3-82c6" name="DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94d8-3e5d-504f-ae85" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="774c-c543-43bd-eb5c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f670-b681-d2e6-5b51" name="DSD1 Self-Destruct Mechanism" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Self-Destruct</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Impact 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="642f-c077-1940-54b7" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+            <infoLink id="182f-854f-fbce-aacf" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c836-4189-b523-6edd" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
+        <entryLink id="e1fd-e596-db98-5c6f" name="Programming" hidden="false" collective="false" import="true" targetId="1c9b-29ff-9d21-cdf5" type="selectionEntryGroup"/>
+        <entryLink id="7805-73d2-322c-8b07" name="Hardpoint" hidden="false" collective="false" import="true" targetId="542e-0da1-cc37-5c44" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -15695,7 +13081,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="daa4-8996-af5e-f9d0" name="Fear" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">You gain Demoralize 1.</characteristic>
-                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15776,7 +13162,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="9726-2801-bfad-e943" name="Targeting Scopes" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Precise 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Precise 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -15796,7 +13182,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="05a7-f57e-54d2-03a4" name="Grappling Hooks" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Expert Climber.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Expert Climber</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -15816,7 +13202,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="e035-12b5-19e2-3101" name="Environmental Gear" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Unhindered.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Unhindered</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -15853,13 +13239,13 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="211f-9a29-a6a2-7caf" name="Recon Intel" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Scout 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Scout 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e2f1-7b88-b657-edb8" name="Sentinel" hidden="false" targetId="cbd6-101d-191d-d189" type="rule"/>
+            <infoLink id="e2f1-7b88-b657-edb8" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="5ee9-6ce1-86c6-179b" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
@@ -15883,7 +13269,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="48cb-ebaa-21ca-8d70" name="Personal Combat Shield" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Shielded 1 and Recharge 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Recharge 1, Shielded 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -15946,7 +13332,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="ad59-5c63-707a-e26e" name="JT-12 Jetpacks" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Jump 2.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Jump 2</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -15966,7 +13352,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="4b43-1a89-26ad-137b" name="Ascension Cables" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Scale.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Scale</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -15978,11 +13364,47 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a66d-3ba3-c278-f426" name="Portable Scanner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ed8-f5df-2697-7d1f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="39b8-b9d9-d2de-18ea" name="Portable Scanner" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Take Cover 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Take Cover 1</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b650-bd35-e09b-b529" name="Take Cover X" hidden="false" targetId="dcab-9ffc-62be-bb59" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05a1-16be-1b78-5862" name="Electrobinoculars" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe3a-c0db-6df5-8cc9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="02a7-6f17-b60d-5d96" name="Electrobinoculars" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Spotter 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Spotter 1</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="860d-7d4b-2242-7bcf" name="Spotter X" hidden="false" targetId="a053-6a51-2d8d-a717" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="7628-6f85-dee5-5a64" name="Electrobinoculars†" hidden="false" collective="false" import="true" targetId="4395-4833-d4a6-a707" type="selectionEntry"/>
-        <entryLink id="f983-c16c-8328-616e" name="Portable Scanner†" hidden="false" collective="false" import="true" targetId="8bdc-dbab-fe87-f7d9" type="selectionEntry"/>
-      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8e00-7b0f-9520-fb2d" name="Grenades" hidden="false" collective="false" import="true">
       <constraints>
@@ -16064,7 +13486,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <profile id="2cf8-62cd-008b-25fe" name="Smoke Grenades" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Smoke 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Smoke 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -18583,75 +16005,216 @@ Reduce your maximum speed by 1</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="b147-7f11-66e5-1885" name="•Del Meeko" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6421-4bca-d13f-05dd" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0020-8ddc-bf35-3170" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9670-a5ef-c0f4-a8ed" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ed4-f620-e8b3-3ca6" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eee4-faec-50cf-6a6e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c61d-9fca-cc22-1bd1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="55a5-6b8d-1c72-4ea2" name="Del Meeko" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">High Velocity, Lethal 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="68c4-8056-67c4-39fa" name="Del Meeko" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Repair 2, Capacity 1</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c4e-a6a2-d46d-ae3d" name="High Velocity" hidden="false" targetId="88db-849b-6a12-5846" type="rule"/>
+            <infoLink id="61fc-04b6-6ce4-4de1" name="Repair X: Capacity Y" hidden="false" targetId="1fd5-75ef-29c1-b14b" type="rule"/>
+            <infoLink id="ff6e-6316-ef5f-af1b" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a6fc-9588-0c26-0678" name="•Gideon Hask" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a6fc-9588-0c26-0678" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ed4-f620-e8b3-3ca6" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6421-4bca-d13f-05dd" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0020-8ddc-bf35-3170" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9670-a5ef-c0f4-a8ed" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="897b-c6db-e91d-8fc3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1faf-1529-33e3-4c65" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a9fd-9993-09ab-7472" name="Gideon Hask" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+            <profile id="ec20-2ac3-75b7-ecae" name="Gideon Hask" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Your courage is increased by 1.
+You gain Coordinate: Corps Trooper.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="628c-c241-f05d-774a" name="Coordinate: *Unit Type*" hidden="false" targetId="84b3-093e-53b5-e805" type="rule"/>
+            <infoLink id="46d8-dad6-d9fd-1a89" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="2175-a74b-62c0-4680" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5839-fe25-2a07-b5c2" name="•Tristan Wren" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c35-f52f-6351-6a83" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d0f-a910-c232-c65e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5e20-a5bc-6016-c578" name="Tristan Wren" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="48d4-fec4-4d16-4966" name="Tristan Wren" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Lethal 1, Suppressive</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="09dc-debb-5db1-fc7e" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
+            <infoLink id="9a80-3ccb-e174-3e04" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be97-6449-5f7a-429c" name="•Ursa Wren" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28a-87da-7eed-cb4c" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be97-6449-5f7a-429c" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0c8-04ec-dca8-dd5b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc0f-e856-f1b0-6c54" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a928-0c5e-7bba-0ac9" name="Ursa Wren" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Dauntless.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Leader</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="62d5-760a-a6de-4a25" name="Ursa Wren" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Long Shot 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bb2b-60b9-a55b-5570" name="Longshot X" hidden="false" targetId="5718-26da-aed5-de58" type="rule"/>
+            <infoLink id="f86d-9502-8df0-078e" name="Dauntless" hidden="false" targetId="e30f-0dd3-f201-316a" type="rule"/>
+            <infoLink id="afb8-642f-8f5c-5743" name="Leader" hidden="false" targetId="333b-0ccb-b1ce-ca9d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a928-85a8-22aa-b358" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="4d55-50d7-ef65-0b13" name="•Tristan Wren†" hidden="false" collective="false" import="true" targetId="a254-15cb-aa4f-5e26" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="14a2-3e7b-9e44-ba41" name="•Ursa Wren" hidden="false" collective="false" import="true" targetId="2877-1e2f-f685-2e9c" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="2ffb-c89e-4d05-6aa5" name="•Gideon Hask†" hidden="false" collective="false" import="true" targetId="1ce0-c90d-134a-93d7" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6421-4bca-d13f-05dd" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0020-8ddc-bf35-3170" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ed4-f620-e8b3-3ca6" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="c2ed-46be-9124-d9f8" name="•Del Meeko†" hidden="false" collective="false" import="true" targetId="1e38-e153-4cd1-cf18" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ed4-f620-e8b3-3ca6" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6421-4bca-d13f-05dd" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0020-8ddc-bf35-3170" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef40-1f1b-5578-a7c3" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="bbf8-c77e-246a-d5c6" name="Comms" hidden="false" collective="false" import="true">
       <constraints>
@@ -18755,7 +16318,7 @@ Reduce your maximum speed by 1</characteristic>
             <profile id="88e8-a630-2dc3-67f7" name="Linked Targeting Array" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Target 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Target 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -18847,6 +16410,26 @@ Reduce your maximum speed by 1</characteristic>
           </profiles>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1e1e-92e8-a545-db99" name="Hacked Comms Unit†" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33c7-a8b4-6a11-8437" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6c1f-42b7-d7da-5176" name="Hacked Comms Unit" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Issue Orders step of the Command Phase, after an enemy unit at range 1 is issued an order, you may issue an order to yourself, if able.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="b9bb-78bf-f97b-6fab" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -19354,7 +16937,7 @@ Reduce your maximum speed by 1</characteristic>
             <profile id="da38-3691-2a48-ffbd" name="General Weiss" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Arsenal 2.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Arsenal 2</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -19447,7 +17030,7 @@ Reduce your maximum speed by 1</characteristic>
             <profile id="aeea-dd83-e28e-7392" name="First Sergeant Arbmab" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Tactical 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Tactical 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19479,7 +17062,7 @@ Reduce your maximum speed by 1</characteristic>
             <profile id="d878-8ef7-416a-35f0" name="Outer Rim Speeder Jockey" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Cover 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Cover 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19536,7 +17119,7 @@ Reduce your maximum speed by 1</characteristic>
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You lose AI: Attack.
 You gain Field Commander.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19567,7 +17150,7 @@ You gain Field Commander.</characteristic>
             <profile id="ae5a-95a0-baa9-7ce7" name="Aayla Secura" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Inspire 2 and Field Commander.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander, Inspire 2</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19624,7 +17207,7 @@ During the End Phase, ready this card.</characteristic>
             <profile id="5810-822e-7a20-d634" name="Plo Koon" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt;Until the end of your activation, you gain Agile 2.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Agile 2</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -19651,7 +17234,7 @@ During the End Phase, ready this card.</characteristic>
             <profile id="0704-ba26-80e3-173b" name="OOM-Series Droid Pilot" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Coordinate: Droid Trooper.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Coordinate: Droid Trooper</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19680,7 +17263,7 @@ During the End Phase, ready this card.</characteristic>
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You lose AI: Attack, even while this card is exhausted.
 &gt;&gt;Until the end of your activation, each of your weapons gains suppressive.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Suppressive</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -19715,7 +17298,7 @@ During the End Phase, ready this card.</characteristic>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Field Commander.
 
 &gt;&gt; Choose a friendly trooper unit you are transporting or at range 1 - 2. It gains 1 dodge token and may gain 1 suppression token.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -19773,8 +17356,8 @@ During the End Phase, ready this card.</characteristic>
           <profiles>
             <profile id="086f-bbc3-ef8e-9308" name="Hotshot Pilot" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Sharpshooter 1</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Sharpshooter 1.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Sharpshooter 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -19931,8 +17514,8 @@ After you recover, gain 1 aim token.</characteristic>
           <profiles>
             <profile id="8508-dcb8-47c6-e42b" name="•Hound &amp; Grizzer" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Observe 4</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain → Observe 4</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Observe 4</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -20185,7 +17768,7 @@ After you recover, gain 1 aim token.</characteristic>
             <profile id="0367-844c-7d67-8d1e" name="Overwatch" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Sentinel.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Sentinel</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -20205,7 +17788,7 @@ After you recover, gain 1 aim token.</characteristic>
             <profile id="db90-bbf3-22f6-c62c" name="Offensive Push" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While performing a move, gain Tactical 1.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Tactical 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -20232,7 +17815,7 @@ After you recover, gain 1 aim token.</characteristic>
             <profile id="184e-c3f4-b322-831b" name="Situational Awareness" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Outmaneuver.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Outmaneuver</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
@@ -20362,7 +17945,7 @@ During the End Phase, ready this card.</characteristic>
             <profile id="9a8c-4bdd-cf0c-1a9a" name="Overcharged Generator" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While performing a ranged attack with a weapon that has Fixed, add 1 black attack die and apply Impact 1 to your attack pool.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Impact 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -20382,7 +17965,7 @@ During the End Phase, ready this card.</characteristic>
             <profile id="d15e-12a9-5ecf-a5b8" name="Barrage Generator" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">While performing a ranged attack with a weapon that has Fixed, add 2 white attack dice and apply Suppressive to your attack pool.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Suppressive</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -21287,6 +18870,72 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="950c-fc31-93d7-c906" name="Gnasp Gunner†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35be-285e-0012-cd11" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="961a-5e15-8fec-020e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="46df-4675-0156-cfaa" name="Gnasp Gunner" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Fixed: Rear, Impact 1, Pierce 1</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8431-b6f8-7a13-dac5" name="Fixed: Rear" hidden="false" targetId="24b7-5b7a-f976-3e75" type="rule"/>
+            <infoLink id="8ab8-62e8-c8b4-260e" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+            <infoLink id="086d-8d1a-c1a0-2695" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f59b-f617-3025-7930" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2711-a397-eaaf-4403" name="Gnasp Bombardier†" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35be-285e-0012-cd11" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8629-3956-d9d1-3660" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6f3a-2b1a-b283-8dc4" name="Gnasp Bombardier" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Overrun</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, White x2</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Immune: Deflect, Overrun 2, Suppressive</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="11f5-9583-a522-36a7" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
+            <infoLink id="e6e3-e584-27ec-69c1" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+            <infoLink id="db4d-abf9-3e80-c232" name="Overrun X" hidden="false" targetId="6143-be23-e486-59e7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7f2e-5e07-2315-354f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="bb6c-b9a5-54e2-8320" name="Ordnance" hidden="false" collective="false" import="true">
@@ -21367,6 +19016,171 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="a1b6-1a92-678f-fe19" name="Counterpart" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f4b4-b387-a8f0-1f46" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bef1-cb4a-c5e4-48b2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="18fc-42fa-7634-b2c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6c24-30e3-6334-86d7" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
+              <characteristics>
+                <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Human-Cyborg Relations</characteristic>
+                <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
+                <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">2</characteristic>
+                <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Calculate Odds, Distract, Counterpart: R2-D2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="60ea-1c8a-9998-f5a5" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
+            <infoLink id="7f11-d0d0-c6e8-5a22" name="Calculate Odds" hidden="false" targetId="9e27-98a3-38df-26b6" type="rule"/>
+            <infoLink id="b89b-2239-cb71-b05b" name="Distract" hidden="false" targetId="d95f-7467-0347-568b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3a61-82d4-10d4-3e63" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
+            <categoryLink id="af54-17f7-a6c4-e090" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+            <categoryLink id="da01-25f2-7f37-8013" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+            <categoryLink id="17d6-0369-e179-8ef8" name="Rebel" hidden="false" targetId="1d91-e11e-a87b-4790" primary="false"/>
+            <categoryLink id="461d-af45-b482-2628" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="3738-79de-fcea-742d" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b20d-a973-861e-65a4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbb5-64ac-591b-dda9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="76e6-98ca-51a2-f459" name=" Clumsy Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a34f-b5ab-cd35-b6f1" name="•C-3PO" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b80-7d26-5223-f7bc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b02e-5e92-e811-3668" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9628-d830-33a0-5bc2" name="C-3PO" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
+              <characteristics>
+                <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">Made to Suffer</characteristic>
+                <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
+                <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">2</characteristic>
+                <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Calculate Odds, Distract, Counterpart: R2-D2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="070b-9f5d-c3e3-706e" name="Calculate Odds" hidden="false" targetId="9e27-98a3-38df-26b6" type="rule"/>
+            <infoLink id="3641-33a5-2ea2-151c" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
+            <infoLink id="9a23-6915-e85f-feb7" name="Distract" hidden="false" targetId="d95f-7467-0347-568b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ce9c-209c-4aa6-3155" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
+            <categoryLink id="117e-238b-0ee3-fd09" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+            <categoryLink id="cb48-0e16-01e0-9ea1" name="Light Side" hidden="false" targetId="5639-96ef-9aa3-961d" primary="false"/>
+            <categoryLink id="7778-9ded-bc78-d7bc" name="Republic" hidden="false" targetId="e057-60b7-67f9-8d41" primary="false"/>
+            <categoryLink id="1811-2238-655b-4462" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="0eea-5344-8dc0-cbb5" name=" Clumsy Kick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f02-7703-0cac-5cb6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e57-7539-c122-82c7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="709d-b876-909b-fe89" name=" Clumsy Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a9f7-60bf-03c1-ea8f" name="•Iden&apos;s ID10 Seeker Droid" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0993-274c-0c81-6f04" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc92-3975-c61e-3f56" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0436-70eb-2643-205d" name="Iden&apos;s ID10 Seeker Droid" hidden="false" typeId="2332-473f-2385-57a9" typeName="1.3 Counterparts">
+              <characteristics>
+                <characteristic name="Subtitle" typeId="c2e6-3500-61a5-d6c4">&quot;Droid&quot;</characteristic>
+                <characteristic name="Models" typeId="8715-991f-4d19-44ff">1</characteristic>
+                <characteristic name="Wounds" typeId="266b-70a8-36f6-e230">1</characteristic>
+                <characteristic name="Keywords" typeId="0ced-237b-5eb7-c27f">Counterpart: Iden Versio, Recharge 1, Shielded 1, Small</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9d7f-69df-655c-477e" name="Counterpart: *Unit Name*" hidden="false" targetId="e299-9d9f-3a98-06d8" type="rule"/>
+            <infoLink id="a5fb-a222-6929-3b4d" name="Recharge X" hidden="false" targetId="e453-4644-25ec-b759" type="rule"/>
+            <infoLink id="582d-afcd-469d-e787" name="Shielded X" hidden="false" targetId="0515-3f69-586d-60d0" type="rule"/>
+            <infoLink id="a3a7-b7bb-53f3-2fc0" name="Small" hidden="false" targetId="875b-c67a-3256-8f1a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="c814-2d8d-99e4-89bb" name="Counterpart" hidden="false" targetId="5607-032a-efad-1d58" primary="false"/>
+            <categoryLink id="e922-f523-56ea-1080" name="Dark Side" hidden="false" targetId="5131-9cfb-0e26-b28b" primary="false"/>
+            <categoryLink id="d205-b1be-da6d-4ffd" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
+            <categoryLink id="2bee-3694-22dc-6ceb" name="Imperial" hidden="false" targetId="ef40-1f1b-5578-a7c3" primary="false"/>
+            <categoryLink id="5215-08e3-4a7c-a957" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="71c9-e981-1631-f2fc" name=" Electro-Shock" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6baa-b50c-98f4-b03f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="befe-3346-498f-6330" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d774-d930-9754-a9af" name=" Electro-Shock" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee/1</characteristic>
+                    <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White x3</characteristic>
+                    <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Suppressive</characteristic>
+                    <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="325b-1342-b9c2-470f" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1c9b-29ff-9d21-cdf5" name="Programming" hidden="false" collective="false" import="true"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3565-7985-bb05-c0a5" name="Nimble" hidden="false">
@@ -21840,57 +19654,16 @@ If a card is divulged in this manner, resolve the text that follows the divulge 
 
 A card that is revealed in this way is not played, and is returned to that player’s command had at the end of the step in which it was divulged.</description>
     </rule>
+    <rule id="6143-be23-e486-59e7" name="Overrun X" hidden="false">
+      <description>During your activation, you can perform up to X overrun attacks.</description>
+    </rule>
+    <rule id="fa89-b58c-fdbb-c725" name="Programmed" hidden="false">
+      <description>You must equip a Programming upgrade card.</description>
+    </rule>
+    <rule id="05aa-d4ac-3529-df25" name="Self-Destruct X" hidden="false">
+      <description>If you have at least X wound tokens, perform your self-destruct attack.</description>
+    </rule>
   </sharedRules>
-  <sharedProfiles>
-    <profile id="4248-c8e1-a092-6929" name=" E-11 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">White</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-    <profile id="2577-2af4-7ca4-3912" name=" Unarmed" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-    <profile id="8c6b-8e25-f299-6ade" name=" A-280 Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-    <profile id="21de-bb81-7a1f-5664" name=" EC-17 Holdout Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-    <profile id="5981-b1da-c60a-5bc7" name=" Combat Expertise" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-    <profile id="1d01-186a-053e-92c5" name=" DC-15A Blaster Rifle" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-      <characteristics>
-        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
-        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black</characteristic>
-        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="4767-0083-a5c9-a7be" name="Covert Ops" hidden="false">
       <infoLinks>
