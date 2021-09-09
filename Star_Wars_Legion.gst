@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="90" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="91" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -12845,7 +12845,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"></characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
@@ -12873,6 +12873,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <infoLink id="642f-c077-1940-54b7" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
             <infoLink id="182f-854f-fbce-aacf" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -13081,7 +13084,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <profile id="daa4-8996-af5e-f9d0" name="Fear" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">You gain Demoralize 1.</characteristic>
-                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"></characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
               </characteristics>
             </profile>
           </profiles>
@@ -16129,9 +16132,14 @@ You gain Coordinate: Corps Trooper.</characteristic>
         <selectionEntry id="5839-fe25-2a07-b5c2" name="•Tristan Wren" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01c8-7c22-ce19-3759" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -16176,9 +16184,14 @@ You gain Coordinate: Corps Trooper.</characteristic>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01c8-7c22-ce19-3759" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9845-41fc-a150-5324" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -17299,7 +17312,7 @@ During the End Phase, ready this card.</characteristic>
 
 &gt;&gt; Choose a friendly trooper unit you are transporting or at range 1 - 2. It gains 1 dodge token and may gain 1 suppression token.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18887,7 +18900,7 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, Black x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Fixed: Rear, Impact 1, Pierce 1</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
@@ -18920,7 +18933,7 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Overrun</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, White x2</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Immune: Deflect, Overrun 2, Suppressive</characteristic>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"></characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
