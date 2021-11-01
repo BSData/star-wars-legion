@@ -4355,7 +4355,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       </profiles>
       <infoLinks>
         <infoLink id="a802-acbb-2785-5560" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
-        <infoLink id="118e-8940-db7c-7871" name="Immune: Melee Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
+        <infoLink id="118e-8940-db7c-7871" name="Immune: Pierce" hidden="false" targetId="6e3a-8e96-a01b-9573" type="rule"/>
         <infoLink id="ca95-6f11-825e-2fe0" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
         <infoLink id="ed08-f5dc-5014-6cd5" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
         <infoLink id="fe9f-9c40-da45-5765" name="Compel" hidden="false" targetId="2dd6-d418-4321-f5bf" type="rule"/>
