@@ -7182,6 +7182,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
                     <infoLink id="b10f-9022-b358-dc7b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
                     <infoLink id="cb3c-ffbf-fbb9-f0a8" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -19740,7 +19743,7 @@ During your Rally step, you may choose not to remove your suppression tokens.</d
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
     <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false">
-      <description>Enemy Effects cannot be used against you.</description>
+      <description>You ignore all enemy card effects and cannot be targeted by any enemy card effects. You are still effected by friendly card effects and battle card effects.</description>
     </rule>
     <rule id="46a8-f06e-7ba8-afb3" name="Covert Ops" hidden="false">
       <description>When you deploy, you may treat your rank as Operative. If you do, you gain Infiltrate.</description>
