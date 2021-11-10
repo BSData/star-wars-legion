@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="92" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="93" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -10492,7 +10492,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <entryLink id="b0f1-ba35-9a71-c1ec" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
@@ -19743,7 +19743,7 @@ During your Rally step, you may choose not to remove your suppression tokens.</d
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
     <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false">
-      <description>You ignore all enemy card effects and cannot be targeted by any enemy card effects. You are still effected by friendly card effects and battle card effects.</description>
+      <description>You ignore all enemy card effects and cannot be targeted by any enemy card effects. You are still affected by friendly card effects and battle card effects.</description>
     </rule>
     <rule id="46a8-f06e-7ba8-afb3" name="Covert Ops" hidden="false">
       <description>When you deploy, you may treat your rank as Operative. If you do, you gain Infiltrate.</description>
