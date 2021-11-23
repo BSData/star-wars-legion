@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="91" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="93" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -574,8 +574,10 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">At the end of Darth Vader&apos;s activation, he may suffer 1 wound to shuffle his order token into the order pool.
-During Darth Vader&apos;s second activation, he performs 1 fewer action.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Darth Vader activates, he gains 1 dodge token. At the
+end of Darth Vader’s first activation, he may suffer 1 wound
+to shuffle his order token into the order pool. During Darth
+Vader’s second activation, he performs 1 fewer action</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3359,14 +3361,19 @@ When he is issued an order, he may choose up to 2 enemy trooper units at range 1
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Darth Vader is issued an order, he gains 2 surge tokens.
-This card may be revealed at the start of the Deploy Units step. If it is, it must be selected during round 1. Darth Vader gains Infiltrate and Scout 1, and he must be deployed at the end of setup.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent. 
+If this card was not divulged, Darth Vader gains
+Reliable 2. Divulge: Deploy Unit Step. Darth Vader gains
+Infiltrate and Scout 1 and he must be deployed at the end
+of setup. If this card is divulged, it must be selected during
+round 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="481e-d41f-8108-741b" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
+                <infoLink id="481e-d41f-8108-741b" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
                 <infoLink id="ec0d-892a-691c-1f77" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
+                <infoLink id="766a-6c85-ac2c-3b56" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="d15e-ebea-c646-1acb" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
@@ -4315,7 +4322,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="8148-d4e0-01d6-9930" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e372-3fa8-09ef-a6ac" name="•Darth Vader" hidden="false" collective="false" import="true" type="unit">
@@ -4341,16 +4348,17 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Deflect, Immune: Pierce, Master of the Force 1, Relentless</characteristic>
-            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Force x3</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Compel: Trooper, Deflect, Immune: Pierce, Master of the Force 1, Relentless</characteristic>
+            <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Force x3</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a802-acbb-2785-5560" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
-        <infoLink id="118e-8940-db7c-7871" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
+        <infoLink id="118e-8940-db7c-7871" name="Immune: Pierce" hidden="false" targetId="6e3a-8e96-a01b-9573" type="rule"/>
         <infoLink id="ca95-6f11-825e-2fe0" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
         <infoLink id="ed08-f5dc-5014-6cd5" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
+        <infoLink id="fe9f-9c40-da45-5765" name="Compel" hidden="false" targetId="2dd6-d418-4321-f5bf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5c93-85b8-0d45-f458" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
@@ -4388,12 +4396,17 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <entryLinks>
         <entryLink id="424c-9879-0b04-dfda" name="Force" hidden="false" collective="false" import="true" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="f32c-40e7-e111-1574" value="3"/>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4300-8ca4-d20f-25fd" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="f723-b61d-0d43-f5e6" value="1.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2af-ba7b-fb32-a122" name="Stormtroopers" hidden="false" collective="false" import="true" type="unit">
@@ -4660,7 +4673,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="730b-ece4-91b1-c278" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8db2-7ceb-9a34-24c7" name="Snowtroopers" hidden="false" collective="false" import="true" type="unit">
@@ -4848,7 +4861,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="736a-14ab-041c-8eda" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="80.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d12-2c85-4a5f-ff69" name="Fleet Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -5036,7 +5049,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="701d-d692-a791-d034" name="•Han Solo" hidden="false" collective="false" import="true" type="unit">
@@ -5055,16 +5068,17 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">Critical</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Low Profile, Gunslinger, Sharpshooter 1, Uncanny Luck 3</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Low Profile, Gunslinger, Sharpshooter 1, Steady, Uncanny Luck 3</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Training, Gear</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="68d2-7d1d-3fb1-a45b" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
-        <infoLink id="83ee-3035-7394-2608" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
-        <infoLink id="3ed9-7c29-ef14-d855" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
+        <infoLink id="68d2-7d1d-3fb1-a45b" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+        <infoLink id="83ee-3035-7394-2608" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
+        <infoLink id="3ed9-7c29-ef14-d855" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
         <infoLink id="2d1d-7403-69ec-c9c1" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule"/>
+        <infoLink id="3499-bcb8-ba61-21b7" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad74-56f2-6928-e3a4" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
@@ -5209,7 +5223,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="69ca-714b-a87c-e527" name="Heavy Weapon" hidden="false" collective="false" import="true" targetId="e8aa-f460-6961-1e6e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="50.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7a4-bec8-396e-5bd7" name="Rebel Commandos " hidden="false" collective="false" import="true" type="unit">
@@ -5418,7 +5432,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a672-8380-48cd-30a8" name="Scout Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -5440,7 +5454,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Low Profile, Scout 1, Sharpshooter 1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Low Profile, Scout 3, Sharpshooter 1</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training, Comms, Gear, Grenades</characteristic>
           </characteristics>
         </profile>
@@ -5527,7 +5541,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">Block</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Heavy Weapon Team, Low Profile, Scout 1, Sharpshooter 1</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Heavy Weapon Team, Low Profile, Scout 3, Sharpshooter 1</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Heavy Weapon, Training, Comms, Gear, Grenades</characteristic>
           </characteristics>
         </profile>
@@ -5698,7 +5712,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="adfa-8d08-07d1-83ed" name="Generator" hidden="false" collective="false" import="true" targetId="862b-184e-d702-1db1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4df-37ce-e988-1e54" name="E-Web Heavy Blaster Team" hidden="false" collective="false" import="true" type="unit">
@@ -5870,7 +5884,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aec2-d449-8d4a-9a84" name="Imperial Royal Guards" hidden="false" collective="false" import="true" type="unit">
@@ -5960,7 +5974,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="0862-6337-a5c1-92b2" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="69.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3dd-044d-5d7c-d7a6" name="•Chewbacca" hidden="false" collective="false" import="true" type="unit">
@@ -6085,6 +6099,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <infoLink id="925c-ae6d-b988-d295" name="Duelist" hidden="false" targetId="bf03-5df2-34a9-6a4b" type="infoGroup"/>
         <infoLink id="7fe6-5da7-7982-7e87" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
         <infoLink id="7272-463e-0698-8fb9" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
+        <infoLink id="ebe3-4160-8349-332f" name="Duelist" hidden="false" targetId="e789-d963-2537-ba9b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7f90-2f11-cd77-e9f2" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
@@ -6488,7 +6503,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="f473-27b4-8671-6355" name="Gear" hidden="false" collective="false" import="true" targetId="8e54-db3e-b853-ebb3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1618-567c-e0b2-c65e" name="•Jyn Erso" hidden="false" collective="false" import="true" type="unit">
@@ -6557,7 +6572,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="9f11-7d6b-993b-df47" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="366c-1d23-178b-9949" name="Rebel Pathfinders" hidden="false" collective="false" import="true" type="unit">
@@ -6645,7 +6660,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="cfbd-c609-67e4-7dec" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="58.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="56.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe82-164e-5d9b-3724" name="Imperial Death Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -6752,7 +6767,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="9e7f-c1b7-240d-dbd3" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="76.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="976e-3faa-c0b8-56ba" name="X-34 Landspeeder" hidden="false" collective="false" import="true" type="unit">
@@ -6904,7 +6919,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="716b-6125-0721-04ee" name="Pilot" hidden="false" collective="false" import="true" targetId="0fbb-d602-1b11-bfa1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="145.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1029-5e4f-678b-a9a9" name="Deployment Cards" hidden="false" collective="false" import="true" type="unit">
@@ -7143,6 +7158,35 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29d-f2fb-83db-270c" type="max"/>
               </constraints>
+              <rules>
+                <rule id="b240-41b9-df71-98a0" name="Minefield" hidden="false">
+                  <description>Starting with the blue player, players alternate placing condition tokens on the battlefield until 4 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 2 of any other condition token. After a non-repulsor unit performs a move, if it is at range 1 and in line of sight of a condition token, roll a red defense die. On a block result the condition token detonates; on a surge result it detonates twice before being removed.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4f21-62d2-ca2a-e37d" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="e1bb-f123-34ce-c87e" name="Minefield" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="118c-4760-1031-5812" name="Minefield" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1 (Area Weapon)</characteristic>
+                        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black</characteristic>
+                        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Impact 1</characteristic>
+                        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Attack Surge = Crit</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="b10f-9022-b358-dc7b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+                    <infoLink id="cb3c-ffbf-fbb9-f0a8" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7158,6 +7202,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a18-363c-745e-721b" type="max"/>
               </constraints>
+              <rules>
+                <rule id="a316-1931-22a3-9f2a" name="Limited Visibility" hidden="false">
+                  <description>During the first round, units cannot perform ranged attacks beyond range 2.
+During the second round, units cannot perform ranged attacks beyond range 3.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7173,6 +7223,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a134-35b7-c33f-4b12" type="max"/>
               </constraints>
+              <rules>
+                <rule id="4ead-917d-9efd-9b8c" name="Rapid Reinforcements" hidden="false">
+                  <description>Starting with the blue player, each player sets aside 1 to 2 friendly non-commander, non-operative trooper units, marking each unit with a condition token. When a player draws an order token with a rank that matches a friendly set-aside unit, if they cannot choose a unit on the battlefield with a matching rank, they must place that set-aside unit onto the battlefield, beyond range 2 of all enemy units if able. That unit is treated as activated and its order token is placed facedown.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7188,6 +7243,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aecb-545c-e197-1324" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7fc7-de4a-fde6-1103" name="Hostile Environment" hidden="false">
+                  <description>Trooper units whose leader is not in base contact with a piece of terrain cannot remove suppression tokens during the End Phase.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7196,6 +7256,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094b-6a6a-df50-b707" type="max"/>
               </constraints>
+              <rules>
+                <rule id="fed1-3e66-a6ea-c209" name="Clear Conditions" hidden="false">
+                  <description>This card has no effect.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7211,6 +7276,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260e-ef21-03a0-1eb0" type="max"/>
               </constraints>
+              <rules>
+                <rule id="18b9-7f70-3f67-3f11" name="Fortified Positions" hidden="false">
+                  <description>Setup: Starting with the blue player, players alternate placing barricades on the battlefield until 8 barricades have been placed. When a player places a barricade, it must be placed inside their deployment zone or within rage 1-2 of their deployment zone. Each barricade must be placed horizontally.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7226,6 +7296,22 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716e-e08d-678f-faea" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="f85a-a962-801d-734e" name="Resupply" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+                  <characteristics>
+                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Choose a condition token in base contact with your unit leader and flip it faceup if able, otherwise, remove it. Then, draw 2 supply cards; equip 1 and shuffle 1 into the supply deck.</characteristic>
+                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="fca2-328c-3b1d-4fff" name="Supply Drop" hidden="false">
+                  <description>Setup: Prepare the supply deck. Starting with the blue player, players alternate placing condition tokens facedown on the battlefield until 6 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 1 of any other condition token.
+
+Non-creature troopers gain: Resupply</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7234,6 +7320,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad4-f8ed-30d2-4d99" type="max"/>
               </constraints>
+              <rules>
+                <rule id="6862-f16c-1166-e1f4" name="War Weary" hidden="false">
+                  <description>When checking whether a unit is panicked, the range at which a unit can use a friendly commander&apos;s courage instead of its own is reduced by 2 (to a minimum of 1).</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7249,6 +7340,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a9-3b4e-e0ee-adfe" type="max"/>
               </constraints>
+              <rules>
+                <rule id="695b-9959-4e8d-05a6" name="Dawn" hidden="false">
+                  <description>During the first round, units cannot perform ranged attacks beyond range 2.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7264,6 +7360,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b3-7ece-02e8-2952" type="max"/>
               </constraints>
+              <rules>
+                <rule id="b74b-583f-2302-498d" name="Improvised Defenses" hidden="false">
+                  <description>Starting with the blue player, players alternate playing barricades on the battlefield until 4 barricades have been played. When a player places a barricade, it must be placed inside their deployment zone or within range 1-2 of their deployment zone. Each barricade must be placed horizontally.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7305,6 +7406,24 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3509-ab62-a2d8-ddd5" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="4280-5b60-6f09-8470" name="Sabotage/Repair" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+                  <characteristics>
+                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">If you are in base contact with an objective token, either remove 1 wound token from it or place 1 wound token on it.</characteristic>
+                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1113-f3a4-d596-078e" name="Sabotage the Moisture Vaporators" hidden="false">
+                  <description>Setup: Staring with the blue player, players alternate placing objective tokens on the battlefield until 4 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 2 of any other objective token. Place 2 wound tokens on each objective token. Each objective token cannot have more than 4 wound tokens on it.
+
+All trooper units gain: Sabotage/Repair.
+
+Victory: At the end of the game, the blue player gains 1 victory token for each wound token over 2 on each objective token. The red player gains 2 victory tokens for each objective token with fewer than 2 wound token on it, minus one for each wound token on those objective tokens.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7320,6 +7439,18 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b9-81fb-fb63-8b53" type="max"/>
               </constraints>
+              <rules>
+                <rule id="c554-b472-97fd-3634" name="Recover the Supplies" hidden="false">
+                  <description>Setup: Place 1 unclaimed objective token on the center of the battlefield. Then, starting with the blue player, players alternate placing 4 more unclaimed objective tokens on the battlefield. Each token must be placed beyond range 1 of each deployment zone and beyond range 1 of any other objective token.
+
+All trooper units gain: Claim.
+
+Victory: At the end of the game, each player gains 1 victory token for each objective token that is claimed by 1 of their units.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="8eeb-ffb8-16dd-acdb" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7335,6 +7466,13 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5493-a735-c4dc-1c08" type="max"/>
               </constraints>
+              <rules>
+                <rule id="d5ba-7bbd-0567-1499" name="Key Positions" hidden="false">
+                  <description>Setup: Place an objective token on the piece of terrain closest to the center of the battlefield (if multiple pieces are equally close to the center, the blue player chooses). Then, starting with the blue player, each player places 1 objective token on a piece of terrain. Each token must be placed on a piece of terrain that is completely outside all deployment zones and beyond range 1 of any other piece of terrain with an objective token. If a player is unable to place a token according to these rules, they can place that token on any piece of terrain that does not have an objective token and that is outside all deployment zones. If that token still cannot be placed, then it is not placed.
+
+Victory: At the end of the game, for each terrain piece with an objective token, the player who has the most unit leaders in base contact with that terrain piece gains 1 victory token.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7350,6 +7488,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a3-60bb-c8aa-9d4c" type="max"/>
               </constraints>
+              <rules>
+                <rule id="dc5e-591a-d7ef-6375" name="Intercept the Transmissions" hidden="false">
+                  <description>Setup: Place 1 objective token on the center of the battlefield. Then place 1 objective token halfway between the center token and the left short edge of the battlefield. Then place 1 objective token halfway between the center token and the right short edge of the battlefield.
+Victory: At the end of rounds 2 and 4, each player gains 1 victory token for each objective token they control. At the end of the game, each player gains 2 victory tokens for each objective they control. A player controls an objective token if they have more trooper unit leaders at range 1 of that token than any other player.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7365,6 +7509,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2a-e605-8ee1-13db" type="max"/>
               </constraints>
+              <rules>
+                <rule id="94f3-1409-647e-ccd4" name="Breakthrough" hidden="false">
+                  <description>Victory: At the end of the game, each player gains 1 victory token for each of their unit leaders within an enemy deployment zone.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7380,25 +7529,30 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b8-62e5-3660-84eb" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="535e-46a5-d9ff-20e4" name="Hostage" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="263d-c1a8-5f6b-9b9f" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-                      <characteristics>
-                        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
-                        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="dc26-0829-aba1-fc24" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <profiles>
+                <profile id="d9ce-4230-ea8d-9dde" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+                  <characteristics>
+                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
+                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="0706-f4a1-b220-d896" name="Hostage Exchange" hidden="false">
+                  <description>Setup: Each player chooses 1 Corps unit that they have created. Then, starting with the blue player, each player places their opponents chosen unit on, or as near as possible to, the center of the battlefield and performs a speed 1 move with that unit. Then, each player places a claimed objective token in base contact with the unit leader of their chosen unit and equips the Hostage upgrade card to that unit.
+During Round 1, units cannot use the Detonate keyword.
+
+All trooper units gain: Claim.
+
+Victory: At the end of the game, each player gains 1 victory token for each objective token that it has claimed by a unit they control. Then, each player gains 1 victory token for each objective token that is within their deployment zone and claimed by a unit they control.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="9ae1-2f03-d49e-95f3" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
+                <infoLink id="b0d5-6aa8-be42-49c2" name="Detonate X: *Charge Type*" hidden="false" targetId="7ec0-dc5e-2218-4cd3" type="rule"/>
+                <infoLink id="0eeb-e29d-b3dc-5990" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7414,6 +7568,13 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c1-9a92-09c6-f2db" type="max"/>
               </constraints>
+              <rules>
+                <rule id="6bd5-31fa-df95-c71a" name="Payload" hidden="false">
+                  <description>Setup: Starting with the blue player, each player places a bomb cart within their deployment zone. Each player controls the bomb cart that they place. Then, starting with the blue player, each player marks a piece of terrain by placing 1 objective token matching their opponent&apos;s color on that terrain piece. Each chosen terrain piece cannot be within a deployment zone, but can overlap a deployment zone.
+At the end of each round, starting with the blue player, each player&apos;s bomb car may pivot and then perform a speed-2 move if there are more friendly unit leaders than enemy unit leaders at range 1 of it.
+Victory: At the end of the game, each player gains 1 victory token if their bomb cart is at range 2 of the terrain piece marked with an objective token matching their color, 2 victory tokens if it is at range 1 of that terrain piece, or 3 victory tokens if it is in base contact with that terrain piece.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7429,6 +7590,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c5-68e9-4f5d-4e56" type="max"/>
               </constraints>
+              <rules>
+                <rule id="6ba4-374c-5c45-8bfd" name="Breach" hidden="false">
+                  <description>Victory: At the end of the game, each player gains 2 victory tokens for each of their unit leaders within range 1 of the enemy edge of the battlefield.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7444,6 +7610,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ba-210d-986b-64e7" type="max"/>
               </constraints>
+              <rules>
+                <rule id="588b-66ee-3ebc-d65e" name="Control" hidden="false">
+                  <description>Setup: Place 1 objective token on the center of the battlefield.
+Victory: At the end of round 2-4, each player gains 1 victory token if they control the objective token. At the end of the game, a player gains 2 victory tokens if they control the objective token. A player controls an objective token if they have more unit leaders at range 1 of that token than any other player.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7459,6 +7631,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-5487-649d-3337" type="max"/>
               </constraints>
+              <rules>
+                <rule id="720b-d79c-1bfe-f90a" name="Elimination" hidden="false">
+                  <description>Victory: At the end of the game, each player gains 1 victory token for each defeated enemy unit, and 1 additional victory token for each defeated Commander, Operative, and Heavy unit.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7474,6 +7651,12 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0e-9504-1008-2696" type="max"/>
               </constraints>
+              <rules>
+                <rule id="da14-889b-9c3b-7e1e" name="Pivotal Positions" hidden="false">
+                  <description>Setup: Place an objective token on the piece of terrain closest to the center of the battlefield (if multiple pieces are equally close to the center, the blue player chooses). Then, starting with the blue player, each player places 1 objective token on a piece of terrain. Each token must be placed on a piece of terrain that is completely outside all deployment zones and beyond range 1 of any other piece of terrain with an objective token. If a player is unable to place a token according to these rules, they can place that token on any piece of terrain that does not have an objective token that is outside all deployment zones. If that token still cannot be placed, then it is not placed.
+Victory: At the end of the game, for each terrain piece with an objective token, the player who has the most unit leaders in base contact with that terrain piece gains 2 victory tokens.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7489,6 +7672,20 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff0-89c5-be43-b905" type="max"/>
               </constraints>
+              <rules>
+                <rule id="08e7-b579-6656-5b58" name="Bombing Run" hidden="false">
+                  <description>Setup: After the Deploy Units step, starting with the blue player, each player places 3 claimed objective tokens in base contact with friendly unit leaders that are within that player&apos;s deployment zone. Each unit cannot have more than 1 claimed objective token.
+
+Each trooper unit gains: Claim. All units gain: Drop.
+
+At the end of the Activation Phase, each player may detonate 1 unclaimed objective token that was flipped to its unclaimed side with the Drop ability by a unit they control.
+Victory: After an objective token detonates inside or within range 1 of a player&apos;s deployment zone, their opponent gains 1 victory point.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="df06-3827-4b9e-7317" name="Drop" hidden="false" targetId="3b72-261b-18e9-9a65" type="profile"/>
+                <infoLink id="b2bb-2292-3656-f9e7" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -8075,7 +8272,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="4344-344a-b888-0078" name="Portable Scanner" hidden="false" collective="false" import="true" targetId="a66d-3ba3-c278-f426" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4677-e368-e468-24af" name="  •Unit Template†" hidden="false" collective="false" import="true" type="unit">
@@ -8205,7 +8402,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="ca38-42db-82a8-9315" name="Armament" hidden="false" collective="false" import="true" targetId="4a24-39a8-4f98-d844" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="595e-1631-d059-2372" name="•Obi-Wan Kenobi" hidden="false" collective="false" import="true" type="unit">
@@ -8360,7 +8557,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="820f-a168-26db-9ad8" name="Crew" hidden="false" collective="false" import="true" targetId="d746-6c9e-b4ca-bd90" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3bf-83ff-42d7-4a42" name="Mark II Medium Blaster Trooper" hidden="true" collective="false" import="true" type="unit">
@@ -8660,7 +8857,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="538a-dbc9-ed49-4e5d" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="80.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78ba-e4fe-8cb3-7c8e" name="•General Grievous" hidden="false" collective="false" import="true" type="unit">
@@ -8757,7 +8954,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="623a-c109-f047-183b" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1d4-74ca-26fb-9a72" name="•Luke Skywalker" hidden="false" collective="false" import="true" type="unit">
@@ -8858,13 +9055,13 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">The Emperor&apos;s Apprentice</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
-            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">6</characteristic>
+            <characteristic name="Wounds" typeId="a23d-0e2d-dd4d-f538">7</characteristic>
             <characteristic name="Courage" typeId="2023-ab5b-e8e1-42c9">3</characteristic>
             <characteristic name="Defense" typeId="d709-b540-6ad3-b884">Red</characteristic>
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
-            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Deflect, Immune: Pierce, Jedi Hunter, Master of the Force 1, Relentless, Spur</characteristic>
+            <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">2</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Deflect, Immune: Pierce, Jedi Hunter, Master of the Force 1, Relentless</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Force x2, Training</characteristic>
           </characteristics>
         </profile>
@@ -8875,7 +9072,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <infoLink id="adf5-5a53-2a00-0052" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
         <infoLink id="d669-35dd-5a04-3975" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
         <infoLink id="6f20-3d34-ec75-3bba" name="Jedi Hunter" hidden="false" targetId="f68b-2c74-aef3-17f4" type="rule"/>
-        <infoLink id="c117-7cff-8223-9fb9" name="Spur" hidden="false" targetId="cc37-290e-3d87-264b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1a0f-0ef9-e70c-f598" name="Operative" hidden="false" targetId="fb02-3ca8-cc7c-87a9" primary="true"/>
@@ -8934,7 +9130,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a908-ba5e-4530-0134" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
+        <entryLink id="a908-ba5e-4530-0134" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="1.0"/>
+          </modifiers>
+        </entryLink>
         <entryLink id="7bbc-6366-b757-e645" name="Force" hidden="false" collective="false" import="true" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="f32c-40e7-e111-1574" value="2.0"/>
@@ -8942,7 +9142,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87d3-a316-11b8-d706" name="•Count Dooku" hidden="false" collective="false" import="true" type="unit">
@@ -8970,6 +9170,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <infoLink id="579d-5e2a-86a8-b8e3" name="Cunning" hidden="false" targetId="bccd-2bef-a175-725e" type="rule"/>
         <infoLink id="c0a1-7295-dedc-c6e6" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
         <infoLink id="0797-8ca5-58a6-0cda" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
+        <infoLink id="9d24-71b2-bbcb-c0f0" name="Makashi Mastery" hidden="false" targetId="9d23-71b2-bbcb-c0f0" type="rule"/>
         <infoLink id="d606-eef0-7c59-2c5b" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -9037,7 +9238,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="27f4-0a2c-2eb5-e459" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="195.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d745-571e-8ef8-3724" name="B2 Super Battle Droids" hidden="false" collective="false" import="true" type="unit">
@@ -9235,7 +9436,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="170.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47a7-c18f-1910-7d94" name="•Clone Captain Rex" hidden="false" collective="false" import="true" type="unit">
@@ -9324,7 +9525,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="5d3e-a22d-8599-adf5" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="90.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7ff-aac0-8cce-fbfc" name="Phase II Clone Troopers" hidden="false" collective="false" import="true" type="unit">
@@ -9564,7 +9765,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="8a0d-a7ea-9cef-5a90" name="•C-3PO" hidden="false" collective="false" import="true" targetId="a34f-b5ab-cd35-b6f1" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="880e-5aed-0e98-5dcf" name="•R2-D2" hidden="false" collective="false" import="true" type="unit">
@@ -9637,7 +9838,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="f38e-7684-327b-6431" name="•C-3PO" hidden="false" collective="false" import="true" targetId="f4b4-b387-a8f0-1f46" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="45.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6b8-678a-aa20-be0e" name="•Cassian Andor" hidden="false" collective="false" import="true" type="unit">
@@ -10229,7 +10430,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="7426-0809-e711-6ec0" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="65.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28f5-f446-716c-00f9" name="STAP Riders" hidden="false" collective="false" import="true" type="unit">
@@ -10291,7 +10492,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="b0f1-ba35-9a71-c1ec" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="73.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72b1-abe6-8b8d-0f36" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
@@ -10469,7 +10670,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="fbdf-ff87-fb55-8751" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="125.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4cb-c87b-a754-99f1" name="BX-series Droid Commandos" hidden="false" collective="false" import="true" type="unit">
@@ -10918,7 +11119,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="160.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8773-cc1e-ca48-fc89" name="•Maul" hidden="false" collective="false" import="true" type="unit">
@@ -11145,7 +11346,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="4236-9d6c-7dcb-c873" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6421-4bca-d13f-05dd" name="Imperial Special Forces" hidden="false" collective="false" import="true" type="unit">
@@ -11719,7 +11920,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="b711-abaa-08f1-c066" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c48-8772-70d4-0ffe" name="LAAT/le Patrol Transport" hidden="false" collective="false" import="true" type="unit">
@@ -11782,7 +11983,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="b025-bfc4-05da-d505" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="120.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce40-7bde-464f-4449" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
@@ -11869,7 +12070,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <entryLink id="287d-fd67-e3d2-aea7" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="69.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c30-b791-3e63-d01d" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
@@ -12335,7 +12536,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ebf-a178-398b-24d0" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1ebf-a178-398b-24d0" name="IG-100 MagnaGuard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3a04-e538-c96f-9e07" name="IG-100 MagnaGuard" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
@@ -12373,7 +12574,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="3192-4cbc-2465-da97" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="ca84-ff15-04a1-4624" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="43ab-786a-0404-9780" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
-        <categoryLink id="8783-3ffd-bf42-84a8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6f7-d469-5f17-cb41" name=" Precision Laser Dart" hidden="false" collective="false" import="true" type="upgrade">
@@ -12429,7 +12629,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81e5-d57c-f6d2-48f4" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="81e5-d57c-f6d2-48f4" name="•Super Tactical Droid" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12474,7 +12674,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="d2b1-4dae-dea5-5045" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="6312-765a-8223-ccd1" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="db89-9331-b583-475a" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="01dc-f9fe-b216-f47e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2e38-171b-70f9-98da" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
@@ -12532,7 +12731,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5251-4c50-6611-76af" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5251-4c50-6611-76af" name="•Super Tactical Droid (Kraken)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12550,7 +12749,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="401b-ca19-8687-900b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8a65-7bff-ea80-d8ef" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="8a65-7bff-ea80-d8ef" name="•Super Tactical Droid (Kraken)" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kraken</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12577,7 +12776,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="6730-fd3c-fe56-c2ff" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="c928-e1d3-49c4-098f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="ef72-b0c3-6b72-a4f0" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="d12c-e068-42d3-e3a6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b658-07d7-9bed-94cb" name=" Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -12639,7 +12837,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c114-73b7-7652-b01a" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c114-73b7-7652-b01a" name="•Super Tactical Droid (Kalani)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12657,7 +12855,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e86d-9ce5-252f-3c49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid (Kalani)" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kalani</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12684,7 +12882,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <categoryLink id="d506-bcc1-29d1-aaee" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="84fc-147a-4a19-db0c" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="93ee-55f0-f9e4-3b3b" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
-        <categoryLink id="8b3b-0d7f-ed9e-be87" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="542b-a9a9-5ae8-8f29" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -13103,7 +13300,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <profile id="6ed7-e3fc-6dfe-c708" name="Force Barrier" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">While another friendly trooper unit at range 1 is defending against a ranged attack, during the Modify Attack Dice step, cancel either 1 Critical result or up to 2 Hit results.</characteristic>
-                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13231,7 +13428,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a1c9-3e8c-d277-6e55" name="Recon Intel" hidden="false" collective="false" import="true" type="upgrade">
@@ -13488,9 +13685,9 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
           <profiles>
             <profile id="2cf8-62cd-008b-25fe" name="Smoke Grenades" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Smoke 1.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; You gain Smoke 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Smoke 1</characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Expend</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13498,7 +13695,7 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <infoLink id="c688-4faa-387f-31f3" name="Smoke X" hidden="false" targetId="bd82-f4e9-9b2e-c37b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0cbb-8070-0f72-a79e" name="EMP &quot;Droid Poppers&quot;" hidden="false" collective="false" import="true" type="upgrade">
@@ -13876,7 +14073,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f26-b709-5eb5-2187" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9bd2-086d-4479-cdac" name="Rebel Veteran" hidden="false" collective="false" import="true" type="model">
@@ -13921,7 +14118,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4340-73df-aeea-b525" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da6c-f710-7037-2c02" name="B1 Security Droid" hidden="false" collective="false" import="true" type="model">
@@ -13945,7 +14142,7 @@ You gain Inspire 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="7.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c97-a2b4-dcf8-8903" name="Stormtrooper Specialist" hidden="false" collective="false" import="true" type="model">
@@ -13970,7 +14167,7 @@ You gain Inspire 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1f73-ef9f-7998-c008" name="Stormtrooper Captain" hidden="false" collective="false" import="true" type="model">
@@ -14011,7 +14208,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <categoryLink id="4962-d6af-ca68-7443" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f27f-b90c-f2cb-0352" name="Rebel Trooper Captain" hidden="false" collective="false" import="true" type="model">
@@ -14052,7 +14249,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <categoryLink id="eec1-a8fb-4dbe-4f1a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b22-8980-b9c6-18a6" name="Rebel Trooper Specialist" hidden="false" collective="false" import="true" type="model">
@@ -14077,7 +14274,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e74e-4084-c441-cf38" name="OOM-Series Battle Droid" hidden="false" collective="false" import="true" type="model">
@@ -14101,7 +14298,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa1e-8170-6630-f443" name="Phase I Clone Captain" hidden="false" collective="false" import="true" type="model">
@@ -14142,7 +14339,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             <categoryLink id="cdad-a6a7-911c-3448" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="290e-4a83-8fd8-15b3" name="Phase I Clone Specialist" hidden="false" collective="false" import="true" type="model">
@@ -14167,7 +14364,7 @@ When you activate, you cannot remove suppression tokens or be suppressed during 
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5619-06ab-34fd-991b" name="T-series Tactical Droid" hidden="false" collective="false" import="true" type="model">
@@ -14310,7 +14507,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="aea2-fd03-47e0-4e29" name="Sidearm: Ranged" hidden="false" targetId="1761-f3d6-1a45-e5c4" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="599b-ee4e-aa83-87f2" name="Clone Commander" hidden="false" collective="false" import="true" type="model">
@@ -14439,7 +14636,7 @@ You gain Reliable 1.</characteristic>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="870f-dd9a-76e2-c8d7" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="1d41-9bec-70a4-4669" name="MPL-S7 Ion Trooper" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1d41-9bec-70a4-4669" name="MPL-57 Ion Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14451,7 +14648,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6aef-4b63-9537-1cde" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac55-01a3-a0bb-694f" name="MPL-S7 Ion Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="ac55-01a3-a0bb-694f" name="MPL-57 Ion Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
@@ -14465,7 +14662,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="be3a-cb47-4319-45db" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36e1-f53d-b721-98e7" name="Z-6 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14518,7 +14715,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="f1d7-234a-ae3b-5421" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d60c-fbc7-8620-d32b" name="HH-12 Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -14547,7 +14744,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="a71a-1d80-c03e-2935" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f79-83fc-74ce-6b0b" name="T-7 Ion Snowtrooper" hidden="false" collective="false" import="true" type="model">
@@ -14576,7 +14773,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="eef1-50f9-605c-52b1" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54a3-22ee-c92b-b6d6" name="Scatter Gun Trooper" hidden="false" collective="false" import="true" type="model">
@@ -14670,7 +14867,7 @@ You gain Reliable 1.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8bd3-5e97-0854-1e6d" name="MPL-S7 Barrage Trooper" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8bd3-5e97-0854-1e6d" name="MPL-57 Barrage Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -14682,7 +14879,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a405-5c70-c163-1fa2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86f3-ac04-d025-e771" name="MPL-S7 Barrage Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="86f3-ac04-d025-e771" name="MPL-57 Barrage Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x2</characteristic>
@@ -14696,7 +14893,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="93d5-71ff-a260-b46d" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="19.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4448-8551-733b-8fd9" name="Electrostaff Guard" hidden="false" collective="false" import="true" type="model">
@@ -14732,7 +14929,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="aca2-d48a-9da9-406b" name="Sidearm: Melee" hidden="false" targetId="0448-fa43-78c5-d281" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="21.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7106-dd01-d9fd-781e" name="Proton Charge Saboteur" hidden="false" collective="false" import="true" type="model">
@@ -14774,7 +14971,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="c228-4a1b-1fff-91f3" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6e6-ce10-57d7-567e" name="Bowcaster Wookiee" hidden="false" collective="false" import="true" type="model">
@@ -14936,7 +15133,7 @@ You gain Reliable 1.</characteristic>
             <categoryLink id="f03c-f2b8-ba89-1fcf" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="595c-edab-603b-4af3" name="•Bistan" hidden="false" collective="false" import="true" type="model">
@@ -15016,7 +15213,7 @@ You gain Reliable 1.</characteristic>
             <categoryLink id="0448-1e10-dbb0-6798" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a62-9eef-11ac-40f1" name="DLT-19D Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15125,7 +15322,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="4cba-4d38-393d-2de7" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2ae6-e501-8bab-020b" name="E-5C B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15150,7 +15347,7 @@ You gain Reliable 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a3fd-f140-5b56-1bfb" name="E-60R B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15178,7 +15375,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="2790-0425-008f-b5cb" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d720-887d-8b42-3b97" name="T-21B Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15206,7 +15403,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="0555-c791-5366-ac39" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="35.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="03cb-2c82-1510-86e4" name="Z-6 Phase II Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15288,7 +15485,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="a021-1b6e-96b6-1203" name="Pierce X" hidden="false" targetId="8baa-3b31-6fd5-cf66" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="23.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ce0-51ad-2eea-4ff7" name="E-5s B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15316,10 +15513,10 @@ You gain Reliable 1.</characteristic>
             <infoLink id="8943-a288-784a-b7ce" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9261-9bca-c34a-fb11" name="SX-21 Trooper" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9261-9bca-c34a-fb11" name="SX-31 Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15331,7 +15528,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ffea-a662-e157-ae59" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0130-fc33-2128-0cb1" name="SX-21 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="0130-fc33-2128-0cb1" name="SX-31 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, White x2</characteristic>
@@ -15344,7 +15541,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="1561-9678-6de5-ca4b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="17.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee71-bce7-c011-8882" name="DLT-20A Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15400,7 +15597,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="576d-9109-44bc-4d71" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="472e-918e-ba5a-2d89" name="RT-97C Stormtrooper" hidden="false" collective="false" import="true" type="model">
@@ -15425,7 +15622,7 @@ You gain Reliable 1.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="26.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="24db-1c47-1e39-72a6" name="Radiation Cannon B1 Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15453,7 +15650,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="180e-05fe-1ab2-c0e8" name="Poison X" hidden="false" targetId="f39b-ba14-7a84-ae56" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1027-da56-7de2-f135" name="B2-ACM Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15508,7 +15705,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="6a2e-671d-1cb8-7ac9" name="Cumbersome" hidden="false" targetId="354d-b58d-b84b-4204" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="245a-ead8-0a34-8077" name="B2-HA Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15538,7 +15735,7 @@ You gain Reliable 1.</characteristic>
             <infoLink id="7017-1fcf-8cfa-d7b6" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="30.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="32.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb1b-2a72-00df-503c" name="DC-15x ARC Trooper" hidden="false" collective="false" import="true" type="model">
@@ -15562,14 +15759,13 @@ You gain Reliable 1.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-5</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Immune: Deflect, Lethal 1</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Immune: Deflect, Lethal 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="26c5-dce2-de4e-05c0" name="Immune: Deflect" hidden="false" targetId="b5ed-8da2-132d-54b2" type="rule"/>
-            <infoLink id="513f-3257-dd4c-e1a0" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
             <infoLink id="8dcf-2509-806b-a771" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
           </infoLinks>
           <costs>
@@ -15667,7 +15863,7 @@ You gain Reliable 1.</characteristic>
             <categoryLink id="dbee-1720-158b-e41a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="42.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f0a-6110-5863-dc98" name="•Fives" hidden="false" collective="false" import="true" type="model">
@@ -15725,7 +15921,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <categoryLink id="8576-0bdf-8fac-0c0a" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a7dc-8c33-10ec-3a68" name="Dioxis Mine Saboteur" hidden="false" collective="false" import="true" type="model">
@@ -15830,7 +16026,7 @@ You gain Coordinate: Clone Trooper.</characteristic>
             <infoLink id="97fd-ecac-9bcf-da2f" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="29.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="27.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="670f-3a81-3936-372c" name="Battle Shield Wookiee†" hidden="false" collective="false" import="true" type="upgrade">
@@ -15926,7 +16122,7 @@ Reduce your maximum speed by 1</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a85b-04a4-dd79-1a57" name="Electro-Whip MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a85b-04a4-dd79-1a57" name="Electro-Whip MagnaGuard" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15951,14 +16147,11 @@ Reduce your maximum speed by 1</characteristic>
             <infoLink id="7846-6779-925a-8c00" name="Immobilize X" hidden="false" targetId="6174-bf0d-0783-05a8" type="rule"/>
             <infoLink id="9c45-c8ba-e2ea-eb06" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="732d-d9cd-ce64-8e79" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1849-e295-eee4-32e0" name="RPS-6 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1849-e295-eee4-32e0" name="RPS-6 MagnaGuard" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15983,14 +16176,11 @@ Reduce your maximum speed by 1</characteristic>
             <infoLink id="251e-4dde-7149-07e7" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
             <infoLink id="a578-4e81-b05b-5304" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink id="29d0-9839-b2bb-33b2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="774c-7b8a-de8b-535a" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="774c-7b8a-de8b-535a" name="IG-100 MagnaGuard" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16001,9 +16191,6 @@ Reduce your maximum speed by 1</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca16-b431-fb5e-96e4" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="92be-fc51-1aef-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
@@ -16059,7 +16246,7 @@ Reduce your maximum speed by 1</characteristic>
             <infoLink id="ff6e-6316-ef5f-af1b" name="Lethal" hidden="false" targetId="c364-ee3b-a5cf-1d49" type="infoGroup"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a6fc-9588-0c26-0678" name="•Gideon Hask" hidden="false" collective="false" import="true" type="model">
@@ -16126,7 +16313,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <categoryLink id="2175-a74b-62c0-4680" name="Leader" hidden="false" targetId="a28a-87da-7eed-cb4c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="38.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="29.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5839-fe25-2a07-b5c2" name="•Tristan Wren" hidden="false" collective="false" import="true" type="model">
@@ -16551,7 +16738,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="4127-4667-d50e-d8a6" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3519-7f49-d235-1b4d" name="AG-2G Quad Laser" hidden="false" collective="false" import="true" type="upgrade">
@@ -16579,7 +16766,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="92c8-d3c9-a2e2-d2fb" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="36.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e65-515f-7932-27fd" name="DW-3 Concussion Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -16608,7 +16795,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="17b0-acae-b1b4-57ec" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7f46-7cd2-5c46-cd74" name="AT-ST Mortar Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -16891,7 +17078,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="6299-88c5-ea35-25d3" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="20.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c0b0-25ec-30b3-6881" name="Heavy Laser Retrofit" hidden="false" collective="false" import="true" type="upgrade">
@@ -16949,17 +17136,19 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <profiles>
             <profile id="da38-3691-2a48-ffbd" name="General Weiss" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Arsenal 2.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Arsenal 2.
+You gain Field Commander.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Arsenal 2</characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="68e4-874b-5d1e-43b8" name="Arsenal X" hidden="false" targetId="1397-0314-a3ee-acc2" type="rule"/>
+            <infoLink id="167b-532d-8c54-7020" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6b6-ae34-8774-1377" name="•Wedge Antilles" hidden="false" collective="false" import="true" type="upgrade">
@@ -16982,14 +17171,18 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <profiles>
             <profile id="b03c-96c7-753f-8fab" name="Wedge Antilles" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Perform a pivot.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Perform a pivot.
+You gain Field Commander</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="8f73-86e2-1c3b-0551" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
+          </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b31f-0858-4928-9ea7" name="•Ryder Azadi" hidden="false" collective="false" import="true" type="upgrade">
@@ -17312,7 +17505,7 @@ During the End Phase, ready this card.</characteristic>
 
 &gt;&gt; Choose a friendly trooper unit you are transporting or at range 1 - 2. It gains 1 dodge token and may gain 1 suppression token.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"></characteristic>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
@@ -17347,7 +17540,7 @@ During the End Phase, ready this card.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="6.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8299-7b9d-4427-91ab" name="Hotshot Pilot" hidden="false" collective="false" import="true" type="upgrade">
@@ -17440,7 +17633,7 @@ After you recover, gain 1 aim token.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="29f6-6b2c-47ab-082b" name="•Governor Pryce" hidden="false" collective="false" import="true" type="upgrade">
@@ -17472,7 +17665,7 @@ After you recover, gain 1 aim token.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e5d-e04f-0a4f-3e55" name="•Clone Commander Fox" hidden="false" collective="false" import="true" type="upgrade">
@@ -17719,7 +17912,7 @@ After you recover, gain 1 aim token.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="42a9-d4d3-3078-eb70" name="Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -17923,7 +18116,7 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4f05-83a6-18b1-4206" name="Into the Fray†" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4f05-83a6-18b1-4206" name="Into the Fray" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2be6-b26f-d246-9a37" type="max"/>
           </constraints>
@@ -17936,9 +18129,6 @@ During the End Phase, ready this card.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="0bea-f9bd-0dc2-548f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
@@ -18105,7 +18295,7 @@ During the End Phase, ready this card.</characteristic>
             <infoLink id="f014-070f-2e7b-7d9e" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cbaa-0096-0a5d-9675" name="•The Darksaber" hidden="false" collective="false" import="true" type="upgrade">
@@ -18204,7 +18394,7 @@ While defending against a melee attack, you gain Immune: Pierce.</characteristic
             <infoLink id="b08e-8a01-1302-1a12" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="12.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dac5-1dca-ed05-5160" name="RT-97C Blaster Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -18617,7 +18807,7 @@ When defending against a melee attack, you gain Immune: Pierce.</characteristic>
             <infoLink id="5154-bad9-d47d-d97b" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="25.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -18649,7 +18839,7 @@ When defending against a melee attack, you gain Immune: Pierce.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="9.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="608f-264a-6ead-faf3" name="RPS-6 Rocket Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -18708,7 +18898,7 @@ When defending against a melee attack, you gain Immune: Pierce.</characteristic>
             <categoryLink id="d967-4a0e-f012-18b4" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="baa6-b355-a3dc-a8f8" name="BARC Ion Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -18741,7 +18931,7 @@ When defending against a melee attack, you gain Immune: Pierce.</characteristic>
             <categoryLink id="6058-f8a2-d2c3-4280" name="Sidecar" hidden="false" targetId="8f23-7df3-e89c-3a4f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="05df-d153-db3e-4f34" name="BARC RPS-6 Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -18803,7 +18993,7 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="14.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="04e3-6a74-f001-27fa" name="Backworld Medic" hidden="false" collective="false" import="true" type="upgrade">
@@ -18880,7 +19070,7 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="950c-fc31-93d7-c906" name="Gnasp Gunner†" hidden="false" collective="false" import="true" type="upgrade">
@@ -19306,7 +19496,7 @@ When you activate, perform a compulsory move.</description>
       <description>→ Choose up to X friendly trooper units at range 1. Each chosen unit gains a dodge token.</description>
     </rule>
     <rule id="a7bd-0b72-3096-1729" name="Low Profile" hidden="false">
-      <description>While defending, if you have light cover, improve your cover by 1.</description>
+      <description>While defending against an attack, if a unit with the &quot;Low Profile&quot; keyword has cover, cancel one additional hit result.</description>
     </rule>
     <rule id="1668-29f8-4fe1-651a" name="Gunslinger" hidden="false">
       <description>After you perform a ranged attack action, you may perform an additional ranged attack action against a different unit.</description>
@@ -19552,7 +19742,9 @@ During your Rally step, you may choose not to remove your suppression tokens.</d
     <rule id="f39b-ba14-7a84-ae56" name="Poison X" hidden="false">
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
-    <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false"/>
+    <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false">
+      <description>You ignore all enemy card effects and cannot be targeted by any enemy card effects. You are still affected by friendly card effects and battle card effects.</description>
+    </rule>
     <rule id="46a8-f06e-7ba8-afb3" name="Covert Ops" hidden="false">
       <description>When you deploy, you may treat your rank as Operative. If you do, you gain Infiltrate.</description>
     </rule>
@@ -19676,7 +19868,26 @@ A card that is revealed in this way is not played, and is returned to that playe
     <rule id="05aa-d4ac-3529-df25" name="Self-Destruct X" hidden="false">
       <description>If you have at least X wound tokens, perform your self-destruct attack.</description>
     </rule>
+    <rule id="7ec0-dc5e-2218-4cd3" name="Detonate X: *Charge Type*" hidden="false">
+      <description>After a unit controlled by any player performs an action, each unit that has a weapon with the Detonate X: Charge Type keyword may detonate X friendly charge tokens of the specified type.</description>
+    </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="a8dd-920f-fc79-1eae" name="Claim" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+      <characteristics>
+        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt; Claim an objective token that is in base contact with your unit leader.</characteristic>
+        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+      </characteristics>
+    </profile>
+    <profile id="3b72-261b-18e9-9a65" name="Drop" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+      <characteristics>
+        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Flip one of your claimed objective tokens to its unclaimed side.</characteristic>
+        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="4767-0083-a5c9-a7be" name="Covert Ops" hidden="false">
       <infoLinks>
