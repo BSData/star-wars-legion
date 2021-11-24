@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="93" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bece-5df3-7e27-1c4d" name="Star Wars: Legion" revision="92" battleScribeVersion="2.03" authorName="Dr Lucky, JoshWeller" authorContact="Dr Lucky on the BGG or FFG forums, JoshWeller on Github" authorUrl="https://github.com/BSData/star-wars-legion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7d8d-a40c-cb7f-9ff3" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -574,10 +574,9 @@
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Darth Vader activates, he gains 1 dodge token. At the
-end of Darth Vader’s first activation, he may suffer 1 wound
-to shuffle his order token into the order pool. During Darth
-Vader’s second activation, he performs 1 fewer action</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When Darth Vader activates, he gains 1 dodge token.
+At the end of Darth Vader’s first activation, he may suffer 1 wound to shuffle his order token into the order pool.
+During Darth Vader’s second activation, he performs 1 fewer action.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2220,7 +2219,7 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Clone Captain Rex</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">2 Troopers</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">When a friendly trooper unit with a faceup order token and an aim token performs a ranged attack, during the Form Attack Pool step, it may increase the maximum range of each of its weapons by 1, to a maximum of 4.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">After a friendly clone trooper unit that has a faceup order token performs an aim action during its activation, it may increase the maximum range of each of its ranged weapons by 1, to a maximum of 4, until the end of that activation.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2469,9 +2468,9 @@ When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, D
                 <profile id="6706-89ea-455e-9deb" name="••You Underestimate My Power" hidden="false" typeId="76e4-5331-b635-524f" typeName="1.0 Command Cards">
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Anakin Skywalker</characteristic>
-                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Anakin Skywalker</characteristic>
+                    <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Anakin Skywalker &amp; 1 Unit</characteristic>
                     <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent.
-Anakin Skywalker gains &quot;Attack Surge: Critical&quot; and Master of the Force 1. At the end of his activation, if he did not perform an attack, he gains 1 suppression token.</characteristic>
+Anakin Skywalker gains &quot;Attack Surge: Critical&quot; and Master of the Force 1. Anakin Skywalker gains Defend 1. At the end of his activation, if he did not perform an attack, he gains 1 suppression token.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3361,19 +3360,17 @@ When he is issued an order, he may choose up to 2 enemy trooper units at range 1
                   <characteristics>
                     <characteristic name="Commander" typeId="c37c-423d-ec0a-fdf9">Darth Vader</characteristic>
                     <characteristic name="Orders" typeId="0645-af6e-93d9-92c1">Darth Vader</characteristic>
-                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent. 
-If this card was not divulged, Darth Vader gains
-Reliable 2. Divulge: Deploy Unit Step. Darth Vader gains
-Infiltrate and Scout 1 and he must be deployed at the end
-of setup. If this card is divulged, it must be selected during
-round 1.</characteristic>
+                    <characteristic name="Effect" typeId="957b-dc58-3195-2a96">Permanent.
+If this card was not divulged, Darth Vader gains Reliable 2.
+Divulge: Deploy Unit Step. Darth Vader gains Infiltrate and Scout 1 and he must be deployed at the end of setup. If this card is divulged, it must be selected during round 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="481e-d41f-8108-741b" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
+                <infoLink id="481e-d41f-8108-741b" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
                 <infoLink id="ec0d-892a-691c-1f77" name="Scout X" hidden="false" targetId="7410-450a-1190-5b7e" type="rule"/>
-                <infoLink id="766a-6c85-ac2c-3b56" name="Infiltrate" hidden="false" targetId="ae26-c3d3-240e-2c73" type="rule"/>
+                <infoLink id="a2ba-c018-6f92-91ba" name="Divulge" hidden="false" targetId="5e49-44ef-fc17-aca6" type="rule"/>
+                <infoLink id="68bf-c17d-e2cf-0b47" name="Reliable X" hidden="false" targetId="4486-a71b-a40f-39af" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="d15e-ebea-c646-1acb" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
@@ -4348,17 +4345,16 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
             <characteristic name="Attack Surge" typeId="62c7-6e08-5a25-baca">--</characteristic>
             <characteristic name="Defense Surge" typeId="8aca-49b2-7bf4-fdec">--</characteristic>
             <characteristic name="Speed" typeId="0c97-ed56-7e7b-1e9f">1</characteristic>
-            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Compel: Trooper, Deflect, Immune: Pierce, Master of the Force 1, Relentless</characteristic>
+            <characteristic name="Keywords" typeId="9940-b5a3-802f-9825">Compel: Corps Trooper, Deflect, Immune: Pierce, Master of the Force 1, Relentless</characteristic>
             <characteristic name="Upgrade Bar" typeId="4381-84d3-c939-9df5">Command, Force x3</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a802-acbb-2785-5560" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
-        <infoLink id="118e-8940-db7c-7871" name="Immune: Pierce" hidden="false" targetId="6e3a-8e96-a01b-9573" type="rule"/>
+        <infoLink id="118e-8940-db7c-7871" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
         <infoLink id="ca95-6f11-825e-2fe0" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
         <infoLink id="ed08-f5dc-5014-6cd5" name="Relentless" hidden="false" targetId="0c2b-f655-41f4-2efb" type="rule"/>
-        <infoLink id="fe9f-9c40-da45-5765" name="Compel" hidden="false" targetId="2dd6-d418-4321-f5bf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5c93-85b8-0d45-f458" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
@@ -4396,14 +4392,10 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
       <entryLinks>
         <entryLink id="424c-9879-0b04-dfda" name="Force" hidden="false" collective="false" import="true" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="f32c-40e7-e111-1574" value="3.0"/>
+            <modifier type="set" field="f32c-40e7-e111-1574" value="3"/>
           </modifiers>
         </entryLink>
-        <entryLink id="4300-8ca4-d20f-25fd" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="f723-b61d-0d43-f5e6" value="1.0"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="9364-cf8e-737c-6f83" name="Command" hidden="false" collective="false" import="true" targetId="1f7e-c9c9-fb71-62b2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="190.0"/>
@@ -5074,11 +5066,11 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="68d2-7d1d-3fb1-a45b" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
-        <infoLink id="83ee-3035-7394-2608" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
-        <infoLink id="3ed9-7c29-ef14-d855" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
+        <infoLink id="68d2-7d1d-3fb1-a45b" name="Low Profile" hidden="false" targetId="a7bd-0b72-3096-1729" type="rule"/>
+        <infoLink id="83ee-3035-7394-2608" name="Sharpshooter X" hidden="false" targetId="18d2-5e0e-d04e-f771" type="rule"/>
+        <infoLink id="3ed9-7c29-ef14-d855" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
         <infoLink id="2d1d-7403-69ec-c9c1" name="Uncanny Luck X" hidden="false" targetId="f0f1-1fc6-505b-877b" type="rule"/>
-        <infoLink id="3499-bcb8-ba61-21b7" name="Gunslinger" hidden="false" targetId="1668-29f8-4fe1-651a" type="rule"/>
+        <infoLink id="d9f2-1418-0ecb-e332" name="Steady" hidden="false" targetId="e233-23ff-d4f9-d065" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad74-56f2-6928-e3a4" name="Commander" hidden="false" targetId="8837-65e9-c1bd-f304" primary="true"/>
@@ -6099,7 +6091,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
         <infoLink id="925c-ae6d-b988-d295" name="Duelist" hidden="false" targetId="bf03-5df2-34a9-6a4b" type="infoGroup"/>
         <infoLink id="7fe6-5da7-7982-7e87" name="Scale" hidden="false" targetId="35a2-2f63-dc24-1c38" type="rule"/>
         <infoLink id="7272-463e-0698-8fb9" name="Indomitable" hidden="false" targetId="15b8-8088-8097-6a12" type="rule"/>
-        <infoLink id="ebe3-4160-8349-332f" name="Duelist" hidden="false" targetId="e789-d963-2537-ba9b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7f90-2f11-cd77-e9f2" name="Special Forces" hidden="false" targetId="8be4-90a0-cf45-973c" primary="true"/>
@@ -7158,35 +7149,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29d-f2fb-83db-270c" type="max"/>
               </constraints>
-              <rules>
-                <rule id="b240-41b9-df71-98a0" name="Minefield" hidden="false">
-                  <description>Starting with the blue player, players alternate placing condition tokens on the battlefield until 4 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 2 of any other condition token. After a non-repulsor unit performs a move, if it is at range 1 and in line of sight of a condition token, roll a red defense die. On a block result the condition token detonates; on a surge result it detonates twice before being removed.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="4f21-62d2-ca2a-e37d" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="e1bb-f123-34ce-c87e" name="Minefield" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="118c-4760-1031-5812" name="Minefield" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-                      <characteristics>
-                        <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1 (Area Weapon)</characteristic>
-                        <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black</characteristic>
-                        <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Impact 1</characteristic>
-                        <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">Attack Surge = Crit</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="b10f-9022-b358-dc7b" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
-                    <infoLink id="cb3c-ffbf-fbb9-f0a8" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7202,12 +7164,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a18-363c-745e-721b" type="max"/>
               </constraints>
-              <rules>
-                <rule id="a316-1931-22a3-9f2a" name="Limited Visibility" hidden="false">
-                  <description>During the first round, units cannot perform ranged attacks beyond range 2.
-During the second round, units cannot perform ranged attacks beyond range 3.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7223,11 +7179,6 @@ During the second round, units cannot perform ranged attacks beyond range 3.</de
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a134-35b7-c33f-4b12" type="max"/>
               </constraints>
-              <rules>
-                <rule id="4ead-917d-9efd-9b8c" name="Rapid Reinforcements" hidden="false">
-                  <description>Starting with the blue player, each player sets aside 1 to 2 friendly non-commander, non-operative trooper units, marking each unit with a condition token. When a player draws an order token with a rank that matches a friendly set-aside unit, if they cannot choose a unit on the battlefield with a matching rank, they must place that set-aside unit onto the battlefield, beyond range 2 of all enemy units if able. That unit is treated as activated and its order token is placed facedown.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7243,11 +7194,6 @@ During the second round, units cannot perform ranged attacks beyond range 3.</de
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aecb-545c-e197-1324" type="max"/>
               </constraints>
-              <rules>
-                <rule id="7fc7-de4a-fde6-1103" name="Hostile Environment" hidden="false">
-                  <description>Trooper units whose leader is not in base contact with a piece of terrain cannot remove suppression tokens during the End Phase.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7256,11 +7202,6 @@ During the second round, units cannot perform ranged attacks beyond range 3.</de
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094b-6a6a-df50-b707" type="max"/>
               </constraints>
-              <rules>
-                <rule id="fed1-3e66-a6ea-c209" name="Clear Conditions" hidden="false">
-                  <description>This card has no effect.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7276,11 +7217,6 @@ During the second round, units cannot perform ranged attacks beyond range 3.</de
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260e-ef21-03a0-1eb0" type="max"/>
               </constraints>
-              <rules>
-                <rule id="18b9-7f70-3f67-3f11" name="Fortified Positions" hidden="false">
-                  <description>Setup: Starting with the blue player, players alternate placing barricades on the battlefield until 8 barricades have been placed. When a player places a barricade, it must be placed inside their deployment zone or within rage 1-2 of their deployment zone. Each barricade must be placed horizontally.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7296,22 +7232,6 @@ During the second round, units cannot perform ranged attacks beyond range 3.</de
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716e-e08d-678f-faea" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="f85a-a962-801d-734e" name="Resupply" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-                  <characteristics>
-                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Choose a condition token in base contact with your unit leader and flip it faceup if able, otherwise, remove it. Then, draw 2 supply cards; equip 1 and shuffle 1 into the supply deck.</characteristic>
-                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="fca2-328c-3b1d-4fff" name="Supply Drop" hidden="false">
-                  <description>Setup: Prepare the supply deck. Starting with the blue player, players alternate placing condition tokens facedown on the battlefield until 6 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 1 of any other condition token.
-
-Non-creature troopers gain: Resupply</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7320,11 +7240,6 @@ Non-creature troopers gain: Resupply</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad4-f8ed-30d2-4d99" type="max"/>
               </constraints>
-              <rules>
-                <rule id="6862-f16c-1166-e1f4" name="War Weary" hidden="false">
-                  <description>When checking whether a unit is panicked, the range at which a unit can use a friendly commander&apos;s courage instead of its own is reduced by 2 (to a minimum of 1).</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7340,11 +7255,6 @@ Non-creature troopers gain: Resupply</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a9-3b4e-e0ee-adfe" type="max"/>
               </constraints>
-              <rules>
-                <rule id="695b-9959-4e8d-05a6" name="Dawn" hidden="false">
-                  <description>During the first round, units cannot perform ranged attacks beyond range 2.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7360,11 +7270,6 @@ Non-creature troopers gain: Resupply</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b3-7ece-02e8-2952" type="max"/>
               </constraints>
-              <rules>
-                <rule id="b74b-583f-2302-498d" name="Improvised Defenses" hidden="false">
-                  <description>Starting with the blue player, players alternate playing barricades on the battlefield until 4 barricades have been played. When a player places a barricade, it must be placed inside their deployment zone or within range 1-2 of their deployment zone. Each barricade must be placed horizontally.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7406,24 +7311,6 @@ Non-creature troopers gain: Resupply</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3509-ab62-a2d8-ddd5" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="4280-5b60-6f09-8470" name="Sabotage/Repair" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-                  <characteristics>
-                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">If you are in base contact with an objective token, either remove 1 wound token from it or place 1 wound token on it.</characteristic>
-                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="1113-f3a4-d596-078e" name="Sabotage the Moisture Vaporators" hidden="false">
-                  <description>Setup: Staring with the blue player, players alternate placing objective tokens on the battlefield until 4 tokens have been placed. Each token must be placed beyond range 1 of each deployment zone and beyond range 2 of any other objective token. Place 2 wound tokens on each objective token. Each objective token cannot have more than 4 wound tokens on it.
-
-All trooper units gain: Sabotage/Repair.
-
-Victory: At the end of the game, the blue player gains 1 victory token for each wound token over 2 on each objective token. The red player gains 2 victory tokens for each objective token with fewer than 2 wound token on it, minus one for each wound token on those objective tokens.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7439,18 +7326,6 @@ Victory: At the end of the game, the blue player gains 1 victory token for each 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b9-81fb-fb63-8b53" type="max"/>
               </constraints>
-              <rules>
-                <rule id="c554-b472-97fd-3634" name="Recover the Supplies" hidden="false">
-                  <description>Setup: Place 1 unclaimed objective token on the center of the battlefield. Then, starting with the blue player, players alternate placing 4 more unclaimed objective tokens on the battlefield. Each token must be placed beyond range 1 of each deployment zone and beyond range 1 of any other objective token.
-
-All trooper units gain: Claim.
-
-Victory: At the end of the game, each player gains 1 victory token for each objective token that is claimed by 1 of their units.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="8eeb-ffb8-16dd-acdb" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
-              </infoLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7466,13 +7341,6 @@ Victory: At the end of the game, each player gains 1 victory token for each obje
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5493-a735-c4dc-1c08" type="max"/>
               </constraints>
-              <rules>
-                <rule id="d5ba-7bbd-0567-1499" name="Key Positions" hidden="false">
-                  <description>Setup: Place an objective token on the piece of terrain closest to the center of the battlefield (if multiple pieces are equally close to the center, the blue player chooses). Then, starting with the blue player, each player places 1 objective token on a piece of terrain. Each token must be placed on a piece of terrain that is completely outside all deployment zones and beyond range 1 of any other piece of terrain with an objective token. If a player is unable to place a token according to these rules, they can place that token on any piece of terrain that does not have an objective token and that is outside all deployment zones. If that token still cannot be placed, then it is not placed.
-
-Victory: At the end of the game, for each terrain piece with an objective token, the player who has the most unit leaders in base contact with that terrain piece gains 1 victory token.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7488,12 +7356,6 @@ Victory: At the end of the game, for each terrain piece with an objective token,
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a3-60bb-c8aa-9d4c" type="max"/>
               </constraints>
-              <rules>
-                <rule id="dc5e-591a-d7ef-6375" name="Intercept the Transmissions" hidden="false">
-                  <description>Setup: Place 1 objective token on the center of the battlefield. Then place 1 objective token halfway between the center token and the left short edge of the battlefield. Then place 1 objective token halfway between the center token and the right short edge of the battlefield.
-Victory: At the end of rounds 2 and 4, each player gains 1 victory token for each objective token they control. At the end of the game, each player gains 2 victory tokens for each objective they control. A player controls an objective token if they have more trooper unit leaders at range 1 of that token than any other player.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7509,11 +7371,6 @@ Victory: At the end of rounds 2 and 4, each player gains 1 victory token for eac
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2a-e605-8ee1-13db" type="max"/>
               </constraints>
-              <rules>
-                <rule id="94f3-1409-647e-ccd4" name="Breakthrough" hidden="false">
-                  <description>Victory: At the end of the game, each player gains 1 victory token for each of their unit leaders within an enemy deployment zone.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7529,30 +7386,25 @@ Victory: At the end of rounds 2 and 4, each player gains 1 victory token for eac
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b8-62e5-3660-84eb" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="d9ce-4230-ea8d-9dde" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-                  <characteristics>
-                    <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
-                    <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                    <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="0706-f4a1-b220-d896" name="Hostage Exchange" hidden="false">
-                  <description>Setup: Each player chooses 1 Corps unit that they have created. Then, starting with the blue player, each player places their opponents chosen unit on, or as near as possible to, the center of the battlefield and performs a speed 1 move with that unit. Then, each player places a claimed objective token in base contact with the unit leader of their chosen unit and equips the Hostage upgrade card to that unit.
-During Round 1, units cannot use the Detonate keyword.
-
-All trooper units gain: Claim.
-
-Victory: At the end of the game, each player gains 1 victory token for each objective token that it has claimed by a unit they control. Then, each player gains 1 victory token for each objective token that is within their deployment zone and claimed by a unit they control.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="9ae1-2f03-d49e-95f3" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
-                <infoLink id="b0d5-6aa8-be42-49c2" name="Detonate X: *Charge Type*" hidden="false" targetId="7ec0-dc5e-2218-4cd3" type="rule"/>
-                <infoLink id="0eeb-e29d-b3dc-5990" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
-              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="535e-46a5-d9ff-20e4" name="Hostage" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="263d-c1a8-5f6b-9b9f" name="Hostage" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+                      <characteristics>
+                        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">Increase your courage by 1 and reduce your maximum speed by 1, to a minimum of 1. You cannot start a melee. During round 1, enemy units cannot start a melee with or attack you, and you gain Immune: Enemy Effects. Unequip this card if you do not have a claimed objective token.</characteristic>
+                        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="dc26-0829-aba1-fc24" name="Immune: Enemy Effects" hidden="false" targetId="8e81-d635-6a14-8e44" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7568,13 +7420,6 @@ Victory: At the end of the game, each player gains 1 victory token for each obje
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c1-9a92-09c6-f2db" type="max"/>
               </constraints>
-              <rules>
-                <rule id="6bd5-31fa-df95-c71a" name="Payload" hidden="false">
-                  <description>Setup: Starting with the blue player, each player places a bomb cart within their deployment zone. Each player controls the bomb cart that they place. Then, starting with the blue player, each player marks a piece of terrain by placing 1 objective token matching their opponent&apos;s color on that terrain piece. Each chosen terrain piece cannot be within a deployment zone, but can overlap a deployment zone.
-At the end of each round, starting with the blue player, each player&apos;s bomb car may pivot and then perform a speed-2 move if there are more friendly unit leaders than enemy unit leaders at range 1 of it.
-Victory: At the end of the game, each player gains 1 victory token if their bomb cart is at range 2 of the terrain piece marked with an objective token matching their color, 2 victory tokens if it is at range 1 of that terrain piece, or 3 victory tokens if it is in base contact with that terrain piece.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7590,11 +7435,6 @@ Victory: At the end of the game, each player gains 1 victory token if their bomb
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c5-68e9-4f5d-4e56" type="max"/>
               </constraints>
-              <rules>
-                <rule id="6ba4-374c-5c45-8bfd" name="Breach" hidden="false">
-                  <description>Victory: At the end of the game, each player gains 2 victory tokens for each of their unit leaders within range 1 of the enemy edge of the battlefield.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7610,12 +7450,6 @@ Victory: At the end of the game, each player gains 1 victory token if their bomb
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ba-210d-986b-64e7" type="max"/>
               </constraints>
-              <rules>
-                <rule id="588b-66ee-3ebc-d65e" name="Control" hidden="false">
-                  <description>Setup: Place 1 objective token on the center of the battlefield.
-Victory: At the end of round 2-4, each player gains 1 victory token if they control the objective token. At the end of the game, a player gains 2 victory tokens if they control the objective token. A player controls an objective token if they have more unit leaders at range 1 of that token than any other player.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7631,11 +7465,6 @@ Victory: At the end of round 2-4, each player gains 1 victory token if they cont
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-5487-649d-3337" type="max"/>
               </constraints>
-              <rules>
-                <rule id="720b-d79c-1bfe-f90a" name="Elimination" hidden="false">
-                  <description>Victory: At the end of the game, each player gains 1 victory token for each defeated enemy unit, and 1 additional victory token for each defeated Commander, Operative, and Heavy unit.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7651,12 +7480,6 @@ Victory: At the end of round 2-4, each player gains 1 victory token if they cont
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0e-9504-1008-2696" type="max"/>
               </constraints>
-              <rules>
-                <rule id="da14-889b-9c3b-7e1e" name="Pivotal Positions" hidden="false">
-                  <description>Setup: Place an objective token on the piece of terrain closest to the center of the battlefield (if multiple pieces are equally close to the center, the blue player chooses). Then, starting with the blue player, each player places 1 objective token on a piece of terrain. Each token must be placed on a piece of terrain that is completely outside all deployment zones and beyond range 1 of any other piece of terrain with an objective token. If a player is unable to place a token according to these rules, they can place that token on any piece of terrain that does not have an objective token that is outside all deployment zones. If that token still cannot be placed, then it is not placed.
-Victory: At the end of the game, for each terrain piece with an objective token, the player who has the most unit leaders in base contact with that terrain piece gains 2 victory tokens.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -7672,20 +7495,6 @@ Victory: At the end of the game, for each terrain piece with an objective token,
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff0-89c5-be43-b905" type="max"/>
               </constraints>
-              <rules>
-                <rule id="08e7-b579-6656-5b58" name="Bombing Run" hidden="false">
-                  <description>Setup: After the Deploy Units step, starting with the blue player, each player places 3 claimed objective tokens in base contact with friendly unit leaders that are within that player&apos;s deployment zone. Each unit cannot have more than 1 claimed objective token.
-
-Each trooper unit gains: Claim. All units gain: Drop.
-
-At the end of the Activation Phase, each player may detonate 1 unclaimed objective token that was flipped to its unclaimed side with the Drop ability by a unit they control.
-Victory: After an objective token detonates inside or within range 1 of a player&apos;s deployment zone, their opponent gains 1 victory point.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="df06-3827-4b9e-7317" name="Drop" hidden="false" targetId="3b72-261b-18e9-9a65" type="profile"/>
-                <infoLink id="b2bb-2292-3656-f9e7" name="Claim" hidden="false" targetId="a8dd-920f-fc79-1eae" type="profile"/>
-              </infoLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
@@ -9132,7 +8941,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
       <entryLinks>
         <entryLink id="a908-ba5e-4530-0134" name="Training" hidden="false" collective="false" import="true" targetId="fc8c-6e59-70b2-c76d" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="d61f-e553-69e6-5ac1" value="1.0"/>
+            <modifier type="set" field="d61f-e553-69e6-5ac1" value="2.0"/>
           </modifiers>
         </entryLink>
         <entryLink id="7bbc-6366-b757-e645" name="Force" hidden="false" collective="false" import="true" targetId="9510-6572-6230-10dc" type="selectionEntryGroup">
@@ -9170,7 +8979,6 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <infoLink id="579d-5e2a-86a8-b8e3" name="Cunning" hidden="false" targetId="bccd-2bef-a175-725e" type="rule"/>
         <infoLink id="c0a1-7295-dedc-c6e6" name="Immune: Pierce" hidden="false" targetId="619b-16b6-04fa-0814" type="rule"/>
         <infoLink id="0797-8ca5-58a6-0cda" name="Deflect" hidden="false" targetId="1466-e70a-9d14-34ef" type="rule"/>
-        <infoLink id="9d24-71b2-bbcb-c0f0" name="Makashi Mastery" hidden="false" targetId="9d23-71b2-bbcb-c0f0" type="rule"/>
         <infoLink id="d606-eef0-7c59-2c5b" name="Master of the Force X" hidden="false" targetId="7923-6416-78ad-12b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -12070,7 +11878,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <entryLink id="287d-fd67-e3d2-aea7" name="Grenades" hidden="false" collective="false" import="true" targetId="8e00-7b0f-9520-fb2d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="69.0"/>
+        <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c30-b791-3e63-d01d" name="Wookiee Warriors†" hidden="false" collective="false" import="true" type="unit">
@@ -12536,7 +12344,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ebf-a178-398b-24d0" name="IG-100 MagnaGuard" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1ebf-a178-398b-24d0" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3a04-e538-c96f-9e07" name="IG-100 MagnaGuard" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <modifiers>
@@ -12574,6 +12382,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <categoryLink id="3192-4cbc-2465-da97" name="Droid Trooper" hidden="false" targetId="40ed-3197-cf01-9a62" primary="false"/>
         <categoryLink id="ca84-ff15-04a1-4624" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="43ab-786a-0404-9780" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
+        <categoryLink id="8783-3ffd-bf42-84a8" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6f7-d469-5f17-cb41" name=" Precision Laser Dart" hidden="false" collective="false" import="true" type="upgrade">
@@ -12629,7 +12438,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="72.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81e5-d57c-f6d2-48f4" name="•Super Tactical Droid" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="81e5-d57c-f6d2-48f4" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12674,6 +12483,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <categoryLink id="d2b1-4dae-dea5-5045" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="6312-765a-8223-ccd1" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="db89-9331-b583-475a" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="01dc-f9fe-b216-f47e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2e38-171b-70f9-98da" name=" Combat Expertise" hidden="false" collective="false" import="true" type="upgrade">
@@ -12731,7 +12541,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5251-4c50-6611-76af" name="•Super Tactical Droid (Kraken)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5251-4c50-6611-76af" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12749,7 +12559,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="401b-ca19-8687-900b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8a65-7bff-ea80-d8ef" name="•Super Tactical Droid (Kraken)" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="8a65-7bff-ea80-d8ef" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kraken</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12776,6 +12586,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <categoryLink id="6730-fd3c-fe56-c2ff" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="c928-e1d3-49c4-098f" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="ef72-b0c3-6b72-a4f0" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="d12c-e068-42d3-e3a6" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b658-07d7-9bed-94cb" name=" Overwhelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -12837,7 +12648,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c114-73b7-7652-b01a" name="•Super Tactical Droid (Kalani)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c114-73b7-7652-b01a" name="•Super Tactical Droid†" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12855,7 +12666,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e86d-9ce5-252f-3c49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid (Kalani)" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
+        <profile id="e0f8-50e9-b69b-1331" name="•Super Tactical Droid" hidden="false" typeId="add8-9503-b851-9d2d" typeName="1.2 Troopers">
           <characteristics>
             <characteristic name="Subtitle" typeId="1037-daec-b00d-38d0">Kalani</characteristic>
             <characteristic name="Models" typeId="a5b5-9e18-969c-7e34">1</characteristic>
@@ -12882,6 +12693,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
         <categoryLink id="d506-bcc1-29d1-aaee" name="Separatist" hidden="false" targetId="509e-5ffe-1bbb-5ff7" primary="false"/>
         <categoryLink id="84fc-147a-4a19-db0c" name="Small Base" hidden="false" targetId="6db2-4a46-fe95-7db6" primary="false"/>
         <categoryLink id="93ee-55f0-f9e4-3b3b" name="Trooper" hidden="false" targetId="3ed4-f620-e8b3-3ca6" primary="false"/>
+        <categoryLink id="8b3b-0d7f-ed9e-be87" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="542b-a9a9-5ae8-8f29" name=" Combat Training" hidden="false" collective="false" import="true" type="upgrade">
@@ -13169,7 +12981,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
           <profiles>
             <profile id="22b8-8a3e-5e5e-0cb0" name="Battle Meditation" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
-                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">When you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefield, instead of a unit indicated on the command card.</characteristic>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">While you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefield, instead of a unit indicated on the command card.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
               </characteristics>
             </profile>
@@ -13192,7 +13004,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
           <profiles>
             <profile id="786c-3b93-0387-8a9d" name="Jedi Mind Trick" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
-                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose a non-commander, non-operative enemy trooper unit at range 1. It gains 2 suppression tokens.</characteristic>
+                <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">&gt;&gt; Choose a non-commander, non-operative enemy trooper unit at range 1-2. It gains 2 suppression tokens.</characteristic>
                 <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
               </characteristics>
             </profile>
@@ -13221,7 +13033,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
             </profile>
           </profiles>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f421-fa3c-c25a-a227" name="Force Guidance" hidden="false" collective="false" import="true" type="upgrade">
@@ -13300,7 +13112,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
             <profile id="6ed7-e3fc-6dfe-c708" name="Force Barrier" hidden="false" typeId="def8-2ae7-1d1c-8ff8" typeName="4.1 Force">
               <characteristics>
                 <characteristic name="Force Ability" typeId="e83a-065b-588e-9de7">While another friendly trooper unit at range 1 is defending against a ranged attack, during the Modify Attack Dice step, cancel either 1 Critical result or up to 2 Hit results.</characteristic>
-                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f">Exhaust</characteristic>
+                <characteristic name="Icons" typeId="52e6-1f3c-eac8-636f"/>
               </characteristics>
             </profile>
           </profiles>
@@ -13423,7 +13235,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
               <characteristics>
                 <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During an attack, when you would suffer wounds, prevent up to 2 wounds and place an equal number of wound tokens on this card instead. If you do, at the end of your next activation, discard each token on this card and suffer wounds equal to the number of tokens discarded.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13685,7 +13497,7 @@ Victory: After an objective token detonates inside or within range 1 of a player
           <profiles>
             <profile id="2cf8-62cd-008b-25fe" name="Smoke Grenades" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; You gain Smoke 1.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain &gt;&gt; Smoke 1.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Smoke 1</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Expend</characteristic>
               </characteristics>
@@ -14118,7 +13930,7 @@ You gain Inspire 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4340-73df-aeea-b525" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="11.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da6c-f710-7037-2c02" name="B1 Security Droid" hidden="false" collective="false" import="true" type="model">
@@ -14648,7 +14460,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6aef-4b63-9537-1cde" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac55-01a3-a0bb-694f" name="MPL-57 Ion Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="ac55-01a3-a0bb-694f" name="MPL-S7 Ion Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2</characteristic>
@@ -14879,7 +14691,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a405-5c70-c163-1fa2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86f3-ac04-d025-e771" name="MPL-57 Barrage Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="86f3-ac04-d025-e771" name="MPL-S7 Barrage Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x2</characteristic>
@@ -15155,6 +14967,13 @@ You gain Reliable 1.</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black, White x4</characteristic>
                 <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Impact 1, Ion 1</characteristic>
                 <characteristic name="Icons" typeId="7c32-f1fd-0053-e544">2 Wounds, Exhaust</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="46a8-d814-3be1-cc47" name="Bistan" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
+              <characteristics>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc"/>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
+                <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">2 Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15516,7 +15335,7 @@ You gain Reliable 1.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="18.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9261-9bca-c34a-fb11" name="SX-31 Trooper" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9261-9bca-c34a-fb11" name="SX-21 Trooper" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -15528,7 +15347,7 @@ You gain Reliable 1.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ffea-a662-e157-ae59" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0130-fc33-2128-0cb1" name="SX-31 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="0130-fc33-2128-0cb1" name="SX-21 Trooper" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x2, White x2</characteristic>
@@ -16122,7 +15941,7 @@ Reduce your maximum speed by 1</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="31.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a85b-04a4-dd79-1a57" name="Electro-Whip MagnaGuard" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a85b-04a4-dd79-1a57" name="Electro-Whip MagnaGuard†" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16147,11 +15966,14 @@ Reduce your maximum speed by 1</characteristic>
             <infoLink id="7846-6779-925a-8c00" name="Immobilize X" hidden="false" targetId="6174-bf0d-0783-05a8" type="rule"/>
             <infoLink id="9c45-c8ba-e2ea-eb06" name="Versatile" hidden="false" targetId="1883-2f15-80aa-b25d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="732d-d9cd-ce64-8e79" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1849-e295-eee4-32e0" name="RPS-6 MagnaGuard" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1849-e295-eee4-32e0" name="RPS-6 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16176,11 +15998,14 @@ Reduce your maximum speed by 1</characteristic>
             <infoLink id="251e-4dde-7149-07e7" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
             <infoLink id="a578-4e81-b05b-5304" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="29d0-9839-b2bb-33b2" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="28.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="774c-7b8a-de8b-535a" name="IG-100 MagnaGuard" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="774c-7b8a-de8b-535a" name="IG-100 MagnaGuard†" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16191,6 +16016,9 @@ Reduce your maximum speed by 1</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca16-b431-fb5e-96e4" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="92be-fc51-1aef-787c" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="22.0"/>
           </costs>
@@ -16429,7 +16257,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <profiles>
             <profile id="2bf5-ce80-6152-57f0" name="Long Range Comlink" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Command Phase, you can be issued orders by a friendly commander or operative regardless of range.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">During the Command Phase, you can be issued orders by friendly commander or operative units regardless of range.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
@@ -16824,7 +16652,7 @@ You gain Coordinate: Corps Trooper.</characteristic>
             <infoLink id="5bfa-1ab9-1041-e17e" name="Suppressive" hidden="false" targetId="c4ab-770e-5009-04ff" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e56f-f281-847c-674c" name="Mo/Dk Power Harpoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -17136,16 +16964,15 @@ You gain Coordinate: Corps Trooper.</characteristic>
           <profiles>
             <profile id="da38-3691-2a48-ffbd" name="General Weiss" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">You gain Arsenal 2.
-You gain Field Commander.</characteristic>
-                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Arsenal 2</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Until the end of your activation, you gain Arsenal 2.</characteristic>
+                <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Arsenal 2, Field Commander</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="68e4-874b-5d1e-43b8" name="Arsenal X" hidden="false" targetId="1397-0314-a3ee-acc2" type="rule"/>
-            <infoLink id="167b-532d-8c54-7020" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
+            <infoLink id="745e-f28e-c21f-dc44" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
@@ -17171,15 +16998,14 @@ You gain Field Commander.</characteristic>
           <profiles>
             <profile id="b03c-96c7-753f-8fab" name="Wedge Antilles" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Perform a pivot.
-You gain Field Commander</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Perform a pivot.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256">Field Commander</characteristic>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42">Exhaust</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8f73-86e2-1c3b-0551" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
+            <infoLink id="8450-fce0-bead-2a32" name="Field Commander" hidden="false" targetId="165d-f2f9-b815-f376" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
@@ -18116,7 +17942,7 @@ During the End Phase, ready this card.</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4f05-83a6-18b1-4206" name="Into the Fray" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4f05-83a6-18b1-4206" name="Into the Fray†" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2be6-b26f-d246-9a37" type="max"/>
           </constraints>
@@ -18129,6 +17955,9 @@ During the End Phase, ready this card.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="0bea-f9bd-0dc2-548f" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="4.0"/>
           </costs>
@@ -19063,7 +18892,7 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
           <profiles>
             <profile id="edf5-650f-8cbe-654a" name="Unorthodox Tactician" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
               <characteristics>
-                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">At the start of the Activation Phase, roll 3 red defense dice. For each Block or Surge result, choose a different friendly unit that you are transporting or at range 1-3. Each chosen unit gains 1 aim token.</characteristic>
+                <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">When you activate, roll 3 red defense dice. For each Block and Surge result, choose a different friendly unit that you are transporting or at range 1-3. Each chosen unit gains 1 aim token.</characteristic>
                 <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
                 <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
               </characteristics>
@@ -19496,7 +19325,7 @@ When you activate, perform a compulsory move.</description>
       <description>→ Choose up to X friendly trooper units at range 1. Each chosen unit gains a dodge token.</description>
     </rule>
     <rule id="a7bd-0b72-3096-1729" name="Low Profile" hidden="false">
-      <description>While defending against an attack, if a unit with the &quot;Low Profile&quot; keyword has cover, cancel one additional hit result.</description>
+      <description>While defending, if you have light cover, improve your cover by 1.</description>
     </rule>
     <rule id="1668-29f8-4fe1-651a" name="Gunslinger" hidden="false">
       <description>After you perform a ranged attack action, you may perform an additional ranged attack action against a different unit.</description>
@@ -19599,7 +19428,7 @@ While defending against a ranged attack, roll 1 extra die for each suppression t
       <description>While defending, if the attacker&apos;s unit leader is inside either of your side arcs, the attack pool gains Impact X.</description>
     </rule>
     <rule id="3ca9-ac5e-80c1-3778" name="Tactical X" hidden="false">
-      <description>After you perform a standard move, gain 1 aim token.</description>
+      <description>After you perform a standard move, gain X aim tokens.</description>
     </rule>
     <rule id="3c45-d376-201b-e8f2" name="Transport X: Open" hidden="false">
       <description>You may transport X friendly trooper units.
@@ -19661,7 +19490,7 @@ A unit that is being transported is treated as though it has heavy cover. This c
       <description>Unless you have a faceup order token, your first action must be an attack or a move.</description>
     </rule>
     <rule id="3819-5fd8-788a-0752" name="Generator X" hidden="false">
-      <description>During the End Phase, flip 1 inactive shield token.</description>
+      <description>During the End Phase, flip X inactive shield tokens.</description>
     </rule>
     <rule id="6bb5-4031-b045-a080" name="Wheel Mode" hidden="false">
       <description>When you activate, you may increase your maximum speed to 3. If you do, you gain Cover 2 and cannot attack or flip active shield tokens.</description>
@@ -19742,9 +19571,7 @@ During your Rally step, you may choose not to remove your suppression tokens.</d
     <rule id="f39b-ba14-7a84-ae56" name="Poison X" hidden="false">
       <description>A trooper wounded by an attack that includes this weapon gains X poison tokens.</description>
     </rule>
-    <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false">
-      <description>You ignore all enemy card effects and cannot be targeted by any enemy card effects. You are still affected by friendly card effects and battle card effects.</description>
-    </rule>
+    <rule id="8e81-d635-6a14-8e44" name="Immune: Enemy Effects" hidden="false"/>
     <rule id="46a8-f06e-7ba8-afb3" name="Covert Ops" hidden="false">
       <description>When you deploy, you may treat your rank as Operative. If you do, you gain Infiltrate.</description>
     </rule>
@@ -19758,7 +19585,7 @@ During your Rally step, you may choose not to remove your suppression tokens.</d
       <description>At the start of your activation, if you did not use this card, ready it.</description>
     </rule>
     <rule id="7577-ca56-e0a4-0b4e" name="Beam X" hidden="false">
-      <description>After performing an attack with this weapon, you may perform up to 2 extra attacks using only this weapon. Each attack must be against an enemy unit that is in line of sight, has not already defended, and is at range 1 of the previous defender.</description>
+      <description>After performing an attack with this weapon, you may perform up to X extra attacks using only this weapon. Each attack must be against an enemy unit that is in line of sight, has not already defended, and is at range 1 of the previous defender.</description>
     </rule>
     <rule id="e7ef-a7f1-5c59-6f3b" name="Exemplar" hidden="false">
       <description>Friendly units at range 1-2 and in line of sight can spend your green tokens.</description>
@@ -19868,26 +19695,7 @@ A card that is revealed in this way is not played, and is returned to that playe
     <rule id="05aa-d4ac-3529-df25" name="Self-Destruct X" hidden="false">
       <description>If you have at least X wound tokens, perform your self-destruct attack.</description>
     </rule>
-    <rule id="7ec0-dc5e-2218-4cd3" name="Detonate X: *Charge Type*" hidden="false">
-      <description>After a unit controlled by any player performs an action, each unit that has a weapon with the Detonate X: Charge Type keyword may detonate X friendly charge tokens of the specified type.</description>
-    </rule>
   </sharedRules>
-  <sharedProfiles>
-    <profile id="a8dd-920f-fc79-1eae" name="Claim" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-      <characteristics>
-        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt; Claim an objective token that is in base contact with your unit leader.</characteristic>
-        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-      </characteristics>
-    </profile>
-    <profile id="3b72-261b-18e9-9a65" name="Drop" hidden="false" typeId="7b29-30f9-05bf-a8e1" typeName="3.1 Upgrade">
-      <characteristics>
-        <characteristic name="Upgrade Ability" typeId="cecf-8e4a-c196-58bc">&gt;&gt; Flip one of your claimed objective tokens to its unclaimed side.</characteristic>
-        <characteristic name="Keywords" typeId="7559-cfee-de60-8256"/>
-        <characteristic name="Icons" typeId="e197-655b-7f5d-1f42"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="4767-0083-a5c9-a7be" name="Covert Ops" hidden="false">
       <infoLinks>
