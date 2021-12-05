@@ -13117,26 +13117,7 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
         <categoryLink id="0927-57fc-7b67-2a01" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cfd1-dd01-3d5b-d71e" name="Wicked Kick" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="082a-8ecc-f90b-aacf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2df3-92fd-61c0-caf2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="66a1-2fdd-281b-53ad" name="Wicked Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
-              <characteristics>
-                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
-                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
-                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
-                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3fe0-b9e2-67b3-82c6" name="DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
+		<selectionEntry id="3fe0-b9e2-67b3-82c6" name="DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94d8-3e5d-504f-ae85" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="774c-c543-43bd-eb5c" type="max"/>
@@ -13159,15 +13140,34 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cfd1-dd01-3d5b-d71e" name="Wicked Kick" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="082a-8ecc-f90b-aacf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2df3-92fd-61c0-caf2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66a1-2fdd-281b-53ad" name="Wicked Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae"/>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c836-4189-b523-6edd" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
         <entryLink id="e1fd-e596-db98-5c6f" name="Protocol" hidden="false" collective="false" import="true" targetId="1c9b-29ff-9d21-cdf5" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d8eb-955d-8005-01f1" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="7805-73d2-322c-8b07" name="Hardpoint" hidden="false" collective="false" import="true" targetId="542e-0da1-cc37-5c44" type="selectionEntryGroup"/>
+        <entryLink id="c836-4189-b523-6edd" name="Comms" hidden="false" collective="false" import="true" targetId="bbf8-c77e-246a-d5c6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="55.0"/>
@@ -17451,6 +17451,96 @@ Reduce your maximum speed by 1</characteristic>
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="40.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1754-29db-c81a-845f" name="Nose-Mounted Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40c2-4474-5a52-c1e9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73a2-12bd-6262-464c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8e6f-6a63-6e15-4d41" name="Nose-Mounted Flamethrower" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Blast, Fixed: Front, Spray</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ef51-6a20-291e-ce3f" name="Blast" hidden="false" targetId="c8d6-c6c5-f2fe-daad" type="rule"/>
+            <infoLink id="3f85-01b9-3dd2-ca7e" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+            <infoLink id="66af-b5c8-d0c7-bbfa" name="Spray" hidden="false" targetId="b6ff-1771-873f-2296" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b7a5-083d-7b77-be73" name="Nose-Mounted Ion Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40c2-4474-5a52-c1e9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d170-fd43-cbfb-27a0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="43b7-760d-65cc-0ca0" name="Nose-Mounted Ion Blaster" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">2-4</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x3, White x3</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Cycle, Fixed: Front, Ion 1, Impact 2</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0c78-4c52-d3a8-5d5d" name="Cycle" hidden="false" targetId="0165-2c78-7a77-1b82" type="rule"/>
+            <infoLink id="a7c6-1552-8c77-6589" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+            <infoLink id="f5cf-6110-6c7f-694a" name="Ion X" hidden="false" targetId="b2ab-1852-73e3-f56f" type="rule"/>
+            <infoLink id="9ade-dd22-d203-1718" name="Impact X" hidden="false" targetId="6da6-1112-3a36-33c2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9063-a27e-a68a-6a46" name="Nose-Mounted Laser Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40c2-4474-5a52-c1e9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae41-4c85-aa89-58aa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b0a-de87-6ce8-b3be" name="Nose-Mounted Laser Cannon" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+              <characteristics>
+                <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
+                <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x3, White</characteristic>
+                <characteristic name="Keywords" typeId="c0ef-04da-1be6-73ae">Critical 1, Fixed: Front</characteristic>
+                <characteristic name="Icons" typeId="7c32-f1fd-0053-e544"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5d7a-82fa-c7fb-a8fe" name="Critical X" hidden="false" targetId="2f36-2eeb-0407-8dd7" type="rule"/>
+            <infoLink id="d064-452b-2867-daaf" name="Fixed: Front" hidden="false" targetId="ac2f-0059-9352-edff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="15.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0fbb-d602-1b11-bfa1" name="Pilot" hidden="false" collective="false" import="true">
@@ -19735,6 +19825,9 @@ During the End Phase, roll 1 red defense die for each of your inactive shield to
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="1c9b-29ff-9d21-cdf5" name="Protocol" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="409b-cfcd-2878-3a06" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="6e88-fad6-cd18-35b7" name="Attack Protocols" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
