@@ -13117,13 +13117,13 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
         <categoryLink id="0927-57fc-7b67-2a01" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-		<selectionEntry id="3fe0-b9e2-67b3-82c6" name="DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
+		<selectionEntry id="3fe0-b9e2-67b3-82c6" name=" DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94d8-3e5d-504f-ae85" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="774c-c543-43bd-eb5c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f670-b681-d2e6-5b51" name="DSD1 Self-Destruct Mechanism" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="f670-b681-d2e6-5b51" name=" DSD1 Self-Destruct Mechanism" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Self-Destruct</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red x3</characteristic>
@@ -13140,13 +13140,13 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cfd1-dd01-3d5b-d71e" name="Wicked Kick" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cfd1-dd01-3d5b-d71e" name=" Wicked Kick" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="082a-8ecc-f90b-aacf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2df3-92fd-61c0-caf2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="66a1-2fdd-281b-53ad" name="Wicked Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="66a1-2fdd-281b-53ad" name=" Wicked Kick" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">Melee</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
@@ -13205,13 +13205,13 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
         <categoryLink id="e170-5fe6-a29b-ed85" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="667f-ee7a-9ff0-0c8a" name="Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="667f-ee7a-9ff0-0c8a" name=" Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62d3-c2e2-e45f-5fd3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92a5-fbed-8152-0bcf" type="min"/>
           </constraints>
           <profiles>
-            <profile id="50d2-af59-77b6-047b" name="Ion Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="50d2-af59-77b6-047b" name=" Ion Cannons" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-2</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black, White</characteristic>
@@ -13229,13 +13229,13 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
             <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4c6e-93d7-c54e-170a" name="Heavy Repeating Blasters" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4c6e-93d7-c54e-170a" name=" Heavy Repeating Blasters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b0e-5467-01b0-640c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ed8-6a4d-c046-37f0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7d5b-11db-90ba-72f2" name="Heavy Repeating Blasters" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="7d5b-11db-90ba-72f2" name=" Heavy Repeating Blasters" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-4</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Red, Black x2, White x2</characteristic>
@@ -13296,13 +13296,13 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
         <categoryLink id="87fc-b8e5-5f19-cbf4" name="Huge Base" hidden="false" targetId="b6f3-3718-c6bd-d25a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="938a-cc36-1137-738f" name="DC-15 Blaster Rifles" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="938a-cc36-1137-738f" name=" DC-15 Blaster Rifles" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cbd6-0124-a907-33ba" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1cc-5000-6740-52f9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="494d-9daa-d402-b7e7" name="DC-15 Blaster Rifles" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
+            <profile id="494d-9daa-d402-b7e7" name=" DC-15 Blaster Rifles" hidden="false" typeId="815e-1bb1-5ddf-34f7" typeName="2.1 Attacks">
               <characteristics>
                 <characteristic name="Range" typeId="3ab1-6127-1998-0e2d">1-3</characteristic>
                 <characteristic name="Attack Dice" typeId="2dc1-4c70-fc3b-24dc">Black x2</characteristic>
