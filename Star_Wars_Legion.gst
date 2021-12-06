@@ -1588,7 +1588,7 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9f89-8dd8-f0e3-61f2" name="•They Too Will Suffer†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9f89-8dd8-f0e3-61f2" name="•They Too Will Suffer" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -1616,7 +1616,6 @@ If There Is No Try is in your discard pile, return it to your hand.</characteris
               </profiles>
               <categoryLinks>
                 <categoryLink id="97c2-385a-4170-a59a" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="03cb-8f81-68f4-5e3a" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -2757,7 +2756,7 @@ Before drawing from your order pool, you may instead discard this card from your
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="294b-1887-e71f-3957" name="••Preservation Protocols†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="294b-1887-e71f-3957" name="••Preservation Protocols" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -2789,7 +2788,6 @@ Before drawing from your order pool, you may instead discard this card from your
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="bab9-782c-faa8-e519" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="1d49-a313-511b-db24" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -3887,7 +3885,7 @@ If Size Matters Not is in your discard pile, return it to your hand.</characteri
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6988-2f0c-b3a0-fa90" name="•••Do Not Underestimate Our Means†" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6988-2f0c-b3a0-fa90" name="•••Do Not Underestimate Our Means" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -3921,7 +3919,6 @@ Divulge: Deploy Units Step. Choose up to 3 friendly units with AI. Each chosen u
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="96a0-5255-938e-40f5" name="Command Cards" hidden="false" targetId="c151-c107-dd65-5bc7" primary="false"/>
-                <categoryLink id="78bb-ed1e-32fe-079e" name="Unreleased (†)" hidden="false" targetId="d3db-0eeb-a7f3-eb43" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="7d8d-a40c-cb7f-9ff3" value="0.0"/>
@@ -13117,7 +13114,7 @@ At the end of the Activation Phase, each player may detonate 1 unclaimed objecti
         <categoryLink id="0927-57fc-7b67-2a01" name="Large Base" hidden="false" targetId="0911-359e-5d79-0933" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-		<selectionEntry id="3fe0-b9e2-67b3-82c6" name=" DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3fe0-b9e2-67b3-82c6" name=" DSD1 Self-Destruct Mechanism" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94d8-3e5d-504f-ae85" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="774c-c543-43bd-eb5c" type="max"/>
